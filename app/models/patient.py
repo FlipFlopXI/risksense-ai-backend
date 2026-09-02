@@ -88,3 +88,17 @@ class Patient(Base):
         cascade="all, delete-orphan",
         order_by="Vital.recorded_at",
     )
+
+    predictions = relationship(
+        "Prediction",
+        back_populates="patient",
+        cascade="all, delete-orphan",
+        order_by="Prediction.predicted_at",
+    )
+
+    reports = relationship(
+        "Report",
+        back_populates="patient",
+        cascade="all, delete-orphan",
+        order_by="Report.generated_at",
+    )

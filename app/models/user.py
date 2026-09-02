@@ -73,3 +73,8 @@ class User(Base):
         uselist=False,
         cascade="all, delete-orphan",
     )
+
+    audit_logs = relationship(
+        "AuditLog",
+        back_populates="user",
+    )
