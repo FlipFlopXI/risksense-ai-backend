@@ -1,15 +1,16 @@
 from fastapi import FastAPI
 
+from app.api.v1.auth import router as auth_router
 from app.core.config import settings
 
 
 app = FastAPI(
-    title=settings.app_name,
+    title="RiskSense AI API",
     description=(
         "Backend API for RiskSense AI — "
         "a Zero-Trust Mobile Health Decision Support System."
     ),
-    version=settings.app_version,
+    version="0.1.0",
 )
 
 
@@ -17,7 +18,10 @@ app = FastAPI(
 def health_check():
     return {
         "status": "healthy",
-        "service": settings.app_name,
-        "version": settings.app_version,
-        "environment": settings.environment,
+        "service": "RiskSense AI API",
+        "version": "0.1.0",
+        "environment": "development",
     }
+
+
+app.include_router(auth_router)
