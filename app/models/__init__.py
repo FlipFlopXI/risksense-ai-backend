@@ -3,6 +3,8 @@ from app.models.patient import Patient
 from app.models.clinician import Clinician
 from app.models.health_profile import HealthProfile
 from app.models.vital import Vital
+from app.models.subscription import Subscription
+from app.models.insurance import Insurance
 
 __all__ = [
     "User",
@@ -10,4 +12,6 @@ __all__ = [
     "Clinician",
     "HealthProfile",
     "Vital",
+    "Subscription",
+    "Insurance",
 ]

@@ -68,6 +68,20 @@ class Patient(Base):
         cascade="all, delete-orphan",
     )
 
+    subscription = relationship(
+        "Subscription",
+        back_populates="patient",
+        uselist=False,
+        cascade="all, delete-orphan",
+    )
+
+    insurance = relationship(
+        "Insurance",
+        back_populates="patient",
+        uselist=False,
+        cascade="all, delete-orphan",
+    )
+
     vitals = relationship(
         "Vital",
         back_populates="patient",
