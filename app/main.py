@@ -1,13 +1,15 @@
 from fastapi import FastAPI
 
+from app.core.config import settings
+
 
 app = FastAPI(
-    title="RiskSense AI API",
+    title=settings.app_name,
     description=(
         "Backend API for RiskSense AI — "
         "a Zero-Trust Mobile Health Decision Support System."
     ),
-    version="0.1.0",
+    version=settings.app_version,
 )
 
 
@@ -15,6 +17,7 @@ app = FastAPI(
 def health_check():
     return {
         "status": "healthy",
-        "service": "RiskSense AI API",
-        "version": "0.1.0",
+        "service": settings.app_name,
+        "version": settings.app_version,
+        "environment": settings.environment,
     }
