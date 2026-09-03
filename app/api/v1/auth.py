@@ -1,8 +1,11 @@
 from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi.security import OAuth2PasswordRequestForm
 from sqlalchemy.orm import Session
 
-from fastapi.security import OAuth2PasswordRequestForm
-from app.core.dependencies import get_current_user, get_database
+from app.core.dependencies import (
+    get_current_user,
+    get_database,
+)
 from app.core.security import create_access_token
 from app.schemas.auth import (
     TokenResponse,
@@ -33,7 +36,6 @@ def register(
     try:
         user = register_patient(db, request)
         return user
-
     except ValueError as exc:
         raise HTTPException(
             status_code=status.HTTP_409_CONFLICT,
@@ -71,6 +73,7 @@ def login(
         access_token=access_token,
         token_type="bearer",
     )
+
 
 @router.get(
     "/me",
