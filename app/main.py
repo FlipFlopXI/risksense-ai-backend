@@ -3,6 +3,8 @@ from fastapi import FastAPI
 from app.api.v1.health import router as health_router
 from app.api.v1.auth import router as auth_router
 from app.api.v1.vitals import router as vitals_router
+from app.api.v1.subscriptions import router as subscriptions_router
+from app.api.v1.insurance import router as insurance_router
 from app.core.config import settings
 
 
@@ -29,3 +31,5 @@ def health_check():
 app.include_router(auth_router)
 app.include_router(health_router)
 app.include_router(vitals_router)
+app.include_router(subscriptions_router)
+app.include_router(insurance_router)
