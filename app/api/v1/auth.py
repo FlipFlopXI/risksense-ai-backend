@@ -16,6 +16,7 @@ from app.services.auth_service import (
     authenticate_user,
     register_patient,
 )
+from app.services.audit_service import record_auth_event_best_effort
 
 
 router = APIRouter(
@@ -58,6 +59,7 @@ def login(
     )
 
     if not user:
+        record_auth_event_best_effort(db, "LOGIN_FAILURE", None, "failure")
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid email or password.",
@@ -68,6 +70,7 @@ def login(
         subject=str(user.id),
         role=user.role.value,
     )
+    record_auth_event_best_effort(db, "LOGIN_SUCCESS", user.id, "success")
 
     return TokenResponse(
         access_token=access_token,

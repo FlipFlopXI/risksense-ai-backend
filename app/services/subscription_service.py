@@ -14,6 +14,7 @@ from app.schemas.subscriptions import (
     SubscriptionCreateRequest,
     SubscriptionUpdateRequest,
 )
+from app.services.audit_service import add_audit_event
 
 
 def get_patient_by_user_id(
@@ -53,11 +54,14 @@ def create_subscription(
 
     subscription = Subscription(
         patient_id=patient.id,
+        requested_clinician_risk_sense_id=request.clinician_risk_sense_id,
         plan=request.plan,
-        status=SubscriptionStatus.ACTIVE,
+        status=SubscriptionStatus.PENDING,
     )
 
     db.add(subscription)
+    db.flush()
+    add_audit_event(db, "SUBSCRIPTION_REQUESTED", user_id=patient.user_id, resource_type="subscription", resource_id=str(subscription.id), details={"plan": request.plan.value})
     db.commit()
     db.refresh(subscription)
 
@@ -75,6 +79,10 @@ def update_subscription(
 
     for field, value in update_data.items():
         setattr(subscription, field, value)
+
+    if update_data:
+        subscription.status = SubscriptionStatus.PENDING
+        add_audit_event(db, "SUBSCRIPTION_REQUESTED", user_id=subscription.patient.user_id, resource_type="subscription", resource_id=str(subscription.id), details={"change": "plan_change"})
 
     db.commit()
     db.refresh(subscription)

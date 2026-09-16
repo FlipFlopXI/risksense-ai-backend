@@ -21,10 +21,16 @@ import app.db.models
 # access to the values within the .ini file in use.
 config = context.config
 
-database_url = os.getenv("DATABASE_URL")
+environment = os.getenv("ENVIRONMENT", "development")
+database_url = (
+    os.getenv("TEST_DATABASE_URL")
+    if environment == "test"
+    else os.getenv("DATABASE_URL")
+)
 
 if not database_url:
-    raise ValueError("DATABASE_URL is not set in the environment.")
+    variable = "TEST_DATABASE_URL" if environment == "test" else "DATABASE_URL"
+    raise ValueError(f"{variable} is not set in the environment.")
 
 config.set_main_option("sqlalchemy.url", database_url)
 

@@ -102,3 +102,14 @@ class Patient(Base):
         cascade="all, delete-orphan",
         order_by="Report.generated_at",
     )
+    gender: Mapped[Optional[str]] = mapped_column(String(50), nullable=True)
+    ethnicity: Mapped[Optional[str]] = mapped_column(String(100), nullable=True)
+    clinician_links = relationship(
+        "PatientClinician", back_populates="patient", cascade="all, delete-orphan"
+    )
+    entitlements = relationship(
+        "AccessEntitlement", back_populates="patient", cascade="all, delete-orphan"
+    )
+    lab_results = relationship(
+        "LabResult", back_populates="patient", cascade="all, delete-orphan", order_by="LabResult.measured_at"
+    )

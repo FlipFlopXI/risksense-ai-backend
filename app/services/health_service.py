@@ -7,6 +7,7 @@ from app.schemas.health import (
     HealthProfileCreateRequest,
     HealthProfileUpdateRequest,
 )
+from app.services.audit_service import add_audit_event
 
 
 def get_patient_by_user_id(
@@ -53,12 +54,18 @@ def create_health_profile(
         blood_type=request.blood_type,
         smoking_status=request.smoking_status,
         activity_level=request.activity_level,
+        alcohol_status=request.alcohol_status,
+        family_history_diabetes=request.family_history_diabetes,
+        family_history_heart_disease=request.family_history_heart_disease,
+        family_history_hypertension=request.family_history_hypertension,
         family_history=request.family_history,
         existing_conditions=request.existing_conditions,
         current_medications=request.current_medications,
     )
 
     db.add(profile)
+    db.flush()
+    add_audit_event(db, "HEALTH_PROFILE_CREATED", user_id=patient.user_id, resource_type="health_profile", resource_id=str(profile.id))
     db.commit()
     db.refresh(profile)
 
@@ -74,6 +81,8 @@ def update_health_profile(
 
     for field, value in update_data.items():
         setattr(profile, field, value)
+
+    add_audit_event(db, "HEALTH_PROFILE_UPDATED", user_id=profile.patient.user_id, resource_type="health_profile", resource_id=str(profile.id))
 
     db.commit()
     db.refresh(profile)

@@ -3,13 +3,14 @@ from enum import Enum
 from typing import Optional
 from uuid import UUID, uuid4
 
-from sqlalchemy import DateTime, ForeignKey, String, func
+from sqlalchemy import CheckConstraint, DateTime, ForeignKey, String, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db.database import Base
 
 
 class SubscriptionStatus(str, Enum):
+    PENDING = "pending"
     ACTIVE = "active"
     INACTIVE = "inactive"
     EXPIRED = "expired"
@@ -24,6 +25,9 @@ class SubscriptionPlan(str, Enum):
 
 class Subscription(Base):
     __tablename__ = "subscriptions"
+    __table_args__ = (
+        CheckConstraint("status IN ('pending', 'active', 'inactive', 'expired', 'cancelled')", name="ck_subscriptions_status"),
+    )
 
     id: Mapped[UUID] = mapped_column(
         primary_key=True,
@@ -37,6 +41,8 @@ class Subscription(Base):
         index=True,
     )
 
+    requested_clinician_risk_sense_id: Mapped[Optional[str]] = mapped_column(String(12))
+
     plan: Mapped[SubscriptionPlan] = mapped_column(
         String(50),
         nullable=False,
@@ -46,7 +52,7 @@ class Subscription(Base):
     status: Mapped[SubscriptionStatus] = mapped_column(
         String(50),
         nullable=False,
-        default=SubscriptionStatus.ACTIVE,
+        default=SubscriptionStatus.PENDING,
         index=True,
     )
 
@@ -78,3 +84,4 @@ class Subscription(Base):
         "Patient",
         back_populates="subscription",
     )
+    entitlements = relationship("AccessEntitlement", back_populates="subscription")

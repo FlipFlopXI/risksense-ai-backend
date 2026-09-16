@@ -1,15 +1,26 @@
 from datetime import datetime
+from enum import Enum
 from typing import Optional
 from uuid import UUID, uuid4
 
-from sqlalchemy import DateTime, ForeignKey, String, func
+from sqlalchemy import CheckConstraint, DateTime, ForeignKey, String, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db.database import Base
 
 
+class InsuranceVerificationStatus(str, Enum):
+    PENDING = "pending"
+    VERIFIED = "verified"
+    REJECTED = "rejected"
+    EXPIRED = "expired"
+
+
 class Insurance(Base):
     __tablename__ = "insurance"
+    __table_args__ = (
+        CheckConstraint("verification_status IN ('pending', 'verified', 'rejected', 'expired')", name="ck_insurance_verification_status"),
+    )
 
     id: Mapped[UUID] = mapped_column(
         primary_key=True,
@@ -22,6 +33,8 @@ class Insurance(Base):
         nullable=False,
         index=True,
     )
+
+    requested_clinician_risk_sense_id: Mapped[Optional[str]] = mapped_column(String(12))
 
     provider_name: Mapped[str] = mapped_column(
         String(150),
@@ -46,8 +59,16 @@ class Insurance(Base):
     coverage_status: Mapped[str] = mapped_column(
         String(50),
         nullable=False,
-        default="active",
+        default="pending",
     )
+
+    verification_status: Mapped[InsuranceVerificationStatus] = mapped_column(
+        String(20), nullable=False, default=InsuranceVerificationStatus.PENDING, index=True
+    )
+    verification_source: Mapped[Optional[str]] = mapped_column(String(50), nullable=True)
+    verified_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True))
+    coverage_starts_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True))
+    coverage_expires_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True))
 
     created_at: Mapped[datetime] = mapped_column(
         DateTime(timezone=True),
@@ -66,3 +87,4 @@ class Insurance(Base):
         "Patient",
         back_populates="insurance",
     )
+    entitlements = relationship("AccessEntitlement", back_populates="insurance")

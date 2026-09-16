@@ -80,3 +80,13 @@ class HealthProfile(Base):
         "Patient",
         back_populates="health_profile",
     )
+
+    @property
+    def bmi(self) -> float | None:
+        if not self.height_cm or not self.weight_kg:
+            return None
+        return round(self.weight_kg / ((self.height_cm / 100) ** 2), 2)
+    alcohol_status: Mapped[Optional[str]] = mapped_column(String(50), nullable=True)
+    family_history_diabetes: Mapped[Optional[bool]] = mapped_column(nullable=True)
+    family_history_heart_disease: Mapped[Optional[bool]] = mapped_column(nullable=True)
+    family_history_hypertension: Mapped[Optional[bool]] = mapped_column(nullable=True)

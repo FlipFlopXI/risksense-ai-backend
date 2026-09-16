@@ -1,3 +1,5 @@
+from datetime import datetime, timezone
+
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
@@ -5,6 +7,7 @@ from app.core.security import hash_password, verify_password
 from app.models.patient import Patient
 from app.models.user import User, UserRole
 from app.schemas.auth import UserRegisterRequest
+from app.services.audit_service import add_audit_event
 
 
 def get_user_by_email(db: Session, email: str) -> User | None:
@@ -42,9 +45,13 @@ def register_patient(
         user_id=user.id,
         first_name=request.first_name.strip(),
         last_name=request.last_name.strip(),
+        date_of_birth=request.date_of_birth,
+        gender=request.gender,
     )
 
     db.add(patient)
+    db.flush()
+    add_audit_event(db, "REGISTER", user_id=user.id, resource_type="patient", resource_id=str(patient.id))
     db.commit()
 
     db.refresh(user)
@@ -69,6 +76,10 @@ def authenticate_user(
 
     if not user.is_active:
         return None
+
+    if user.role == UserRole.CLINICIAN and user.clinician:
+        user.clinician.last_login_at = datetime.now(timezone.utc)
+        db.commit()
 
     return user
 

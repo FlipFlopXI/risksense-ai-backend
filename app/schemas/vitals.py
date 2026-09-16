@@ -1,7 +1,7 @@
 from datetime import datetime
 from uuid import UUID
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 
 class VitalCreateRequest(BaseModel):
@@ -36,6 +36,31 @@ class VitalCreateRequest(BaseModel):
     )
 
     recorded_at: datetime | None = None
+
+    @model_validator(mode="after")
+    def validate_measurements(self):
+        values = (
+            self.heart_rate,
+            self.oxygen_saturation,
+            self.temperature,
+            self.blood_pressure_systolic,
+            self.blood_pressure_diastolic,
+        )
+        if all(value is None for value in values):
+            raise ValueError("At least one vital measurement is required.")
+        if (
+            self.blood_pressure_systolic is not None
+            and self.blood_pressure_diastolic is not None
+            and self.blood_pressure_diastolic > self.blood_pressure_systolic
+        ):
+            raise ValueError("Diastolic blood pressure cannot exceed systolic blood pressure.")
+        if self.recorded_at is not None:
+            recorded = self.recorded_at
+            if recorded.tzinfo is None:
+                raise ValueError("recorded_at must include a timezone.")
+            if recorded > datetime.now(recorded.tzinfo):
+                raise ValueError("recorded_at cannot be in the future.")
+        return self
 
 
 class VitalResponse(BaseModel):

@@ -6,6 +6,7 @@ from sqlalchemy.orm import Session
 from app.models.patient import Patient
 from app.models.vital import Vital
 from app.schemas.vitals import VitalCreateRequest
+from app.services.audit_service import add_audit_event
 
 
 def get_patient_by_user_id(
@@ -37,6 +38,8 @@ def create_vital(
     )
 
     db.add(vital)
+    db.flush()
+    add_audit_event(db, "VITAL_CREATED", user_id=patient.user_id, resource_type="vital", resource_id=str(vital.id))
     db.commit()
     db.refresh(vital)
 
@@ -95,6 +98,9 @@ def create_vital_batch(
         vitals.append(vital)
 
     db.add_all(vitals)
+    db.flush()
+    for vital in vitals:
+        add_audit_event(db, "VITAL_CREATED", user_id=patient.user_id, resource_type="vital", resource_id=str(vital.id), details={"batch": True})
     db.commit()
 
     for vital in vitals:

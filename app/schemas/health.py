@@ -9,6 +9,10 @@ class HealthProfileCreateRequest(BaseModel):
     blood_type: str | None = Field(default=None, max_length=10)
     smoking_status: str | None = Field(default=None, max_length=50)
     activity_level: str | None = Field(default=None, max_length=50)
+    alcohol_status: str | None = Field(default=None, max_length=50)
+    family_history_diabetes: bool | None = None
+    family_history_heart_disease: bool | None = None
+    family_history_hypertension: bool | None = None
     family_history: str | None = None
     existing_conditions: str | None = None
     current_medications: str | None = None
@@ -20,6 +24,10 @@ class HealthProfileUpdateRequest(BaseModel):
     blood_type: str | None = Field(default=None, max_length=10)
     smoking_status: str | None = Field(default=None, max_length=50)
     activity_level: str | None = Field(default=None, max_length=50)
+    alcohol_status: str | None = Field(default=None, max_length=50)
+    family_history_diabetes: bool | None = None
+    family_history_heart_disease: bool | None = None
+    family_history_hypertension: bool | None = None
     family_history: str | None = None
     existing_conditions: str | None = None
     current_medications: str | None = None
@@ -35,6 +43,11 @@ class HealthProfileResponse(BaseModel):
     blood_type: str | None
     smoking_status: str | None
     activity_level: str | None
+    alcohol_status: str | None
+    family_history_diabetes: bool | None
+    family_history_heart_disease: bool | None
+    family_history_hypertension: bool | None
     family_history: str | None
     existing_conditions: str | None
     current_medications: str | None
+    bmi: float | None = None

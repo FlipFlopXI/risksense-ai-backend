@@ -10,13 +10,14 @@ from app.models.subscription import (
 
 
 class SubscriptionCreateRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
     plan: SubscriptionPlan = SubscriptionPlan.FREE
+    clinician_risk_sense_id: str = Field(pattern=r"^RS-CLN-[0-9]{5}$")
 
 
 class SubscriptionUpdateRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
     plan: SubscriptionPlan | None = None
-    status: SubscriptionStatus | None = None
-    expires_at: datetime | None = None
 
 
 class SubscriptionResponse(BaseModel):
@@ -24,6 +25,7 @@ class SubscriptionResponse(BaseModel):
 
     id: UUID
     patient_id: UUID
+    requested_clinician_risk_sense_id: str | None
     plan: SubscriptionPlan
     status: SubscriptionStatus
     started_at: datetime

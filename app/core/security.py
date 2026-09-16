@@ -28,6 +28,8 @@ def create_access_token(subject: str, role: str) -> str:
     payload = {
         "sub": subject,
         "role": role,
+        "type": "access",
+        "iat": datetime.now(timezone.utc),
         "exp": expire,
     }
 
@@ -42,8 +44,11 @@ def decode_access_token(token: str) -> dict:
     if not settings.JWT_SECRET_KEY:
         raise ValueError("JWT_SECRET_KEY is not configured.")
 
-    return jwt.decode(
+    payload = jwt.decode(
         token,
         settings.JWT_SECRET_KEY,
         algorithms=[settings.JWT_ALGORITHM],
     )
+    if payload.get("type") != "access":
+        raise jwt.InvalidTokenError("Invalid token type.")
+    return payload
