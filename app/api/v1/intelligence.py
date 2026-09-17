@@ -3,6 +3,7 @@ from uuid import UUID
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
+from sqlalchemy.exc import SQLAlchemyError
 
 from app.core.dependencies import get_database, require_role
 from app.models.health_profile import HealthProfile
@@ -12,8 +13,13 @@ from app.models.prediction import Prediction
 from app.models.report import Report
 from app.models.user import User, UserRole
 from app.models.vital import Vital
-from app.schemas.predictions import DashboardResponse, PredictionResponse, ReportResponse
+from app.schemas.predictions import DashboardResponse, PredictionResponse, ReportResponse, RiskAnalysisRequest
 from app.services.health_service import get_patient_by_user_id
+from app.api.v1.clinicians import current_clinician, linked_patient_or_404
+from app.ml.heart_disease.runtime import ModelInputError, ModelUnavailableError
+from app.services.entitlement_service import get_effective_entitlement
+from app.services.audit_service import record_auth_event_best_effort
+from app.services.risk_analysis_service import ModelInactiveError, run_heart_analysis
 
 router = APIRouter(tags=["Patient Intelligence"])
 
@@ -23,6 +29,44 @@ def patient_for(user: User, db: Session) -> Patient:
     if patient is None:
         raise HTTPException(status_code=404, detail="Patient profile not found.")
     return patient
+
+
+@router.post("/risk-analysis", response_model=PredictionResponse, status_code=201)
+def risk_analysis(request: RiskAnalysisRequest,
+                  user: User = Depends(require_role(UserRole.PATIENT, UserRole.CLINICIAN)),
+                  db: Session = Depends(get_database)):
+    if user.role == UserRole.PATIENT:
+        patient = patient_for(user, db)
+        if request.patient_id is not None and request.patient_id != patient.id:
+            record_auth_event_best_effort(db, "UNAUTHORIZED_ACCESS_ATTEMPT", user.id, "failure")
+            raise HTTPException(status_code=404, detail="Patient profile not found.")
+        if get_effective_entitlement(db, patient.id) is None:
+            raise HTTPException(status_code=403, detail="An active access entitlement is required.")
+    else:
+        clinician = current_clinician(user, db)
+        if request.patient_id is None:
+            raise HTTPException(status_code=422, detail="patient_id is required for clinician analysis.")
+        patient = linked_patient_or_404(db, clinician.id, request.patient_id)
+        if not patient.user.is_active:
+            raise HTTPException(status_code=403, detail="Patient account is inactive.")
+    try:
+        return run_heart_analysis(db, patient, user.id)
+    except ModelInputError as exc:
+        db.rollback()
+        raise HTTPException(status_code=422, detail={
+            "code": "MODEL_INPUT_INCOMPLETE" if exc.missing else "VALIDATION_ERROR",
+            "status": "insufficient_data" if exc.missing else "invalid_data",
+            "model": request.model,
+            "missing_fields" if exc.missing else "invalid_fields": exc.fields,
+            "message": ("Additional health information is required before Heart Disease risk can be calculated."
+                        if exc.missing else "Required Heart Disease inputs are invalid or use unsupported units."),
+        }) from None
+    except ModelInactiveError:
+        db.rollback()
+        raise HTTPException(status_code=503, detail={"code": "MODEL_INACTIVE", "message": "Heart Disease model is inactive."}) from None
+    except (ModelUnavailableError, SQLAlchemyError):
+        db.rollback()
+        raise HTTPException(status_code=503, detail={"code": "MODEL_UNAVAILABLE", "message": "Heart Disease analysis is temporarily unavailable."}) from None
 
 
 @router.get("/predictions", response_model=list[PredictionResponse])

@@ -4,6 +4,7 @@ from uuid import UUID
 from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
+from sqlalchemy.exc import SQLAlchemyError
 
 from app.core.dependencies import get_database, require_role
 from app.models.audit import AuditLog
@@ -17,6 +18,8 @@ from app.services.audit_service import add_audit_event
 from app.services.auth_service import get_user_by_email
 from app.services.clinician_service import generate_risk_sense_id
 from app.core.security import hash_password
+from app.ml.heart_disease.runtime import ModelUnavailableError
+from app.services.risk_analysis_service import activate_heart_model
 
 router = APIRouter(prefix="/admin", tags=["Administration"])
 
@@ -133,3 +136,13 @@ def suspend_model(model_id: UUID, admin: User = Depends(require_role(UserRole.AD
     add_audit_event(db, "MODEL_SUSPENDED", user_id=admin.id, resource_type="ml_model", resource_id=str(model.id))
     db.commit()
     return {"id": str(model.id), "is_active": False}
+
+
+@router.post("/models/heart-disease/activate")
+def activate_heart_disease(admin: User = Depends(require_role(UserRole.ADMIN)), db: Session = Depends(get_database)):
+    try:
+        model = activate_heart_model(db, admin.id)
+        return {"id": str(model.id), "version": model.version, "prediction_target": model.prediction_target, "is_active": model.is_active}
+    except (ModelUnavailableError, SQLAlchemyError):
+        db.rollback()
+        raise HTTPException(status_code=503, detail="Heart Disease model activation is unavailable; check server configuration.") from None

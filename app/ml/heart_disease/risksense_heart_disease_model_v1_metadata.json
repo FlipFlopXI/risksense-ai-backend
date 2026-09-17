@@ -1,0 +1,85 @@
+{
+  "model_name": "RiskSense AI Heart Disease Model",
+  "model_type": "Heart Disease",
+  "version": "1.0.0",
+  "algorithm": "LogisticRegression",
+  "dataset": "UCI Heart Disease - processed Cleveland (303 records)",
+  "target": "heart_disease_presence",
+  "target_definition": "1 when original UCI num > 0; otherwise 0",
+  "feature_order": [
+    "age",
+    "sex",
+    "systolic_bp",
+    "total_cholesterol",
+    "fasting_blood_sugar_high"
+  ],
+  "feature_details": {
+    "age": {
+      "unit": "years",
+      "category": "essential"
+    },
+    "sex": {
+      "encoding": "0=female, 1=male",
+      "category": "essential"
+    },
+    "systolic_bp": {
+      "unit": "mmHg",
+      "source_feature": "trestbps",
+      "category": "essential"
+    },
+    "total_cholesterol": {
+      "unit": "mg/dL",
+      "source_feature": "chol",
+      "category": "optional_lab"
+    },
+    "fasting_blood_sugar_high": {
+      "encoding": "1 if fasting blood sugar > 120 mg/dL, else 0",
+      "source_feature": "fbs",
+      "category": "optional_lab"
+    }
+  },
+  "not_used": [
+    "height",
+    "weight",
+    "bmi",
+    "diastolic_bp",
+    "pulse",
+    "hypertension_history",
+    "family_history",
+    "smoking_status",
+    "physical_activity"
+  ],
+  "not_used_reason": "These fields are not present in the processed Cleveland training table used for this artifact; adding them without matching training data would make the model invalid.",
+  "preprocessing": {
+    "packaged_inside_pkl": true,
+    "missing_values": "SimpleImputer(strategy=median, add_indicator=True)",
+    "scaling": "StandardScaler",
+    "categorical_encoding": "None; sex and fasting_blood_sugar_high are binary numeric fields."
+  },
+  "decision_threshold": 0.23,
+  "threshold_selection": "Maximized F1 on 5-fold out-of-fold predictions from the training partition; recall then accuracy used as tie-breakers.",
+  "holdout_metrics": {
+    "roc_auc": 0.7024,
+    "accuracy": 0.541,
+    "precision": 0.5,
+    "recall": 0.9286,
+    "f1": 0.65,
+    "confusion_matrix": [
+      [
+        7,
+        26
+      ],
+      [
+        2,
+        26
+      ]
+    ],
+    "test_rows": 61
+  },
+  "library_versions": {
+    "scikit_learn": "1.8.0",
+    "pandas": "2.2.3",
+    "joblib": "1.5.3"
+  },
+  "intended_use": "Academic RiskSense AI decision-support prototype; not a diagnosis or clinically validated medical device."
+}

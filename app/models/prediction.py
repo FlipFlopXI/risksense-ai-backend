@@ -15,6 +15,14 @@ class Prediction(Base):
         CheckConstraint("risk_score IS NULL OR (risk_score >= 0 AND risk_score <= 1)", name="ck_predictions_risk_score"),
     )
 
+    @property
+    def model_version(self) -> str | None:
+        return (self.input_data or {}).get("model_version")
+
+    @property
+    def decision_threshold(self) -> float | None:
+        return (self.input_data or {}).get("decision_threshold")
+
     id: Mapped[UUID] = mapped_column(
         primary_key=True,
         default=uuid4,

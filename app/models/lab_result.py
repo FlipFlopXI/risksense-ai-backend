@@ -10,6 +10,8 @@ from app.db.database import Base
 
 class LabTestType(str, Enum):
     GLUCOSE = "glucose"
+    FASTING_GLUCOSE = "fasting_glucose"
+    TOTAL_CHOLESTEROL = "total_cholesterol"
     HBA1C = "hba1c"
     LDL = "ldl"
     HDL = "hdl"

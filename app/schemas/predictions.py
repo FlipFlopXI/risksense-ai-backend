@@ -1,5 +1,6 @@
 from datetime import datetime
 from uuid import UUID
+from typing import Literal
 
 from pydantic import BaseModel, ConfigDict
 
@@ -15,6 +16,14 @@ class PredictionResponse(BaseModel):
     prediction_result: str | None
     explanation: str | None
     predicted_at: datetime
+    model_version: str | None = None
+    decision_threshold: float | None = None
+
+
+class RiskAnalysisRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    model: Literal["heart_disease"]
+    patient_id: UUID | None = None
 
 
 class ReportResponse(BaseModel):

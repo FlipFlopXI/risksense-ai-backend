@@ -1,11 +1,11 @@
 import os
-from urllib.parse import urlparse
 
 import pytest
 from alembic import command
 from alembic.config import Config
 from fastapi.testclient import TestClient
 from sqlalchemy import create_engine, text
+from sqlalchemy.engine import make_url
 from sqlalchemy.orm import sessionmaker
 
 
@@ -13,19 +13,35 @@ def validate_test_database_url() -> str:
     test_url = os.getenv("TEST_DATABASE_URL", "").strip()
     if not test_url:
         raise pytest.UsageError("TEST_DATABASE_URL is required; refusing to use the application database.")
-    parsed = urlparse(test_url.replace("postgresql+psycopg", "postgresql", 1))
-    database = parsed.path.rsplit("/", 1)[-1].lower()
-    hostname = (parsed.hostname or "").lower()
-    if "test" not in database or database != "risksense_test":
+    try:
+        parsed = make_url(test_url)
+    except Exception:
+        raise pytest.UsageError("Invalid test database URL.") from None
+    if parsed.database != "risksense_test":
         raise pytest.UsageError("TEST_DATABASE_URL must target the risksense_test database.")
-    if "supabase" in hostname:
-        raise pytest.UsageError("Supabase hosts are forbidden for automated tests.")
+    if parsed.get_backend_name() != "postgresql" or parsed.host not in ("localhost", "127.0.0.1", "::1"):
+        raise pytest.UsageError("Tests require local PostgreSQL; remote hosts are forbidden.")
+    if parsed.query:
+        raise pytest.UsageError("Test database URL connection overrides are forbidden.")
     return test_url
 
 
 TEST_DATABASE_URL = validate_test_database_url()
-os.environ.setdefault("JWT_SECRET_KEY", "test-only-secret-key-with-at-least-32-bytes")
+os.environ["PYTHON_DOTENV_DISABLED"] = "1"
+os.environ["JWT_SECRET_KEY"] = "test-only-secret-key-with-at-least-32-bytes"
 os.environ["ENVIRONMENT"] = "test"
+
+
+def confirm_test_database() -> None:
+    engine = create_engine(validate_test_database_url(), connect_args={"connect_timeout": 5})
+    try:
+        with engine.connect() as connection:
+            if connection.scalar(text("select current_database()")) != "risksense_test":
+                raise pytest.UsageError("Unexpected database; refusing test operations.")
+    except Exception:
+        raise pytest.UsageError("Could not confirm local risksense_test; no migrations executed.") from None
+    finally:
+        engine.dispose()
 
 from app.core.dependencies import get_database  # noqa: E402
 from app.main import app  # noqa: E402
@@ -55,6 +71,7 @@ def reset_test_schema() -> None:
 
 @pytest.fixture(scope="session", autouse=True)
 def migrated_database():
+    confirm_test_database()
     command.upgrade(alembic_config(), "head")
     yield
 
