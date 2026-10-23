@@ -6,8 +6,9 @@ from app.core.dependencies import (
     get_current_user,
     get_database,
 )
-from app.core.security import create_access_token
 from app.schemas.auth import (
+    LogoutRequest,
+    RefreshTokenRequest,
     TokenResponse,
     UserRegisterRequest,
     UserResponse,
@@ -17,6 +18,7 @@ from app.services.auth_service import (
     register_patient,
 )
 from app.services.audit_service import record_auth_event_best_effort
+from app.services.session_service import RefreshRejected, issue_session, refresh_session, revoke_session
 
 
 router = APIRouter(
@@ -66,16 +68,26 @@ def login(
             headers={"WWW-Authenticate": "Bearer"},
         )
 
-    access_token = create_access_token(
-        subject=str(user.id),
-        role=user.role.value,
-    )
     record_auth_event_best_effort(db, "LOGIN_SUCCESS", user.id, "success")
+    return TokenResponse.model_validate(issue_session(db, user))
 
-    return TokenResponse(
-        access_token=access_token,
-        token_type="bearer",
-    )
+
+@router.post("/refresh", response_model=TokenResponse)
+def refresh(request: RefreshTokenRequest, db: Session = Depends(get_database)):
+    try:
+        return TokenResponse.model_validate(refresh_session(db, request.refresh_token))
+    except RefreshRejected:
+        record_auth_event_best_effort(db, "REFRESH_TOKEN_REJECTED", None, "failure")
+        raise HTTPException(status_code=401, detail="Invalid, expired, or revoked refresh token.",
+                            headers={"WWW-Authenticate": "Bearer"}) from None
+
+
+@router.post("/logout", status_code=status.HTTP_204_NO_CONTENT)
+def logout(request: LogoutRequest, current_user=Depends(get_current_user), db: Session = Depends(get_database)):
+    try:
+        revoke_session(db, request.refresh_token, current_user)
+    except RefreshRejected:
+        raise HTTPException(status_code=401, detail="Invalid or revoked refresh token.") from None
 
 
 @router.get(

@@ -1,10 +1,11 @@
 from datetime import datetime, timezone
 
-from sqlalchemy import select
+from sqlalchemy import select, update
 from sqlalchemy.orm import Session
 
 from app.core.security import hash_password, verify_password
 from app.models.patient import Patient
+from app.models.clinician import Clinician
 from app.models.user import User, UserRole
 from app.schemas.auth import UserRegisterRequest
 from app.services.audit_service import add_audit_event
@@ -77,8 +78,11 @@ def authenticate_user(
     if not user.is_active:
         return None
 
-    if user.role == UserRole.CLINICIAN and user.clinician:
-        user.clinician.last_login_at = datetime.now(timezone.utc)
+    if user.role == UserRole.CLINICIAN:
+        # Do not load every clinician column just to record login time. The
+        # optional profile-gender migration may still be pending locally.
+        db.execute(update(Clinician).where(Clinician.user_id == user.id).values(
+            last_login_at=datetime.now(timezone.utc)))
         db.commit()
 
     return user

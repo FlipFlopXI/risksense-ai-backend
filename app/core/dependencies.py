@@ -12,6 +12,8 @@ from app.db.database import get_db
 from app.models.user import User, UserRole
 from app.services.auth_service import get_user_by_id
 from app.models.patient import Patient
+from app.models.auth_session import AuthSession
+from datetime import datetime, timezone
 from app.services.entitlement_service import get_effective_entitlement
 from app.services.audit_service import record_auth_event_best_effort
 
@@ -59,6 +61,15 @@ def get_current_user(
             detail="User account is inactive.",
             headers={"WWW-Authenticate": "Bearer"},
         )
+
+    session_id = payload.get("sid")
+    if session_id:
+        try:
+            session = db.get(AuthSession, UUID(session_id))
+        except (ValueError, TypeError):
+            session = None
+        if session is None or session.user_id != user.id or session.revoked_at is not None or session.expires_at <= datetime.now(timezone.utc):
+            raise credentials_exception
 
     return user
 
