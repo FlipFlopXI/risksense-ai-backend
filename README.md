@@ -1,6 +1,6 @@
 # RiskSense AI backend
 
-RiskSense AI is a FastAPI/PostgreSQL decision-support backend. It uses JWT authentication, database-backed RBAC, patient-clinician relationships, and authoritative access entitlements. Heart Disease screening inference is implemented using the supplied trained artifact. Diabetes and drug-response directories remain empty; no inference implementations or dedicated regression tests exist for those targets yet.
+RiskSense AI is a FastAPI/PostgreSQL decision-support backend. It uses JWT authentication, database-backed RBAC, patient-clinician relationships, and authoritative access entitlements. Heart Disease and Diabetes screening use supplied trained artifacts. The Drug & Pregnancy Information Assistant uses deterministic, source-grounded medication information with persistent conversations; it is not a predictive ML model. See [Drug Assistant implementation and Swagger guide](DRUG_ASSISTANT.md).
 
 ## Local setup
 
@@ -137,3 +137,124 @@ No schema migration is needed: lab types are stored as strings and `Prediction.i
 ```
 
 Tests cover the real artifact and real API-to-PostgreSQL inference, exact DataFrame order, cached loading, hash/metadata rejection, custom threshold (including 0.23–0.5), missing/invalid inputs, unit conversions, source selection, history snapshots, entitlement/RBAC, suspension, sanitized failures, and atomic audit persistence. This is an academic screening prototype, not a clinically validated diagnostic system.
+
+## Diabetes Risk Analysis v1
+
+The supplied fixed `app/ml/diabetes/risksense_diabetes_model_v1.pkl` is version
+`1.0.0`, target `diabetes_risk`, SHA-256
+`efe8967a0e70d2ee0f63cab2b02d03ba91685a3b75a8d8d6c90918a8ff3c6496`.
+The adjacent metadata JSON and serialized pipeline are validated together. The
+artifact is hashed before deserialization and loaded once per worker. Only the
+fixed server-side artifact path is accepted; restart workers when deploying code.
+The artifact and metadata are not retrained or rewritten by the backend.
+
+This Logistic Regression pipeline was trained on NHANES 2017–2018 adults. Its
+target is prevalent, self-reported diagnosed diabetes, **not future diabetes
+onset**. This is a risk estimate/screening result, not a diagnosis or a substitute
+for professional medical assessment. External clinical validation has not been
+established. The minimum supported age is 18; under-18 requests return HTTP 422
+with an explicit explanation. The oldest training participant was 79; performance
+beyond the training population is not established.
+
+The model receives exactly this ordered DataFrame:
+
+| Feature | Source and unit |
+| --- | --- |
+| `age` | Completed years from `Patient.date_of_birth`, at UTC inference date |
+| `sex` | `Patient.gender`, case-normalized `female = 0`, `male = 1`; other values rejected |
+| `bmi` | Canonical `HealthProfile.bmi`, calculated from `weight_kg / (height_cm / 100)^2`, rounded to two decimals, kg/m² |
+| `waist_circumference` | `HealthProfile.waist_circumference_cm`, centimetres |
+| `systolic_bp` | Latest complete, non-future BP vital, mmHg |
+| `diastolic_bp` | Same vital as systolic BP, mmHg |
+
+All six inputs are required by the API, including both blood pressures even
+though the training pipeline contains an imputer. Missing clinical values are
+never invented or zero-filled. A newer incomplete BP record is not combined with
+an unrelated reading; the latest complete pair is used. No new freshness cutoff
+is introduced; measurement timestamps are retained for provenance.
+
+Migration `b72e9a61c403` follows `a14f1c2d9b01` and adds nullable
+`health_profiles.waist_circumference_cm`, with a positive, at-most-300-cm constraint.
+Existing rows retain null until measured. Apply `alembic upgrade head` to the
+intended development database before starting this code. Downgrade removes only
+the new waist column/constraint and therefore discards recorded waist values;
+use downgrade only in an isolated test database or with deliberate data planning.
+
+The authenticated patient's existing `POST /health/profile` and partial
+`PUT /health/profile` accept `waist_circumference_cm`. For an existing profile,
+submit only the measurements intended to change, for example:
+
+```json
+{"waist_circumference_cm": 100}
+```
+
+This example is synthetic development data, not a default for real patients.
+Height and weight retain their explicit cm/kg units and are validated before BMI
+is used. Waist accepts finite numeric centimetres, not unit-bearing strings.
+
+An authenticated ADMIN activates the model with **no request body**:
+`POST /admin/models/diabetes/activate` (alias
+`POST /api/v1/admin/models/diabetes/activate`). Activation validates the real
+artifact, reuses its deterministic registry identity on repeat calls, and audits
+`MODEL_ACTIVATED`. It does not deactivate Heart Disease. Both targets may remain
+active. Patients and clinicians cannot activate models.
+
+Authenticate through `POST /auth/login` using form fields `username` (email) and
+`password`. Its `access_token` is used as `Authorization: Bearer <access_token>`.
+Swagger `/docs` uses OAuth2 password flow: click **Authorize**, enter the email
+in **username** and the password in **password**, leave client credentials empty,
+then **Authorize**. Swagger obtains and attaches the token; do not paste a JWT
+into the username field.
+
+Call `POST /risk-analysis` (alias `/api/v1/risk-analysis`):
+
+```json
+{"model": "diabetes"}
+```
+
+An authenticated patient does not need to look up or submit a patient UUID.
+Ownership, account checks and effective active entitlement requirements are
+unchanged. Approved clinicians must supply `patient_id` and have an active link
+under the existing clinician policy; ADMIN role alone does not permit inference.
+Raw feature overrides are rejected.
+
+Success is HTTP 201 using the existing `PredictionResponse`, with target
+`diabetes_risk`, probability `risk_score` in [0,1], version `1.0.0`, and the threshold
+loaded from the artifact. `predict_proba()` is used; probability **>= 0.455** is
+`elevated`, otherwise `standard`. A standard result does not establish absence of
+diabetes. The response includes the screening limitation/disclaimer.
+
+Missing waist example (HTTP 422; no inference or successful prediction/audit):
+
+```json
+{
+  "detail": {
+    "code": "MODEL_INPUT_INCOMPLETE",
+    "status": "insufficient_data",
+    "model": "diabetes",
+    "missing_fields": ["waist_circumference"],
+    "message": "Additional health information is required before Diabetes risk can be calculated."
+  }
+}
+```
+
+Invalid values return `VALIDATION_ERROR` / `invalid_data`; inactive models return
+503 `MODEL_INACTIVE`. Artifact/inference/storage failures return sanitized 503
+responses. The shared Prediction transaction atomically saves `PREDICTION_CREATED`,
+the exact feature values/order, model version/hash/threshold, and profile/vital
+IDs, timestamps, units and source measurements. Audit records omit medical inputs.
+
+The complete test suite requires the existing guarded local `risksense_test`
+PostgreSQL database via `TEST_DATABASE_URL`; never point tests at development
+data. New integration tests cover authorization, registry coexistence, missing
+data, provenance and atomic failure behavior; the new migration test covers
+legacy profile preservation, constraints and downgrade. Database-free Diabetes
+contract checks can also run independently:
+
+```powershell
+.\.venv\Scripts\python.exe -m pytest tests/unit --confcutdir=tests/unit -q
+.\.venv\Scripts\python.exe -m pytest -q
+```
+# Patient web activation
+
+See `BACKEND_CONTEXT.md` for the scoped mobile-to-web activation contract. Set `WEBAPP_BASE_URL` to the exact website origin and explicitly set `DEMO_ACTIVATION_ENABLED=true` only in the intended demonstration environment. Apply the additive activation-session migration before using the new endpoints. Existing admin completion endpoints remain admin-only.

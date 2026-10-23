@@ -1,0 +1,1904 @@
+{
+  "openapi_title": "RiskSense AI API",
+  "openapi_version": "0.1.0",
+  "canonical_operations": 74,
+  "versioned_alias_operations": 73,
+  "total_application_operations": 147,
+  "duplicate_operation_ids": [],
+  "operations": [
+    {
+      "method": "GET",
+      "route": "/health",
+      "router_module": "app.main",
+      "authentication": "public",
+      "roles": [],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": null,
+      "success_status": 200,
+      "known_error_statuses": [
+        422
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Database-free regression coverage passed.",
+      "operation_id": "health_check_health_get",
+      "versioned_alias": null
+    },
+    {
+      "method": "POST",
+      "route": "/auth/register",
+      "router_module": "app.api.v1.auth",
+      "authentication": "public",
+      "roles": [],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "UserRegisterRequest",
+      "response_schema": "UserResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "register_auth_register_post",
+      "versioned_alias": "/api/v1/auth/register"
+    },
+    {
+      "method": "POST",
+      "route": "/auth/login",
+      "router_module": "app.api.v1.auth",
+      "authentication": "public",
+      "roles": [],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "Body_login_auth_login_post",
+      "response_schema": "TokenResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        422
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against the configured development database; isolated DB regression is blocked.",
+      "operation_id": "login_auth_login_post",
+      "versioned_alias": "/api/v1/auth/login"
+    },
+    {
+      "method": "POST",
+      "route": "/auth/refresh",
+      "router_module": "app.api.v1.auth",
+      "authentication": "public",
+      "roles": [],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "RefreshTokenRequest",
+      "response_schema": "TokenResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Implemented with automated coverage; controlled database smoke test is blocked in this run.",
+      "operation_id": "refresh_auth_refresh_post",
+      "versioned_alias": "/api/v1/auth/refresh"
+    },
+    {
+      "method": "POST",
+      "route": "/auth/logout",
+      "router_module": "app.api.v1.auth",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN",
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "LogoutRequest",
+      "response_schema": null,
+      "success_status": 204,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Implemented with automated coverage; controlled database smoke test is blocked in this run.",
+      "operation_id": "logout_auth_logout_post",
+      "versioned_alias": "/api/v1/auth/logout"
+    },
+    {
+      "method": "GET",
+      "route": "/auth/me",
+      "router_module": "app.api.v1.auth",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN",
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "UserResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "get_me_auth_me_get",
+      "versioned_alias": "/api/v1/auth/me"
+    },
+    {
+      "method": "GET",
+      "route": "/health/profile",
+      "router_module": "app.api.v1.health",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "HealthProfileResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "get_profile_health_profile_get",
+      "versioned_alias": "/api/v1/health/profile"
+    },
+    {
+      "method": "PUT",
+      "route": "/health/profile",
+      "router_module": "app.api.v1.health",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "HealthProfileUpdateRequest",
+      "response_schema": "HealthProfileResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "update_profile_health_profile_put",
+      "versioned_alias": "/api/v1/health/profile"
+    },
+    {
+      "method": "POST",
+      "route": "/health/profile",
+      "router_module": "app.api.v1.health",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "HealthProfileCreateRequest",
+      "response_schema": "HealthProfileResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "create_profile_health_profile_post",
+      "versioned_alias": "/api/v1/health/profile"
+    },
+    {
+      "method": "GET",
+      "route": "/health/body-measurements",
+      "router_module": "app.api.v1.health",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "list[BodyMeasurementResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Implemented with automated coverage; controlled database smoke test is blocked in this run.",
+      "operation_id": "body_measurements_health_body_measurements_get",
+      "versioned_alias": "/api/v1/health/body-measurements"
+    },
+    {
+      "method": "POST",
+      "route": "/health/vitals/",
+      "router_module": "app.api.v1.vitals",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "VitalCreateRequest",
+      "response_schema": "VitalResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "create_patient_vital_health_vitals__post",
+      "versioned_alias": "/api/v1/health/vitals/"
+    },
+    {
+      "method": "GET",
+      "route": "/health/vitals/",
+      "router_module": "app.api.v1.vitals",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "list[VitalResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "get_patient_vital_history_health_vitals__get",
+      "versioned_alias": "/api/v1/health/vitals/"
+    },
+    {
+      "method": "GET",
+      "route": "/health/vitals/latest",
+      "router_module": "app.api.v1.vitals",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "VitalResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "get_patient_latest_vital_health_vitals_latest_get",
+      "versioned_alias": "/api/v1/health/vitals/latest"
+    },
+    {
+      "method": "POST",
+      "route": "/health/vitals/batch",
+      "router_module": "app.api.v1.vitals",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "VitalBatchCreateRequest",
+      "response_schema": "VitalBatchResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "create_patient_vitals_batch_health_vitals_batch_post",
+      "versioned_alias": "/api/v1/health/vitals/batch"
+    },
+    {
+      "method": "GET",
+      "route": "/subscriptions/",
+      "router_module": "app.api.v1.subscriptions",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "SubscriptionResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "get_patient_subscription_subscriptions__get",
+      "versioned_alias": "/api/v1/subscriptions/"
+    },
+    {
+      "method": "PUT",
+      "route": "/subscriptions/",
+      "router_module": "app.api.v1.subscriptions",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "SubscriptionUpdateRequest",
+      "response_schema": "SubscriptionResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "update_patient_subscription_subscriptions__put",
+      "versioned_alias": "/api/v1/subscriptions/"
+    },
+    {
+      "method": "POST",
+      "route": "/subscriptions/",
+      "router_module": "app.api.v1.subscriptions",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "SubscriptionCreateRequest",
+      "response_schema": "SubscriptionResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "create_patient_subscription_subscriptions__post",
+      "versioned_alias": "/api/v1/subscriptions/"
+    },
+    {
+      "method": "GET",
+      "route": "/insurance/",
+      "router_module": "app.api.v1.insurance",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "InsuranceResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "get_patient_insurance_insurance__get",
+      "versioned_alias": "/api/v1/insurance/"
+    },
+    {
+      "method": "PUT",
+      "route": "/insurance/",
+      "router_module": "app.api.v1.insurance",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "InsuranceUpdateRequest",
+      "response_schema": "InsuranceResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "update_patient_insurance_insurance__put",
+      "versioned_alias": "/api/v1/insurance/"
+    },
+    {
+      "method": "POST",
+      "route": "/insurance/",
+      "router_module": "app.api.v1.insurance",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "InsuranceCreateRequest",
+      "response_schema": "InsuranceResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "create_patient_insurance_insurance__post",
+      "versioned_alias": "/api/v1/insurance/"
+    },
+    {
+      "method": "POST",
+      "route": "/health/labs/",
+      "router_module": "app.api.v1.labs",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "LabResultCreateRequest",
+      "response_schema": "LabResultResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "create_health_labs__post",
+      "versioned_alias": "/api/v1/health/labs/"
+    },
+    {
+      "method": "GET",
+      "route": "/health/labs/",
+      "router_module": "app.api.v1.labs",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "list[LabResultResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "list_results_health_labs__get",
+      "versioned_alias": "/api/v1/health/labs/"
+    },
+    {
+      "method": "GET",
+      "route": "/clinicians/lookup/{risk_sense_id}",
+      "router_module": "app.api.v1.clinicians",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "ClinicianLookupResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "lookup_clinicians_lookup__risk_sense_id__get",
+      "versioned_alias": "/api/v1/clinicians/lookup/{risk_sense_id}"
+    },
+    {
+      "method": "GET",
+      "route": "/clinicians/me",
+      "router_module": "app.api.v1.clinicians",
+      "authentication": "bearer",
+      "roles": [
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "ClinicianLookupResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "me_clinicians_me_get",
+      "versioned_alias": "/api/v1/clinicians/me"
+    },
+    {
+      "method": "GET",
+      "route": "/clinicians/patients",
+      "router_module": "app.api.v1.clinicians",
+      "authentication": "bearer",
+      "roles": [
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "list[PatientResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "linked_patients_clinicians_patients_get",
+      "versioned_alias": "/api/v1/clinicians/patients"
+    },
+    {
+      "method": "GET",
+      "route": "/clinicians/patients/{patient_id}",
+      "router_module": "app.api.v1.clinicians",
+      "authentication": "bearer",
+      "roles": [
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "PatientResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "linked_patient_clinicians_patients__patient_id__get",
+      "versioned_alias": "/api/v1/clinicians/patients/{patient_id}"
+    },
+    {
+      "method": "GET",
+      "route": "/clinicians/patients/{patient_id}/health-profile",
+      "router_module": "app.api.v1.clinicians",
+      "authentication": "bearer",
+      "roles": [
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "HealthProfileResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "linked_health_profile_clinicians_patients__patient_id__health_profile_get",
+      "versioned_alias": "/api/v1/clinicians/patients/{patient_id}/health-profile"
+    },
+    {
+      "method": "GET",
+      "route": "/clinicians/patients/{patient_id}/vitals",
+      "router_module": "app.api.v1.clinicians",
+      "authentication": "bearer",
+      "roles": [
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "list[VitalResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "linked_vitals_clinicians_patients__patient_id__vitals_get",
+      "versioned_alias": "/api/v1/clinicians/patients/{patient_id}/vitals"
+    },
+    {
+      "method": "GET",
+      "route": "/clinicians/patients/{patient_id}/labs",
+      "router_module": "app.api.v1.clinicians",
+      "authentication": "bearer",
+      "roles": [
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "list[LabResultResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "linked_labs_clinicians_patients__patient_id__labs_get",
+      "versioned_alias": "/api/v1/clinicians/patients/{patient_id}/labs"
+    },
+    {
+      "method": "GET",
+      "route": "/clinicians/patients/{patient_id}/predictions",
+      "router_module": "app.api.v1.clinicians",
+      "authentication": "bearer",
+      "roles": [
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "list[PredictionResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "linked_predictions_clinicians_patients__patient_id__predictions_get",
+      "versioned_alias": "/api/v1/clinicians/patients/{patient_id}/predictions"
+    },
+    {
+      "method": "POST",
+      "route": "/clinicians/assessment",
+      "router_module": "app.api.v1.clinicians",
+      "authentication": "bearer",
+      "roles": [
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "ClinicalAssessmentRequest",
+      "response_schema": null,
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "INTENTIONALLY UNAVAILABLE",
+      "readiness_note": "Returns 503 because no validated temporary-assessment model is implemented.",
+      "operation_id": "clinical_assessment_clinicians_assessment_post",
+      "versioned_alias": "/api/v1/clinicians/assessment"
+    },
+    {
+      "method": "DELETE",
+      "route": "/clinicians/patients/{patient_id}/link",
+      "router_module": "app.api.v1.clinicians",
+      "authentication": "bearer",
+      "roles": [
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": null,
+      "success_status": 204,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "unlink_patient_clinicians_patients__patient_id__link_delete",
+      "versioned_alias": "/api/v1/clinicians/patients/{patient_id}/link"
+    },
+    {
+      "method": "GET",
+      "route": "/admin/me",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "AdminUserResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "admin_me_admin_me_get",
+      "versioned_alias": "/api/v1/admin/me"
+    },
+    {
+      "method": "GET",
+      "route": "/admin/metrics",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "AdminMetricsResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "metrics_admin_metrics_get",
+      "versioned_alias": "/api/v1/admin/metrics"
+    },
+    {
+      "method": "GET",
+      "route": "/admin/users",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "list[AdminUserResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "users_admin_users_get",
+      "versioned_alias": "/api/v1/admin/users"
+    },
+    {
+      "method": "POST",
+      "route": "/admin/users/{user_id}/suspend",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "AdminUserResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "suspend_admin_users__user_id__suspend_post",
+      "versioned_alias": "/api/v1/admin/users/{user_id}/suspend"
+    },
+    {
+      "method": "POST",
+      "route": "/admin/users/{user_id}/restore",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "AdminUserResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "restore_admin_users__user_id__restore_post",
+      "versioned_alias": "/api/v1/admin/users/{user_id}/restore"
+    },
+    {
+      "method": "PATCH",
+      "route": "/admin/clinicians/{clinician_id}/approval",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "ClinicianApprovalRequest",
+      "response_schema": "ClinicianLookupResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "approve_clinician_admin_clinicians__clinician_id__approval_patch",
+      "versioned_alias": "/api/v1/admin/clinicians/{clinician_id}/approval"
+    },
+    {
+      "method": "POST",
+      "route": "/admin/clinicians",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "ClinicianProvisionRequest",
+      "response_schema": "ClinicianLookupResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "provision_clinician_admin_clinicians_post",
+      "versioned_alias": "/api/v1/admin/clinicians"
+    },
+    {
+      "method": "GET",
+      "route": "/admin/audit",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "list[object]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "audit_admin_audit_get",
+      "versioned_alias": "/api/v1/admin/audit"
+    },
+    {
+      "method": "GET",
+      "route": "/admin/models",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "list[object]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "models_admin_models_get",
+      "versioned_alias": "/api/v1/admin/models"
+    },
+    {
+      "method": "POST",
+      "route": "/admin/models/{model_id}/suspend",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": null,
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "suspend_model_admin_models__model_id__suspend_post",
+      "versioned_alias": "/api/v1/admin/models/{model_id}/suspend"
+    },
+    {
+      "method": "POST",
+      "route": "/admin/models/heart-disease/activate",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": null,
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "activate_heart_disease_admin_models_heart_disease_activate_post",
+      "versioned_alias": "/api/v1/admin/models/heart-disease/activate"
+    },
+    {
+      "method": "POST",
+      "route": "/admin/models/diabetes/activate",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": null,
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "activate_diabetes_admin_models_diabetes_activate_post",
+      "versioned_alias": "/api/v1/admin/models/diabetes/activate"
+    },
+    {
+      "method": "GET",
+      "route": "/admin/drug-assistant/status",
+      "router_module": "app.api.v1.admin",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "DrugAssistantStatusResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Database-free regression coverage passed.",
+      "operation_id": "drug_assistant_status_admin_drug_assistant_status_get",
+      "versioned_alias": "/api/v1/admin/drug-assistant/status"
+    },
+    {
+      "method": "GET",
+      "route": "/patients/me",
+      "router_module": "app.api.v1.patients",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "PatientResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "me_patients_me_get",
+      "versioned_alias": "/api/v1/patients/me"
+    },
+    {
+      "method": "PATCH",
+      "route": "/patients/me",
+      "router_module": "app.api.v1.patients",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "PatientUpdateRequest",
+      "response_schema": "PatientResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "update_me_patients_me_patch",
+      "versioned_alias": "/api/v1/patients/me"
+    },
+    {
+      "method": "GET",
+      "route": "/patients/me/clinician",
+      "router_module": "app.api.v1.patients",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "MyClinicianResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Implemented with automated coverage; controlled database smoke test is blocked in this run.",
+      "operation_id": "my_clinician_patients_me_clinician_get",
+      "versioned_alias": "/api/v1/patients/me/clinician"
+    },
+    {
+      "method": "POST",
+      "route": "/risk-analysis",
+      "router_module": "app.api.v1.intelligence",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": true,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "ACTIVE effective entitlement for PATIENT and patient-specific Drug Assistant access",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": "RiskAnalysisRequest",
+      "response_schema": "PredictionResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against the configured development database; isolated DB regression is blocked.",
+      "operation_id": "risk_analysis_risk_analysis_post",
+      "versioned_alias": "/api/v1/risk-analysis"
+    },
+    {
+      "method": "GET",
+      "route": "/predictions",
+      "router_module": "app.api.v1.intelligence",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "list[PredictionResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "predictions_predictions_get",
+      "versioned_alias": "/api/v1/predictions"
+    },
+    {
+      "method": "GET",
+      "route": "/predictions/{prediction_id}",
+      "router_module": "app.api.v1.intelligence",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "PredictionResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "prediction_predictions__prediction_id__get",
+      "versioned_alias": "/api/v1/predictions/{prediction_id}"
+    },
+    {
+      "method": "POST",
+      "route": "/reports",
+      "router_module": "app.api.v1.intelligence",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": "ReportGenerateRequest",
+      "response_schema": "ReportResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Implemented with automated coverage; controlled database smoke test is blocked in this run.",
+      "operation_id": "generate_report_reports_post",
+      "versioned_alias": "/api/v1/reports"
+    },
+    {
+      "method": "GET",
+      "route": "/reports",
+      "router_module": "app.api.v1.intelligence",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "list[ReportResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Implemented with automated coverage; controlled database smoke test is blocked in this run.",
+      "operation_id": "reports_reports_get",
+      "versioned_alias": "/api/v1/reports"
+    },
+    {
+      "method": "GET",
+      "route": "/reports/{report_id}",
+      "router_module": "app.api.v1.intelligence",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "ReportResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Implemented with automated coverage; controlled database smoke test is blocked in this run.",
+      "operation_id": "report_reports__report_id__get",
+      "versioned_alias": "/api/v1/reports/{report_id}"
+    },
+    {
+      "method": "GET",
+      "route": "/reports/{report_id}/pdf",
+      "router_module": "app.api.v1.intelligence",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": null,
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Implemented with automated coverage; controlled database smoke test is blocked in this run.",
+      "operation_id": "report_pdf_reports__report_id__pdf_get",
+      "versioned_alias": "/api/v1/reports/{report_id}/pdf"
+    },
+    {
+      "method": "GET",
+      "route": "/dashboard",
+      "router_module": "app.api.v1.intelligence",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "DashboardResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "dashboard_dashboard_get",
+      "versioned_alias": "/api/v1/dashboard"
+    },
+    {
+      "method": "GET",
+      "route": "/health/trends",
+      "router_module": "app.api.v1.intelligence",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": null,
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "health_trends_health_trends_get",
+      "versioned_alias": "/api/v1/health/trends"
+    },
+    {
+      "method": "GET",
+      "route": "/access/entitlements",
+      "router_module": "app.api.v1.access",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "list[EntitlementResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "entitlements_access_entitlements_get",
+      "versioned_alias": "/api/v1/access/entitlements"
+    },
+    {
+      "method": "POST",
+      "route": "/access/mock/subscription/complete",
+      "router_module": "app.api.v1.access",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "MockSubscriptionCompletion",
+      "response_schema": "EntitlementResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "complete_subscription_access_mock_subscription_complete_post",
+      "versioned_alias": "/api/v1/access/mock/subscription/complete"
+    },
+    {
+      "method": "POST",
+      "route": "/access/mock/insurance/complete",
+      "router_module": "app.api.v1.access",
+      "authentication": "bearer",
+      "roles": [
+        "ADMIN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "MockInsuranceCompletion",
+      "response_schema": "EntitlementResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "UNTESTED",
+      "readiness_note": "Registered and inspected; current isolated database suite is blocked.",
+      "operation_id": "complete_insurance_access_mock_insurance_complete_post",
+      "versioned_alias": "/api/v1/access/mock/insurance/complete"
+    },
+    {
+      "method": "POST",
+      "route": "/drug-assistant/sessions",
+      "router_module": "app.api.v1.drug_assistant",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": true,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "ACTIVE effective entitlement for PATIENT and patient-specific Drug Assistant access",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": "SessionCreate",
+      "response_schema": "SessionResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        409,
+        422,
+        503
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against development; database integration suite is blocked in this run.",
+      "operation_id": "create_session_drug_assistant_sessions_post",
+      "versioned_alias": "/api/v1/drug-assistant/sessions"
+    },
+    {
+      "method": "GET",
+      "route": "/drug-assistant/sessions",
+      "router_module": "app.api.v1.drug_assistant",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": true,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "ACTIVE effective entitlement for PATIENT and patient-specific Drug Assistant access",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "list[SessionResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        409,
+        422,
+        503
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against development; database integration suite is blocked in this run.",
+      "operation_id": "sessions_drug_assistant_sessions_get",
+      "versioned_alias": "/api/v1/drug-assistant/sessions"
+    },
+    {
+      "method": "GET",
+      "route": "/drug-assistant/sessions/{session_id}",
+      "router_module": "app.api.v1.drug_assistant",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": true,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "ACTIVE effective entitlement for PATIENT and patient-specific Drug Assistant access",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "SessionResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        409,
+        422,
+        503
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against development; database integration suite is blocked in this run.",
+      "operation_id": "session_drug_assistant_sessions__session_id__get",
+      "versioned_alias": "/api/v1/drug-assistant/sessions/{session_id}"
+    },
+    {
+      "method": "PATCH",
+      "route": "/drug-assistant/sessions/{session_id}",
+      "router_module": "app.api.v1.drug_assistant",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": true,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "ACTIVE effective entitlement for PATIENT and patient-specific Drug Assistant access",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": "SessionUpdate",
+      "response_schema": "SessionResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        409,
+        422,
+        503
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against development; database integration suite is blocked in this run.",
+      "operation_id": "close_drug_assistant_sessions__session_id__patch",
+      "versioned_alias": "/api/v1/drug-assistant/sessions/{session_id}"
+    },
+    {
+      "method": "GET",
+      "route": "/drug-assistant/sessions/{session_id}/messages",
+      "router_module": "app.api.v1.drug_assistant",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": true,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "ACTIVE effective entitlement for PATIENT and patient-specific Drug Assistant access",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "list[MessageResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        409,
+        422,
+        503
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against development; database integration suite is blocked in this run.",
+      "operation_id": "messages_drug_assistant_sessions__session_id__messages_get",
+      "versioned_alias": "/api/v1/drug-assistant/sessions/{session_id}/messages"
+    },
+    {
+      "method": "POST",
+      "route": "/drug-assistant/chat",
+      "router_module": "app.api.v1.drug_assistant",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": true,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "ACTIVE effective entitlement for PATIENT and patient-specific Drug Assistant access",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": "ChatRequest",
+      "response_schema": "ChatResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        409,
+        422,
+        503
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against development; database integration suite is blocked in this run.",
+      "operation_id": "chat_drug_assistant_chat_post",
+      "versioned_alias": "/api/v1/drug-assistant/chat"
+    },
+    {
+      "method": "GET",
+      "route": "/drug-assistant/drugs",
+      "router_module": "app.api.v1.drug_assistant",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "list[DrugSummary]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        409,
+        422,
+        503
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Database-free regression coverage passed.",
+      "operation_id": "drugs_drug_assistant_drugs_get",
+      "versioned_alias": "/api/v1/drug-assistant/drugs"
+    },
+    {
+      "method": "GET",
+      "route": "/drug-assistant/drugs/{drug_id}",
+      "router_module": "app.api.v1.drug_assistant",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "DrugSummary",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        409,
+        422,
+        503
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Database-free regression coverage passed.",
+      "operation_id": "drug_drug_assistant_drugs__drug_id__get",
+      "versioned_alias": "/api/v1/drug-assistant/drugs/{drug_id}"
+    },
+    {
+      "method": "GET",
+      "route": "/drug-assistant/drugs/{drug_id}/sources",
+      "router_module": "app.api.v1.drug_assistant",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": null,
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        409,
+        422,
+        503
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Database-free regression coverage passed.",
+      "operation_id": "sources_drug_assistant_drugs__drug_id__sources_get",
+      "versioned_alias": "/api/v1/drug-assistant/drugs/{drug_id}/sources"
+    },
+    {
+      "method": "GET",
+      "route": "/patient-medications",
+      "router_module": "app.api.v1.patient_medications",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "list[MedicationResponse]",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against development; database integration suite is blocked in this run.",
+      "operation_id": "medications_patient_medications_get",
+      "versioned_alias": "/api/v1/patient-medications"
+    },
+    {
+      "method": "POST",
+      "route": "/patient-medications",
+      "router_module": "app.api.v1.patient_medications",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "MedicationCreate",
+      "response_schema": "MedicationResponse",
+      "success_status": 201,
+      "known_error_statuses": [
+        401,
+        403,
+        422
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against development; database integration suite is blocked in this run.",
+      "operation_id": "create_patient_medications_post",
+      "versioned_alias": "/api/v1/patient-medications"
+    },
+    {
+      "method": "GET",
+      "route": "/patient-medications/{medication_id}",
+      "router_module": "app.api.v1.patient_medications",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT",
+        "CLINICIAN"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": true,
+      "entitlement_rule": "none",
+      "relationship_rule": "ACTIVE approved clinician-patient link when CLINICIAN accesses a patient",
+      "request_schema": null,
+      "response_schema": "MedicationResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against development; database integration suite is blocked in this run.",
+      "operation_id": "medication_patient_medications__medication_id__get",
+      "versioned_alias": "/api/v1/patient-medications/{medication_id}"
+    },
+    {
+      "method": "PATCH",
+      "route": "/patient-medications/{medication_id}",
+      "router_module": "app.api.v1.patient_medications",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": "MedicationUpdate",
+      "response_schema": "MedicationResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against development; database integration suite is blocked in this run.",
+      "operation_id": "update_patient_medications__medication_id__patch",
+      "versioned_alias": "/api/v1/patient-medications/{medication_id}"
+    },
+    {
+      "method": "DELETE",
+      "route": "/patient-medications/{medication_id}",
+      "router_module": "app.api.v1.patient_medications",
+      "authentication": "bearer",
+      "roles": [
+        "PATIENT"
+      ],
+      "entitlement_required": false,
+      "patient_clinician_relationship_required": false,
+      "entitlement_rule": "none",
+      "relationship_rule": "none",
+      "request_schema": null,
+      "response_schema": "MedicationResponse",
+      "success_status": 200,
+      "known_error_statuses": [
+        401,
+        403,
+        404,
+        422
+      ],
+      "readiness": "WORKING",
+      "readiness_note": "Previously exercised against development; database integration suite is blocked in this run.",
+      "operation_id": "deactivate_patient_medications__medication_id__delete",
+      "versioned_alias": "/api/v1/patient-medications/{medication_id}"
+    }
+  ]
+}
