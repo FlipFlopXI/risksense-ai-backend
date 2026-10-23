@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet href="https://www.accessdata.fda.gov/spl/stylesheet/spl.xsl" type="text/xsl"?>
+<document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 https://www.accessdata.fda.gov/spl/schema/spl.xsd">
+   <id root="e67aa4eb-b86f-4cc0-8a38-e8405de2a113"/>
+   <code code="34391-3" codeSystem="2.16.840.1.113883.6.1" displayName="HUMAN PRESCRIPTION DRUG LABEL"/>
+   <title>These highlights do not include all the information needed to use NEXLETOL<sup>®</sup> safely and effectively.  See full prescribing information for NEXLETOL. <br/>
+      <br/> NEXLETOL (bempedoic acid) tablets, for oral use <br/> Initial U.S. Approval:  2020</title>
+   <effectiveTime value="20260625"/>
+   <setId root="88d06d89-a3da-40b4-b273-8f4f7d56c4c9"/>
+   <versionNumber value="20"/>
+   <author>
+      <time/>
+      <assignedEntity>
+         <representedOrganization>
+            <id extension="029516312" root="1.3.6.1.4.1.519.1"/>
+            <name>Esperion Therapeutics, Inc.</name>
+            <assignedEntity>
+               <assignedOrganization>
+                  <id extension="076470525" root="1.3.6.1.4.1.519.1"/>
+                  <name>Corden Pharma Colorado, Inc.</name>
+               </assignedOrganization>
+            </assignedEntity>
+         </representedOrganization>
+      </assignedEntity>
+   </author>
+   <component>
+      <structuredBody>
+         <component>
+            <section ID="DLDE">
+               <id root="4141d108-82a6-40d0-94f9-319c1c85f7b7"/>
+               <code code="48780-1" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PRODUCT DATA ELEMENTS SECTION"/>
+               <effectiveTime value="20260625"/>
+               <subject>
+                  <manufacturedProduct>
+                     <manufacturedProduct>
+                        <code code="72426-118" codeSystem="2.16.840.1.113883.6.69"/>
+                        <name>Nexletol</name>
+                        <formCode code="C42931" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TABLET, FILM COATED"/>
+                        <asEntityWithGeneric>
+                           <genericMedicine>
+                              <name>Bempedoic Acid</name>
+                           </genericMedicine>
+                        </asEntityWithGeneric>
+                        <ingredient classCode="ACTIB">
+                           <quantity>
+                              <numerator value="180" unit="mg"/>
+                              <denominator value="1" unit="1"/>
+                           </quantity>
+                           <ingredientSubstance>
+                              <code code="1EJ6Z6Q368" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>BEMPEDOIC ACID</name>
+                              <activeMoiety>
+                                 <activeMoiety>
+                                    <code code="1EJ6Z6Q368" codeSystem="2.16.840.1.113883.4.9"/>
+                                    <name>BEMPEDOIC ACID</name>
+                                 </activeMoiety>
+                              </activeMoiety>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7T9FYH5QMK" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MICROCRYSTALLINE CELLULOSE 101</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="EWQ57Q8I5X" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>LACTOSE MONOHYDRATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="9XZ8H6N6OH" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>HYDROXYPROPYL CELLULOSE, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="ETJ7Z6XBU4" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SILICON DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="5856J3G2A2" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>SODIUM STARCH GLYCOLATE TYPE A POTATO</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="70097M6I30" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>MAGNESIUM STEARATE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="532B59J990" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYVINYL ALCOHOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="15FIX9V2JP" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TITANIUM DIOXIDE</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="3WJQ0SDW1A" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>POLYETHYLENE GLYCOL, UNSPECIFIED</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <ingredient classCode="IACT">
+                           <ingredientSubstance>
+                              <code code="7SEV7J4R1U" codeSystem="2.16.840.1.113883.4.9"/>
+                              <name>TALC</name>
+                           </ingredientSubstance>
+                        </ingredient>
+                        <asContent>
+                           <quantity>
+                              <numerator value="30" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72426-118-03" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43173" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE, PLASTIC"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20200306"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="7" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72426-118-99" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43168" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BLISTER PACK"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C96974" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="active"/>
+                                 <effectiveTime>
+                                    <low value="20200306"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                        <asContent>
+                           <quantity>
+                              <numerator value="90" unit="1"/>
+                              <denominator value="1"/>
+                           </quantity>
+                           <containerPackagedProduct>
+                              <code code="72426-118-09" codeSystem="2.16.840.1.113883.6.69"/>
+                              <formCode code="C43169" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="BOTTLE"/>
+                           </containerPackagedProduct>
+                           <subjectOf>
+                              <characteristic>
+                                 <code code="SPLCMBPRDTP" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                                 <value code="C112160" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="TYPE 0: NOT A COMBINATION PRODUCT" xsi:type="CV"/>
+                              </characteristic>
+                           </subjectOf>
+                           <subjectOf>
+                              <marketingAct>
+                                 <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                                 <statusCode code="completed"/>
+                                 <effectiveTime>
+                                    <low value="20200306"/>
+                                    <high value="20200306"/>
+                                 </effectiveTime>
+                              </marketingAct>
+                           </subjectOf>
+                        </asContent>
+                     </manufacturedProduct>
+                     <subjectOf>
+                        <approval>
+                           <id extension="NDA211616" root="2.16.840.1.113883.3.150"/>
+                           <code code="C73594" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="NDA"/>
+                           <author>
+                              <territorialAuthority>
+                                 <territory>
+                                    <code code="USA" codeSystem="2.16.840.1.113883.5.28"/>
+                                 </territory>
+                              </territorialAuthority>
+                           </author>
+                        </approval>
+                     </subjectOf>
+                     <subjectOf>
+                        <marketingAct>
+                           <code code="C53292" codeSystem="2.16.840.1.113883.3.26.1.1"/>
+                           <statusCode code="active"/>
+                           <effectiveTime>
+                              <low value="20200306"/>
+                           </effectiveTime>
+                        </marketingAct>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLCOLOR" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48325" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="WHITE" xsi:type="CE">
+                              <originalText>White to off-white</originalText>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSCORE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value value="1" xsi:type="INT"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSHAPE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value code="C48345" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="OVAL" xsi:type="CE">
+                              <originalText/>
+                           </value>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLSIZE" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value unit="mm" value="14" xsi:type="PQ"/>
+                        </characteristic>
+                     </subjectOf>
+                     <subjectOf>
+                        <characteristic classCode="OBS">
+                           <code code="SPLIMPRINT" codeSystem="2.16.840.1.113883.1.11.19255"/>
+                           <value xsi:type="ST">180;ESP</value>
+                        </characteristic>
+                     </subjectOf>
+                     <consumedIn>
+                        <substanceAdministration>
+                           <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+                        </substanceAdministration>
+                     </consumedIn>
+                  </manufacturedProduct>
+               </subject>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="841bfe87-d6fd-4059-a25a-ba8e2e034b9b"/>
+               <code code="43683-2" codeSystem="2.16.840.1.113883.6.1" displayName="RECENT MAJOR CHANGES SECTION"/>
+               <effectiveTime value="20260115"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <table width="100%" styleCode="Noaoturules">
+                           <col width="80%" align="left" valign="top"/>
+                           <col width="20%" align="right" valign="top"/>
+                           <tbody>
+                              <tr>
+                                 <td>Indications and Usage (<linkHtml href="#S1">1</linkHtml>)</td>
+                                 <td>11/2025  </td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S1">
+               <id root="ea44c11d-b9e8-4e0a-bb2b-bf0df207a661"/>
+               <code code="34067-9" codeSystem="2.16.840.1.113883.6.1" displayName="INDICATIONS &amp; USAGE SECTION"/>
+               <title>1 INDICATIONS AND USAGE</title>
+               <text>
+                  <paragraph>
+                     <content styleCode="xmChange">                    NEXLETOL is indicated:</content>
+                  </paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>
+                        <content styleCode="xmChange">to reduce the risk of major adverse cardiovascular events (cardiovascular death, myocardial infarction, stroke, or coronary revascularization) in adults at increased risk for these events who are unable to take recommended statin therapy (including those not taking a statin).</content>
+                     </item>
+                     <item>
+                        <content styleCode="xmChange">as an adjunct to diet and exercise, in combination with other low-density lipoprotein cholesterol (LDL-C) lowering therapies, or alone when concomitant LDL-C lowering therapy is not possible, to reduce LDL-C in adults with hypercholesterolemia, including heterozygous familial hypercholesterolemia (HeFH). </content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20260115"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>NEXLETOL, an adenosine triphosphate-citrate lyase (ACL) inhibitor, is indicated: </paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>to reduce the risk of major adverse cardiovascular events (cardiovascular death, myocardial infarction, stroke, or coronary revascularization) in adults at increased risk for these events who are unable to take recommended statin therapy (including those not taking a statin). (<linkHtml href="#S1">1</linkHtml>)</item>
+                           <item>as an adjunct to diet and exercise, in combination with other low-density lipoprotein cholesterol (LDL-C) lowering therapies, or alone when concomitant LDL-C lowering therapy is not possible, to reduce LDL-C in adults with hypercholesterolemia, including heterozygous familial hypercholesterolemia (HeFH). (<linkHtml href="#S1">1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S2">
+               <id root="33439251-a94c-4cc0-bc9a-562d4d1364b2"/>
+               <code code="34068-7" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE &amp; ADMINISTRATION SECTION"/>
+               <title>2 DOSAGE AND ADMINISTRATION</title>
+               <effectiveTime value="20260115"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Administer 180 mg orally once daily with or without food. (<linkHtml href="#S2.1">2.1</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S2.1">
+                     <id root="50a690a2-565f-49a2-a06b-0234a594a4c8"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>2.1	Recommended Dosage</title>
+                     <text>
+                        <paragraph>                          The recommended dosage of NEXLETOL is 180 mg administered orally once daily.  NEXLETOL can be taken with or without food.</paragraph>
+                        <paragraph>After initiation of NEXLETOL, analyze lipid levels within 8 to 12 weeks.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S3">
+               <id root="aad55eef-f3f4-4c50-b3be-2956f9a452ce"/>
+               <code code="43678-2" codeSystem="2.16.840.1.113883.6.1" displayName="DOSAGE FORMS &amp; STRENGTHS SECTION"/>
+               <title>3 DOSAGE FORMS AND STRENGTHS</title>
+               <text>
+                  <paragraph>NEXLETOL is available as:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Tablets: 180 mg, white to off-white, oval shaped, debossed with "180" on one side and "ESP" on the other side.</item>
+                  </list>
+               </text>
+               <effectiveTime value="20260115"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Tablets: 180 mg (<linkHtml href="#S3">3</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S4">
+               <id root="3a2deed9-c807-4510-bb87-01e7ef945f08"/>
+               <code code="34070-3" codeSystem="2.16.840.1.113883.6.1" displayName="CONTRAINDICATIONS SECTION"/>
+               <title>4 CONTRAINDICATIONS</title>
+               <text>
+                  <paragraph>                    NEXLETOL is contraindicated in patients with a prior serious hypersensitivity reaction to bempedoic acid or any of the excipients in NEXLETOL. Serious hypersensitivity reactions, such as angioedema, have occurred <content styleCode="italics">[see <linkHtml href="#S6.2">Adverse Reactions (6.2)</linkHtml>].</content>
+                  </paragraph>
+               </text>
+               <effectiveTime value="20260115"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>History of a serious hypersensitivity reaction to bempedoic acid or any of the excipients in NEXLETOL. (<linkHtml href="#S4">4</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S5">
+               <id root="b031a1b2-2ef3-42d4-bb9b-f9c0e0d0ea90"/>
+               <code code="43685-7" codeSystem="2.16.840.1.113883.6.1" displayName="WARNINGS AND PRECAUTIONS SECTION"/>
+               <title>5 WARNINGS AND PRECAUTIONS</title>
+               <effectiveTime value="20260115"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>
+                           <content styleCode="italics">Hyperuricemia:</content> Elevations in serum uric acid have occurred.  Assess uric acid levels periodically as clinically indicated.  Monitor for signs and symptoms of hyperuricemia, and initiate treatment with urate-lowering drugs as appropriate. (<linkHtml href="#S5.1">5.1</linkHtml>)</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Tendon Rupture:</content> Tendon rupture has occurred.  Discontinue NEXLETOL at the first sign of tendon rupture.  Avoid NEXLETOL in patients who have a history of tendon disorders or tendon rupture. (<linkHtml href="#S5.2">5.2</linkHtml>)</paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S5.1">
+                     <id root="e5c91c7d-841b-4334-9696-dcc3711911ec"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.1	Hyperuricemia</title>
+                     <text>
+                        <paragraph>                           NEXLETOL inhibits renal tubular OAT2 and may increase blood uric acid levels <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.  In the primary hypercholesterolemia trials <content styleCode="italics">[see <linkHtml href="#S14.2">Clinical Studies (14.2)</linkHtml>]</content>, 26% of NEXLETOL-treated patients with normal baseline uric acid values (versus 9.5% placebo) experienced hyperuricemia one or more times, and 3.5% of patients experienced clinically significant hyperuricemia reported as an adverse reaction (versus 1.1% placebo).  Increases in uric acid levels usually occurred within the first 4 weeks of treatment initiation, persisted throughout treatment, and returned to baseline following discontinuation of treatment.  After 12 weeks of treatment, the mean placebo-adjusted increase in uric acid compared to baseline was 0.8 mg/dL for patients treated with NEXLETOL.  In the cardiovascular outcomes trial <content styleCode="italics">[see <linkHtml href="#S14.1">Clinical Studies (14.1)</linkHtml>],</content> 16.4% of NEXLETOL-treated patients experienced clinically significant hyperuricemia reported as an adverse reaction (versus 8.2% placebo).</paragraph>
+                        <paragraph>                           Elevated blood uric acid may lead to the development of gout.  In the primary hypercholesterolemia trials, gout was reported in 1.5% of patients treated with NEXLETOL and 0.4% of patients treated with placebo.  In the cardiovascular outcomes trial, gout was reported in 3.2% of patients treated with NEXLETOL and 2.2% treated with placebo.</paragraph>
+                        <paragraph>Advise patients to contact their healthcare provider if symptoms of hyperuricemia occur.  Assess serum uric acid when clinically indicated.  Monitor patients for signs and symptoms of hyperuricemia, and initiate treatment with urate-lowering drugs as appropriate.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S5.2">
+                     <id root="20598d33-2570-4534-b411-6b6e8f08be7a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>5.2	Tendon Rupture</title>
+                     <text>
+                        <paragraph>                          NEXLETOL is associated with an increased risk of tendon rupture or injury.  In the primary hypercholesterolemia trials <content styleCode="italics">[see <linkHtml href="#S14.2">Clinical Studies (14.2)</linkHtml>]</content>, tendon rupture occurred in 0.5% of patients treated with NEXLETOL versus 0% of placebo-treated patients and involved the rotator cuff (the shoulder), biceps tendon, or Achilles tendon.  Tendon rupture occurred within weeks to months of starting NEXLETOL.  In the cardiovascular outcomes trial <content styleCode="italics">[see <linkHtml href="#S14.1">Clinical Studies (14.1)</linkHtml>]</content>, tendon rupture events occurred in 1.2% of NEXLETOL-treated patients versus 0.9% of placebo-treated patients. Tendon rupture may occur more frequently in patients over 60 years of age, in those taking corticosteroid or fluoroquinolone drugs, in patients with renal failure, and in patients with previous tendon disorders.</paragraph>
+                        <paragraph>Discontinue NEXLETOL immediately if the patient experiences rupture of a tendon.  Consider discontinuing NEXLETOL if the patient experiences joint pain, swelling, or inflammation.  Advise patients to rest at the first sign of tendinitis or tendon rupture and to contact their healthcare provider if tendinitis or tendon rupture symptoms occur.  Consider alternative therapy in patients with a history of tendon disorders or tendon rupture.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S6">
+               <id root="11d5ab27-8d41-412d-aeb0-20af04bcebe8"/>
+               <code code="34084-4" codeSystem="2.16.840.1.113883.6.1" displayName="ADVERSE REACTIONS SECTION"/>
+               <title>6 ADVERSE REACTIONS</title>
+               <text>
+                  <paragraph>The following clinically significant adverse reactions are described elsewhere in the labeling:</paragraph>
+                  <list listType="unordered" styleCode="disc">
+                     <item>Hyperuricemia <content styleCode="italics">[see <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</content>
+                     </item>
+                     <item>Tendon Rupture <content styleCode="italics">[see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>]</content>
+                     </item>
+                  </list>
+               </text>
+               <effectiveTime value="20260115"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <paragraph>Common adverse reactions in the (<linkHtml href="#S6.1">6.1</linkHtml>):</paragraph>
+                        <list listType="unordered" styleCode="disc">
+                           <item>Primary hypercholesterolemia trials (incidence ≥ 2% and more frequent than placebo) were upper respiratory tract infection, muscle spasms, hyperuricemia, back pain, abdominal pain or discomfort, bronchitis, pain in extremity, anemia, and elevated liver enzymes.</item>
+                           <item>Cardiovascular outcomes trial (incidence ≥ 2% and 0.5% greater than placebo) were hyperuricemia, renal impairment, anemia, elevated liver enzymes, muscle spasms, gout, and cholelithiasis.</item>
+                        </list>
+                        <br/>
+                        <paragraph>
+                           <content styleCode="bold">To report SUSPECTED ADVERSE REACTIONS, contact Esperion at 833-377-7633 (833 ESPRMED) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.</content>
+                        </paragraph>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S6.1">
+                     <id root="b042da41-d926-4427-8b71-2de7d3ae4096"/>
+                     <code code="90374-0" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL TRIALS EXPERIENCE SECTION"/>
+                     <title>6.1 Clinical Trials Experience</title>
+                     <text>
+                        <paragraph>Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice.</paragraph>
+                        <paragraph>The data in Table 1 reflect exposure to NEXLETOL in two placebo-controlled primary hypercholesterolemia trials that included 2,009 patients treated with NEXLETOL for 52 weeks (median treatment duration of 52 weeks) <content styleCode="italics">[see <linkHtml href="#S14.2">Clinical Studies (14.2)</linkHtml>]</content>.  The mean age for NEXLETOL-treated patients was 65 years, 29% were female, 95% were White, 3% were Black or African American, 1% were Asian, and 1% were other races; 3% identified as Hispanic or Latino ethnicity.  All patients received NEXLETOL 180 mg orally once daily plus maximally tolerated statin therapy alone or in combination with other lipid-lowering therapies.  At baseline, 97% of patients had CVD and about 4% had a diagnosis of HeFH.  Patients on simvastatin 40 mg/day or higher were excluded from the trials.</paragraph>
+                        <paragraph>In the primary hypercholesterolemia trials, adverse reactions led to discontinuation of treatment in 11% of NEXLETOL-treated patients and 8% of placebo-treated patients.  The most common reasons for NEXLETOL treatment discontinuation were muscle spasms (0.5% versus 0.3% placebo), diarrhea (0.4% versus 0.1% placebo), and pain in extremity (0.3% versus 0.0% placebo).  Adverse reactions reported in at least 2% of NEXLETOL-treated patients and more frequently than in placebo-treated patients are shown in Table 1.</paragraph>
+                        <table width="85%">
+                           <caption>Table 1.  Adverse Reactions (≥ 2% and greater than placebo) in NEXLETOL-Treated Patients with Primary Hypercholesterolemia and CVD or HeFH (Trials 2 and 3)</caption>
+                           <col width="33%" align="left" valign="bottom"/>
+                           <col width="34%" align="center" valign="bottom"/>
+                           <col width="33%" align="center" valign="bottom"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule" align="center">Adverse Reaction</th>
+                                 <th styleCode="Rrule">Placebo<footnote ID="Tb1fta">Background therapy included statin and ± other lipid-lowering therapies </footnote>
+                                    <br/> (N = 999)<br/> %</th>
+                                 <th styleCode="Rrule">NEXLETOL<footnoteRef IDREF="Tb1fta"/>
+                                    <br/> (N = 2,009)<br/> %</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Upper respiratory tract infection</td>
+                                 <td styleCode="Rrule">4.0</td>
+                                 <td styleCode="Rrule">4.5</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Muscle spasms</td>
+                                 <td styleCode="Rrule">2.3</td>
+                                 <td styleCode="Rrule">3.6</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Hyperuricemia<footnote ID="Tb1ftb">Grouped term that includes other related terms</footnote>
+                                 </td>
+                                 <td styleCode="Rrule">1.1</td>
+                                 <td styleCode="Rrule">3.5</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Back pain</td>
+                                 <td styleCode="Rrule">2.2</td>
+                                 <td styleCode="Rrule">3.3</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Abdominal pain or discomfort<footnoteRef IDREF="Tb1ftb"/>
+                                 </td>
+                                 <td styleCode="Rrule">2.2</td>
+                                 <td styleCode="Rrule">3.1</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Bronchitis</td>
+                                 <td styleCode="Rrule">2.5</td>
+                                 <td styleCode="Rrule">3.0</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Pain in extremity</td>
+                                 <td styleCode="Rrule">1.7</td>
+                                 <td styleCode="Rrule">3.0</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Anemia</td>
+                                 <td styleCode="Rrule">1.9</td>
+                                 <td styleCode="Rrule">2.8</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">Elevated liver enzymes<footnoteRef IDREF="Tb1ftb"/>
+                                 </td>
+                                 <td styleCode="Rrule">0.8</td>
+                                 <td styleCode="Rrule">2.1</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        <paragraph>In the cardiovascular outcomes trial, in which 7,001 patients were exposed to NEXLETOL and 6,964 patients were exposed to placebo for a median of 3.1 years <content styleCode="italics">[see <linkHtml href="#S14.1">Clinical Studies, (14.1)</linkHtml>]</content>, adverse reactions led to discontinuation of treatment in 11% of NEXLETOL-treated patients and 10% of placebo-treated patients.  Adverse reactions reported in at least 2% of NEXLETOL-treated patients and 0.5% greater than placebo are shown in Table 2.</paragraph>
+                        <table width="85%">
+                           <caption>Table 2.  Adverse Reactions (≥ 2% and 0.5% greater than placebo) in NEXLETOL-Treated Patients with CVD or at High Risk for CVD (Trial 1) </caption>
+                           <col width="33%" align="left" valign="bottom"/>
+                           <col width="34%" align="center" valign="bottom"/>
+                           <col width="33%" align="center" valign="bottom"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule" align="center">Adverse Reaction</th>
+                                 <th styleCode="Rrule">Placebo<br/>(N=6,964)<br/> %</th>
+                                 <th styleCode="Rrule">NEXLETOL<br/>(N=7,001)<br/> %</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Hyperuricemia<footnote ID="Tb2fta">Grouped term that includes other related terms</footnote>
+                                 </td>
+                                 <td styleCode="Rrule">8</td>
+                                 <td styleCode="Rrule">16</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Renal impairment<footnote>Renal impairment includes laboratory related terms including glomerular filtration rate decreased, blood creatinine increased and hematuria</footnote>
+                                 </td>
+                                 <td styleCode="Rrule">9</td>
+                                 <td styleCode="Rrule">11</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Anemia</td>
+                                 <td styleCode="Rrule">4</td>
+                                 <td styleCode="Rrule">5</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Elevated liver enzymes<footnoteRef IDREF="Tb2fta"/>
+                                 </td>
+                                 <td styleCode="Rrule">3</td>
+                                 <td styleCode="Rrule">4</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Muscle spasms</td>
+                                 <td styleCode="Rrule">3</td>
+                                 <td styleCode="Rrule">4</td>
+                              </tr>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule">Gout</td>
+                                 <td styleCode="Rrule">2</td>
+                                 <td styleCode="Rrule">3</td>
+                              </tr>
+                              <tr>
+                                 <td styleCode="Lrule Rrule">Cholelithiasis</td>
+                                 <td styleCode="Rrule">1</td>
+                                 <td styleCode="Rrule">2</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                     <component>
+                        <section>
+                           <id root="f2597e3a-7d04-4ff9-8d22-cfde8e1aea39"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Other Adverse Reactions</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                           <component>
+                              <section>
+                                 <id root="178b84d1-4a19-4d4c-ae2f-33f83488b2fa"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Tendon Rupture</content>
+                                    </paragraph>
+                                    <paragraph>In the hypercholesterolemia trials, tendon rupture occurred in 0.5% of NEXLETOL-treated patients versus 0% of placebo-treated patients. In the cardiovascular outcomes trial, tendon rupture events occurred in 1.2% of NEXLETOL-treated patients versus 0.9% of placebo-treated patients.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="a9fce048-4a67-4c69-adc1-7706a6cfaf5c"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Gout</content>
+                                    </paragraph>
+                                    <paragraph>In the hypercholesterolemia trials, gout occurred in 1.5% of NEXLETOL-treated patients versus 0.4% of placebo-treated patients. In the cardiovascular outcomes trial, gout occurred in 3.2% of NEXLETOL-treated patients versus 2.2% of placebo-treated patients.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="3d8775a9-29e1-4b71-85e4-4800bb56c2fa"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Laboratory Tests</content>
+                              </paragraph>
+                              <paragraph>NEXLETOL was associated with persistent changes in multiple laboratory tests that occurred within the first 4 weeks of treatment and returned to baseline following discontinuation of treatment.</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                           <component>
+                              <section>
+                                 <id root="b1799564-3665-46c3-8285-8b48e60288f5"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Increase in Creatinine and Blood Urea Nitrogen</content>
+                                    </paragraph>
+                                    <paragraph>In the hypercholesterolemia trials, there was a mean increase in serum creatinine of 0.05 mg/dL compared to baseline with NEXLETOL at Week 12. Approximately 3.8% of patients treated with NEXLETOL had blood urea nitrogen values that doubled (versus 1.5% placebo), and about 2.2% of patients had creatinine values that increased by 0.5 mg/dL (versus 1.1% placebo). In the cardiovascular outcomes trial, 7.1% of patients had creatinine values that increased by 0.5 mg/dL (versus 5.5% placebo) and 9.5% of patients in the NEXLETOL group had BUN values that increased ≥ 2× baseline (versus 6.2% placebo).</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="40f3c786-ee4a-406f-a0f2-c7c41c418fe5"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Decrease in Hemoglobin and Leukocytes</content>
+                                    </paragraph>
+                                    <paragraph>In the hypercholesterolemia trials, approximately 5.1% of patients treated with NEXLETOL (versus 2.3% placebo) had decreases in hemoglobin levels of 2 or more g/dL and below the lower limit of normal on one or more occasion.  Anemia was reported in 2.8% of patients treated with NEXLETOL and 1.9% of patients treated with placebo.  Approximately 9.0% of NEXLETOL-treated patients with normal baseline leukocyte count had a decrease to less than the lower limit of normal on one or more occasion (versus 6.7% placebo). Leukocyte decrease was generally asymptomatic and did not require medical intervention.  In the hypercholesterolemia trials, there was a small imbalance in skin or soft tissue infections, including cellulitis (0.8% versus 0.4%), but there was no imbalance in other infections.</paragraph>
+                                    <paragraph>In the cardiovascular outcomes trial, 10.8% of patients (versus 7.4% placebo) had a decrease in hemoglobin of 2 or more g/dL and below the lower limit of normal.  Anemia was reported in 4.7% of patients treated with NEXLETOL and 3.9% of patients treated with placebo.  There were 9.3% of NEXLETOL-treated patients with a leukocyte count below the lower limit of normal (and normal at baseline) at any point (versus 6.8% placebo).</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="d793d903-738f-44d1-a694-22c1fdab7523"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Increase in Platelet Count</content>
+                                    </paragraph>
+                                    <paragraph>In the hypercholesterolemia trials, approximately 10.1% of patients (versus 4.7% placebo) had increases in platelet counts of 100× 10<sup>9</sup>/L or more on one or more occasion.  In the cardiovascular outcomes trial, 18.6% of patients in the NEXLETOL-treated group (versus 10.2% placebo) had an increase in platelet count of 100 × 10<sup>9</sup>/L or more. Platelet count increase was asymptomatic and did not result in increased risk for thromboembolic events.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="5928b40e-e676-4838-8281-b93f0c0e8971"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Increase in Liver Enzymes</content>
+                                    </paragraph>
+                                    <paragraph>In the hypercholesterolemia trials, increases in hepatic transaminases (AST and/or ALT) were observed with NEXLETOL.  In most cases, the elevations were transient and resolved or improved with continued therapy or after discontinuation of therapy.  Increases to more than 3× the upper limit of normal (ULN) in AST occurred in 1.4% of patients treated with NEXLETOL versus 0.4% of placebo patients, and increases to more than 5× ULN occurred in 0.4% of NEXLETOL-treated versus 0.2% of placebo-treated patients.  Increases in ALT occurred with similar incidence between NEXLETOL- and placebo-treated patients.  Elevations in transaminases were generally asymptomatic and not associated with elevations ≥ 2× ULN in bilirubin or with cholestasis.</paragraph>
+                                    <paragraph>In the cardiovascular outcomes trial, the incidence of repeated and confirmed ALT and/or AST &gt;3× ULN was 1.6% in the NEXLETOL-treated group (versus 1.0% placebo).  A higher percentage of patients in the NEXLETOL-treated group had hepatic enzyme elevations versus placebo (4.5% versus 3.0%, respectively).</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="5a1c0b31-e477-4015-b743-602f79a85b80"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Increase in Creatine Kinase</content>
+                                    </paragraph>
+                                    <paragraph>In the hypercholesterolemia trials, approximately 1.0% of patients (versus 0.6% placebo) had elevations of CK levels of 5 or more times the normal value on one or more occasions, and 0.4% of patients (versus 0.2% placebo) had elevations of CK levels of 10 or more times.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S6.2">
+                     <id root="92aee94b-4ff5-4b3a-9709-2b3500535c12"/>
+                     <code code="90375-7" codeSystem="2.16.840.1.113883.6.1" displayName="POSTMARKETING EXPERIENCE SECTION"/>
+                     <title>6.2 Postmarketing Experience</title>
+                     <text>
+                        <paragraph>The following adverse reactions have been identified during post approval use of NEXLETOL. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.</paragraph>
+                        <paragraph>
+                           <content styleCode="italics">Immune System Disorders:</content> Hypersensitivity reactions including: angioedema, wheezing, rash, and urticaria.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S7">
+               <id root="86624399-122f-4059-ad00-5158056151eb"/>
+               <code code="34073-7" codeSystem="2.16.840.1.113883.6.1" displayName="DRUG INTERACTIONS SECTION"/>
+               <title>7 DRUG INTERACTIONS</title>
+               <text>
+                  <paragraph>Table 3 includes a list of drugs with clinically important drug interactions when administered concomitantly with NEXLETOL and instructions for preventing or managing them.</paragraph>
+                  <table width="80%">
+                     <caption>Table 3. Clinically Important Drug Interactions with NEXLETOL</caption>
+                     <col width="35%" align="left" valign="top"/>
+                     <col width="65%" align="left" valign="top"/>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2">
+                              <content styleCode="bold">Simvastatin</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" valign="middle">
+                              <content styleCode="italics">Clinical Impact:</content>
+                           </td>
+                           <td styleCode="Rrule">Concomitant use of NEXLETOL with simvastatin causes an increase in simvastatin concentration and may increase the risk of simvastatin-related myopathy <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="italics">Intervention</content>:</td>
+                           <td styleCode="Rrule">Avoid concomitant use of NEXLETOL with simvastatin greater than 20 mg.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2">
+                              <content styleCode="bold">Pravastatin</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="italics">Clinical Impact:</content>
+                           </td>
+                           <td styleCode="Rrule">Concomitant use of NEXLETOL with pravastatin causes an increase in pravastatin concentration and may increase the risk of pravastatin-related myopathy <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="italics">Intervention:</content>
+                           </td>
+                           <td styleCode="Rrule">Avoid concomitant use of NEXLETOL with pravastatin greater than 40 mg.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule" colspan="2">
+                              <content styleCode="bold">Fibrates</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="italics">Clinical Impact:</content>
+                           </td>
+                           <td styleCode="Rrule">Concomitant administration of fibrates with NEXLETOL resulted in increased triglycerides and decreased high-density lipoprotein cholesterol (HDL-C) in some patients in clinical studies and post-marketing reports. Reversibility of both increased triglycerides and decreased HDL-C levels was observed when either NEXLETOL or fibrate therapy was discontinued.</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule Rrule">
+                              <content styleCode="italics">Intervention:</content>
+                           </td>
+                           <td styleCode="Rrule">Monitor triglycerides and HDL-C four weeks after initial concomitant use of NEXLETOL and a fibrate and periodically thereafter.  If increased triglycerides or decreased HDL-C levels are detected, discontinue NEXLETOL or fibrate therapy based on clinical judgment.  Monitor triglycerides and HDL-C levels until levels return to baseline.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20260115"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>
+                              <content styleCode="italics">Simvastatin:</content> Avoid concomitant use of NEXLETOL with simvastatin greater than 20 mg. (<linkHtml href="#S7">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="italics">Pravastatin:</content> Avoid concomitant use of NEXLETOL with pravastatin greater than 40 mg. (<linkHtml href="#S7">7</linkHtml>)</item>
+                           <item>
+                              <content styleCode="italics">Fibrates:</content> Concomitant use of NEXLETOL with fibrates may increase triglycerides and decrease high-density lipoprotein cholesterol. (<linkHtml href="#S7">7</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+            </section>
+         </component>
+         <component>
+            <section ID="S8">
+               <id root="228b80b5-7769-46c3-bb77-1af12231c699"/>
+               <code code="43684-0" codeSystem="2.16.840.1.113883.6.1" displayName="USE IN SPECIFIC POPULATIONS SECTION"/>
+               <title>8 USE IN SPECIFIC POPULATIONS</title>
+               <effectiveTime value="20260115"/>
+               <excerpt>
+                  <highlight>
+                     <text>
+                        <list listType="unordered" styleCode="disc">
+                           <item>
+                              <content styleCode="italics">Pregnancy:</content> Based on mechanism of action, may cause fetal harm. (<linkHtml href="#S8.1">8.1</linkHtml>)</item>
+                        </list>
+                     </text>
+                  </highlight>
+               </excerpt>
+               <component>
+                  <section ID="S8.1">
+                     <id root="565fe2d9-5769-4ea2-b4a7-a08a04b1aa8f"/>
+                     <code code="42228-7" codeSystem="2.16.840.1.113883.6.1" displayName="PREGNANCY SECTION"/>
+                     <title>8.1 Pregnancy</title>
+                     <effectiveTime value="20260115"/>
+                     <component>
+                        <section>
+                           <id root="5166180e-a5ac-4f9e-ac92-f518cf4159c6"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>Discontinue NEXLETOL when pregnancy is recognized unless the benefits of therapy outweigh the potential risks to the fetus.</paragraph>
+                              <paragraph>There are insufficient data on NEXLETOL use in pregnant women to evaluate for a drug-associated risk of major birth defects, miscarriage, or adverse maternal or fetal outcomes.  In animal reproduction studies, bempedoic acid was not teratogenic in rats and rabbits when administered at doses resulting in exposures up to 11 and 12 times, respectively, the human exposures at the maximum clinical dose, based on AUC <content styleCode="italics">(see <linkHtml href="#data">Data</linkHtml>)</content>.  NEXLETOL decreases cholesterol synthesis and possibly the synthesis of other biologically active substances derived from cholesterol; therefore, NEXLETOL may cause fetal harm when administered to pregnant women based on the mechanism of action <content styleCode="italics">[see <linkHtml href="#S12.1">Clinical Pharmacology (12.1)</linkHtml>]</content>.  In addition, treatment of hypercholesterolemia is not generally necessary during pregnancy.  Atherosclerosis is a chronic process and the discontinuation of lipid-lowering drugs during pregnancy should have little impact on the outcome of long-term therapy of primary hypercholesterolemia for most patients.</paragraph>
+                              <paragraph>The estimated background risk of major birth defects and miscarriage for the indicated population is unknown.  In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively.</paragraph>
+                              <paragraph>Report pregnancies to the Esperion Therapeutics, Inc. Adverse Event reporting line at 1-833-377-7633.</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="data">
+                           <id root="12dca055-871b-4963-b5a7-08c1bee5ddef"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                           <component>
+                              <section>
+                                 <id root="9a355f5f-709f-44b4-905c-9f4ecbeb6ffe"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Animal Data</content>
+                                    </paragraph>
+                                    <paragraph>Bempedoic acid was not teratogenic when given orally at doses of 60 and 80 mg/kg/day, resulting in 11 and 12 times the systemic exposure in humans at the maximum recommended human dose (MRHD) of 180 mg to pregnant rats and rabbits, respectively.  In an embryofetal development study in rats, bempedoic acid was given orally to pregnant rats at 10, 30, and 60 mg/kg/day during the period of organogenesis from gestation day 6 to 17.  There were increases in the incidence of non-adverse fetal skeletal variations (bent long bones and bent scapula and incomplete ossification) at doses ≥ 10 mg/kg/day (less than the clinical exposure) in the absence of maternal toxicity.  At maternally toxic doses, bempedoic acid caused decreases in the numbers of viable fetuses, increases in post-implantation loss, and increased total resorptions at 60 mg/kg/day (11 times MRHD) and reduced fetal body weight at ≥ 30 mg/kg/day (4 times the MRHD).  No adverse development effects were observed when bempedoic acid was given to pregnant rabbits during the period of organogenesis (gestation day 6 to 18) at doses up to 80 mg/kg/day (12 times MRHD).</paragraph>
+                                    <paragraph>In a pre- and post-natal development study in pregnant rats given oral doses of bempedoic acid at 5, 10, 20, 30 and 60 mg/kg/day throughout pregnancy and lactation (gestation day 6 to lactation day 20), there were adverse effects on delivery in the presence of maternal toxicity, including: increases in stillborn pups, reductions in numbers of live pups, pup survival, pup growth and slight delays in learning and memory at ≥ 10 mg/kg/day (at exposures equivalent to the MRHD).</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.2">
+                     <id root="5bccf2bb-d8e0-4aa6-aafb-bc81f8d5b484"/>
+                     <code code="77290-5" codeSystem="2.16.840.1.113883.6.1" displayName="LACTATION SECTION"/>
+                     <title>8.2 Lactation</title>
+                     <effectiveTime value="20260115"/>
+                     <component>
+                        <section>
+                           <id root="7b6b94b9-01a7-48d6-8a4b-2f6f153bbd1c"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Risk Summary</content>
+                              </paragraph>
+                              <paragraph>Bempedoic acid was detected in breast milk of lactating women who received six consecutive daily doses of 180 mg bempedoic acid. The mean daily infant dose of bempedoic acid through breast milk was approximately 0.03 mg/day (95% CI: 0.02; 0.05) with a mean calculated daily infant oral dosage of 0.012 mg/kg/day based on a standard infant milk intake of 150 mL/kg/day. The mean (SD) relative infant dose (RID) was approximately 0.5 (0.2)% of the maternal weight-adjusted dosage <content styleCode="italics">(see <linkHtml href="#data2">Data</linkHtml>)</content>. Concentrations of ESP15228, the active metabolite, in breast milk were below the limit of quantitation (20 ng/mL) in 7 of 8 subjects studied. There is no information regarding the effects of NEXLETOL on the breastfed infant, or the effects on milk production.  NEXLETOL decreases cholesterol synthesis and possibly the synthesis of other biologically active substances derived from cholesterol and may cause harm to the breastfed infant<content styleCode="italics">.</content> The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for NEXLETOL and any potential adverse effects on the breastfed infant from NEXLETOL or from the underlying maternal condition <content styleCode="italics">[see <linkHtml href="#S12.1">Clinical Pharmacology (12.1)</linkHtml>].</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section ID="data2">
+                           <id root="9f7fa3ac-f861-477e-8adb-4b6f93659332"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Data</content>
+                              </paragraph>
+                              <paragraph>A lactation study in 8 healthy lactating women evaluated the concentrations of bempedoic acid in mature breast milk. NEXLETOL 180 mg oral tablet was given once daily for six consecutive days. The geometric mean estimate of bempedoic acid C<sub>max</sub> in breast milk was 118 ng/mL (range: 79.6 to 251 ng/mL) with a median T<sub>max</sub> of about 3 hours.</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.4">
+                     <id root="1c2d6544-e02e-4d52-8c7c-5b2501500c9c"/>
+                     <code code="34081-0" codeSystem="2.16.840.1.113883.6.1" displayName="PEDIATRIC USE SECTION"/>
+                     <title>8.4 Pediatric Use</title>
+                     <text>
+                        <paragraph>The safety and effectiveness of NEXLETOL have not been established in pediatric patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.5">
+                     <id root="be83fdde-50f1-4bb2-a500-ad6dfdc8b89f"/>
+                     <code code="34082-8" codeSystem="2.16.840.1.113883.6.1" displayName="GERIATRIC USE SECTION"/>
+                     <title>8.5 Geriatric Use</title>
+                     <text>
+                        <paragraph>Of the 3,009 adult patients in the primary hypercholesterolemia trials of NEXLETOL, 1,753 (58%) were 65 years of age and older, while 478 (16%) were 75 years of age and older.</paragraph>
+                        <paragraph>Of the 13,970 adult patients in the cardiovascular outcomes trial <content styleCode="italics">[see <linkHtml href="#S14.1">Clinical Studies (14.1)</linkHtml>]</content>, 8,204 (59%) were 65 years of age and older, while 2,107 (15%) were 75 years of age and older.</paragraph>
+                        <paragraph>No overall differences in safety or effectiveness of NEXLETOL have been observed between patients 65 years of age and older and younger adult patients.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S8.7">
+                     <id root="08c67050-a55b-4686-a9e5-3ca74f673f1b"/>
+                     <code code="88829-7" codeSystem="2.16.840.1.113883.6.1" displayName="HEPATIC IMPAIRMENT SUBSECTION"/>
+                     <title>8.7 Hepatic Impairment</title>
+                     <text>
+                        <paragraph>No dosage adjustment is necessary in patients with mild or moderate hepatic impairment (Child-Pugh A or B) <content styleCode="italics">[see <linkHtml href="#S12.3">Clinical Pharmacology (12.3)</linkHtml>]</content>.  Patients with severe hepatic impairment (Child-Pugh C) have not been studied.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S10">
+               <id root="37fd8277-efb6-4db0-966b-ff13e4d20ff5"/>
+               <code code="34088-5" codeSystem="2.16.840.1.113883.6.1" displayName="OVERDOSAGE SECTION"/>
+               <title>10 OVERDOSAGE</title>
+               <text>
+                  <paragraph>There is no clinical experience with NEXLETOL overdose.  In the event of an overdosage, consider contacting the Poison Help line (1-800-222-1222) or a medical toxicologist for additional overdosage management recommendations.</paragraph>
+               </text>
+               <effectiveTime value="20260115"/>
+            </section>
+         </component>
+         <component>
+            <section ID="S11">
+               <id root="966fab4d-3a78-467d-98e2-296f0d889489"/>
+               <code code="34089-3" codeSystem="2.16.840.1.113883.6.1" displayName="DESCRIPTION SECTION"/>
+               <title>11 DESCRIPTION</title>
+               <text>
+                  <paragraph>NEXLETOL tablets, for oral use, contain bempedoic acid, an adenosine triphosphate-citrate lyase (ACL) inhibitor.  The chemical name for bempedoic acid is 8-hydroxy-2,2,14,14-tetramethyl-pentadecanedioic acid.  The molecular formula is C<sub>19</sub>H<sub>36</sub>O<sub>5</sub>, and the molecular weight is 344.5 grams per mole.  Bempedoic acid is a white to off-white crystalline powder that is highly soluble in ethanol, isopropanol and pH 8 phosphate buffer, and insoluble in water and aqueous solutions below pH 5.</paragraph>
+                  <paragraph>Structural formula:</paragraph>
+                  <renderMultiMedia referencedObject="MM1"/>
+                  <paragraph>Each film-coated tablet of NEXLETOL contains 180 mg of bempedoic acid and the following inactive ingredients: colloidal silicon dioxide, hydroxyl propyl cellulose, lactose monohydrate, magnesium stearate, microcrystalline cellulose, and sodium starch glycolate.  The film coating comprises of partially hydrolyzed polyvinyl alcohol, polyethylene glycol, talc, and titanium dioxide.</paragraph>
+               </text>
+               <effectiveTime value="20260115"/>
+               <component>
+                  <observationMedia ID="MM1">
+                     <text>Chemical Structure</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nexletol-01.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S12">
+               <id root="34d0ea00-5c75-4b3d-9b56-2f64a03616d6"/>
+               <code code="34090-1" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL PHARMACOLOGY SECTION"/>
+               <title>12 CLINICAL PHARMACOLOGY</title>
+               <effectiveTime value="20260115"/>
+               <component>
+                  <section ID="S12.1">
+                     <id root="5b6e81a9-4bf5-4dd7-82bd-eb516944fa4e"/>
+                     <code code="43679-0" codeSystem="2.16.840.1.113883.6.1" displayName="MECHANISM OF ACTION SECTION"/>
+                     <title>12.1	Mechanism of Action</title>
+                     <text>
+                        <paragraph>Bempedoic acid is an adenosine triphosphate-citrate lyase (ACL) inhibitor that lowers LDL-C by inhibition of cholesterol synthesis in the liver.  ACL is an enzyme upstream of 3-hydroxy-3-methyl-glutaryl-coenzyme A (HMG-CoA) reductase in the cholesterol biosynthesis pathway.  Bempedoic acid and its active metabolite, ESP15228, require coenzyme A (CoA) activation by very long-chain acyl-CoA synthetase 1 (ACSVL1) to ETC-1002-CoA and ESP15228-CoA, respectively.  ACSVL1 is expressed primarily in the liver.  Inhibition of ACL by ETC-1002-CoA results in decreased cholesterol synthesis in the liver and lowers LDL-C in blood via upregulation of low-density lipoprotein receptors.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.2">
+                     <id root="fdfd7831-dd75-44d9-b9cc-9d6f4668bfb2"/>
+                     <code code="43681-6" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACODYNAMICS SECTION"/>
+                     <title>12.2 Pharmacodynamics</title>
+                     <text>
+                        <paragraph>Administration of bempedoic acid alone, or in combination with other lipid modifying agents, decreases LDL-C, non-high density lipoprotein cholesterol (non-HDL-C), apolipoprotein B (apo B), and total cholesterol (TC) in patients with hypercholesterolemia.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                     <component>
+                        <section>
+                           <id root="927e5eaa-1a12-4e13-87cf-4e7847d1b1a1"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Cardiac Electrophysiology</content>
+                              </paragraph>
+                              <paragraph>At a dose of 240 mg (1.3 times the approved recommended dose), bempedoic acid does not prolong the QT interval to any clinically relevant extent.</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S12.3">
+                     <id root="4399d8ca-54d9-4c50-af07-abb271091eb4"/>
+                     <code code="43682-4" codeSystem="2.16.840.1.113883.6.1" displayName="PHARMACOKINETICS SECTION"/>
+                     <title>12.3 Pharmacokinetics</title>
+                     <text>
+                        <paragraph>Bempedoic acid pharmacokinetic parameters are presented as the mean [± standard deviation (SD)] unless otherwise specified.  The steady-state maximum plasma concentration (C<sub>max</sub>) and area under the curve (AUC) following multiple-dose administration of bempedoic acid at 180 mg/day were 20.6 ± 6.1 µg/mL and 289.0 ± 96.4 µg∙h/mL, respectively.  Bempedoic acid steady-state pharmacokinetics were generally linear over a range of &gt; 60 mg to 220 mg (approximately 33% to 122% of the recommended dosage of 180 mg daily).  There were no time-dependent changes in bempedoic acid pharmacokinetics following repeat administration at the recommended dosage, and bempedoic acid steady-state was achieved after 7 days.  The mean accumulation ratio was approximately 2.3-fold.</paragraph>
+                        <paragraph>The steady-state C<sub>max</sub> and AUC of the active metabolite (ESP15228) of bempedoic acid were 2.8 ± 0.9 µg/mL and 51.2 ± 17.2 µg∙h/mL, respectively.  ESP15228 likely made a minor contribution to the overall clinical activity of bempedoic acid based on systemic exposure, relative potency, and pharmacokinetic properties.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                     <component>
+                        <section>
+                           <id root="eda5e031-9dfd-4b0c-b07b-3583f931c69a"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Absorption</content>
+                              </paragraph>
+                              <paragraph>Pharmacokinetic data indicate that bempedoic acid is absorbed with a median time to maximum concentration of 3.5 hours when administered as NEXLETOL 180 mg tablets.</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                           <component>
+                              <section>
+                                 <id root="09a6aa96-ea2b-486c-ae25-6b4634826bcf"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Effect of Food</content>
+                                    </paragraph>
+                                    <paragraph>Concomitant food administration had no effect on the oral bioavailability of bempedoic acid.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="a4370ee0-92a7-40d8-bee0-eef11bfd116f"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Distribution</content>
+                              </paragraph>
+                              <paragraph>The bempedoic acid apparent volume of distribution (V/F) was 18 L.  Plasma protein binding of bempedoic acid, its glucuronide and its active metabolite, ESP15228, were 99.3%, 98.8% and 99.2%, respectively.  Bempedoic acid does not partition into blood cells.</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="db4524a8-9117-4f34-ad45-cf5ff2da2068"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Elimination</content>
+                              </paragraph>
+                              <paragraph>The steady-state clearance (CL/F) of bempedoic acid was 11.2 mL/min after once-daily dosing; renal clearance of unchanged bempedoic acid represented less than 2% of total clearance.  The mean ± SD half-life for bempedoic acid in humans was 21 ± 11 hours at steady-state.</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                           <component>
+                              <section>
+                                 <id root="a546450e-2fb2-4429-a23f-1857d187dbab"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Metabolism</content>
+                                    </paragraph>
+                                    <paragraph>The primary route of elimination for bempedoic acid is through metabolism of the acyl glucuronide.  Bempedoic acid is also reversibly converted to an active metabolite (ESP15228) based on aldo-keto reductase activity observed <content styleCode="italics">in vitro</content> from human liver.  Mean plasma AUC metabolite/parent drug ratio for ESP15228 following repeat-dose administration was 18% and remained constant over time.  Both compounds are converted to inactive glucuronide conjugates <content styleCode="italics">in vitro</content> by UGT2B7.  Bempedoic acid, ESP15228 and their respective conjugated forms were detected in plasma with bempedoic acid accounting for the majority (46%) of the AUC<sub>0-48h</sub> and its glucuronide being the next most prevalent (30%).  ESP15228 and its glucuronide represented 10% and 11% of the plasma AUC<sub>0-48h</sub>, respectively.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="be414e30-6257-4c24-98d1-eb1a4ce23161"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Excretion</content>
+                                    </paragraph>
+                                    <paragraph>Following single oral administration of 240 mg of bempedoic acid (1.3 times the approved recommended dose), approximately 70% of the total dose (bempedoic acid and its metabolites) was recovered in urine, primarily as the acyl glucuronide conjugate of bempedoic acid, and approximately 30% was recovered in feces.  Less than 5% of the administered dose was excreted as unchanged bempedoic acid in feces and urine combined.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="29afac1a-1201-4561-a776-accbce34f8e0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Specific Populations</content>
+                              </paragraph>
+                              <paragraph>No clinically significant differences in the pharmacokinetics of bempedoic acid were observed based on age, gender, race, weight, renal impairment (mild, moderate, and severe renal impairment or renal failure), or mild (Child-Pugh Class A) and moderate (Child-Pugh Class B) hepatic impairment. The effect of severe (Child-Pugh Class C) hepatic impairment on bempedoic acid pharmacokinetics is unknown.</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="e20da767-3b77-4b7a-8420-0e61f582e2f0"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Drug Interaction Studies</content>
+                              </paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                           <component>
+                              <section>
+                                 <id root="9180abae-e2ad-45bd-bb71-d49a07bb6a16"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Cytochrome P450 Substrates</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="italics">In vitro</content> metabolic interaction studies suggest that bempedoic acid, as well as its active metabolite and glucuronide forms are not metabolized by and do not interact with cytochrome P450 enzymes.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="705bf494-7fe1-4d4e-b28c-60b4dc9c07ef"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Transporter-mediated Drug Interactions</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="italics">In vitro</content> drug interaction studies suggest bempedoic acid, as well as its active metabolite and glucuronide form, are not substrates of commonly characterized drug transporters with the exception of bempedoic acid glucuronide, which is an OAT3 substrate.  Bempedoic acid weakly inhibits OAT3 at high multiples of clinically relevant concentrations, and bempedoic acid and its glucuronide weakly inhibit OATP1B1, and OATP1B3 at clinically relevant concentrations.  Bempedoic acid weakly inhibits OAT2 <content styleCode="italics">in vitro</content>, which is likely the mechanism responsible for minor elevations in serum creatinine and uric acid <content styleCode="italics">[see <linkHtml href="#S6.1">Adverse Reactions (6.1)</linkHtml>]</content>.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="e0db0bc3-7706-4657-a63d-3c98229d83a7"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Probenecid</content>
+                                    </paragraph>
+                                    <paragraph>Administration of bempedoic acid 180 mg with steady-state probenecid resulted in a 1.7- and a 1.2-fold increase in bempedoic acid AUC and C<sub>max</sub>, respectively.  AUC and C<sub>max</sub> for bempedoic acid active metabolite (ESP15228) were increased 1.9- and 1.5-fold, respectively.  These elevations are not clinically meaningful and do not impact dosing recommendations.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="35cfc931-7645-441b-8463-61d1704f3b09"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Statins</content>
+                                    </paragraph>
+                                    <paragraph>The pharmacokinetic interactions between bempedoic acid (at systemic exposure relevant to the indicated CVD population) and simvastatin 20 mg, atorvastatin 10 mg, pravastatin 40 mg, and rosuvastatin 10 mg were evaluated in clinical trials.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                                 <component>
+                                    <section>
+                                       <id root="6aea45b2-5213-40f6-a1d2-043d3ddf37e3"/>
+                                       <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                       <text>
+                                          <paragraph>Simvastatin: Administration of simvastatin 20 mg with 240 mg of bempedoic acid or 40 mg with 180 mg of bempedoic acid in healthy subjects at steady-state resulted in approximately 2-fold (91% for 20 mg and 96% for 40 mg) and 1.5-fold (54% for 20 mg and 52% for 40 mg) increases in simvastatin acid AUC and C<sub>max</sub>, respectively <content styleCode="italics">[see <linkHtml href="#S7">Drug Interactions (7)</linkHtml>]</content>.</paragraph>
+                                       </text>
+                                       <effectiveTime value="20260115"/>
+                                    </section>
+                                 </component>
+                                 <component>
+                                    <section>
+                                       <id root="3f8a9bc3-95e4-4dba-bdc4-46c155482049"/>
+                                       <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                       <text>
+                                          <paragraph>Pravastatin: Administration of pravastatin 40 mg with steady-state bempedoic acid 240 mg in healthy subjects resulted in 99% (2-fold) and 104% (2-fold) increases in pravastatin acid AUC and C<sub>max</sub>, respectively <content styleCode="italics">[see <linkHtml href="#S7">Drug Interactions (7)</linkHtml>]</content>.</paragraph>
+                                       </text>
+                                       <effectiveTime value="20260115"/>
+                                    </section>
+                                 </component>
+                                 <component>
+                                    <section>
+                                       <id root="3969470f-a583-40a7-8268-bc1f90be5958"/>
+                                       <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                       <text>
+                                          <paragraph>Atorvastatin and Rosuvastatin: Elevations of 1.7-fold in AUC of atorvastatin, and rosuvastatin and/or their major metabolites were observed, suggesting a weak interaction.  These elevations were generally within the individual statin exposures and do not impact dosing recommendations.</paragraph>
+                                       </text>
+                                       <effectiveTime value="20260115"/>
+                                    </section>
+                                 </component>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="9efc7719-a44c-414f-b9a6-9253b990f29f"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Ezetimibe</content>
+                                    </paragraph>
+                                    <paragraph>Increases in AUC and C<sub>max</sub> for ezetimibe were less than 20% when a single dose of ezetimibe was taken with steady-state bempedoic acid.  Total ezetimibe (ezetimibe and its glucuronide form) and ezetimibe glucuronide AUC and C<sub>max</sub> increased approximately 1.6- and 1.8-fold, respectively.  These elevations are not clinically meaningful and do not impact dosing recommendations.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="db811785-a855-43ea-ba66-5065b86bfdaa"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Warfarin</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <content styleCode="italics">In vitro</content> studies indicate that bempedoic acid is not an inhibitor or inducer of CYP2C9.  Because warfarin is primarily eliminated through CYP2C9, its pharmacokinetics is not expected to be altered by bempedoic acid.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="a56c9457-c1d2-4a2f-a1de-ae323d28b1d2"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Other</content>
+                                    </paragraph>
+                                    <paragraph>Bempedoic acid had no effect on the pharmacokinetics of metformin or the oral contraceptive Ortho-Novum 1/35.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S13">
+               <id root="0784ebc3-5ae5-40fe-baee-fbbe326d2b07"/>
+               <code code="43680-8" codeSystem="2.16.840.1.113883.6.1" displayName="NONCLINICAL TOXICOLOGY SECTION"/>
+               <title>13 NONCLINICAL TOXICOLOGY</title>
+               <effectiveTime value="20260115"/>
+               <component>
+                  <section ID="S13.1">
+                     <id root="50b04cdd-fc4a-4696-9097-dbcb21a6c67e"/>
+                     <code code="34083-6" codeSystem="2.16.840.1.113883.6.1" displayName="CARCINOGENESIS &amp; MUTAGENESIS &amp; IMPAIRMENT OF FERTILITY SECTION"/>
+                     <title>13.1	Carcinogenesis, Mutagenesis, Impairment of Fertility</title>
+                     <text>
+                        <paragraph>Bempedoic acid was negative for mutagenicity in an <content styleCode="italics">in vitro</content> Ames assay and negative for clastogenicity in the vitro human lymphocyte chromosome aberration assay.  Bempedoic acid was negative in both <content styleCode="italics">in vivo</content> mouse micronucleus and <content styleCode="italics">in vivo</content> rat bone marrow micronucleus/liver comet assay.  In a 2-year rat carcinogenicity study, Wistar rats were given oral doses of bempedoic acid at 3, 10 and 30 mg/kg/day.  An increased incidence of liver hepatocellular adenomas and hepatocellular adenomas combined with carcinomas, thyroid gland follicular cell adenoma and follicular cell adenomas combined with carcinomas, and pancreatic islet cell adenomas combined with carcinomas were observed in male rats at the dose of 30 mg/kg/day (exposure equivalent to the maximum recommended human dose (MRHD), based on AUC).  In a 2-year mice carcinogenicity study, CD-1 mice were given oral doses of bempedoic acid at 25, 75 and 150 mg/kg/day.  Bempedoic acid-related increases in the incidence of liver hepatocellular adenomas, hepatocellular carcinomas and hepatocellular adenomas combined with carcinomas in male mice were observed at 75 and 150 mg/kg/day (exposures equivalent to the MRHD).  Observations of liver and thyroid tumors are consistent with PPAR alpha agonism in rodents.  The human relevance of pancreatic islet cell tumor findings is unknown.</paragraph>
+                        <paragraph>In fertility and early embryofetal development study in rats, bempedoic acid was given orally to male and female rats at 10, 30 and 60 mg/kg/day.  Males were dosed for 28 days prior to mating and females were dosed 14 days prior to mating through gestation day 7.  No adverse effects on fertility were observed in females in the absence of maternal toxicity.  No effects were observed on male fertility outcomes, but decreases in sperm counts were observed at 60 mg/kg/day (9 times the MRHD).</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S14">
+               <id root="cb5acaf3-1f60-46e7-a78f-382c717aaf9f"/>
+               <code code="34092-7" codeSystem="2.16.840.1.113883.6.1" displayName="CLINICAL STUDIES SECTION"/>
+               <title>14 CLINICAL STUDIES</title>
+               <effectiveTime value="20260115"/>
+               <component>
+                  <section ID="S14.1">
+                     <id root="71f72be2-d467-40db-844d-43ed13179f4a"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.1 Cardiovascular Outcomes Trial in Adults With CVD or at High Risk for CVD</title>
+                     <text>
+                        <paragraph>Trial 1 (NCT02993406) was a randomized, double-blind, placebo-controlled, event-driven trial in 13,970 adult patients with established CVD (70%) or at high risk for a CVD event but without CVD (30%) who were not receiving recommended statin dosages.  Patients with established CVD had documented history of coronary artery disease, symptomatic peripheral arterial disease, and/or cerebrovascular atherosclerotic disease.  Patients without established CVD were considered at high risk for CVD based on meeting at least one of the following criteria:</paragraph>
+                        <list listType="ordered">
+                           <item>
+                              <caption>(1)</caption> Diabetes mellitus (type 1 or type 2) in females over 65 years of age or males over 60 years of age;</item>
+                           <item>
+                              <caption>(2)</caption> A Reynolds Risk score &gt; 30% or a SCORE Risk score &gt; 7.5% over 10 years.  Reynolds risk score and SCORE risk score evaluate a 10-year risk of having a cardiovascular (CV) event.  The Reynolds risk score is based on the following risk factors: sex, age, smoking status, systolic blood pressure, total cholesterol, HDL cholesterol, high sensitivity C-reactive protein (hsCRP), and familial history of CVD events.  LDL-C is an additional risk factor considered in SCORE risk score; or</item>
+                           <item>
+                              <caption>(3)</caption> A coronary artery calcium score &gt;400 Agatston units at any time in the past.</item>
+                        </list>
+                        <paragraph>Patients were randomized 1:1 to receive either oral NEXLETOL 180 mg per day (n = 6,992) or placebo (n = 6,978), alone or as an add on to other background lipid-lowering therapies.  Background therapy could include less than low-intensity statin dosages. Overall, 95.3% of adult patients were followed until the end of the trial or death. The median follow-up duration was 3.4 years.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                     <component>
+                        <section>
+                           <id root="d90ab2eb-5da3-4dd9-93c6-fff38487fde2"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Baseline Demographics and Disease Characteristics</content>
+                              </paragraph>
+                              <paragraph>At baseline, the mean age was 66 years (range 21 to 92 years), 59% were 65 years of age and older, 15% were 75 years of age and older, 48% were female, 91% were White, 2% were Black or African American, 4% were American Indian or Alaska Native, 2% were Asian, and 1% were other races; 17% identified as Hispanic or Latino ethnicity.</paragraph>
+                              <paragraph>Selected additional baseline characteristics included hypertension (85%), diabetes mellitus (46%), current tobacco user (22%), eGFR &lt; 60 mL/min per 1.73 m<sup>2</sup> (21%), and a mean body mass index of 30 kg/m<sup>2</sup>.  The mean baseline LDL-C was 139 mg/dL.  At baseline, 38% of patients were taking at least one lipid-modifying therapy, including less than low-intensity statin dosages (23%), ezetimibe (12%), or fibrates (5%).  Most patients were taking at least one other CV medication including acetylsalicylic acid (57%), selective beta blockers (52%), angiotensin converting enzyme inhibitors (40%), or angiotensin receptor blockers (32%).</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="20343acf-78f0-474e-b895-fb6938e86a97"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Efficacy Results</content>
+                              </paragraph>
+                              <paragraph>The risk for the primary composite endpoint (MACE-4: time to first occurrence of CV death, nonfatal myocardial infarction, nonfatal stroke, or coronary revascularization; p= 0.0037) and the key secondary composite endpoint (MACE-3: time to first occurrence of CV death, nonfatal myocardial infarction, or nonfatal stroke; p= 0.0058) was significantly reduced in NEXLETOL-treated patients compared to placebo-treated patients (see <linkHtml href="#Tb4.1">Table 4</linkHtml>). The difference between the NEXLETOL and placebo groups in mean percent change in LDL-C from baseline to Month 6 was -20% (95% CI: -21%, -19%).</paragraph>
+                              <table width="85%" ID="Tb4.1">
+                                 <caption>Table 4:  Major Cardiovascular Events in Adults with Established CVD or at High Risk for CVD (Trial 1)</caption>
+                                 <col width="50%" align="left" valign="middle"/>
+                                 <col width="20%" align="center" valign="middle"/>
+                                 <col width="10%" align="center" valign="middle"/>
+                                 <col width="20%" align="center" valign="middle"/>
+                                 <thead>
+                                    <tr>
+                                       <th styleCode="Lrule Rrule"/>
+                                       <th styleCode="Botrule Rrule" valign="bottom">NEXLETOL<br/>N=6,992</th>
+                                       <th styleCode="Botrule Rrule" valign="bottom">Placebo<br/>N=6,978</th>
+                                       <th styleCode="Botrule Rrule" valign="bottom">NEXLETOL vs. Placebo</th>
+                                    </tr>
+                                    <tr>
+                                       <th valign="bottom" styleCode="Lrule Rrule">Endpoint</th>
+                                       <th valign="bottom" styleCode="Rrule">n (%)</th>
+                                       <th valign="bottom" styleCode="Rrule">n (%)</th>
+                                       <th valign="bottom" styleCode="Rrule">Hazard Ratio<br/>(95% CI)</th>
+                                    </tr>
+                                 </thead>
+                                 <tfoot>
+                                    <tr>
+                                       <td colspan="4" align="left" valign="top">CI = confidence interval; MACE = major adverse cardiac event.<br/>
+                                          <sup>a</sup>Hazard ratio and corresponding 95% CI were based on a Cox proportional hazard model fitting treatment as explanatory variable.<br/>This table also presents the time to first occurrence for each of the components of MACE-4; patients may have been included in more than one category</td>
+                                    </tr>
+                                 </tfoot>
+                                 <tbody>
+                                    <tr styleCode="Botrule">
+                                       <td colspan="4" styleCode="Lrule Rrule">
+                                          <content styleCode="bold">Primary Composite Endpoint</content>
+                                       </td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Cardiovascular death, non-fatal myocardial infarction, non-fatal stroke, coronary revascularization (MACE-4)</td>
+                                       <td styleCode="Rrule">819<br/>(11.7)</td>
+                                       <td styleCode="Rrule">927<br/>(13.3)</td>
+                                       <td styleCode="Rrule">0.87<br/>(0.79, 0.96)</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td colspan="4" styleCode="Lrule Rrule">
+                                          <content styleCode="bold">Key Secondary Endpoint</content>
+                                       </td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Cardiovascular death, non-fatal myocardial infarction, non-fatal stroke (MACE-3)</td>
+                                       <td styleCode="Rrule">575<br/>(8.2)</td>
+                                       <td styleCode="Rrule">663<br/>(9.5)</td>
+                                       <td styleCode="Rrule">0.85<br/>(0.76, 0.96)</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td colspan="4" styleCode="Lrule Rrule">
+                                          <content styleCode="bold">Components of Primary Composite Endpoint</content>
+                                       </td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Non-fatal myocardial infarction </td>
+                                       <td styleCode="Rrule">236<br/>(3.4)</td>
+                                       <td styleCode="Rrule">317<br/>(4.5)</td>
+                                       <td styleCode="Rrule">0.73<br/>(0.62, 0.87)</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Coronary revascularization</td>
+                                       <td styleCode="Rrule">435<br/>(6.2)</td>
+                                       <td styleCode="Rrule">529<br/>(7.6)</td>
+                                       <td styleCode="Rrule">0.81<br/>(0.72, 0.92)</td>
+                                    </tr>
+                                    <tr styleCode="Botrule">
+                                       <td styleCode="Lrule Rrule">Non-fatal stroke</td>
+                                       <td styleCode="Rrule">119<br/>(1.7)</td>
+                                       <td styleCode="Rrule">144<br/>(2.1)</td>
+                                       <td styleCode="Rrule">0.82<br/>(0.64, 1.05)</td>
+                                    </tr>
+                                    <tr>
+                                       <td styleCode="Lrule Rrule">Cardiovascular death</td>
+                                       <td styleCode="Rrule">269<br/>(3.8)</td>
+                                       <td styleCode="Rrule">257<br/>(3.7)</td>
+                                       <td styleCode="Rrule">1.04<br/>(0.88, 1.24)</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                              <paragraph>The Kaplan-Meier estimates of the cumulative incidence of the MACE-4 and MACE-3 endpoints are shown in Figure 1 and 2 below.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Figure 1:	Cumulative Incidence of Primary Composite Endpoint (MACE-4) Over 4.5 Years in Adults with Established CVD or at High Risk for CVD (Trial 1)</content>
+                              </paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="MM2"/>
+                              </paragraph>
+                              <paragraph>MACE = major adverse cardiac event<br/>MACE-4 was defined as the time to first occurrence of the composite endpoint of CV death, nonfatal MI, nonfatal stroke, or coronary revascularization.</paragraph>
+                              <paragraph>
+                                 <content styleCode="bold">Figure 2:       Cumulative Incidence of Composite Endpoint (MACE-3) Over 4.5 Years in Adults with Established CVD or at High Risk for CVD (Trial 1)</content>
+                              </paragraph>
+                              <paragraph>
+                                 <renderMultiMedia referencedObject="MM3"/>
+                              </paragraph>
+                              <paragraph>MACE = major adverse cardiac event<br/>MACE-3 was defined as time to first occurrence of the composite endpoint of CV death, nonfatal MI, or nonfatal stroke.</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                           <component>
+                              <observationMedia ID="MM2">
+                                 <text>Figure 1</text>
+                                 <value xsi:type="ED" mediaType="image/jpeg">
+                                    <reference value="nexletol-02.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                           <component>
+                              <observationMedia ID="MM3">
+                                 <text>Figure 2</text>
+                                 <value xsi:type="ED" mediaType="image/jpeg">
+                                    <reference value="nexletol-03.jpg"/>
+                                 </value>
+                              </observationMedia>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+               <component>
+                  <section ID="S14.2">
+                     <id root="9e17307e-def5-42e3-bd43-f3b318804c5b"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <title>14.2 Primary Hypercholesterolemia Trials in Adults </title>
+                     <text>
+                        <paragraph>The efficacy of NEXLETOL as an adjunct to diet and statin therapy, to reduce elevated LDL-C in adults with primary hypercholesterolemia (including HeFH) was investigated in two multi-center, randomized, double-blind, placebo-controlled trials that enrolled 3,009 adult patients with HeFH or established CVD who were on maximally tolerated statin therapy (Trials 2 and 3).  Demographics and baseline disease characteristics were balanced between the treatment arms in these trials.  In both trials, the maximum LDL-C lowering effects occurred at Week 4.  These results were consistent across all subgroups studied in any of the trials, including age, sex, race, ethnicity, region, history of diabetes, baseline LDL-C, body mass index (BMI), HeFH status, and background therapies.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                     <component>
+                        <section>
+                           <id root="ddcb03b7-ef28-49df-8360-bf7493a40fb8"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Trial 2 (NCT02666664)</content>
+                              </paragraph>
+                              <paragraph>Trial 2 was a multi-center, randomized, double-blind, placebo-controlled, primary hypercholesterolemia (52-week) trial in adult patients with HeFH and/or CVD.  Efficacy of NEXLETOL was evaluated at Week 12.  The trial included 2,230 patients randomized 2:1 to receive either oral NEXLETOL (n = 1,488) or placebo (n = 742) as add-on to a maximally tolerated lipid-lowering therapy.  Maximally tolerated lipid-lowering therapy was defined as a maximally tolerated statin dose alone or in combination with other lipid-lowering therapies.  Patients were stratified by presence of HeFH and by baseline statin intensity.  Patients on simvastatin 40 mg per day or higher and patients taking PCSK9 inhibitors were excluded from the trial.</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                           <component>
+                              <section>
+                                 <id root="e28b40ca-6515-4ba1-8579-a70c19203196"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Baseline Demographics and Disease Characteristics:</content>  Overall, the mean age at baseline was 66 years (range: 24 to 88 years), 61% were 65 years of age and older, 27% were female, 96% were White, 3% were Black or African American , and 1% were Asian; 2% identified as Hispanic or Latino ethnicity.  Ninety-five percent (95%) of patients had established CVD, and 5% of patients had HeFH.  Twenty-nine percent (29%) of patients had diabetes at baseline.  The mean baseline LDL-C was 103.2 mg/dL.  At the time of randomization, all patients were receiving statin therapy and 50% were receiving high-intensity statin therapy.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="58095d66-6968-47dd-8bc6-2f84e4eb65da"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Efficacy Results:</content>  The primary efficacy outcome measure of the trial was the percent change from baseline to Week 12 in LDL-C.  The difference between the NEXLETOL and placebo groups in mean percent change in LDL-C from baseline to Week 12 was -18% (95% CI: -20%, -16%; p &lt; 0.001).  High-density lipoprotein (HDL) and triglycerides (TG) were examined as exploratory endpoints and were not included in the statistical hierarchy.  The difference between the NEXLETOL and placebo groups in mean percent change from baseline to Week 12 was -6% for HDL and median percent change from baseline to Week 12 was +3% for TG.  For additional results see <linkHtml href="#Tb4.2">Table 4</linkHtml> and <linkHtml href="#fig3">Figure 3</linkHtml>.</paragraph>
+                                    <table width="75%" ID="Tb4.2">
+                                       <caption>Table 4: Lipid Parameters in Adult Patients with HeFH and/or CVD on Maximally Tolerated Statin Therapy (Mean % Change from Baseline to Week 12 in Trial 2)</caption>
+                                       <col width="32%" align="left" valign="top"/>
+                                       <col width="17%" align="center" valign="top"/>
+                                       <col width="17%" align="center" valign="top"/>
+                                       <col width="17%" align="center" valign="top"/>
+                                       <col width="17%" align="center" valign="top"/>
+                                       <thead>
+                                          <tr>
+                                             <th styleCode="Lrule Rrule"/>
+                                             <th styleCode="Rrule">LDL-C<footnote>4.3% of subjects on NEXLETOL and 2.3% of patients on placebo had missing LDL-C data at primary endpoint (Week 12).  By the end of the trial (Week 52), 8.3% of patients on NEXLETOL and 7.7% of patients on placebo had missing LDL-C measurements.</footnote>
+                                                <sup>,</sup>
+                                                <footnote ID="foot1">Percent change from baseline was analyzed using analysis of covariance (ANCOVA), with treatment and randomization strata (HeFH versus CVD, and high intensity statin versus other statin) as factors and baseline lipid parameter as a covariate.  Missing data for LDL-C, non-HDL-C, TC and apo B were imputed through multiple imputation using a pattern mixture model (PMM) account for treatment adherence.</footnote>
+                                             </th>
+                                             <th styleCode="Rrule">Non-HDL-C<footnoteRef IDREF="foot1"/>
+                                             </th>
+                                             <th styleCode="Rrule">apo B<footnoteRef IDREF="foot1"/>
+                                             </th>
+                                             <th styleCode="Rrule">TC<footnoteRef IDREF="foot1"/>
+                                             </th>
+                                          </tr>
+                                       </thead>
+                                       <tfoot>
+                                          <tr>
+                                             <td align="left" colspan="5">apo B = apolipoprotein B; CI = confidence interval; HDL-C = high-density lipoprotein cholesterol; LDL-C = low-density lipoprotein cholesterol; TC = total cholesterol.</td>
+                                          </tr>
+                                          <tr>
+                                             <td align="left" colspan="5">Background statin: atorvastatin, simvastatin, pravastatin, and/or other lipid-lowering therapies</td>
+                                          </tr>
+                                       </tfoot>
+                                       <tbody>
+                                          <tr styleCode="Botrule">
+                                             <td styleCode="Lrule Rrule">NEXLETOL<br/> (180 mg/day; n = 1488<footnote ID="foot2">Number of randomized subjects at baseline</footnote>)</td>
+                                             <td styleCode="Rrule">-17</td>
+                                             <td styleCode="Rrule">-12</td>
+                                             <td styleCode="Rrule">-9</td>
+                                             <td styleCode="Rrule">-10</td>
+                                          </tr>
+                                          <tr styleCode="Botrule">
+                                             <td styleCode="Lrule Rrule">Placebo<br/> (n = 742<footnoteRef IDREF="foot2"/>)</td>
+                                             <td styleCode="Rrule">2</td>
+                                             <td styleCode="Rrule">2</td>
+                                             <td styleCode="Rrule">3</td>
+                                             <td styleCode="Rrule">1</td>
+                                          </tr>
+                                          <tr>
+                                             <td styleCode="Lrule Rrule">Mean Difference from Placebo (95% CI)</td>
+                                             <td styleCode="Rrule">-18<br/> (-20, -16)</td>
+                                             <td styleCode="Rrule">-13<br/> (-15, -12)</td>
+                                             <td styleCode="Rrule">-12<br/> (-14, -10)</td>
+                                             <td styleCode="Rrule">-11<br/> (-13, -10)</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                     <component>
+                        <section>
+                           <id root="f9dd3ad6-a50a-44e0-a78a-760160d5c9fa"/>
+                           <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                           <text>
+                              <paragraph>
+                                 <content styleCode="underline">Trial 3 (NCT02991118)</content>
+                              </paragraph>
+                              <paragraph>Trial 3 was a multi-center, randomized, double-blind, placebo-controlled, primary hypercholesterolemia (52-week) trial in patients with HeFH and/or CVD.  Efficacy of NEXLETOL was evaluated at Week 12.  The trial included 779 patients randomized 2:1 to receive either oral NEXLETOL (n = 522) or placebo (n = 257) as add-on to a maximally tolerated lipid-lowering therapy.  Maximally tolerated lipid-lowering therapy was defined as a maximally tolerated statin dose alone or in combination with other lipid-lowering therapies.  Patients were stratified by presence of HeFH and baseline statin intensity.  Patients on simvastatin 40 mg/day or higher were excluded from the trial.</paragraph>
+                           </text>
+                           <effectiveTime value="20260115"/>
+                           <component>
+                              <section>
+                                 <id root="cb4d33fc-68a6-416d-bc75-917d508482dc"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Baseline Demographics and Disease Characteristics:</content>  Overall, the mean age at baseline was 64 years (range: 28 to 91 years), 51% were 65 years of age and older, 36% were female, 94% were White, 5% were Black or African American, and 1% were Asian; 8% identified as Hispanic or Latino ethnicity.  Ninety-five percent (95%) of patients had established CVD, and 5% of patients had HeFH.  Thirty percent (30%) of patients had diabetes at baseline.  The mean baseline LDL-C was 120.4 mg/dL.  At the time of randomization, 90% of patients were receiving statin therapy, 53% were receiving high-intensity statin therapy, and 0.3% were receiving PCSK9 inhibitors.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                              </section>
+                           </component>
+                           <component>
+                              <section>
+                                 <id root="af4a34f6-c703-421b-8208-ef198fdb0fba"/>
+                                 <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                                 <text>
+                                    <paragraph>
+                                       <content styleCode="italics">Efficacy Results:</content>  The primary efficacy outcome measure of the trial was the percent change from baseline to Week 12 in LDL-C.  The difference between the NEXLETOL and placebo groups in mean percent change in LDL-C from baseline to Week 12 was -17% (95% CI: -21%, -14%; p &lt; 0.001).  HDL and TG were exploratory endpoints and not included in the statistical hierarchy.  The difference between the NEXLETOL and placebo groups in mean percent change from baseline to Week 12 was -6% for HDL and the median percent change from baseline was -2% for TG.  For additional results see <linkHtml href="#Tb5">Table 5</linkHtml> and <linkHtml href="#fig3">Figure 3</linkHtml>.</paragraph>
+                                    <table ID="Tb5" width="75%">
+                                       <caption>Table 5. Lipid Parameters in Adult Patients with HeFH and/or CVD on Maximally Tolerated Statin Therapy (Mean % Change from Baseline to Week 12 in Trial 3)</caption>
+                                       <col width="32%" align="left" valign="top"/>
+                                       <col width="17%" align="center" valign="top"/>
+                                       <col width="17%" align="center" valign="top"/>
+                                       <col width="17%" align="center" valign="top"/>
+                                       <col width="17%" align="center" valign="top"/>
+                                       <thead>
+                                          <tr>
+                                             <th styleCode="Lrule Rrule"/>
+                                             <th styleCode="Rrule">LDL-C<footnote>4.6% of patients on NEXLETOL and 1.6% of patients on placebo had missing LDL-C data at primary endpoint (Week 12).  By the end of the trial (Week 52), 10.5% of patients on NEXLETOL and 7.8% of patients on placebo had missing LDL-C measurements.</footnote>
+                                                <sup>,</sup>
+                                                <footnote ID="foot3">Percent change from baseline was analyzed using analysis of covariance (ANCOVA), with treatment and randomization strata (HeFH versus CVD, and high intensity statin versus other statin) as factors and baseline lipid parameter as a covariate.  Missing data for LDL-C, non-HDL-C, TC and apo B were imputed through multiple imputation using a pattern mixture model (PMM) account for treatment adherence.</footnote>
+                                             </th>
+                                             <th styleCode="Rrule">Non-HDL-C<footnoteRef IDREF="foot3"/>
+                                             </th>
+                                             <th styleCode="Rrule">apo B<footnoteRef IDREF="foot3"/>
+                                             </th>
+                                             <th styleCode="Rrule">TC<footnoteRef IDREF="foot3"/>
+                                             </th>
+                                          </tr>
+                                       </thead>
+                                       <tfoot>
+                                          <tr>
+                                             <td align="left" colspan="5">apo B = apolipoprotein B; CI = confidence interval; HDL-C = high-density lipoprotein cholesterol; LDL-C = low-density lipoprotein cholesterol; TC = total cholesterol.</td>
+                                          </tr>
+                                          <tr>
+                                             <td align="left" colspan="5">Background statin: atorvastatin, simvastatin, rosuvastatin, pravastatin, fluvastatin, pitavastatin, and lovastatin ± other lipid-lowering therapies</td>
+                                          </tr>
+                                       </tfoot>
+                                       <tbody>
+                                          <tr styleCode="Botrule">
+                                             <td styleCode="Lrule Rrule">NEXLETOL<br/> (180 mg/day; n = 522<footnote ID="foot4">Number of randomized patients at baseline</footnote>)</td>
+                                             <td styleCode="Rrule">-15</td>
+                                             <td styleCode="Rrule">-11</td>
+                                             <td styleCode="Rrule">-9</td>
+                                             <td styleCode="Rrule">-10</td>
+                                          </tr>
+                                          <tr styleCode="Botrule">
+                                             <td styleCode="Lrule Rrule">Placebo<br/> (n = 257<footnoteRef IDREF="foot4"/>)</td>
+                                             <td styleCode="Rrule">2</td>
+                                             <td styleCode="Rrule">2</td>
+                                             <td styleCode="Rrule">4</td>
+                                             <td styleCode="Rrule">1</td>
+                                          </tr>
+                                          <tr>
+                                             <td styleCode="Lrule Rrule">Difference from Placebo (95% CI)</td>
+                                             <td styleCode="Rrule">-17<br/> (-21, -14)</td>
+                                             <td styleCode="Rrule">-13<br/> (-16, -10)</td>
+                                             <td styleCode="Rrule">-13<br/> (-16, -10)</td>
+                                             <td styleCode="Rrule">-11<br/> (-14, -9)</td>
+                                          </tr>
+                                       </tbody>
+                                    </table>
+                                    <paragraph ID="fig3">
+                                       <content styleCode="bold">Figure 3: Mean Percent Change from Baseline in LDL-C Over 52 Weeks in Adult Patients with HeFH and/or CVD on Maximally Tolerated Statin Treated with NEXLETOL or Placebo (Trial 2 and Trial 3)</content>
+                                    </paragraph>
+                                    <paragraph>
+                                       <renderMultiMedia referencedObject="MM4"/>
+                                    </paragraph>
+                                    <paragraph>LDL-C derived is calculated from the Friedewald equation: LDL-C = TC - HDL-C - TG/5 in mg/dL.<br/>The error bars represent standard error.</paragraph>
+                                 </text>
+                                 <effectiveTime value="20260115"/>
+                                 <component>
+                                    <observationMedia ID="MM4">
+                                       <text>Figure 3</text>
+                                       <value xsi:type="ED" mediaType="image/jpeg">
+                                          <reference value="nexletol-04.jpg"/>
+                                       </value>
+                                    </observationMedia>
+                                 </component>
+                              </section>
+                           </component>
+                        </section>
+                     </component>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S16">
+               <id root="d0210248-babc-4bac-b68d-a589f21f5f10"/>
+               <code code="34069-5" codeSystem="2.16.840.1.113883.6.1" displayName="HOW SUPPLIED SECTION"/>
+               <title>16 HOW SUPPLIED/STORAGE AND HANDLING</title>
+               <effectiveTime value="20260115"/>
+               <component>
+                  <section>
+                     <id root="0b5d7b43-2133-4897-bda9-12393f4c2aff"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">How Supplied</content>
+                        </paragraph>
+                        <paragraph>NEXLETOL tablets are supplied as follows:</paragraph>
+                        <table width="80%">
+                           <col width="25%" align="left" valign="top"/>
+                           <col width="25%" align="left" valign="top"/>
+                           <col width="25%" align="left" valign="top"/>
+                           <col width="25%" align="left" valign="top"/>
+                           <thead>
+                              <tr>
+                                 <th styleCode="Lrule Rrule">Tablet Strength</th>
+                                 <th styleCode="Rrule">Description</th>
+                                 <th styleCode="Rrule">Package Configuration</th>
+                                 <th styleCode="Rrule">NDC No. </th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr styleCode="Botrule">
+                                 <td styleCode="Lrule Rrule" rowspan="2" valign="middle">180 mg</td>
+                                 <td styleCode="Rrule" rowspan="2">White to off white and oval, debossed with "180" on one side and "ESP" on the other side</td>
+                                 <td styleCode="Rrule">Bottle of 30 tablets with child-resistant cap</td>
+                                 <td styleCode="Rrule">72426-118-03</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="85535978-8e2a-482a-9bdb-c196936b91a8"/>
+                     <code code="44425-7" codeSystem="2.16.840.1.113883.6.1" displayName="STORAGE AND HANDLING SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Storage and Handling</content>
+                        </paragraph>
+                        <paragraph>Store at 68°F to 77°F (20°C to 25°C); excursions permitted to 59°F to 86°F (15°C to 30°C) <content styleCode="italics">[see USP Controlled Room Temperature]</content>.  Store and dispense in the original package.</paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section ID="S17">
+               <id root="ea46ab78-b5f6-4b52-88cc-686c503c143a"/>
+               <code code="34076-0" codeSystem="2.16.840.1.113883.6.1" displayName="INFORMATION FOR PATIENTS SECTION"/>
+               <title>17 PATIENT COUNSELING INFORMATION</title>
+               <text>
+                  <paragraph>Advise patients to read the FDA-approved patient labeling (Patient Information).</paragraph>
+               </text>
+               <effectiveTime value="20260115"/>
+               <component>
+                  <section>
+                     <id root="7b0726f4-c706-4441-a6ed-cdc953f77716"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk of Hyperuricemia</content>
+                        </paragraph>
+                        <paragraph>Advise patients of the risk of elevated serum uric acid levels, including development of gout.  Inform patients that serum uric acid levels may be monitored during treatment with NEXLETOL.  Patients with signs or symptoms of hyperuricemia should contact their healthcare provider if symptoms occur <content styleCode="italics">[See <linkHtml href="#S5.1">Warnings and Precautions (5.1)</linkHtml>]</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="9b8bef02-8e04-460b-9537-c8394241e029"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk of Tendon Rupture</content>
+                        </paragraph>
+                        <paragraph>Inform patients of the risk of tendon rupture.  Advise patients to rest at the first sign of tendinitis or tendon rupture and to immediately contact their healthcare provider if tendinitis or tendon rupture symptoms occur <content styleCode="italics">[see <linkHtml href="#S5.2">Warnings and Precautions (5.2)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="c828f9f7-bf7e-4c98-b179-551410bb34c7"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Risk of Myopathy with Concomitant Use of Simvastatin or Pravastatin</content>
+                        </paragraph>
+                        <paragraph>Advise patients to notify their healthcare provider(s) if they are taking, or plan to take simvastatin or pravastatin.  The risk of myopathy occurring with the use of simvastatin or pravastatin may be increased when taken with NEXLETOL <content styleCode="italics">[see <linkHtml href="#S7">Drug Interactions (7)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+               <component>
+                  <section>
+                     <id root="6f7ec9ac-318f-4468-80f0-f7e6f70fc403"/>
+                     <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+                     <text>
+                        <paragraph>
+                           <content styleCode="underline">Pregnancy</content>
+                        </paragraph>
+                        <paragraph>Advise pregnant women of the potential risk to a fetus based on NEXLETOL's mechanism of action.  Advise females to inform their healthcare provider of a known or suspected pregnancy. Advise patients that there is a pregnancy safety study that monitors pregnancy outcomes in patients exposed to NEXLETOL during pregnancy. Encourage these patients to report their pregnancy to Esperion at 1-833-377-7633 <content styleCode="italics">[see <linkHtml href="#S8.1">Use in Specific Populations (8.1)</linkHtml>].</content>
+                        </paragraph>
+                     </text>
+                     <effectiveTime value="20260115"/>
+                  </section>
+               </component>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4ab1679c-d18b-44d8-901d-bd33308ae212"/>
+               <code code="42229-5" codeSystem="2.16.840.1.113883.6.1" displayName="SPL UNCLASSIFIED SECTION"/>
+               <text>
+                  <paragraph>
+                     <content styleCode="bold">Manufactured for:</content>
+                     <br/>Esperion Therapeutics, Inc.<br/>3891 Ranchero Drive, Suite 150<br/>Ann Arbor, MI 48108</paragraph>
+                  <paragraph>NEXLETOL<sup>®</sup> (bempedoic acid) tablets<br/>© 2026 Esperion Therapeutics, Inc.</paragraph>
+               </text>
+               <effectiveTime value="20260115"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="f7f4528f-a651-4d44-aec1-0bacc1efb55a"/>
+               <code code="42230-3" codeSystem="2.16.840.1.113883.6.1" displayName="SPL PATIENT PACKAGE INSERT SECTION"/>
+               <text>
+                  <table width="100%">
+                     <col width="2%" align="left" valign="top"/>
+                     <col width="2%" align="left" valign="top"/>
+                     <col width="47%" align="left" valign="top"/>
+                     <col width="5%" align="left" valign="top"/>
+                     <col width="44%" align="left" valign="top"/>
+                     <thead>
+                        <tr>
+                           <th colspan="5" align="center" styleCode="Lrule Rrule">PATIENT INFORMATION<br/>NEXLETOL<sup>®</sup> (NEX-le-tol)<br/>(bempedoic acid)<br/>tablets, for oral use</th>
+                        </tr>
+                     </thead>
+                     <tfoot>
+                        <tr>
+                           <td colspan="4" align="left" valign="top">This Patient Information has been approved by the U.S. Food and Drug Administration</td>
+                           <td align="right" valign="top">Revised: 01/2026                         </td>
+                        </tr>
+                        <tr>
+                           <td/>
+                           <td/>
+                           <td/>
+                           <td/>
+                           <td/>
+                           <td/>
+                        </tr>
+                     </tfoot>
+                     <tbody>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What is NEXLETOL?</content>
+                              <br/>NEXLETOL is a prescription medicine used:<list listType="unordered" styleCode="disc">
+                                 <item>to lower the risk of major adverse cardiovascular (CV) events such as death from cardiovascular disease, heart attack, stroke, or heart procedures like stent placement or bypass surgery in adults at increased risk for these events who are unable to take recommended statin treatment (a cholesterol lowering medicine) or are not taking a statin. </item>
+                                 <item>along with diet and exercise and other cholesterol-lowering medicines, or alone when use with other cholesterol-lowering medicines is not possible, to reduce low-density lipoprotein (LDL, or bad cholesterol) in adults with high blood cholesterol levels called hypercholesterolemia, including a type of high blood cholesterol called heterozygous familial hypercholesterolemia (HeFH). </item>
+                              </list>It is not known if NEXLETOL is safe and effective in children.</td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">Do not</content> take NEXLETOL if you are allergic to bempedoic acid or any of the ingredients in NEXLETOL.  See the end of this leaflet for a complete list of ingredients in NEXLETOL. Stop taking NEXLETOL and call your healthcare provider or go to the nearest hospital emergency room right away if you have any signs or symptoms of an allergic reaction including:</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="3" styleCode="Lrule">
+                              <list listType="unordered" styleCode="disc">
+                                 <item>swelling of your face, lips, mouth or tongue</item>
+                                 <item>wheezing</item>
+                                 <item>severe itching</item>
+                                 <item>fast heart beat or pounding in your chest</item>
+                              </list>
+                           </td>
+                           <td colspan="2" styleCode="Rrule">
+                              <list listType="unordered" styleCode="disc">
+                                 <item>trouble breathing </item>
+                                 <item>skin rashes, redness, or swelling</item>
+                                 <item>dizziness or fainting</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">Before you start taking NEXLETOL, tell your healthcare provider about all your medical conditions, including if you:</content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>have or had gout.</item>
+                                 <item>have or had tendon problems.</item>
+                                 <item>are pregnant or think you may be pregnant. Tell your healthcare provider right away if you become pregnant while taking NEXLETOL. You and your healthcare provider will decide if you should take NEXLETOL while you are pregnant. If you are pregnant during NEXLETOL treatment, you are encouraged to call Esperion at 1-833-377-7633 to share information about the health of you and your baby.</item>
+                                 <item>are breastfeeding or plan to breastfeed. NEXLETOL may pass into your breastmilk. You and your healthcare provider should decide if you will take NEXLETOL or breastfeed. </item>
+                                 <item>have severe liver problems.</item>
+                              </list>		NEXLETOL may affect the way other medicines work, and other medicines may affect how NEXLETOL works. <content styleCode="bold">Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements.</content>
+                              <br/>
+                              <br/>		Especially tell your healthcare provider if you take or plan to take:</td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td colspan="4" styleCode="Rrule">
+                              <list listType="unordered" styleCode="disc">
+                                 <item>simvastatin or pravastatin (other cholesterol-lowering medicines). Taking simvastatin or pravastatin with NEXLETOL may increase your risk of developing muscle pain or weakness (myopathy).</item>
+                                 <item>fibrates (triglyceride-lowering medicines). Taking a fibrate medicine with NEXLETOL may lead to increases in triglycerides (fat in the blood) and decreases in high-density lipoprotein (HDL, good cholesterol).</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">Know the medicines you take. Keep a list of them to show your healthcare provider and pharmacist when you get a new medicine.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">How should I take NEXLETOL?</content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>Take NEXLETOL exactly as your healthcare provider tells you to take it. Check with your healthcare provider or pharmacist if you are not sure.</item>
+                                 <item>Take 1 NEXLETOL tablet by mouth each day.</item>
+                                 <item>You may take NEXLETOL with or without food.</item>
+                                 <item>Your healthcare provider may do blood tests to check your LDL-C levels between 8 to 12 weeks after starting treatment with NEXLETOL.</item>
+                                 <item>In case of overdose, get medical help or contact a live Poison Center expert right away at       1-800-222-1222. Advice is also available online at poisonhelp.org.</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What are possible side effects of NEXLETOL?<br/>NEXLETOL may cause serious side effects, including:</content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>
+                                    <content styleCode="bold">increased levels of uric acid in your blood (hyperuricemia).</content> This can happen within 4 weeks of you starting NEXLETOL and continue throughout your treatment. Your healthcare provider may monitor your blood uric acid levels while you are taking NEXLETOL. High levels of blood uric acid may lead to gout. Call your healthcare provider if you have the following symptoms of hyperuricemia and gout:</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td colspan="2">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>severe foot pain especially in the toe joint</item>
+                                 <item>warm joints</item>
+                                 <item>swelling</item>
+                              </list>
+                           </td>
+                           <td colspan="2" styleCode="Rrule">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>tender joints</item>
+                                 <item>joint redness</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <list listType="unordered" styleCode="disc">
+                                 <item>
+                                    <content styleCode="bold">tendon rupture or injury. Tendon problems can happen in people who take NEXLETOL.</content> Tendons are tough cords of tissue that connect muscles to bones. Symptoms of tendon problems may include pain, swelling, tears, and inflammation of tendons, most commonly with the rotator cuff (the shoulder), the biceps tendon (upper arm), and Achilles tendon at the back of the ankle. This can also happen with other tendons. Tendon ruptures can happen within weeks or months of starting NEXLETOL. 										<list listType="unordered" styleCode="circle">
+                                       <item>
+                                          <content styleCode="bold">The risk of getting tendon problems while you take NEXLETOL is higher if you:</content>
+                                       </item>
+                                    </list>
+                                 </item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="2" styleCode="Lrule"/>
+                           <td>
+                              <list listType="unordered" styleCode="square">
+                                 <item>are over 60 years of age</item>
+                                 <item>are taking antibiotics (fluoroquinolones)</item>
+                                 <item>have had tendon problems</item>
+                              </list>
+                           </td>
+                           <td colspan="2" styleCode="Rrule">
+                              <list listType="unordered" styleCode="square">
+                                 <item>are taking steroids (corticosteroids)</item>
+                                 <item>have renal failure</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td colspan="4" styleCode="Rrule">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>
+                                    <content styleCode="bold">Stop taking NEXLETOL immediately and get medical help right away if you get any of the following signs or symptoms of a tendon rupture:</content>
+                                    <list listType="unordered" styleCode="square">
+                                       <item>hear or feel a snap or pop in a tendon area</item>
+                                       <item>bruising right after an injury in a tendon area</item>
+                                       <item>unable to move the affected area or put weight on the affected area</item>
+                                    </list>										Avoid exercise and using the affected area. 										</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">The most common side effects of NEXLETOL in people with primary hypercholesterolemia include:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td colspan="3">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>symptoms of the common cold, flu, or flu-like symptoms</item>
+                                 <item>muscle spasms</item>
+                                 <item>back pain</item>
+                                 <item>stomach pain</item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>bronchitis</item>
+                                 <item>pain in shoulder, legs, or arms</item>
+                                 <item>anemia</item>
+                                 <item>increased liver enzymes</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">The most common side effects of NEXLETOL in people with heart problems include:</content>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td styleCode="Lrule"/>
+                           <td colspan="3">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>kidney problems</item>
+                                 <item>anemia</item>
+                                 <item>increased liver enzymes </item>
+                              </list>
+                           </td>
+                           <td styleCode="Rrule">
+                              <list listType="unordered" styleCode="circle">
+                                 <item>muscle spasms</item>
+                                 <item>gallstones</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">Tell your healthcare provider if you have any side effect that bothers you or that does not go away. These are not all the possible side effects of NEXLETOL.<br/>For more information, ask your healthcare provider or pharmacist. <content styleCode="bold">Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">How should I store NEXLETOL?</content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>Store NEXLETOL in the original package at room temperature between 68ºF to 77ºF (20ºC to 25ºC).</item>
+                              </list>
+                              <content styleCode="bold">Keep NEXLETOL and all medicines out of the reach of children.</content>
+                           </td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">General information about the safe and effective use of NEXLETOL.</content>
+                              <br/>Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. <content styleCode="bold">Do not</content> use NEXLETOL for a condition for which it was not prescribed. <content styleCode="bold">Do not</content> give NEXLETOL to other people, even if they have the same symptoms that you have. It may harm them.<br/>You can ask your pharmacist or healthcare provider for information about NEXLETOL that is written for healthcare professionals.</td>
+                        </tr>
+                        <tr styleCode="Botrule">
+                           <td colspan="5" styleCode="Lrule Rrule">
+                              <content styleCode="bold">What are the ingredients in NEXLETOL?</content>
+                              <list listType="unordered" styleCode="disc">
+                                 <item>
+                                    <content styleCode="bold">active ingredient:</content> bempedoic acid</item>
+                                 <item>
+                                    <content styleCode="bold">inactive ingredients:</content> colloidal silicon dioxide, hydroxyl propyl cellulose, lactose monohydrate, magnesium stearate, microcrystalline cellulose, and sodium starch glycolate</item>
+                                 <item>
+                                    <content styleCode="bold">tablet coating:</content> partially hydrolyzed polyvinyl alcohol, polyethylene glycol, talc, and titanium dioxide</item>
+                              </list>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td colspan="5" styleCode="Lrule Rrule">Manufactured for:<br/>Esperion Therapeutics, Inc.<br/>3891 Ranchero Drive, Suite 150<br/>Ann Arbor, MI 48108<br/>© 2026 Esperion Therapeutics, Inc.</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </text>
+               <effectiveTime value="20260115"/>
+            </section>
+         </component>
+         <component>
+            <section>
+               <id root="4777beba-fd1a-482e-b096-fff5e2337a17"/>
+               <code code="51945-4" codeSystem="2.16.840.1.113883.6.1" displayName="PACKAGE LABEL.PRINCIPAL DISPLAY PANEL"/>
+               <title>PRINCIPAL DISPLAY PANEL - 180 mg Tablet Bottle Label</title>
+               <text>
+                  <paragraph>NDC 72426-118-03<br/>Rx only</paragraph>
+                  <paragraph>NEXLETOL<sup>®</sup>
+                     <br/>(bempedoic acid) tablets</paragraph>
+                  <paragraph>Contains<br/>30 Tablets</paragraph>
+                  <paragraph>180 mg</paragraph>
+                  <renderMultiMedia referencedObject="MM5"/>
+               </text>
+               <effectiveTime value="20260115"/>
+               <component>
+                  <observationMedia ID="MM5">
+                     <text>PRINCIPAL DISPLAY PANEL - 180 mg Tablet Bottle Label</text>
+                     <value xsi:type="ED" mediaType="image/jpeg">
+                        <reference value="nexletol-05.jpg"/>
+                     </value>
+                  </observationMedia>
+               </component>
+            </section>
+         </component>
+      </structuredBody>
+   </component>
+</document>

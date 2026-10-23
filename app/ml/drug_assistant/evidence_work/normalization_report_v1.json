@@ -1,0 +1,1889 @@
+{
+  "generated_at": "2026-09-23T10:31:11.210521+00:00",
+  "catalogue_medications": 208,
+  "processed_medications": 208,
+  "retrieval": {
+    "PARTIAL": 193,
+    "NO_SOURCE": 127,
+    "SUCCESS": 95,
+    "FAILED": 1
+  },
+  "normalization": {
+    "total_candidates": 1078,
+    "medications_with_candidates": 90,
+    "by_source": {
+      "MotherToBaby": 877,
+      "DailyMed": 201
+    },
+    "by_topic": {
+      "general_information": 137,
+      "fertility": 172,
+      "pregnancy": 493,
+      "lactation": 133,
+      "indications": 8,
+      "administration": 15,
+      "contraindications": 15,
+      "warnings": 15,
+      "monitoring": 54,
+      "adverse_effects": 15,
+      "drug_interactions": 11,
+      "clinician_discussion": 8,
+      "reproductive_potential": 2
+    },
+    "by_review_state": {
+      "REVIEWED": 1078
+    },
+    "medications_with_ambiguous_product": 192,
+    "failures": []
+  },
+  "review": {
+    "REVIEW_REQUIRED": 0,
+    "REVIEWED": 1078,
+    "REJECTED": 0,
+    "PARTIAL": 1078
+  },
+  "domains": {
+    "general_information": 137,
+    "pregnancy": 493,
+    "lactation": 133,
+    "adverse_effects": 15,
+    "warnings": 15,
+    "contraindications": 15,
+    "drug_interactions": 11,
+    "monitoring": 54,
+    "reproductive_potential": 2
+  },
+  "publication": {
+    "runtime_eligible_records": 1078,
+    "medications_with_published_evidence": 90,
+    "medications_entirely_insufficient": 118
+  },
+  "best_candidate_coverage": [
+    [
+      "lixisenatide",
+      39
+    ],
+    [
+      "insulin_glulisine",
+      35
+    ],
+    [
+      "evolocumab",
+      33
+    ],
+    [
+      "pramlintide",
+      29
+    ],
+    [
+      "edoxaban",
+      25
+    ],
+    [
+      "eprosartan",
+      18
+    ],
+    [
+      "inclisiran",
+      18
+    ],
+    [
+      "methotrexate",
+      17
+    ],
+    [
+      "bempedoic_acid",
+      16
+    ],
+    [
+      "acetaminophen",
+      15
+    ]
+  ],
+  "largest_source_gaps": [
+    "acarbose",
+    "acebutolol",
+    "acetazolamide",
+    "adenosine",
+    "alogliptin",
+    "amiloride",
+    "amiodarone",
+    "amoxicillin_clavulanate",
+    "apixaban",
+    "aripiprazole",
+    "aspirin",
+    "atorvastatin",
+    "azilsartan",
+    "benazepril",
+    "betaxolol",
+    "bisoprolol",
+    "budesonide",
+    "bumetanide",
+    "canagliflozin",
+    "candesartan",
+    "captopril",
+    "ceftriaxone",
+    "cefuroxime",
+    "chlorothiazide",
+    "chlorthalidone",
+    "cholestyramine",
+    "clarithromycin",
+    "colesevelam",
+    "colestipol",
+    "dabigatran",
+    "dapagliflozin",
+    "digoxin",
+    "diltiazem",
+    "dipyridamole",
+    "dofetilide",
+    "doxycycline",
+    "dronedarone",
+    "dulaglutide",
+    "empagliflozin",
+    "enalapril",
+    "enoxaparin",
+    "eplerenone",
+    "ertugliflozin",
+    "exenatide",
+    "ezetimibe",
+    "felodipine",
+    "flecainide",
+    "fluvastatin",
+    "fosinopril",
+    "furosemide",
+    "gliclazide",
+    "glimepiride",
+    "glipizide",
+    "glucagon",
+    "glyburide",
+    "heparin",
+    "hydralazine",
+    "hydrochlorothiazide",
+    "indapamide",
+    "insulin_degludec",
+    "insulin_detemir",
+    "insulin_glargine",
+    "insulin_lispro",
+    "irbesartan",
+    "isosorbide_dinitrate",
+    "isosorbide_mononitrate",
+    "ivabradine",
+    "levetiracetam",
+    "levothyroxine",
+    "linagliptin",
+    "liraglutide",
+    "lovastatin",
+    "metolazone",
+    "miconazole",
+    "miglitol",
+    "minoxidil",
+    "moexipril",
+    "nadolol",
+    "nateglinide",
+    "niacin",
+    "nicardipine",
+    "nimodipine",
+    "nisoldipine",
+    "nitroglycerin",
+    "nortriptyline",
+    "nph_insulin",
+    "olmesartan",
+    "oseltamivir",
+    "pantoprazole",
+    "penicillin_v",
+    "perindopril",
+    "pioglitazone",
+    "pitavastatin",
+    "polyethylene_glycol",
+    "prasugrel",
+    "pravastatin",
+    "propafenone",
+    "quinapril",
+    "ramipril",
+    "regular_insulin",
+    "repaglinide",
+    "rivaroxaban",
+    "rosiglitazone",
+    "rosuvastatin",
+    "sacubitril_valsartan",
+    "salmeterol",
+    "saxagliptin",
+    "simvastatin",
+    "sitagliptin",
+    "sotalol",
+    "telmisartan",
+    "ticagrelor",
+    "torsemide",
+    "trandolapril",
+    "trimethoprim_sulfamethoxazole",
+    "valsartan",
+    "vildagliptin",
+    "warfarin"
+  ],
+  "medication_gaps": [
+    {
+      "drug_id": "acarbose",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "acebutolol",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "acetaminophen",
+      "candidate_count": 15,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "acetazolamide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "acyclovir",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "adenosine",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "albuterol",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "alirocumab",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "alogliptin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "alprazolam",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "amiloride",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "amiodarone",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "amitriptyline",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "amlodipine",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "amoxicillin",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "amoxicillin_clavulanate",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "NO_SOURCE",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "apixaban",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "aripiprazole",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "aspirin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "PARTIAL"
+      }
+    },
+    {
+      "drug_id": "atenolol",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "atorvastatin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "azathioprine",
+      "candidate_count": 12,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "azilsartan",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "azithromycin",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "bempedoic_acid",
+      "candidate_count": 16,
+      "source_statuses": {
+        "DAILYMED": "SUCCESS",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "benazepril",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "betaxolol",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "bisoprolol",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "budesonide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "bumetanide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "bupropion",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "canagliflozin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "candesartan",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "captopril",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "carbamazepine",
+      "candidate_count": 13,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "carvedilol",
+      "candidate_count": 14,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "ceftriaxone",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "cefuroxime",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "cephalexin",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "cetirizine",
+      "candidate_count": 8,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "chlorothiazide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "chlorthalidone",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "cholestyramine",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "citalopram",
+      "candidate_count": 12,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "clarithromycin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "clindamycin",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "clopidogrel",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "clotrimazole",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "colesevelam",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "colestipol",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "dabigatran",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "dapagliflozin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "diazepam",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "digoxin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "diltiazem",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "diphenhydramine",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "dipyridamole",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "docusate",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "dofetilide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "doxycycline",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "doxylamine",
+      "candidate_count": 12,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "dronedarone",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "dulaglutide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "duloxetine",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "edoxaban",
+      "candidate_count": 25,
+      "source_statuses": {
+        "DAILYMED": "SUCCESS",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "empagliflozin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "enalapril",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "enoxaparin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "eplerenone",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "eprosartan",
+      "candidate_count": 18,
+      "source_statuses": {
+        "DAILYMED": "SUCCESS",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "ertugliflozin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "erythromycin",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "escitalopram",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "esomeprazole",
+      "candidate_count": 8,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "evolocumab",
+      "candidate_count": 33,
+      "source_statuses": {
+        "DAILYMED": "SUCCESS",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "exenatide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "ezetimibe",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "famotidine",
+      "candidate_count": 8,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "felodipine",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "fexofenadine",
+      "candidate_count": 8,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "flecainide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "fluconazole",
+      "candidate_count": 14,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "fluoxetine",
+      "candidate_count": 12,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "fluticasone",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "fluvastatin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "formoterol",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "fosinopril",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "furosemide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "gabapentin",
+      "candidate_count": 13,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "gliclazide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "NO_SOURCE",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "glimepiride",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "glipizide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "glucagon",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "glyburide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "haloperidol",
+      "candidate_count": 12,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "heparin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "hydralazine",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "hydrochlorothiazide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "hydroxychloroquine",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "hydroxyzine",
+      "candidate_count": 13,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "ibuprofen",
+      "candidate_count": 12,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "inclisiran",
+      "candidate_count": 18,
+      "source_statuses": {
+        "DAILYMED": "SUCCESS",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "indapamide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "insulin_aspart",
+      "candidate_count": 8,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "insulin_degludec",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "insulin_detemir",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "insulin_glargine",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "insulin_glulisine",
+      "candidate_count": 35,
+      "source_statuses": {
+        "DAILYMED": "SUCCESS",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "insulin_lispro",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "irbesartan",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "isosorbide_dinitrate",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "isosorbide_mononitrate",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "isotretinoin",
+      "candidate_count": 13,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "ivabradine",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "labetalol",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "lamotrigine",
+      "candidate_count": 13,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "levetiracetam",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "levothyroxine",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "linagliptin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "liraglutide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "lisinopril",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "lithium",
+      "candidate_count": 14,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "lixisenatide",
+      "candidate_count": 39,
+      "source_statuses": {
+        "DAILYMED": "SUCCESS",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "loratadine",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "lorazepam",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "losartan",
+      "candidate_count": 14,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "lovastatin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "meclizine",
+      "candidate_count": 8,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "metformin",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "methimazole",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "methotrexate",
+      "candidate_count": 17,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "metoclopramide",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "metolazone",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "metoprolol",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "metronidazole",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "miconazole",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "miglitol",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "minoxidil",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "mirtazapine",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "misoprostol",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "moexipril",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "montelukast",
+      "candidate_count": 8,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "mycophenolate",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "nadolol",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "naproxen",
+      "candidate_count": 12,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "nateglinide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "niacin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "nicardipine",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "nifedipine",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "nimodipine",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "nirmatrelvir_ritonavir",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "NO_SOURCE",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "nisoldipine",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "nitrofurantoin",
+      "candidate_count": 13,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "nitroglycerin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "nortriptyline",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "FAILED"
+      }
+    },
+    {
+      "drug_id": "nph_insulin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "NO_SOURCE",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "olanzapine",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "olmesartan",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "omeprazole",
+      "candidate_count": 8,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "ondansetron",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "oseltamivir",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "pantoprazole",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "paroxetine",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "penicillin_v",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "perindopril",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "pioglitazone",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "pitavastatin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "polyethylene_glycol",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "pramlintide",
+      "candidate_count": 29,
+      "source_statuses": {
+        "DAILYMED": "SUCCESS",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "prasugrel",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "pravastatin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "prednisolone",
+      "candidate_count": 8,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "prednisone",
+      "candidate_count": 8,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "propafenone",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "propranolol",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "propylthiouracil",
+      "candidate_count": 1,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "pyridoxine",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "quetiapine",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "quinapril",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "ramipril",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "regular_insulin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "NO_SOURCE",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "repaglinide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "risperidone",
+      "candidate_count": 12,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "rivaroxaban",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "rosiglitazone",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "rosuvastatin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "sacubitril_valsartan",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "NO_SOURCE",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "salmeterol",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "saxagliptin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "semaglutide",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "sertraline",
+      "candidate_count": 12,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "simvastatin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "sitagliptin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "sotalol",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "spironolactone",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "telmisartan",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "ticagrelor",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "tirzepatide",
+      "candidate_count": 12,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "torsemide",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "trandolapril",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "trimethoprim_sulfamethoxazole",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "NO_SOURCE",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "valacyclovir",
+      "candidate_count": 9,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "valproic_acid",
+      "candidate_count": 13,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "valsartan",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "venlafaxine",
+      "candidate_count": 11,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "verapamil",
+      "candidate_count": 10,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "SUCCESS"
+      }
+    },
+    {
+      "drug_id": "vildagliptin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "NO_SOURCE",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    },
+    {
+      "drug_id": "warfarin",
+      "candidate_count": 0,
+      "source_statuses": {
+        "DAILYMED": "PARTIAL",
+        "MOTHERTOBABY": "NO_SOURCE"
+      }
+    }
+  ]
+}
