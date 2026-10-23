@@ -23,6 +23,35 @@ class Prediction(Base):
     def decision_threshold(self) -> float | None:
         return (self.input_data or {}).get("decision_threshold")
 
+    @property
+    def contributing_factors(self) -> list[dict]:
+        return (self.input_data or {}).get("contributing_factors", [])
+
+    @property
+    def interpretation(self) -> str | None:
+        factors = self.contributing_factors
+        if not factors or self.risk_score is None:
+            return None
+        labels = {
+            "age": "Age", "sex": "Sex", "bmi": "BMI",
+            "waist_circumference": "Waist circumference",
+            "systolic_bp": "Systolic blood pressure",
+            "diastolic_bp": "Diastolic blood pressure",
+            "total_cholesterol": "Total cholesterol",
+            "fasting_blood_sugar_high": "Fasting glucose category",
+        }
+        raised = [labels.get(item["feature"], item["feature"])
+                  for item in factors if item["direction"] == "raises"][:2]
+        lowered = [labels.get(item["feature"], item["feature"])
+                   for item in factors if item["direction"] == "lowers"][:2]
+        parts = [f"The model estimated a {self.risk_score * 100:.1f}% score."]
+        if raised:
+            parts.append(f"{', '.join(raised)} raised the model score relative to its training baseline.")
+        if lowered:
+            parts.append(f"{', '.join(lowered)} lowered the model score relative to its training baseline.")
+        parts.append("These are model contributions, not clinical causes or a diagnosis.")
+        return " ".join(parts)
+
     id: Mapped[UUID] = mapped_column(
         primary_key=True,
         default=uuid4,

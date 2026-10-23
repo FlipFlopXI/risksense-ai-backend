@@ -1,8 +1,8 @@
-from datetime import datetime
+from datetime import date, datetime
 from typing import Optional
 from uuid import UUID, uuid4
 
-from sqlalchemy import DateTime, Float, ForeignKey, String, func
+from sqlalchemy import CheckConstraint, Date, DateTime, Float, ForeignKey, String, func
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.db.database import Base
@@ -10,6 +10,18 @@ from app.db.database import Base
 
 class HealthProfile(Base):
     __tablename__ = "health_profiles"
+    __table_args__ = (CheckConstraint(
+        "waist_circumference_cm IS NULL OR (waist_circumference_cm > 0 AND waist_circumference_cm <= 300)",
+        name="ck_health_profiles_waist_cm",
+    ), CheckConstraint("pregnancy_status IS NULL OR pregnancy_status IN ('NOT_PREGNANT','PREGNANT','POSSIBLY_PREGNANT','TRYING_TO_CONCEIVE','POSTPARTUM','PREFER_NOT_TO_SAY','UNKNOWN')", name="ck_profile_pregnancy_status"),
+       CheckConstraint("breastfeeding_status IS NULL OR breastfeeding_status IN ('YES','NO','PREFER_NOT_TO_SAY','UNKNOWN')", name="ck_profile_breastfeeding_status"))
+    waist_circumference_cm: Mapped[Optional[float]] = mapped_column(Float, nullable=True)
+    pregnancy_status: Mapped[str | None] = mapped_column(String(30))
+    estimated_due_date: Mapped[date | None] = mapped_column(Date)
+    pregnancy_context_updated_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    breastfeeding_status: Mapped[str | None] = mapped_column(String(30))
+    infant_date_of_birth: Mapped[date | None] = mapped_column(Date)
+    infant_premature: Mapped[bool | None] = mapped_column()
 
     id: Mapped[UUID] = mapped_column(
         primary_key=True,

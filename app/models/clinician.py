@@ -4,7 +4,7 @@ from typing import Optional
 from uuid import UUID, uuid4
 
 from sqlalchemy import CheckConstraint, DateTime, ForeignKey, String, func
-from sqlalchemy.orm import Mapped, mapped_column, relationship
+from sqlalchemy.orm import Mapped, deferred, mapped_column, relationship
 
 from app.db.database import Base
 
@@ -80,6 +80,10 @@ class Clinician(Base):
     )
 
     institution: Mapped[Optional[str]] = mapped_column(String(200), nullable=True)
+    # Added in a later migration; older local databases must still be able to
+    # read clinician identity and dashboard data until that migration runs.
+    gender: Mapped[str] = deferred(mapped_column(
+        String(20), nullable=False, server_default="unspecified"))
     last_login_at: Mapped[Optional[datetime]] = mapped_column(DateTime(timezone=True))
 
     created_at: Mapped[datetime] = mapped_column(

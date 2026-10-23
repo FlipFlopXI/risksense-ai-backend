@@ -10,6 +10,8 @@ from app.models.prediction import Prediction
 from app.models.audit import AuditLog
 from app.models.report import Report
 from app.models.patient_clinician import PatientClinician
+from app.models.auth_session import AuthSession
+from app.models.body_measurement import BodyMeasurement
 from app.models.access_entitlement import AccessEntitlement
 from app.models.lab_result import LabResult
 
@@ -26,6 +28,8 @@ __all__ = [
     "AuditLog",
     "Report",
     "PatientClinician",
+    "AuthSession",
+    "BodyMeasurement",
     "AccessEntitlement",
     "LabResult",
 ]

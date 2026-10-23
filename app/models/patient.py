@@ -113,3 +113,6 @@ class Patient(Base):
     lab_results = relationship(
         "LabResult", back_populates="patient", cascade="all, delete-orphan", order_by="LabResult.measured_at"
     )
+    body_measurements = relationship(
+        "BodyMeasurement", back_populates="patient", cascade="all, delete-orphan", order_by="BodyMeasurement.measured_at"
+    )

@@ -12,6 +12,11 @@ from app.models.report import Report
 from app.models.patient_clinician import PatientClinician
 from app.models.access_entitlement import AccessEntitlement
 from app.models.lab_result import LabResult
+from app.models.patient_medication import PatientMedication
+from app.models.drug_chat import DrugChatSession, DrugChatMessage
+from app.models.auth_session import AuthSession
+from app.models.body_measurement import BodyMeasurement
+from app.models.activation_session import ActivationSession
 
 __all__ = [
     "User",
@@ -28,4 +33,10 @@ __all__ = [
     "PatientClinician",
     "AccessEntitlement",
     "LabResult",
+    "PatientMedication",
+    "DrugChatSession",
+    "DrugChatMessage",
+    "AuthSession",
+    "BodyMeasurement",
+    "ActivationSession",
 ]

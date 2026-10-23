@@ -26,3 +26,9 @@ dist/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Local validation and review byproducts
+tmp/
+output/
+frontend_patch/
+app/ml/drug_assistant/evidence_work/backups/
