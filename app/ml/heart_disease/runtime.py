@@ -1,5 +1,4 @@
 """Fixed, trusted Heart Disease artifact and its five-feature runtime contract."""
-from dataclasses import dataclass
 from decimal import Decimal
 from functools import lru_cache
 from hashlib import sha256
@@ -7,13 +6,12 @@ import json
 import math
 from pathlib import Path
 from threading import Lock
-from typing import Any
 import warnings
 
 import joblib
-import pandas as pd
 from pydantic import BaseModel, ConfigDict, Field, ValidationError
 from sklearn.exceptions import InconsistentVersionWarning
+from app.ml.common import LoadedModel, ModelInputError, ModelUnavailableError, predict_probability
 
 
 FEATURE_ORDER = (
@@ -25,27 +23,6 @@ METADATA_PATH = ARTIFACT_PATH.with_name("risksense_heart_disease_model_v1_metada
 ARTIFACT_SHA256 = "8aa3839216060029bdd7fa133febfad5d0db00625c41f8f571d2979d04a90453"
 DISCLAIMER = "This result is a risk estimate and is not a medical diagnosis."
 _load_lock = Lock()
-
-
-class ModelUnavailableError(Exception):
-    """Only a fixed, safe message is exposed by the API."""
-
-
-class ModelInputError(Exception):
-    def __init__(self, fields: list[str], *, missing: bool = False):
-        self.fields = fields
-        self.missing = missing
-        super().__init__("Required model inputs are missing or invalid.")
-
-
-@dataclass(frozen=True)
-class LoadedModel:
-    pipeline: Any
-    threshold: float
-    feature_order: tuple[str, ...]
-    version: str
-    artifact_hash: str
-    metadata: dict
 
 
 def validate_artifact(artifact: dict, metadata: dict, digest: str) -> LoadedModel:
@@ -153,17 +130,4 @@ def build_features(*, age, sex, systolic_bp, total_cholesterol, cholesterol_unit
 
 
 def predict(features: HeartFeatures, model: LoadedModel) -> tuple[float, bool]:
-    try:
-        if model.feature_order != FEATURE_ORDER:
-            raise ValueError
-        values = features.model_dump()
-        frame = pd.DataFrame([[values[name] for name in model.feature_order]], columns=model.feature_order)
-        probabilities = model.pipeline.predict_proba(frame)
-        if probabilities.shape != (1, 2):
-            raise ValueError
-        probability = float(probabilities[0, 1])
-        if not math.isfinite(probability) or not 0 <= probability <= 1:
-            raise ValueError
-        return probability, probability >= model.threshold
-    except Exception:
-        raise ModelUnavailableError("Heart Disease inference is unavailable.") from None
+    return predict_probability(features, model, FEATURE_ORDER, "Heart Disease")
