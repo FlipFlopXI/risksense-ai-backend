@@ -1,0 +1,26 @@
+{
+  "artifact_filename": "drug_knowledge_v1.json",
+  "artifact_name": "RiskSense Drug Knowledge",
+  "compatible_with": {
+    "assistant_model": "risksense_drug_assistant_model_v1.json",
+    "assistant_model_schema": "1.0.0"
+  },
+  "content_mode": "authoritative_retrieval_plus_reviewed_cache",
+  "drug_count": 208,
+  "generated_on": "2026-09-17",
+  "important": "The file contains the complete 208-drug knowledge schema and authoritative retrieval mapping. Drug-specific clinical fields remain null until populated from current authoritative sources. Runtime must not convert null placeholders into clinical assertions.",
+  "knowledge_version": "1.0.0",
+  "pregnancy_framework": {
+    "females_and_males_of_reproductive_potential": "8.3",
+    "lactation": "8.2",
+    "old_A_B_C_D_X_categories_used_by_assistant": false,
+    "pregnancy": "8.1"
+  },
+  "schema_version": "1.0.0",
+  "sha256": "87286993cfe138528babfb7e313f7b39ae4ba40abe87b48715cdb3c1107b2ceb",
+  "source_hierarchy": [
+    "DailyMed/current prescribing information",
+    "FDA PLLR resources",
+    "MotherToBaby"
+  ]
+}

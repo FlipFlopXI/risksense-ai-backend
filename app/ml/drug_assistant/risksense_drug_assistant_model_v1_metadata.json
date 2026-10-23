@@ -1,0 +1,11 @@
+{
+  "artifact_filename": "risksense_drug_assistant_model_v1.json",
+  "clinical_content_status": "Catalogue, routing, question taxonomy, safety policy and source policy complete. Drug-specific clinical assertions intentionally require current authoritative retrieval before presentation.",
+  "drug_count": 208,
+  "generated_on": "2026-09-17",
+  "intent_count": 36,
+  "knowledge_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "sha256": "204b226dd6dadec6395af07b8e6bc4accadd886de8dcf019db1a94f47bb397e8",
+  "therapeutic_group_count": 16
+}

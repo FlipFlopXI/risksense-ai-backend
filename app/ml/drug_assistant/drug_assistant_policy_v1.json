@@ -1,0 +1,202 @@
+{
+  "artifact_name": "RiskSense Drug Assistant Policy",
+  "authorization": {
+    "admin": "Admin role alone does not grant patient-specific clinical-chat access.",
+    "clinician": "May use patient-specific context only for an actively linked patient.",
+    "effective_entitlement_required_for_patient_specific_chat": true,
+    "patient": "May ask about own context only."
+  },
+  "conversation": {
+    "audit_events": [
+      "DRUG_CHAT_SESSION_CREATED",
+      "DRUG_CHAT_MESSAGE_CREATED",
+      "DRUG_KNOWLEDGE_RETRIEVED",
+      "DRUG_CHAT_URGENT_ROUTE",
+      "DRUG_CHAT_ACCESS_DENIED"
+    ],
+    "do_not_assume_across_sessions_without_persisted_authorized_context": true,
+    "multi_turn": true,
+    "remember_within_session": [
+      "resolved_drug",
+      "resolved_intent",
+      "voluntarily_provided_relevant_context"
+    ],
+    "save_sessions": true
+  },
+  "generated_on": "2026-09-17",
+  "grounding": {
+    "allowed_primary_sources": [
+      "DailyMed/current prescribing information",
+      "FDA",
+      "MotherToBaby"
+    ],
+    "clinical_claim_requires_source": true,
+    "if_no_current_source_and_no_reviewed_cache": "RETURN_INSUFFICIENT_EVIDENCE_OR_UNSUPPORTED",
+    "never_invent": [
+      "interaction",
+      "contraindication",
+      "pregnancy_risk",
+      "lactation_risk",
+      "dose",
+      "monitoring_requirement"
+    ],
+    "prefer_current_prescribing_information": true,
+    "source_citations_required_in_response": true
+  },
+  "lactation": {
+    "consider_if_available": [
+      "breastfeeding_status",
+      "infant_age",
+      "prematurity"
+    ],
+    "must_distinguish": [
+      "milk_transfer",
+      "infant_effects",
+      "milk_production",
+      "evidence_limitations"
+    ]
+  },
+  "patient_context": {
+    "allowed": [
+      "age",
+      "conditions",
+      "medications",
+      "allergies_if_available",
+      "pregnancy_context_if_available",
+      "breastfeeding_context_if_available",
+      "relevant_vitals",
+      "relevant_labs"
+    ],
+    "ambiguous_drug_reference": "ASK_FOR_CLARIFICATION",
+    "minimum_necessary": true,
+    "never_fabricate_missing_data": true,
+    "state_material_context_used": true
+  },
+  "persistence": {
+    "audit_without_secrets": true,
+    "never_audit": [
+      "password",
+      "password_hash",
+      "JWT",
+      "signing_key",
+      "database_credentials"
+    ],
+    "source_provenance_required": true
+  },
+  "policy_version": "1.0.0",
+  "pregnancy": {
+    "accidental_exposure_behavior": "Provide source-grounded evidence without assuming harm; recommend discussion with appropriate healthcare professional.",
+    "binary_safe_unsafe_output": false,
+    "consider_if_available": [
+      "pregnancy_status",
+      "gestational_context",
+      "exposure_timing"
+    ],
+    "medication_change_behavior": "Do not independently instruct start, stop, switch, or dose change.",
+    "must_distinguish": [
+      "human_data",
+      "animal_data",
+      "clinical_considerations",
+      "evidence_limitations"
+    ],
+    "never_infer_pregnancy_status": true,
+    "old_letter_categories_as_primary_risk_system": false
+  },
+  "prohibited_actions": [
+    "diagnose",
+    "prescribe",
+    "choose_patient_specific_medication",
+    "start_medication",
+    "stop_medication",
+    "change_dose",
+    "recommend_double_dose",
+    "recommend_skipping_dose",
+    "predict_fetal_outcome",
+    "claim_safety_from_missing_evidence",
+    "fabricate_source",
+    "fabricate_interaction",
+    "override_prescriber"
+  ],
+  "purpose": "Machine-readable safety, grounding, authorization, conversation, and response policy.",
+  "response_contract": {
+    "evidence_status_values": [
+      "SOURCE_SUPPORTED",
+      "LIMITED_EVIDENCE",
+      "INSUFFICIENT_EVIDENCE",
+      "CONFLICTING_EVIDENCE",
+      "UNSUPPORTED_DRUG"
+    ],
+    "optional": [
+      "patient_context_used",
+      "pregnancy_information",
+      "lactation_information",
+      "reproductive_information",
+      "general_information",
+      "warnings",
+      "interactions",
+      "monitoring_considerations",
+      "clinician_discussion_points"
+    ],
+    "required": [
+      "intent",
+      "drug",
+      "summary",
+      "evidence_status",
+      "sources",
+      "safety_message",
+      "generated_at"
+    ]
+  },
+  "supported_intents": [
+    "DRUG_GENERAL",
+    "DRUG_INDICATION",
+    "DRUG_CLASS",
+    "DRUG_IDENTIFICATION",
+    "DRUG_ALIAS",
+    "DRUG_PREGNANCY",
+    "DRUG_PREGNANCY_EXPOSURE",
+    "DRUG_PREGNANCY_TIMING",
+    "DRUG_PREGNANCY_EVIDENCE",
+    "DRUG_PREGNANCY_REGISTRY",
+    "DRUG_LACTATION",
+    "DRUG_REPRODUCTIVE_POTENTIAL",
+    "DRUG_FERTILITY",
+    "DRUG_CONTRACEPTION",
+    "DRUG_PREGNANCY_TESTING",
+    "DRUG_SIDE_EFFECT",
+    "DRUG_SERIOUS_WARNING",
+    "DRUG_CONTRAINDICATION",
+    "DRUG_INTERACTION",
+    "DRUG_FOOD_INTERACTION",
+    "DRUG_ALCOHOL_INTERACTION",
+    "DRUG_MONITORING",
+    "DRUG_STORAGE",
+    "DRUG_FORMULATION",
+    "DRUG_HEART_CONTEXT",
+    "DRUG_DIABETES_CONTEXT",
+    "DRUG_PATIENT_CONTEXT",
+    "DRUG_COMPARISON",
+    "DRUG_SOURCE_REQUEST",
+    "DRUG_EVIDENCE_STRENGTH",
+    "DRUG_CLINICIAN_DISCUSSION",
+    "DRUG_MISSED_DOSE_INFORMATION",
+    "UNSUPPORTED_DRUG",
+    "AMBIGUOUS_DRUG",
+    "EMERGENCY_OR_URGENT",
+    "OUT_OF_SCOPE"
+  ],
+  "urgent_routing": {
+    "bypass_normal_chat": true,
+    "categories": [
+      "suspected_overdose",
+      "difficulty_breathing",
+      "severe_allergic_reaction",
+      "loss_of_consciousness",
+      "severe_bleeding",
+      "severe_medication_reaction",
+      "immediate_danger",
+      "severe_pregnancy_related_symptoms"
+    ],
+    "response": "Give concise urgent-help guidance appropriate to the situation and do not continue ordinary medication education until immediate safety is addressed."
+  }
+}
