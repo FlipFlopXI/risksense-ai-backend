@@ -1,0 +1,97 @@
+{
+  "artifact_name": "risksense_diabetes_model_v1.pkl",
+  "artifact_sha256": "efe8967a0e70d2ee0f63cab2b02d03ba91685a3b75a8d8d6c90918a8ff3c6496",
+  "model_version": "1.0.0",
+  "prediction_target": "diabetes_risk",
+  "source_dataset": "NHANES 2017-2018",
+  "source_files": [
+    "DEMO_J.xpt",
+    "BMX_J.xpt",
+    "BPX_J.xpt",
+    "GHB_J.xpt",
+    "DIQ_J.xpt"
+  ],
+  "join_key": "SEQN",
+  "validated_population": {
+    "minimum_age_years": 18,
+    "maximum_age_in_training_data": 79,
+    "note": "Adult v1 model; not validated below age 18."
+  },
+  "target_definition": {
+    "variable": "DIQ010",
+    "positive": "1 = doctor told participant they have diabetes",
+    "negative": "2 = no",
+    "excluded": "borderline/refused/dont know/missing",
+    "warning": "Prevalent self-reported diagnosed diabetes target, not prospective future-onset diabetes."
+  },
+  "feature_order": [
+    "age",
+    "sex",
+    "bmi",
+    "waist_circumference",
+    "systolic_bp",
+    "diastolic_bp"
+  ],
+  "feature_contract": {
+    "age": {
+      "unit": "completed years",
+      "required": true
+    },
+    "sex": {
+      "encoding": {
+        "female": 0,
+        "male": 1
+      },
+      "required": true
+    },
+    "bmi": {
+      "unit": "kg/m^2",
+      "required": true
+    },
+    "waist_circumference": {
+      "unit": "cm",
+      "required": true
+    },
+    "systolic_bp": {
+      "unit": "mmHg",
+      "required": false,
+      "imputation": "training median"
+    },
+    "diastolic_bp": {
+      "unit": "mmHg",
+      "required": false,
+      "imputation": "training median"
+    }
+  },
+  "excluded_from_predictors": {
+    "RIDRETH3": "Demographic auditing only.",
+    "LBXGH": "HbA1c excluded to keep v1 a risk screener rather than near-diagnostic biomarker model.",
+    "DIQ010": "Target only."
+  },
+  "training_summary": {
+    "eligible_binary_target_adults": 5268,
+    "usable_records": 4717,
+    "positive_records": 684,
+    "negative_records": 4033,
+    "positive_prevalence": 0.14500741997032013,
+    "age_min": 18,
+    "age_max": 79,
+    "selected_estimator": "logistic_regression",
+    "held_out_roc_auc": 0.801490606825315,
+    "held_out_sensitivity": 0.8029197080291971,
+    "held_out_specificity": 0.6567534076827757,
+    "split": "80/20 stratified; random_state=42"
+  },
+  "decision": {
+    "threshold": 0.455,
+    "classification_rule": "probability >= threshold => elevated; otherwise standard",
+    "threshold_selection": "Maximized specificity among held-out thresholds with sensitivity >= 0.80."
+  },
+  "clinical_safety": [
+    "Risk estimate only; not a diagnosis.",
+    "Not validated below age 18.",
+    "Do not zero-fill missing required inputs.",
+    "Trained on U.S. NHANES 2017-2018; external validation is required before assuming transportability to other populations, including South Africa.",
+    "Do not describe this artifact as a validated prospective disease-onset model."
+  ]
+}
