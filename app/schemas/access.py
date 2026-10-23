@@ -44,3 +44,14 @@ class EntitlementResponse(BaseModel):
 class LinkClinicianRequest(BaseModel):
     model_config = ConfigDict(extra="forbid")
     risk_sense_id: str = Field(pattern=r"^RS-CLN-[0-9]{5}$")
+
+
+class MyClinicianResponse(BaseModel):
+    relationship_id: UUID
+    relationship_status: PatientClinicianStatus
+    linked_at: datetime
+    risk_sense_id: str
+    display_name: str
+    professional_title: str | None
+    specialization: str | None
+    institution: str | None

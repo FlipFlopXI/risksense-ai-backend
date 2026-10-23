@@ -13,7 +13,7 @@ from app.services.entitlement_service import activate_entitlement
 from app.services.patient_clinician_service import link_patient_clinician
 
 
-def staged_activate_subscription(db: Session, patient: Patient, subscription: Subscription, clinician_risk_sense_id: str, actor_id: UUID, days: int = 30):
+def staged_activate_subscription(db: Session, patient: Patient, subscription: Subscription, clinician_risk_sense_id: str, actor_id: UUID, days: int = 30, *, commit: bool = True):
     clinician = get_approved_clinician(db, clinician_risk_sense_id)
     if clinician is None:
         raise ValueError("Approved clinician not found.")
@@ -25,12 +25,13 @@ def staged_activate_subscription(db: Session, patient: Patient, subscription: Su
     link_patient_clinician(db, patient.id, clinician.id, actor_id)
     entitlement = activate_entitlement(db, patient_id=patient.id, source=EntitlementSource.SUBSCRIPTION, clinician_id=clinician.id, subscription=subscription, insurance=None, verification_source="MOCK_PAYMENT", expires_at=subscription.expires_at, actor_id=actor_id)
     add_audit_event(db, "SUBSCRIPTION_ACTIVATION", user_id=actor_id, resource_type="subscription", resource_id=str(subscription.id), details={"verification_source": "MOCK_PAYMENT"})
-    db.commit()
-    db.refresh(entitlement)
+    if commit:
+        db.commit()
+        db.refresh(entitlement)
     return entitlement
 
 
-def staged_verify_insurance(db: Session, patient: Patient, insurance: Insurance, clinician_risk_sense_id: str, actor_id: UUID, coverage_expires_at: datetime | None = None):
+def staged_verify_insurance(db: Session, patient: Patient, insurance: Insurance, clinician_risk_sense_id: str, actor_id: UUID, coverage_expires_at: datetime | None = None, *, commit: bool = True):
     clinician = get_approved_clinician(db, clinician_risk_sense_id)
     if clinician is None:
         raise ValueError("Approved clinician not found.")
@@ -44,6 +45,7 @@ def staged_verify_insurance(db: Session, patient: Patient, insurance: Insurance,
     link_patient_clinician(db, patient.id, clinician.id, actor_id)
     entitlement = activate_entitlement(db, patient_id=patient.id, source=EntitlementSource.INSURANCE, clinician_id=clinician.id, subscription=None, insurance=insurance, verification_source="MOCK_INSURANCE", expires_at=coverage_expires_at, actor_id=actor_id)
     add_audit_event(db, "INSURANCE_VERIFICATION", user_id=actor_id, resource_type="insurance", resource_id=str(insurance.id), details={"verification_source": "MOCK_INSURANCE"})
-    db.commit()
-    db.refresh(entitlement)
+    if commit:
+        db.commit()
+        db.refresh(entitlement)
     return entitlement
