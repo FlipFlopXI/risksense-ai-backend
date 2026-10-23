@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "azithromycin-mothertobaby-2b7713da2d3f-010",
+      "drug_id": "azithromycin",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Children who are exposed to azithromycin or other antibiotics through breast milk might have diarrhea or develop thrush (fungal infection of the mouth). If you suspect that your baby has symptoms such as forceful vomiting, weight loss, fussiness, lethargy, and signs of dehydration such as fewer wet diapers, contact your baby’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Azithromycin (Z-Pak®)​",
+      "source_url": "https://mothertobaby.org/fact-sheets/azithromycin-z-pak/",
+      "source_identifier": "fact-sheets:azithromycin-z-pak",
+      "source_section": "Breastfeeding while taking azithromycin:",
+      "source_revision_date": "Thu, 23 Jul 2026 08:23:02 GMT",
+      "retrieved_at": "2026-09-18T08:23:11.667910+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:23:02 GMT",
+      "content_hash": "d09df622c66c102b0a25fc1df7cc68c31b233f51b1f694aef62c8780978c7585",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "azithromycin",
+      "canonical_name": "azithromycin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:azithromycin-z-pak",
+      "source_url": "https://mothertobaby.org/fact-sheets/azithromycin-z-pak/",
+      "retrieved_at": "2026-09-18T08:23:11.667910+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:23:02 GMT",
+      "source_content_hash": "2b7713da2d3ffd2dc65546c7cd8c0d13708e6ce836f9e81169308c20e17892bb",
+      "error_code": null
+    },
+    "source_content_hash": "2b7713da2d3ffd2dc65546c7cd8c0d13708e6ce836f9e81169308c20e17892bb",
+    "source_product_identifier": "fact-sheets:azithromycin-z-pak",
+    "source_version": "Thu, 23 Jul 2026 08:23:02 GMT",
+    "canonical_name": "azithromycin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Children who are exposed to azithromycin or other antibiotics through breast milk might have diarrhea or develop thrush (fungal infection of the mouth). If you suspect that your baby has symptoms such as forceful vomiting, weight loss, fussiness, lethargy, and signs of dehydration such as fewer wet diapers, contact your baby’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

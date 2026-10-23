@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "alirocumab-mothertobaby-773c89a83f9f-003",
+      "drug_id": "alirocumab",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Data from one study looking at 14 reports with some pregnancy exposure to alirocumab did not suggest an increase in the rate of miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Alirocumab (Praluent®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/alirocumab/",
+      "source_identifier": "fact-sheets:alirocumab",
+      "source_section": "Does taking alirocumab increase the chance of miscarriage?",
+      "source_revision_date": "Wed, 19 Aug 2026 07:46:26 GMT",
+      "retrieved_at": "2026-09-18T08:23:05.609691+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 07:46:26 GMT",
+      "content_hash": "f973b51e86d554da2f9ff79d8b8ab72e7ce3a644da18ae64fd4e0642922a1f16",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "alirocumab",
+      "canonical_name": "alirocumab",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:alirocumab",
+      "source_url": "https://mothertobaby.org/fact-sheets/alirocumab/",
+      "retrieved_at": "2026-09-18T08:23:05.609691+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 07:46:26 GMT",
+      "source_content_hash": "773c89a83f9f0855b9836ab499dcf1e03f47a08a3cd293df36c5e654f2e350f6",
+      "error_code": null
+    },
+    "source_content_hash": "773c89a83f9f0855b9836ab499dcf1e03f47a08a3cd293df36c5e654f2e350f6",
+    "source_product_identifier": "fact-sheets:alirocumab",
+    "source_version": "Wed, 19 Aug 2026 07:46:26 GMT",
+    "canonical_name": "alirocumab",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Data from one study looking at 14 reports with some pregnancy exposure to alirocumab did not suggest an increase in the rate of miscarriage."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "acyclovir-mothertobaby-24986c449e1e-001",
+      "drug_id": "acyclovir",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Acyclovir (Zovirax®) is an antiviral medication that has been used to treat symptoms from cold sores and genital herpes caused by the herpes virus. It is also prescribed to treat chickenpox and shingles. Acyclovir can help relieve the pain and help the healing of sores or blisters. Valacyclovir (Valtrex®) is like acyclovir and is used to treat the same types of infections. Valacyclovir changes to acyclovir once inside the body.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Acyclovir (Zovirax®) | Valacyclovir (Valtrex®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/acyclovir-zoviraxvalacyclovir-valtrex-pregnancy/",
+      "source_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+      "source_section": "What is acyclovir/valacyclovir?",
+      "source_revision_date": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "retrieved_at": "2026-09-18T08:23:04.486164+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "content_hash": "475ef44390e7d6f3b421a1035980f13c6510aab269afa3419d1bcdac0af377ae",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "acyclovir",
+      "canonical_name": "acyclovir",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/acyclovir-zoviraxvalacyclovir-valtrex-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:04.486164+00:00",
+      "source_revision_date": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "source_content_hash": "24986c449e1e82d9416df48b54ffea4343bd90df8b521cd0ddb135d7f135d924",
+      "error_code": null
+    },
+    "source_content_hash": "24986c449e1e82d9416df48b54ffea4343bd90df8b521cd0ddb135d7f135d924",
+    "source_product_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+    "source_version": "Wed, 22 Jul 2026 08:22:57 GMT",
+    "canonical_name": "acyclovir",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Acyclovir (Zovirax®) is an antiviral medication that has been used to treat symptoms from cold sores and genital herpes caused by the herpes virus. It is also prescribed to treat chickenpox and shingles. Acyclovir can help relieve the pain and help the healing of sores or blisters. Valacyclovir (Valtrex®) is like acyclovir and is used to treat the same types of infections. Valacyclovir changes to acyclovir once inside the body."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "insulin_glulisine-dailymed-2356b08f4257-002-administration",
+      "drug_id": "insulin_glulisine",
+      "related_drug_ids": [],
+      "topic": "administration",
+      "subtopic": "dosage_and_administration",
+      "claim": "See Full Prescribing Information for important administration instructions. ( 2.1 , 2.2 ) Individualize and adjust the dosage of APIDRA based on route of administration, individual's metabolic needs, blood glucose monitoring results, and glycemic control goal. ( 2.3 ) Dosage adjustments may be needed when switching from another insulin, with changes in physical activity, changes in concomitant medications, changes in meal patterns, changes in renal or hepatic function or during acute illness. ( 2.3 ) Subcutaneous Injection: ( 2.2 ) Inject within 15 minutes before a meal or within 20 minutes after starting a meal into the abdomen, thigh, or upper arm. Rotate injection sites within the same region to reduce the risk of lipodystrophy and localized cutaneous amyloidosis. Should generally be used in regimens with an intermediate or long-acting insulin. Continuous Subcutaneous Infusion (Insulin Pump): ( 2.2 ) Refer to the insulin infusion pump user manual to see if APIDRA can be used. Use in accordance with the insulin pump instructions for use. Administer by continuous subcutaneous infusion using an insulin pump in a region recommended in the instructions from the pump manufacturer. Rotate infusion sites within the same region to reduce the risk of lipodystrophy and localized cutaneous amyloidosis. Do not mix with other insulins or diluents in the pump. Intravenous Administration: Administer only under medical supervision after diluting to concentrations from 0.05 to 1 unit/mL APIDRA in 0.9% sodium chloride injection, USP using polyvinyl chloride infusion bags. ( 2.2 ) Always ch",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use APIDRA safely and effectively. See full prescribing information for APIDRA. APIDRA ® (insulin glulisine) injection, for subcutaneous or intravenous use Initial U.S. Approval: 2004",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_section": "2 DOSAGE AND ADMINISTRATION",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "476156fd9368a4533eee79eb2845d1dc3629b694f32f7bc038454293502c8355",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "insulin_glulisine",
+      "canonical_name": "insulin glulisine",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+      "error_code": null
+    },
+    "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+    "source_product_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+    "source_version": "28",
+    "canonical_name": "insulin glulisine",
+    "therapeutic_group": "insulins",
+    "source_excerpt": "See Full Prescribing Information for important administration instructions. ( 2.1 , 2.2 ) Individualize and adjust the dosage of APIDRA based on route of administration, individual's metabolic needs, blood glucose monitoring results, and glycemic control goal. ( 2.3 ) Dosage adjustments may be needed when switching from another insulin, with changes in physical activity, changes in concomitant medications, changes in meal patterns, changes in renal or hepatic function or during acute illness. ( 2.3 ) Subcutaneous Injection: ( 2.2 ) Inject within 15 minutes before a meal or within 20 minutes after starting a meal into the abdomen, thigh, or upper arm. Rotate injection sites within the same region to reduce the risk of lipodystrophy and localized cutaneous amyloidosis. Should generally be used in regimens with an intermediate or long-acting insulin. Continuous Subcutaneous Infusion (Insulin Pump): ( 2.2 ) Refer to the insulin infusion pump user manual to see if APIDRA can be used. Use in accordance with the insulin pump instructions for use. Administer by continuous subcutaneous infusion using an insulin pump in a region recommended in the instructions from the pump manufacturer. Rotate infusion sites within the same region to reduce the risk of lipodystrophy and localized cutaneous amyloidosis. Do not mix with other insulins or diluents in the pump. Intravenous Administration: Administer only under medical supervision after diluting to concentrations from 0.05 to 1 unit/mL APIDRA in 0.9% sodium chloride injection, USP using polyvinyl chloride infusion bags. ( 2.2 ) Always check insulin label before administration [see Warnings and Precautions (5.4) ] . Inspect visually for particulate matter and discoloration. Only use APIDRA if the solution appears clear and colorless. Use APIDRA SoloStar prefilled pen with caution in patients with visual impairment who may rely on audible clicks to dial their dose. Subcutaneous Injection Inject APIDRA subcutaneously within 15 minutes before a meal or within 20 minutes after starting a meal into the abdominal wall, thigh, or upper arm. Rotate injection sites within the same region from one injection to the next to reduce the risk of lipodystrophy and localized cutaneous amyloidosis. Do not inject into areas of lipodystrophy or localized cutaneous amyloidosis [see Warnings and Precautions (5.2) , Adverse Reactions (6) ] . APIDRA given by subcutaneous injection should generally be used in regimens with an intermediate or long-acting insulin. The APIDRA SoloStar prefilled pen dials in 1-unit increments. Do not mix APIDRA for subcutaneous injection with insulins other than NPH insulin. If APIDRA is mixed with NPH insulin, draw APIDRA into the syringe first and inject immediately after mixing. Continuous Subcutaneous Infusion (Insulin Pump) Refer to the continuous subcutaneous insulin infusion pump user manual to see if APIDRA can be used with the insulin pump. Use APIDRA in accordance with the insulin pump system's instructions for use. Administer APIDRA by continuous subcutaneous infusion in a region recommended in the instructions from the pump manufacturer. Rotate infusion sites within the same region to reduce the risk of lipodystrophy and localized cutaneous amyloidosis. [see Warnings and Precautions (5.2) , Adverse Reactions (6) ] . Train patients using continuous subcutaneous insulin infusion pump therapy to administer insulin by injection and have alternate insulin therapy available in case of insulin pump failure [see Warnings and Precautions (5.8) ] . During changes to a patient's insulin regimen, increase the frequency of blood glucose monitoring [see Warnings and Precautions (5.2) ] . Change APIDRA in the reservoir at least every 48 hours or according to the pump user manual, whichever is shorter. Change the infusion sets and the infusion set insertion site according to the manufacturer's user manual. Do not dilute or mix APIDRA when administering by continuous subcutaneous infusion. Do not expose APIDRA in the pump reservoir to temperatures greater than 98.6°F (37°C). Intravenous Administration Administer APIDRA intravenously only under medical supervision with close monitoring of blood glucose and potassium levels to avoid hypoglycemia and hypokalemia [see Warnings and Precautions (5.3 , 5.5) ] . Dilute APIDRA to concentrations from 0.05 unit/mL to 1 unit/mL insulin glulisine in infusion systems using polyvinyl chloride (PVC) infusion bags. Diluted APIDRA is stable at room temperature for 48 hours only in normal saline solution (0.9% Sodium Chloride Injection, USP) [see How Supplied/Storage and Handling (16.2) ] . APIDRA is not compatible with Dextrose solution and Ringers solution. Individualize and adjust the dosage of APIDRA based on the patient's metabolic needs, blood glucose monitoring results, and glycemic control goal. Dose adjustments may be needed when switching from another insulin, with changes in physical activity, changes in concomitant medications, "
+  }
+}

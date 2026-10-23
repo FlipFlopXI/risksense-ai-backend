@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lisinopril-mothertobaby-5ff8df6f98c8-010",
+      "drug_id": "lisinopril",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if lisinopril could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects above the background risk. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lisinopril",
+      "source_url": "https://mothertobaby.org/fact-sheets/lisinopril/",
+      "source_identifier": "fact-sheets:lisinopril",
+      "source_section": "If a man takes lisinopril, could it affect his fertility or increase the chance of birth defects?",
+      "source_revision_date": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "retrieved_at": "2026-09-18T08:23:30.559426+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "content_hash": "aff14b9150a1a77b4f04a717ebc5855f0097ce081afadf8045bcfe6360040d3c",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lisinopril",
+      "canonical_name": "lisinopril",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lisinopril",
+      "source_url": "https://mothertobaby.org/fact-sheets/lisinopril/",
+      "retrieved_at": "2026-09-18T08:23:30.559426+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "source_content_hash": "5ff8df6f98c8ba6323195b1ed35858a400f5fcba16f03895256e38f25a5005fe",
+      "error_code": null
+    },
+    "source_content_hash": "5ff8df6f98c8ba6323195b1ed35858a400f5fcba16f03895256e38f25a5005fe",
+    "source_product_identifier": "fact-sheets:lisinopril",
+    "source_version": "Thu, 23 Jul 2026 08:56:19 GMT",
+    "canonical_name": "lisinopril",
+    "therapeutic_group": "ace_inhibitors",
+    "source_excerpt": "Studies have not been done to see if lisinopril could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects above the background risk. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "gabapentin-mothertobaby-22119fde9832-011",
+      "drug_id": "gabapentin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "A large study from Scandinavia found no increased chance of autism or intellectual disability in children exposed to gabapentin during pregnancy. The American Academy of Neurology guideline reported that children exposed to gabapentin had IQ scores within the normal range.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Gabapentin",
+      "source_url": "https://mothertobaby.org/fact-sheets/gabapentin/",
+      "source_identifier": "fact-sheets:gabapentin",
+      "source_section": "Does taking gabapentin in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:42:45 GMT",
+      "retrieved_at": "2026-09-18T08:23:25.080320+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:42:45 GMT",
+      "content_hash": "83bf75f5805c293ef03aa0160372275e79bf6806f820295ae2e93ba68028a63e",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "gabapentin",
+      "canonical_name": "gabapentin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:gabapentin",
+      "source_url": "https://mothertobaby.org/fact-sheets/gabapentin/",
+      "retrieved_at": "2026-09-18T08:23:25.080320+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:42:45 GMT",
+      "source_content_hash": "22119fde9832d92d91b2ac5ebaefbe5a9a13c567680a319c4f868e5735a77e10",
+      "error_code": null
+    },
+    "source_content_hash": "22119fde9832d92d91b2ac5ebaefbe5a9a13c567680a319c4f868e5735a77e10",
+    "source_product_identifier": "fact-sheets:gabapentin",
+    "source_version": "Mon, 24 Aug 2026 10:42:45 GMT",
+    "canonical_name": "gabapentin",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "A large study from Scandinavia found no increased chance of autism or intellectual disability in children exposed to gabapentin during pregnancy. The American Academy of Neurology guideline reported that children exposed to gabapentin had IQ scores within the normal range."
+  }
+}

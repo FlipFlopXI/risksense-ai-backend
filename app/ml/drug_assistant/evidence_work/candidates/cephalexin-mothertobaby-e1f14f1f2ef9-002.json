@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "cephalexin-mothertobaby-e1f14f1f2ef9-002",
+      "drug_id": "cephalexin",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if taking cephalexin can make it harder to get pregnant. In animal studies, cephalexin did not affect fertility (ability to get pregnant).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Cephalexin (Keflex®, Keftab®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/cephalexin-keflex-keftab/",
+      "source_identifier": "fact-sheets:cephalexin-keflex-keftab",
+      "source_section": "I take cephalexin. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:14.344620+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "content_hash": "07a606c208b26378344ec3d61ca4db1b2d032ca231356fe6bff187c217970119",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "cephalexin",
+      "canonical_name": "cephalexin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:cephalexin-keflex-keftab",
+      "source_url": "https://mothertobaby.org/fact-sheets/cephalexin-keflex-keftab/",
+      "retrieved_at": "2026-09-18T08:23:14.344620+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "source_content_hash": "e1f14f1f2ef965736fe0d40138394b805e20da55505c7ef9813e9140d684d5b9",
+      "error_code": null
+    },
+    "source_content_hash": "e1f14f1f2ef965736fe0d40138394b805e20da55505c7ef9813e9140d684d5b9",
+    "source_product_identifier": "fact-sheets:cephalexin-keflex-keftab",
+    "source_version": "Thu, 20 Aug 2026 07:41:01 GMT",
+    "canonical_name": "cephalexin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Studies have not been done to see if taking cephalexin can make it harder to get pregnant. In animal studies, cephalexin did not affect fertility (ability to get pregnant)."
+  }
+}

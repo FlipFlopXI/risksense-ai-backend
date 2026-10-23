@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fluoxetine-mothertobaby-63b339071331-012",
+      "drug_id": "fluoxetine",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Fluoxetine and other SSRIs can cause sexual side effects, such as lower sexual desire or problems with ejaculation. These effects can affect male fertility (the ability to make healthy sperm). Studies in a small number of men have found that long-term fluoxetine use may affect sperm quality, although it remained within the normal range. Sperm quality improved after fluoxetine was stopped. In general, exposures that men have are less likely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at http://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Fluoxetine (Prozac®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluoxetine-prozac-pregnancy/",
+      "source_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+      "source_section": "If a man takes fluoxetine, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "retrieved_at": "2026-09-18T08:23:22.026163+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "content_hash": "45fe3fb5936c5a9d1f038051150739855a4cc8491a68efff2cc46c1da34b2ea9",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fluoxetine",
+      "canonical_name": "fluoxetine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluoxetine-prozac-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:22.026163+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "source_content_hash": "63b339071331460672c24657a3cfd3da112ebfabf8ae8301e54486570e990fc2",
+      "error_code": null
+    },
+    "source_content_hash": "63b339071331460672c24657a3cfd3da112ebfabf8ae8301e54486570e990fc2",
+    "source_product_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+    "source_version": "Mon, 24 Aug 2026 10:28:09 GMT",
+    "canonical_name": "fluoxetine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Fluoxetine and other SSRIs can cause sexual side effects, such as lower sexual desire or problems with ejaculation. These effects can affect male fertility (the ability to make healthy sperm). Studies in a small number of men have found that long-term fluoxetine use may affect sperm quality, although it remained within the normal range. Sperm quality improved after fluoxetine was stopped. In general, exposures that men have are less likely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at http://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

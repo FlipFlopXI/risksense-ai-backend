@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "omeprazole-mothertobaby-4fc1d576b077-008",
+      "drug_id": "omeprazole",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Limited data suggest that doses of 20mg of omeprazole or 10mg or esomeprazole daily result in low levels of these medications in breastmilk. The amounts of omeprazole or esomeprazole in breastmilk are not expected to be harmful to a nursing infant. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Omeprazole | Esomeprazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/omeprazole-esomeprazole/",
+      "source_identifier": "fact-sheets:omeprazole-esomeprazole",
+      "source_section": "Breastfeeding while taking omeprazole or esomeprazole:",
+      "source_revision_date": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "retrieved_at": "2026-09-18T08:29:25.689006+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "content_hash": "f231889211c699a90fc604bd5e1364638e5283f2f2a5fd7adeb67f2703e19db5",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "omeprazole",
+      "canonical_name": "omeprazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:omeprazole-esomeprazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/omeprazole-esomeprazole/",
+      "retrieved_at": "2026-09-18T08:29:25.689006+00:00",
+      "source_revision_date": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "source_content_hash": "4fc1d576b077d4ae1dd55a8da28a99b9e3ada2a2bf37a781b31f221c9917e1bf",
+      "error_code": null
+    },
+    "source_content_hash": "4fc1d576b077d4ae1dd55a8da28a99b9e3ada2a2bf37a781b31f221c9917e1bf",
+    "source_product_identifier": "fact-sheets:omeprazole-esomeprazole",
+    "source_version": "Sat, 25 Jul 2026 17:42:14 GMT",
+    "canonical_name": "omeprazole",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Limited data suggest that doses of 20mg of omeprazole or 10mg or esomeprazole daily result in low levels of these medications in breastmilk. The amounts of omeprazole or esomeprazole in breastmilk are not expected to be harmful to a nursing infant. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

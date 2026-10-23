@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "formoterol-mothertobaby-7db670279b99-001",
+      "drug_id": "formoterol",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Formoterol (also called eformoterol) is a medication that has been used to treat asthma and chronic obstructive pulmonary disease (COPD). It is in a class of medications called long-acting beta2-agonists (LABAs). LABAs are bronchodilators. Bronchodilators relax the muscles in the lungs, making it easier to breathe. Formoterol is taken by inhalation (breathing in). Some brand names of formoterol are Foradil® and Perforomist®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Formoterol (Foradil®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/formoterol-pregnancy/",
+      "source_identifier": "fact-sheets:formoterol-pregnancy",
+      "source_section": "What is formoterol?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "retrieved_at": "2026-09-18T08:23:23.735627+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "content_hash": "f1a6b3a594fc1919212db58ea893204e57aff607682a23c79af98074e9e0166a",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "formoterol",
+      "canonical_name": "formoterol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:formoterol-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/formoterol-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:23.735627+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "source_content_hash": "7db670279b99b06343b95570d7d5b13d8d4f04be1a7d928820cb27c8c23e826e",
+      "error_code": null
+    },
+    "source_content_hash": "7db670279b99b06343b95570d7d5b13d8d4f04be1a7d928820cb27c8c23e826e",
+    "source_product_identifier": "fact-sheets:formoterol-pregnancy",
+    "source_version": "Mon, 24 Aug 2026 10:37:48 GMT",
+    "canonical_name": "formoterol",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Formoterol (also called eformoterol) is a medication that has been used to treat asthma and chronic obstructive pulmonary disease (COPD). It is in a class of medications called long-acting beta2-agonists (LABAs). LABAs are bronchodilators. Bronchodilators relax the muscles in the lungs, making it easier to breathe. Formoterol is taken by inhalation (breathing in). Some brand names of formoterol are Foradil® and Perforomist®."
+  }
+}

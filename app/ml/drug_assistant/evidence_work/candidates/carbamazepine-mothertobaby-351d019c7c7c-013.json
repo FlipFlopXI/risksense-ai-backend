@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "carbamazepine-mothertobaby-351d019c7c7c-013",
+      "drug_id": "carbamazepine",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "It is not known if carbamazepine could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects. Small studies have suggested that carbamazepine might affect sperm production, which might make it harder to conceive a pregnancy. In general, exposures in men are less likely to increase risks to a pregnancy. For more general information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Carbamazepine (Tegretol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/carbamazepine-pregnancy/",
+      "source_identifier": "fact-sheets:carbamazepine-pregnancy",
+      "source_section": "If a man takes carbamazepine, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "retrieved_at": "2026-09-18T08:23:12.709997+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "content_hash": "dd12b7f82ed972f79a1bf4cb085b45fa2994a6709da64c070ea987eb09acf1e3",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "carbamazepine",
+      "canonical_name": "carbamazepine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:carbamazepine-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/carbamazepine-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:12.709997+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "source_content_hash": "351d019c7c7c1627a268a601df7d9808a05eb21af2cc3fc6cb6f069255c4a9ff",
+      "error_code": null
+    },
+    "source_content_hash": "351d019c7c7c1627a268a601df7d9808a05eb21af2cc3fc6cb6f069255c4a9ff",
+    "source_product_identifier": "fact-sheets:carbamazepine-pregnancy",
+    "source_version": "Thu, 20 Aug 2026 07:11:59 GMT",
+    "canonical_name": "carbamazepine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "It is not known if carbamazepine could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects. Small studies have suggested that carbamazepine might affect sperm production, which might make it harder to conceive a pregnancy. In general, exposures in men are less likely to increase risks to a pregnancy. For more general information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

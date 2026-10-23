@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "isotretinoin-mothertobaby-e586d09bf641-005",
+      "drug_id": "isotretinoin",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Some women taking isotretinoin have reported changes in their menstrual cycle (periods), but there are no reports that it makes it harder to get pregnant. However, it is not recommended to get pregnant while using isotretinoin.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Isotretinoin (Accutane®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/isotretinoin-accutane-pregnancy/",
+      "source_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+      "source_section": "I take isotretinoin. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "retrieved_at": "2026-09-18T08:23:29.158362+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "content_hash": "52a56bae94904194658434b801e065896eeec9beaa9768849995eaba8816cf9e",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "isotretinoin",
+      "canonical_name": "isotretinoin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/isotretinoin-accutane-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:29.158362+00:00",
+      "source_revision_date": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "source_content_hash": "e586d09bf641dc9e1c1cc9375d8f72db9ba978e420d84ace8d75327a1ecd65da",
+      "error_code": null
+    },
+    "source_content_hash": "e586d09bf641dc9e1c1cc9375d8f72db9ba978e420d84ace8d75327a1ecd65da",
+    "source_product_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+    "source_version": "Thu, 09 Apr 2026 06:56:33 GMT",
+    "canonical_name": "isotretinoin",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Some women taking isotretinoin have reported changes in their menstrual cycle (periods), but there are no reports that it makes it harder to get pregnant. However, it is not recommended to get pregnant while using isotretinoin."
+  }
+}

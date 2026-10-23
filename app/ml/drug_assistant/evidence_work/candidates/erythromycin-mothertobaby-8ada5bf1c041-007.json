@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "erythromycin-mothertobaby-8ada5bf1c041-007",
+      "drug_id": "erythromycin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if using erythromycin during pregnancy can affect a child’s future behavior or learning. One study followed children up to 11 years of age who were exposed to erythromycin during pregnancy. The study found that these children were not more likely to need special educational support in school than children who were not exposed.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Erythromycin",
+      "source_url": "https://mothertobaby.org/fact-sheets/erythromycin/",
+      "source_identifier": "fact-sheets:erythromycin",
+      "source_section": "Does taking erythromycin in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Mon, 24 Aug 2026 09:56:17 GMT",
+      "retrieved_at": "2026-09-18T08:23:19.395897+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 09:56:17 GMT",
+      "content_hash": "e953517ea3c34e5cce0c3c74198da752be662d58b08166030cf5fdd34f437d31",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "erythromycin",
+      "canonical_name": "erythromycin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:erythromycin",
+      "source_url": "https://mothertobaby.org/fact-sheets/erythromycin/",
+      "retrieved_at": "2026-09-18T08:23:19.395897+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 09:56:17 GMT",
+      "source_content_hash": "8ada5bf1c0416f4b06d8225ff9b99372b12a49a4a03f0a6572035ccddcf14ae6",
+      "error_code": null
+    },
+    "source_content_hash": "8ada5bf1c0416f4b06d8225ff9b99372b12a49a4a03f0a6572035ccddcf14ae6",
+    "source_product_identifier": "fact-sheets:erythromycin",
+    "source_version": "Mon, 24 Aug 2026 09:56:17 GMT",
+    "canonical_name": "erythromycin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "It is not known if using erythromycin during pregnancy can affect a child’s future behavior or learning. One study followed children up to 11 years of age who were exposed to erythromycin during pregnancy. The study found that these children were not more likely to need special educational support in school than children who were not exposed."
+  }
+}

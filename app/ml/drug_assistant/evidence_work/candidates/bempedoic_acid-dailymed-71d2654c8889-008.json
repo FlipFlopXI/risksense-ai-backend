@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "bempedoic_acid-dailymed-71d2654c8889-008",
+      "drug_id": "bempedoic_acid",
+      "related_drug_ids": [],
+      "topic": "adverse_effects",
+      "subtopic": "adverse_reactions",
+      "claim": "The following clinically significant adverse reactions are described elsewhere in the labeling: Hyperuricemia [see Warnings and Precautions (5.1) ] Tendon Rupture [see Warnings and Precautions (5.2) ] Common adverse reactions in the ( 6.1 ): Primary hypercholesterolemia trials (incidence ≥ 2% and more frequent than placebo) were upper respiratory tract infection, muscle spasms, hyperuricemia, back pain, abdominal pain or discomfort, bronchitis, pain in extremity, anemia, and elevated liver enzymes. Cardiovascular outcomes trial (incidence ≥ 2% and 0.5% greater than placebo) were hyperuricemia, renal impairment, anemia, elevated liver enzymes, muscle spasms, gout, and cholelithiasis. To report SUSPECTED ADVERSE REACTIONS, contact Esperion at 833-377-7633 (833 ESPRMED) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice. The data in Table 1 reflect exposure to NEXLETOL in two placebo-controlled primary hypercholesterolemia trials that included 2,009 patients treated with NEXLETOL for 52 weeks (median treatment duration of 52 weeks) [see Clinical Studies (14.2) ] . The mean age for NEXLETOL-treated patients was 65 years, 29% were female, 95% were White, 3% were Black or African American, 1% were Asian, and 1% were other races; 3% identified as Hispanic or Latino ethnicity. All patients received NEXLETOL 180 mg o",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use NEXLETOL ® safely and effectively. See full prescribing information for NEXLETOL. NEXLETOL (bempedoic acid) tablets, for oral use Initial U.S. Approval: 2020",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_section": "6 ADVERSE REACTIONS",
+      "source_revision_date": "20",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "20",
+      "content_hash": "9ec2fc35879d444510897e4a797a83a9de612e0f1d463267c48b787b87c3b37a",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "bempedoic_acid",
+      "canonical_name": "bempedoic acid",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+      "error_code": null,
+      "candidates": [
+        {
+          "set_id": "3fa2108c-0300-47b8-9d34-f762af7c93c6",
+          "title": "NEXLIZET (BEMPEDOIC ACID AND EZETIMIBE) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "23",
+          "published_date": "Jul 20, 2026"
+        },
+        {
+          "set_id": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+          "title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "20",
+          "published_date": "Jul 20, 2026"
+        }
+      ],
+      "candidate_list_complete": true,
+      "candidate_list_retrieved_at": "2026-09-23T10:02:53.194460+00:00",
+      "product_selection_reason": "HIGH_CONFIDENCE_UNIQUE_MATCH",
+      "product_resolution_version": "1.0.0",
+      "product_resolution_at": "2026-09-23T10:02:54.967932+00:00",
+      "product_resolution_criteria": {
+        "complete_search": true,
+        "human_prescription": true,
+        "single_exact_active_ingredient": true,
+        "unique_compatible_candidate": true,
+        "routes": [
+          "ORAL"
+        ],
+        "dosage_forms": [
+          "BLISTER PACK",
+          "BOTTLE",
+          "BOTTLE, PLASTIC",
+          "TABLET, FILM COATED"
+        ]
+      },
+      "selected_product_title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]"
+    },
+    "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+    "source_product_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+    "source_version": "20",
+    "canonical_name": "bempedoic acid",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "The following clinically significant adverse reactions are described elsewhere in the labeling: Hyperuricemia [see Warnings and Precautions (5.1) ] Tendon Rupture [see Warnings and Precautions (5.2) ] Common adverse reactions in the ( 6.1 ): Primary hypercholesterolemia trials (incidence ≥ 2% and more frequent than placebo) were upper respiratory tract infection, muscle spasms, hyperuricemia, back pain, abdominal pain or discomfort, bronchitis, pain in extremity, anemia, and elevated liver enzymes. Cardiovascular outcomes trial (incidence ≥ 2% and 0.5% greater than placebo) were hyperuricemia, renal impairment, anemia, elevated liver enzymes, muscle spasms, gout, and cholelithiasis. To report SUSPECTED ADVERSE REACTIONS, contact Esperion at 833-377-7633 (833 ESPRMED) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice. The data in Table 1 reflect exposure to NEXLETOL in two placebo-controlled primary hypercholesterolemia trials that included 2,009 patients treated with NEXLETOL for 52 weeks (median treatment duration of 52 weeks) [see Clinical Studies (14.2) ] . The mean age for NEXLETOL-treated patients was 65 years, 29% were female, 95% were White, 3% were Black or African American, 1% were Asian, and 1% were other races; 3% identified as Hispanic or Latino ethnicity. All patients received NEXLETOL 180 mg orally once daily plus maximally tolerated statin therapy alone or in combination with other lipid-lowering therapies. At baseline, 97% of patients had CVD and about 4% had a diagnosis of HeFH. Patients on simvastatin 40 mg/day or higher were excluded from the trials. In the primary hypercholesterolemia trials, adverse reactions led to discontinuation of treatment in 11% of NEXLETOL-treated patients and 8% of placebo-treated patients. The most common reasons for NEXLETOL treatment discontinuation were muscle spasms (0.5% versus 0.3% placebo), diarrhea (0.4% versus 0.1% placebo), and pain in extremity (0.3% versus 0.0% placebo). Adverse reactions reported in at least 2% of NEXLETOL-treated patients and more frequently than in placebo-treated patients are shown in Table 1. Table 1. Adverse Reactions (≥ 2% and greater than placebo) in NEXLETOL-Treated Patients with Primary Hypercholesterolemia and CVD or HeFH (Trials 2 and 3) Adverse Reaction Placebo Background therapy included statin and ± other lipid-lowering therapies (N = 999) % NEXLETOL (N = 2,009) % Upper respiratory tract infection 4.0 4.5 Muscle spasms 2.3 3.6 Hyperuricemia Grouped term that includes other related terms 1.1 3.5 Back pain 2.2 3.3 Abdominal pain or discomfort 2.2 3.1 Bronchitis 2.5 3.0 Pain in extremity 1.7 3.0 Anemia 1.9 2.8 Elevated liver enzymes 0.8 2.1 In the cardiovascular outcomes trial, in which 7,001 patients were exposed to NEXLETOL and 6,964 patients were exposed to placebo for a median of 3.1 years [see Clinical Studies, (14.1) ] , adverse reactions led to discontinuation of treatment in 11% of NEXLETOL-treated patients and 10% of placebo-treated patients. Adverse reactions reported in at least 2% of NEXLETOL-treated patients and 0.5% greater than placebo are shown in Table 2. Table 2. Adverse Reactions (≥ 2% and 0.5% greater than placebo) in NEXLETOL-Treated Patients with CVD or at High Risk for CVD (Trial 1) Adverse Reaction Placebo (N=6,964) % NEXLETOL (N=7,001) % Hyperuricemia Grouped term that includes other related terms 8 16 Renal impairment Renal impairment includes laboratory related terms including glomerular filtration rate decreased, blood creatinine increased and hematuria 9 11 Anemia 4 5 Elevated liver enzymes 3 4 Muscle spasms 3 4 Gout 2 3 Cholelithiasis 1 2 Other Adverse Reactions Tendon Rupture In the hypercholesterolemia trials, tendon rupture occurred in 0.5% of NEXLETOL-treated patients versus 0% of placebo-treated patients. In the cardiovascular outcomes trial, tendon rupture events occurred in 1.2% of NEXLETOL-treated patients versus 0.9% of placebo-treated patients. Gout In the hypercholesterolemia trials, gout occurred in 1.5% of NEXLETOL-treated patients versus 0.4% of placebo-treated patients. In the cardiovascular outcomes trial, gout occurred in 3.2% of NEXLETOL-treated patients versus 2.2% of placebo-treated patients. Laboratory Tests NEXLETOL was associated with persistent changes in multiple laboratory tests that occurred within the first 4 weeks of treatment and returned to baseline following discontinuation of treatment. Increase in Creatinine and Blood Urea Nitrogen In the hypercholesterolemia trials, there was a mean increase in serum creatinine of 0.05 mg/dL compared to baseline with NEXLETOL at Week 12. Approximately 3.8% of patients treated with NEXLETOL had blood urea nitrogen values that doubled (versus 1.5% placebo), a"
+  }
+}

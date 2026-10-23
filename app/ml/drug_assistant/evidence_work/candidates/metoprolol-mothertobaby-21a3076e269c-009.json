@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "metoprolol-mothertobaby-21a3076e269c-009",
+      "drug_id": "metoprolol",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Metoprolol passes into breast milk in small amounts. Studies on the use of metoprolol during breastfeeding have not reported side effects in breastfed infants. If you suspect the baby has any symptoms (such as slow heart rate, being too sleepy, having trouble with feeding, or pale skin), contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Metoprolol",
+      "source_url": "https://mothertobaby.org/fact-sheets/metoprolol/",
+      "source_identifier": "fact-sheets:metoprolol",
+      "source_section": "Breastfeeding while taking metoprolol:",
+      "source_revision_date": "Wed, 01 Apr 2026 11:18:04 GMT",
+      "retrieved_at": "2026-09-18T08:23:35.917215+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 01 Apr 2026 11:18:04 GMT",
+      "content_hash": "67be565287a36d33c64b432217baa7a38a3dbe5ccea04f5b842f2859d3f510e8",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "metoprolol",
+      "canonical_name": "metoprolol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:metoprolol",
+      "source_url": "https://mothertobaby.org/fact-sheets/metoprolol/",
+      "retrieved_at": "2026-09-18T08:23:35.917215+00:00",
+      "source_revision_date": "Wed, 01 Apr 2026 11:18:04 GMT",
+      "source_content_hash": "21a3076e269c9862fde18629c5ce8335239caa8fae181ac43b4b5b0bf4d10f16",
+      "error_code": null
+    },
+    "source_content_hash": "21a3076e269c9862fde18629c5ce8335239caa8fae181ac43b4b5b0bf4d10f16",
+    "source_product_identifier": "fact-sheets:metoprolol",
+    "source_version": "Wed, 01 Apr 2026 11:18:04 GMT",
+    "canonical_name": "metoprolol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "Metoprolol passes into breast milk in small amounts. Studies on the use of metoprolol during breastfeeding have not reported side effects in breastfed infants. If you suspect the baby has any symptoms (such as slow heart rate, being too sleepy, having trouble with feeding, or pale skin), contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

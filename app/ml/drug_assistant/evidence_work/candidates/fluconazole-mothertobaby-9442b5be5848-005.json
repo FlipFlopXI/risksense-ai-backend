@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fluconazole-mothertobaby-9442b5be5848-005",
+      "drug_id": "fluconazole",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "One study included almost 600 women who filled prescriptions for oral fluconazole in pregnancy. The study suggested an increased chance of miscarriage with any dose of fluconazole during early pregnancy. A second study also looked at pregnancies with a filled prescription for oral fluconazole. The study suggested a higher chance of miscarriage with a single dose of fluconazole for vaginal yeast infection between weeks 7 and 22 of pregnancy. This study has flaws that make it hard to confirm that the chance of miscarriage was truly higher in this group. Also, studies based on prescriptions/prescription records cannot tell if a person took the medication. This makes it hard to know if the study outcomes are related to the medication or other factors. As there can be many causes of miscarriage, it is hard to know if a medication, the medical condition being treated, or other factors (such as age, health, other exposures) are the cause of a miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Fluconazole (Diflucan®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluconazole-pregnancy/",
+      "source_identifier": "fact-sheets:fluconazole-pregnancy",
+      "source_section": "Does taking fluconazole increase the chance of miscarriage?",
+      "source_revision_date": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:21.631403+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "content_hash": "7f46f71bc8d08f25392c5f5fbc52204a4623a5db9722ef04831f4a5448be9013",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fluconazole",
+      "canonical_name": "fluconazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fluconazole-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluconazole-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:21.631403+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "source_content_hash": "9442b5be5848b5b43bd1168c0ca54eb33287a2007a27ad4afe4708586ed34e36",
+      "error_code": null
+    },
+    "source_content_hash": "9442b5be5848b5b43bd1168c0ca54eb33287a2007a27ad4afe4708586ed34e36",
+    "source_product_identifier": "fact-sheets:fluconazole-pregnancy",
+    "source_version": "Thu, 20 Aug 2026 08:40:28 GMT",
+    "canonical_name": "fluconazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "One study included almost 600 women who filled prescriptions for oral fluconazole in pregnancy. The study suggested an increased chance of miscarriage with any dose of fluconazole during early pregnancy. A second study also looked at pregnancies with a filled prescription for oral fluconazole. The study suggested a higher chance of miscarriage with a single dose of fluconazole for vaginal yeast infection between weeks 7 and 22 of pregnancy. This study has flaws that make it hard to confirm that the chance of miscarriage was truly higher in this group. Also, studies based on prescriptions/prescription records cannot tell if a person took the medication. This makes it hard to know if the study outcomes are related to the medication or other factors. As there can be many causes of miscarriage, it is hard to know if a medication, the medical condition being treated, or other factors (such as age, health, other exposures) are the cause of a miscarriage."
+  }
+}

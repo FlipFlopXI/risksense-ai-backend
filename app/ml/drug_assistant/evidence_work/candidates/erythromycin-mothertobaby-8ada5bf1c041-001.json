@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "erythromycin-mothertobaby-8ada5bf1c041-001",
+      "drug_id": "erythromycin",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Erythromycin is an antibiotic. It can be taken by mouth (orally) to treat infections, including skin, respiratory, and pelvic infections. It can also be used in topical forms (on the skin) for treatment of skin conditions and eye infections. Some brand names for erythromycin include Eryc®, Emgel®, Erygel®, and E-mycin®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Erythromycin",
+      "source_url": "https://mothertobaby.org/fact-sheets/erythromycin/",
+      "source_identifier": "fact-sheets:erythromycin",
+      "source_section": "What is erythromycin?",
+      "source_revision_date": "Mon, 24 Aug 2026 09:56:17 GMT",
+      "retrieved_at": "2026-09-18T08:23:19.395897+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 09:56:17 GMT",
+      "content_hash": "e800e0aa2327a1f16688024073385c07986fb2fbb4c09d70c765fdbcdb490a0d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "erythromycin",
+      "canonical_name": "erythromycin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:erythromycin",
+      "source_url": "https://mothertobaby.org/fact-sheets/erythromycin/",
+      "retrieved_at": "2026-09-18T08:23:19.395897+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 09:56:17 GMT",
+      "source_content_hash": "8ada5bf1c0416f4b06d8225ff9b99372b12a49a4a03f0a6572035ccddcf14ae6",
+      "error_code": null
+    },
+    "source_content_hash": "8ada5bf1c0416f4b06d8225ff9b99372b12a49a4a03f0a6572035ccddcf14ae6",
+    "source_product_identifier": "fact-sheets:erythromycin",
+    "source_version": "Mon, 24 Aug 2026 09:56:17 GMT",
+    "canonical_name": "erythromycin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Erythromycin is an antibiotic. It can be taken by mouth (orally) to treat infections, including skin, respiratory, and pelvic infections. It can also be used in topical forms (on the skin) for treatment of skin conditions and eye infections. Some brand names for erythromycin include Eryc®, Emgel®, Erygel®, and E-mycin®."
+  }
+}

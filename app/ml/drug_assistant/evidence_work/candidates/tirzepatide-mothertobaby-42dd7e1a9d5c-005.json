@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "tirzepatide-mothertobaby-42dd7e1a9d5c-005",
+      "drug_id": "tirzepatide",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "It is not known if tirzepatide can make it harder to get pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Tirzepatide (Mounjaro®, Zepbound®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/tirzepatide/",
+      "source_identifier": "fact-sheets:tirzepatide",
+      "source_section": "I take tirzepatide. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "retrieved_at": "2026-09-18T08:29:34.671940+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "content_hash": "12e8bea183a4c8d743fb758eb9c7b3f2fc201d5302e1e45d930d40a1ec27b241",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "tirzepatide",
+      "canonical_name": "tirzepatide",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:tirzepatide",
+      "source_url": "https://mothertobaby.org/fact-sheets/tirzepatide/",
+      "retrieved_at": "2026-09-18T08:29:34.671940+00:00",
+      "source_revision_date": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "source_content_hash": "42dd7e1a9d5c3d3089e85558cf53e49125e98309a4c803e9ff3c469936fd5e4c",
+      "error_code": null
+    },
+    "source_content_hash": "42dd7e1a9d5c3d3089e85558cf53e49125e98309a4c803e9ff3c469936fd5e4c",
+    "source_product_identifier": "fact-sheets:tirzepatide",
+    "source_version": "Mon, 27 Jul 2026 12:23:15 GMT",
+    "canonical_name": "tirzepatide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "It is not known if tirzepatide can make it harder to get pregnant."
+  }
+}

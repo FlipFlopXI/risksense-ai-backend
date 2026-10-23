@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "inclisiran-dailymed-d1454a0e4aff-001-indications",
+      "drug_id": "inclisiran",
+      "related_drug_ids": [],
+      "topic": "indications",
+      "subtopic": "indications_and_usage",
+      "claim": "LEQVIO ® is indicated as an adjunct to diet and exercise to reduce low-density lipoprotein cholesterol (LDL-C) in: adults with hypercholesterolemia. adults and pediatric patients aged 12 years and older with heterozygous familial hypercholesterolemia (HeFH). pediatric patients aged 12 years and older with homozygous familial hypercholesterolemia (HoFH). Cardiovascular outcomes trials have demonstrated that reducing LDL-C lowers the risk for major adverse cardiovascular events (MACE) in adults at increased risk when treated with statins or monoclonal antibody proprotein convertase subtilisin kexin type 9 (PCSK9) inhibitors as an add-on to statin therapy. LEQVIO is a small interfering RNA (siRNA) directed to proprotein convertase subtilisin kexin type 9 (PCSK9) mRNA indicated as an adjunct to diet and exercise to reduce low-density lipoprotein cholesterol (LDL-C) in: adults with hypercholesterolemia. ( 1 ) adults and pediatric patients aged 12 years and older with heterozygous familial hypercholesterolemia (HeFH). ( 1 ) pediatric patients aged 12 years and older with homozygous familial hypercholesterolemia (HoFH). ( 1 ) Cardiovascular outcomes trials have demonstrated that reducing LDL-C lowers the risk for major adverse cardiovascular events (MACE) in adults at increased risk when treated with statins or monoclonal antibody PCSK9 inhibitors as an add-on to statin therapy. ( 1 )",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use LEQVIO safely and effectively. See full prescribing information for LEQVIO. LEQVIO ® (inclisiran) injection, for subcutaneous use Initial U.S. Approval: 2021",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_section": "1 INDICATIONS AND USAGE",
+      "source_revision_date": "13",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "13",
+      "content_hash": "11de612abf32a3d2cbed885523d763568a9d41e41226bf9ca6eef076a6bc3904",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "inclisiran",
+      "canonical_name": "inclisiran",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+      "error_code": null
+    },
+    "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+    "source_product_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+    "source_version": "13",
+    "canonical_name": "inclisiran",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "LEQVIO ® is indicated as an adjunct to diet and exercise to reduce low-density lipoprotein cholesterol (LDL-C) in: adults with hypercholesterolemia. adults and pediatric patients aged 12 years and older with heterozygous familial hypercholesterolemia (HeFH). pediatric patients aged 12 years and older with homozygous familial hypercholesterolemia (HoFH). Cardiovascular outcomes trials have demonstrated that reducing LDL-C lowers the risk for major adverse cardiovascular events (MACE) in adults at increased risk when treated with statins or monoclonal antibody proprotein convertase subtilisin kexin type 9 (PCSK9) inhibitors as an add-on to statin therapy. LEQVIO is a small interfering RNA (siRNA) directed to proprotein convertase subtilisin kexin type 9 (PCSK9) mRNA indicated as an adjunct to diet and exercise to reduce low-density lipoprotein cholesterol (LDL-C) in: adults with hypercholesterolemia. ( 1 ) adults and pediatric patients aged 12 years and older with heterozygous familial hypercholesterolemia (HeFH). ( 1 ) pediatric patients aged 12 years and older with homozygous familial hypercholesterolemia (HoFH). ( 1 ) Cardiovascular outcomes trials have demonstrated that reducing LDL-C lowers the risk for major adverse cardiovascular events (MACE) in adults at increased risk when treated with statins or monoclonal antibody PCSK9 inhibitors as an add-on to statin therapy. ( 1 )"
+  }
+}

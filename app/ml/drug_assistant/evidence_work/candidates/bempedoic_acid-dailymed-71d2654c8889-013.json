@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "bempedoic_acid-dailymed-71d2654c8889-013",
+      "drug_id": "bempedoic_acid",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "pllr_8_2",
+      "claim": "Risk Summary Bempedoic acid was detected in breast milk of lactating women who received six consecutive daily doses of 180 mg bempedoic acid. The mean daily infant dose of bempedoic acid through breast milk was approximately 0.03 mg/day (95% CI: 0.02; 0.05) with a mean calculated daily infant oral dosage of 0.012 mg/kg/day based on a standard infant milk intake of 150 mL/kg/day. The mean (SD) relative infant dose (RID) was approximately 0.5 (0.2)% of the maternal weight-adjusted dosage (see Data ) . Concentrations of ESP15228, the active metabolite, in breast milk were below the limit of quantitation (20 ng/mL) in 7 of 8 subjects studied. There is no information regarding the effects of NEXLETOL on the breastfed infant, or the effects on milk production. NEXLETOL decreases cholesterol synthesis and possibly the synthesis of other biologically active substances derived from cholesterol and may cause harm to the breastfed infant . The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for NEXLETOL and any potential adverse effects on the breastfed infant from NEXLETOL or from the underlying maternal condition [see Clinical Pharmacology (12.1) ]. Data A lactation study in 8 healthy lactating women evaluated the concentrations of bempedoic acid in mature breast milk. NEXLETOL 180 mg oral tablet was given once daily for six consecutive days. The geometric mean estimate of bempedoic acid C max in breast milk was 118 ng/mL (range: 79.6 to 251 ng/mL) with a median T max of about 3 hours.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use NEXLETOL ® safely and effectively. See full prescribing information for NEXLETOL. NEXLETOL (bempedoic acid) tablets, for oral use Initial U.S. Approval: 2020",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_section": "8.2 Lactation",
+      "source_revision_date": "20",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "20",
+      "content_hash": "6d6fa3e62c85ac8ed99923f11bb4cd61658b1323e334a70e9d27368d0ad574af",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "bempedoic_acid",
+      "canonical_name": "bempedoic acid",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+      "error_code": null,
+      "candidates": [
+        {
+          "set_id": "3fa2108c-0300-47b8-9d34-f762af7c93c6",
+          "title": "NEXLIZET (BEMPEDOIC ACID AND EZETIMIBE) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "23",
+          "published_date": "Jul 20, 2026"
+        },
+        {
+          "set_id": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+          "title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "20",
+          "published_date": "Jul 20, 2026"
+        }
+      ],
+      "candidate_list_complete": true,
+      "candidate_list_retrieved_at": "2026-09-23T10:02:53.194460+00:00",
+      "product_selection_reason": "HIGH_CONFIDENCE_UNIQUE_MATCH",
+      "product_resolution_version": "1.0.0",
+      "product_resolution_at": "2026-09-23T10:02:54.967932+00:00",
+      "product_resolution_criteria": {
+        "complete_search": true,
+        "human_prescription": true,
+        "single_exact_active_ingredient": true,
+        "unique_compatible_candidate": true,
+        "routes": [
+          "ORAL"
+        ],
+        "dosage_forms": [
+          "BLISTER PACK",
+          "BOTTLE",
+          "BOTTLE, PLASTIC",
+          "TABLET, FILM COATED"
+        ]
+      },
+      "selected_product_title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]"
+    },
+    "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+    "source_product_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+    "source_version": "20",
+    "canonical_name": "bempedoic acid",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Risk Summary Bempedoic acid was detected in breast milk of lactating women who received six consecutive daily doses of 180 mg bempedoic acid. The mean daily infant dose of bempedoic acid through breast milk was approximately 0.03 mg/day (95% CI: 0.02; 0.05) with a mean calculated daily infant oral dosage of 0.012 mg/kg/day based on a standard infant milk intake of 150 mL/kg/day. The mean (SD) relative infant dose (RID) was approximately 0.5 (0.2)% of the maternal weight-adjusted dosage (see Data ) . Concentrations of ESP15228, the active metabolite, in breast milk were below the limit of quantitation (20 ng/mL) in 7 of 8 subjects studied. There is no information regarding the effects of NEXLETOL on the breastfed infant, or the effects on milk production. NEXLETOL decreases cholesterol synthesis and possibly the synthesis of other biologically active substances derived from cholesterol and may cause harm to the breastfed infant . The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for NEXLETOL and any potential adverse effects on the breastfed infant from NEXLETOL or from the underlying maternal condition [see Clinical Pharmacology (12.1) ]. Data A lactation study in 8 healthy lactating women evaluated the concentrations of bempedoic acid in mature breast milk. NEXLETOL 180 mg oral tablet was given once daily for six consecutive days. The geometric mean estimate of bempedoic acid C max in breast milk was 118 ng/mL (range: 79.6 to 251 ng/mL) with a median T max of about 3 hours."
+  }
+}

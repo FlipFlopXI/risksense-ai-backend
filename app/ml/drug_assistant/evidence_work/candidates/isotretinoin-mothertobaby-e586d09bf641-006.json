@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "isotretinoin-mothertobaby-e586d09bf641-006",
+      "drug_id": "isotretinoin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Yes, it is recommended that you stop taking isotretinoin right away if you find out you are pregnant. As soon as possible, call the healthcare provider who prescribed the isotretinoin and the healthcare provider who will be taking care of you during pregnancy. Isotretinoin increases the chance of birth defects.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Isotretinoin (Accutane®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/isotretinoin-accutane-pregnancy/",
+      "source_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+      "source_section": "I just found out I am pregnant. Should I stop taking isotretinoin?",
+      "source_revision_date": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "retrieved_at": "2026-09-18T08:23:29.158362+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "content_hash": "1ba3f08f6095bd07a090494b8dfe6311f7d85b38249ad426ff007f15573d465c",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "isotretinoin",
+      "canonical_name": "isotretinoin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/isotretinoin-accutane-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:29.158362+00:00",
+      "source_revision_date": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "source_content_hash": "e586d09bf641dc9e1c1cc9375d8f72db9ba978e420d84ace8d75327a1ecd65da",
+      "error_code": null
+    },
+    "source_content_hash": "e586d09bf641dc9e1c1cc9375d8f72db9ba978e420d84ace8d75327a1ecd65da",
+    "source_product_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+    "source_version": "Thu, 09 Apr 2026 06:56:33 GMT",
+    "canonical_name": "isotretinoin",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Yes, it is recommended that you stop taking isotretinoin right away if you find out you are pregnant. As soon as possible, call the healthcare provider who prescribed the isotretinoin and the healthcare provider who will be taking care of you during pregnancy. Isotretinoin increases the chance of birth defects."
+  }
+}

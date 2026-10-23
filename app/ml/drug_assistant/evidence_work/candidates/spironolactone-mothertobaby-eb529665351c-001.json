@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "spironolactone-mothertobaby-eb529665351c-001",
+      "drug_id": "spironolactone",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Spironolactone is a potassium-sparing diuretic (commonly called water pills) that has been used to treat swelling, congestive heart failure, primary hyperaldosteronism (when the adrenal glands make too much of the hormone aldosterone), and hypertension (high blood pressure).) It has also been used to treat acne, hair loss in women, and hirsutism (increased growth of facial and body hair growth). Some brand names for spironolactone are Aldactone®, Carospir®, and Qaialdo®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Spironolactone (Aldactone®, Carospir®, Qaialdo®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/spironolactone-aldactone-carospir-qaialdo/",
+      "source_identifier": "fact-sheets:spironolactone-aldactone-carospir-qaialdo",
+      "source_section": "What is spironolactone?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "retrieved_at": "2026-09-18T08:29:33.571578+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "content_hash": "cc89db577982dc80891c197d9963cdf318532232f86a9e2ba554851fac0d0a92",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "spironolactone",
+      "canonical_name": "spironolactone",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:spironolactone-aldactone-carospir-qaialdo",
+      "source_url": "https://mothertobaby.org/fact-sheets/spironolactone-aldactone-carospir-qaialdo/",
+      "retrieved_at": "2026-09-18T08:29:33.571578+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "source_content_hash": "eb529665351c79e2cd41070206bfbb96914d5ba7ea546d9a0ca1bdd58ea21f80",
+      "error_code": null
+    },
+    "source_content_hash": "eb529665351c79e2cd41070206bfbb96914d5ba7ea546d9a0ca1bdd58ea21f80",
+    "source_product_identifier": "fact-sheets:spironolactone-aldactone-carospir-qaialdo",
+    "source_version": "Tue, 02 Dec 2025 11:59:12 GMT",
+    "canonical_name": "spironolactone",
+    "therapeutic_group": "diuretics",
+    "source_excerpt": "Spironolactone is a potassium-sparing diuretic (commonly called water pills) that has been used to treat swelling, congestive heart failure, primary hyperaldosteronism (when the adrenal glands make too much of the hormone aldosterone), and hypertension (high blood pressure).) It has also been used to treat acne, hair loss in women, and hirsutism (increased growth of facial and body hair growth). Some brand names for spironolactone are Aldactone®, Carospir®, and Qaialdo®."
+  }
+}

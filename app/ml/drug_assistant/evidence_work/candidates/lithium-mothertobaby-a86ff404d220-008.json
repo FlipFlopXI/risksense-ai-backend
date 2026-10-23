@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lithium-mothertobaby-a86ff404d220-008",
+      "drug_id": "lithium",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Some studies suggest that using lithium during pregnancy is associated with an increased chance of preterm delivery (birth before week 37). Some studies have reported higher birth weight and low blood sugar in infants following exposure to lithium during pregnancy, while other studies have not reported differences in birth weight. Lithium has not been associated with low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). There are case reports of polyhydramnios (too much amniotic fluid around the fetus, which can lead to preterm delivery and other pregnancy complications) with the use of lithium in pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lithium",
+      "source_url": "https://mothertobaby.org/fact-sheets/lithium-pregnancy/",
+      "source_identifier": "fact-sheets:lithium-pregnancy",
+      "source_section": "Does taking lithium in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "retrieved_at": "2026-09-18T08:23:31.106545+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "content_hash": "dccdf8efe81c6ef2944dc1034937add97a33901fa3921629a40eae461a66f2ca",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lithium",
+      "canonical_name": "lithium",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lithium-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/lithium-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:31.106545+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "source_content_hash": "a86ff404d220a4f3bd3456b13ee73fb314961964ca02ca829c7521da1c174f93",
+      "error_code": null
+    },
+    "source_content_hash": "a86ff404d220a4f3bd3456b13ee73fb314961964ca02ca829c7521da1c174f93",
+    "source_product_identifier": "fact-sheets:lithium-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:53 GMT",
+    "canonical_name": "lithium",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Some studies suggest that using lithium during pregnancy is associated with an increased chance of preterm delivery (birth before week 37). Some studies have reported higher birth weight and low blood sugar in infants following exposure to lithium during pregnancy, while other studies have not reported differences in birth weight. Lithium has not been associated with low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). There are case reports of polyhydramnios (too much amniotic fluid around the fetus, which can lead to preterm delivery and other pregnancy complications) with the use of lithium in pregnancy."
+  }
+}

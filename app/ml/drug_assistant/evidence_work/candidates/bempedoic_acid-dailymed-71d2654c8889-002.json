@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "bempedoic_acid-dailymed-71d2654c8889-002",
+      "drug_id": "bempedoic_acid",
+      "related_drug_ids": [],
+      "topic": "administration",
+      "subtopic": "dosage_and_administration",
+      "claim": "Administer 180 mg orally once daily with or without food. ( 2.1 ) The recommended dosage of NEXLETOL is 180 mg administered orally once daily. NEXLETOL can be taken with or without food. After initiation of NEXLETOL, analyze lipid levels within 8 to 12 weeks.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use NEXLETOL ® safely and effectively. See full prescribing information for NEXLETOL. NEXLETOL (bempedoic acid) tablets, for oral use Initial U.S. Approval: 2020",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_section": "2 DOSAGE AND ADMINISTRATION",
+      "source_revision_date": "20",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "20",
+      "content_hash": "ab997a39a9aa48da47049dd431bc94dcc887a44e6608335e08c175a00aba8fa1",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "bempedoic_acid",
+      "canonical_name": "bempedoic acid",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+      "error_code": null,
+      "candidates": [
+        {
+          "set_id": "3fa2108c-0300-47b8-9d34-f762af7c93c6",
+          "title": "NEXLIZET (BEMPEDOIC ACID AND EZETIMIBE) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "23",
+          "published_date": "Jul 20, 2026"
+        },
+        {
+          "set_id": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+          "title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "20",
+          "published_date": "Jul 20, 2026"
+        }
+      ],
+      "candidate_list_complete": true,
+      "candidate_list_retrieved_at": "2026-09-23T10:02:53.194460+00:00",
+      "product_selection_reason": "HIGH_CONFIDENCE_UNIQUE_MATCH",
+      "product_resolution_version": "1.0.0",
+      "product_resolution_at": "2026-09-23T10:02:54.967932+00:00",
+      "product_resolution_criteria": {
+        "complete_search": true,
+        "human_prescription": true,
+        "single_exact_active_ingredient": true,
+        "unique_compatible_candidate": true,
+        "routes": [
+          "ORAL"
+        ],
+        "dosage_forms": [
+          "BLISTER PACK",
+          "BOTTLE",
+          "BOTTLE, PLASTIC",
+          "TABLET, FILM COATED"
+        ]
+      },
+      "selected_product_title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]"
+    },
+    "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+    "source_product_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+    "source_version": "20",
+    "canonical_name": "bempedoic acid",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Administer 180 mg orally once daily with or without food. ( 2.1 ) The recommended dosage of NEXLETOL is 180 mg administered orally once daily. NEXLETOL can be taken with or without food. After initiation of NEXLETOL, analyze lipid levels within 8 to 12 weeks."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "insulin_glulisine-dailymed-2356b08f4257-026",
+      "drug_id": "insulin_glulisine",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "pllr_8_2",
+      "claim": "Risk Summary Available data from published literature suggest that human insulin products, including APIDRA, are transferred into human milk. There are no adverse reactions reported in the breastfed infants in the literature. There are no data on the effects of exogenous human insulin products, including APIDRA, on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for APIDRA and any potential adverse effects on the breastfed infant from APIDRA or from the underlying maternal condition.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use APIDRA safely and effectively. See full prescribing information for APIDRA. APIDRA ® (insulin glulisine) injection, for subcutaneous or intravenous use Initial U.S. Approval: 2004",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_section": "8.2 Lactation",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "632fd29a3e42ebeea8c1e01f7f3ade849fb5b1e58bc7dd25a55532c2104f9f3f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "insulin_glulisine",
+      "canonical_name": "insulin glulisine",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+      "error_code": null
+    },
+    "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+    "source_product_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+    "source_version": "28",
+    "canonical_name": "insulin glulisine",
+    "therapeutic_group": "insulins",
+    "source_excerpt": "Risk Summary Available data from published literature suggest that human insulin products, including APIDRA, are transferred into human milk. There are no adverse reactions reported in the breastfed infants in the literature. There are no data on the effects of exogenous human insulin products, including APIDRA, on milk production. The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for APIDRA and any potential adverse effects on the breastfed infant from APIDRA or from the underlying maternal condition."
+  }
+}

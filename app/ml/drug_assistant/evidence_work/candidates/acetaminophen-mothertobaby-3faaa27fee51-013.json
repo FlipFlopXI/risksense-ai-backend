@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "acetaminophen-mothertobaby-3faaa27fee51-013",
+      "drug_id": "acetaminophen",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "There are also studies that have not found an increased chance of behavior or learning issues for the child. One study looked at the reported use of acetaminophen during pregnancy and then evaluated the exposed children at 4 years of age. This study did not find an increased chance of harmful effects on children’s I.Q., learning, or development. Another study looking at 185,909 children who were exposed to acetaminophen in pregnancy found no increased chance of autism, ADHD, or intellectual disability.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Acetaminophen (Paracetamol)",
+      "source_url": "https://mothertobaby.org/fact-sheets/acetaminophen-pregnancy/",
+      "source_identifier": "fact-sheets:acetaminophen-pregnancy",
+      "source_section": "Does taking acetaminophen in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "retrieved_at": "2026-09-18T08:23:04.054879+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "content_hash": "4cc940d8219f20642ac74e81563da9219ffa3c59578f7d2e27462ad2a5bf2cf0",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "acetaminophen",
+      "canonical_name": "acetaminophen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:acetaminophen-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/acetaminophen-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:04.054879+00:00",
+      "source_revision_date": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "source_content_hash": "3faaa27fee5163b33a40606b18a6c75986d744168020e9a5914e59946111821f",
+      "error_code": null
+    },
+    "source_content_hash": "3faaa27fee5163b33a40606b18a6c75986d744168020e9a5914e59946111821f",
+    "source_product_identifier": "fact-sheets:acetaminophen-pregnancy",
+    "source_version": "Thu, 15 Jan 2026 09:05:00 GMT",
+    "canonical_name": "acetaminophen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "There are also studies that have not found an increased chance of behavior or learning issues for the child. One study looked at the reported use of acetaminophen during pregnancy and then evaluated the exposed children at 4 years of age. This study did not find an increased chance of harmful effects on children’s I.Q., learning, or development. Another study looking at 185,909 children who were exposed to acetaminophen in pregnancy found no increased chance of autism, ADHD, or intellectual disability."
+  }
+}

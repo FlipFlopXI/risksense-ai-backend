@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "carbamazepine-mothertobaby-351d019c7c7c-002",
+      "drug_id": "carbamazepine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Sometimes when women find out they are pregnant, they think about changing how they take their medication, or stopping their medication altogether. However, it is important to talk with your healthcare providers before making any changes to how you take your medication. If you have been taking carbamazepine and you suddenly stop taking it, you could experience a return of your symptoms (relapse). Your healthcare providers can talk with you about the benefits of treating your condition and the risks of untreated illness during pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Carbamazepine (Tegretol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/carbamazepine-pregnancy/",
+      "source_identifier": "fact-sheets:carbamazepine-pregnancy",
+      "source_section": "What is carbamazepine?",
+      "source_revision_date": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "retrieved_at": "2026-09-18T08:23:12.709997+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "content_hash": "0a9bdbdfb1dc592055dab7caef71197560cd4ad6ac44d6e251e6515f0422b8d6",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "carbamazepine",
+      "canonical_name": "carbamazepine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:carbamazepine-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/carbamazepine-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:12.709997+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "source_content_hash": "351d019c7c7c1627a268a601df7d9808a05eb21af2cc3fc6cb6f069255c4a9ff",
+      "error_code": null
+    },
+    "source_content_hash": "351d019c7c7c1627a268a601df7d9808a05eb21af2cc3fc6cb6f069255c4a9ff",
+    "source_product_identifier": "fact-sheets:carbamazepine-pregnancy",
+    "source_version": "Thu, 20 Aug 2026 07:11:59 GMT",
+    "canonical_name": "carbamazepine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Sometimes when women find out they are pregnant, they think about changing how they take their medication, or stopping their medication altogether. However, it is important to talk with your healthcare providers before making any changes to how you take your medication. If you have been taking carbamazepine and you suddenly stop taking it, you could experience a return of your symptoms (relapse). Your healthcare providers can talk with you about the benefits of treating your condition and the risks of untreated illness during pregnancy."
+  }
+}

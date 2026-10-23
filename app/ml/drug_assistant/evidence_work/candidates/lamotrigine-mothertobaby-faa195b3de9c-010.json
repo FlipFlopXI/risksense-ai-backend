@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lamotrigine-mothertobaby-faa195b3de9c-010",
+      "drug_id": "lamotrigine",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Babies can be watched for possible side effects, such as a rash, trouble breathing, sleepiness, or poor sucking. If the baby develops any symptoms, especially a rash, contact your healthcare provider and your child’s healthcare provider right away. They will talk with you about using lamotrigine and the best way to treat your condition while breastfeeding. If your lamotrigine dose was increased during pregnancy, talk with your healthcare provider about how and when to lower your dose after delivery. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lamotrigine (Lamictal®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/lamotrigine/",
+      "source_identifier": "fact-sheets:lamotrigine",
+      "source_section": "Breastfeeding while taking lamotrigine:",
+      "source_revision_date": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "retrieved_at": "2026-09-18T08:23:30.037777+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "content_hash": "42b587d4fdedc1ac5c1f4bab6819bb44bf0a7db4e3c95681ab488e6715626e62",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lamotrigine",
+      "canonical_name": "lamotrigine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lamotrigine",
+      "source_url": "https://mothertobaby.org/fact-sheets/lamotrigine/",
+      "retrieved_at": "2026-09-18T08:23:30.037777+00:00",
+      "source_revision_date": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "source_content_hash": "faa195b3de9ceea9cec7cb3fb7cb8bab4b3cd0f000dffa2cee235f3bb3970e8a",
+      "error_code": null
+    },
+    "source_content_hash": "faa195b3de9ceea9cec7cb3fb7cb8bab4b3cd0f000dffa2cee235f3bb3970e8a",
+    "source_product_identifier": "fact-sheets:lamotrigine",
+    "source_version": "Tue, 25 Aug 2026 09:33:11 GMT",
+    "canonical_name": "lamotrigine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Babies can be watched for possible side effects, such as a rash, trouble breathing, sleepiness, or poor sucking. If the baby develops any symptoms, especially a rash, contact your healthcare provider and your child’s healthcare provider right away. They will talk with you about using lamotrigine and the best way to treat your condition while breastfeeding. If your lamotrigine dose was increased during pregnancy, talk with your healthcare provider about how and when to lower your dose after delivery. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "azathioprine-mothertobaby-866f1386e4ea-008",
+      "drug_id": "azathioprine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Azathioprine and 6-MP have been linked to a higher chance of intrahepatic cholestasis of pregnancy (ICP), a liver condition that usually develops later in pregnancy and causes severe itching, especially on the palms of the hands and soles of the feet. If you develop new itching during pregnancy, especially on your hands or feet, contact your healthcare provider right away.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Azathioprine | 6-mercaptopurine (Imuran® | Purinethol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/azathioprine-6mp/",
+      "source_identifier": "fact-sheets:azathioprine-6mp",
+      "source_section": "Does taking azathioprine / 6-MP in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "retrieved_at": "2026-09-18T08:23:11.161131+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "content_hash": "14b461ad1d7bee670b42dc3ebd7b7fa39fcfafa401d0345e66b51e68d0559a61",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "azathioprine",
+      "canonical_name": "azathioprine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:azathioprine-6mp",
+      "source_url": "https://mothertobaby.org/fact-sheets/azathioprine-6mp/",
+      "retrieved_at": "2026-09-18T08:23:11.161131+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "source_content_hash": "866f1386e4eab39228d1f8ded7a25f3ae2a435dadf814e6a748b0d6bc9514539",
+      "error_code": null
+    },
+    "source_content_hash": "866f1386e4eab39228d1f8ded7a25f3ae2a435dadf814e6a748b0d6bc9514539",
+    "source_product_identifier": "fact-sheets:azathioprine-6mp",
+    "source_version": "Wed, 19 Aug 2026 09:56:03 GMT",
+    "canonical_name": "azathioprine",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Azathioprine and 6-MP have been linked to a higher chance of intrahepatic cholestasis of pregnancy (ICP), a liver condition that usually develops later in pregnancy and causes severe itching, especially on the palms of the hands and soles of the feet. If you develop new itching during pregnancy, especially on your hands or feet, contact your healthcare provider right away."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "risperidone-mothertobaby-7986ba850adb-011",
+      "drug_id": "risperidone",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "An older product label for risperidone recommends women using this medication should not breastfeed. Newer labels suggest weighing the benefit of using risperidone against possible risks. Your healthcare providers can talk with you about using risperidone and what treatment is best for you. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Risperidone",
+      "source_url": "https://mothertobaby.org/fact-sheets/risperidone-pregnancy/",
+      "source_identifier": "fact-sheets:risperidone-pregnancy",
+      "source_section": "Breastfeeding while taking risperidone:",
+      "source_revision_date": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "retrieved_at": "2026-09-18T08:29:31.704984+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "content_hash": "dbd522cbdac8455a53b74491d050e8e087ad50cbe931ec3c40be1787d78bd95c",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "risperidone",
+      "canonical_name": "risperidone",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:risperidone-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/risperidone-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:31.704984+00:00",
+      "source_revision_date": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "source_content_hash": "7986ba850adb30aaeb6e1846437aee357519b17284e4c2f447fa747a8170e0d7",
+      "error_code": null
+    },
+    "source_content_hash": "7986ba850adb30aaeb6e1846437aee357519b17284e4c2f447fa747a8170e0d7",
+    "source_product_identifier": "fact-sheets:risperidone-pregnancy",
+    "source_version": "Thu, 25 Jun 2026 15:36:11 GMT",
+    "canonical_name": "risperidone",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "An older product label for risperidone recommends women using this medication should not breastfeed. Newer labels suggest weighing the benefit of using risperidone against possible risks. Your healthcare providers can talk with you about using risperidone and what treatment is best for you. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fluticasone-mothertobaby-4d012e80f9b2-010",
+      "drug_id": "fluticasone",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "If fluticasone is being applied topically (to the skin), it is recommended to prevent the baby from coming into direct contact with the medication, such as avoiding topical use near the breast and washing your hands after application. If fluticasone is being applied to the nipples, it is recommended to apply it right after breastfeeding and to gently clean the area before breastfeeding again. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "​​Fluticasone (Flovent®, Flonase®)​",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluticasone-flovent-flonase/",
+      "source_identifier": "fact-sheets:fluticasone-flovent-flonase",
+      "source_section": "Breastfeeding while taking fluticasone:",
+      "source_revision_date": "Tue, 14 Jul 2026 12:12:38 GMT",
+      "retrieved_at": "2026-09-18T08:23:23.172027+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 14 Jul 2026 12:12:38 GMT",
+      "content_hash": "0b7ad8e00f7425d485f64e573515e222d540e947c2e99cdfbc29419c7f259114",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fluticasone",
+      "canonical_name": "fluticasone",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fluticasone-flovent-flonase",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluticasone-flovent-flonase/",
+      "retrieved_at": "2026-09-18T08:23:23.172027+00:00",
+      "source_revision_date": "Tue, 14 Jul 2026 12:12:38 GMT",
+      "source_content_hash": "4d012e80f9b214e2c76bf8584e43a5c2eb3dd20273beb8df70529e8ecf87f5ae",
+      "error_code": null
+    },
+    "source_content_hash": "4d012e80f9b214e2c76bf8584e43a5c2eb3dd20273beb8df70529e8ecf87f5ae",
+    "source_product_identifier": "fact-sheets:fluticasone-flovent-flonase",
+    "source_version": "Tue, 14 Jul 2026 12:12:38 GMT",
+    "canonical_name": "fluticasone",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "If fluticasone is being applied topically (to the skin), it is recommended to prevent the baby from coming into direct contact with the medication, such as avoiding topical use near the breast and washing your hands after application. If fluticasone is being applied to the nipples, it is recommended to apply it right after breastfeeding and to gently clean the area before breastfeeding again. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

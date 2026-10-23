@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "azathioprine-mothertobaby-866f1386e4ea-006",
+      "drug_id": "azathioprine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Azathioprine and 6-MP have been studied in many pregnancies. Overall, the studies have not found an increased chance of birth defects. Two large studies that followed women throughout pregnancy also did not find a higher chance of birth defects with these medications.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Azathioprine | 6-mercaptopurine (Imuran® | Purinethol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/azathioprine-6mp/",
+      "source_identifier": "fact-sheets:azathioprine-6mp",
+      "source_section": "Does taking azathioprine / 6-MP increase the chance of birth defects?",
+      "source_revision_date": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "retrieved_at": "2026-09-18T08:23:11.161131+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "content_hash": "fcd151550c228b1916610505b7c759acfaa17a8f36719ad3d221e4ae2da0b154",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "azathioprine",
+      "canonical_name": "azathioprine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:azathioprine-6mp",
+      "source_url": "https://mothertobaby.org/fact-sheets/azathioprine-6mp/",
+      "retrieved_at": "2026-09-18T08:23:11.161131+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "source_content_hash": "866f1386e4eab39228d1f8ded7a25f3ae2a435dadf814e6a748b0d6bc9514539",
+      "error_code": null
+    },
+    "source_content_hash": "866f1386e4eab39228d1f8ded7a25f3ae2a435dadf814e6a748b0d6bc9514539",
+    "source_product_identifier": "fact-sheets:azathioprine-6mp",
+    "source_version": "Wed, 19 Aug 2026 09:56:03 GMT",
+    "canonical_name": "azathioprine",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Azathioprine and 6-MP have been studied in many pregnancies. Overall, the studies have not found an increased chance of birth defects. Two large studies that followed women throughout pregnancy also did not find a higher chance of birth defects with these medications."
+  }
+}

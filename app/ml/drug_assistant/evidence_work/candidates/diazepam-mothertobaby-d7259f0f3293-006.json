@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "diazepam-mothertobaby-d7259f0f3293-006",
+      "drug_id": "diazepam",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Some, but not all, studies reported that taking diazepam or other benzodiazepines in pregnancy might increase the chance for pregnancy complications such as preterm delivery (delivery before 37 weeks of pregnancy), low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth), and/or smaller head size. As there can be many causes of pregnancy-related complications, it is hard to know if a medication, the medical condition, or other factors are the cause of the reported complications.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Diazepam (Valium®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/diazepam-valium/",
+      "source_identifier": "fact-sheets:diazepam-valium",
+      "source_section": "Does taking diazepam in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "retrieved_at": "2026-09-18T08:23:17.101051+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "content_hash": "fe7dab1bc3b39044a93ea55452f34f1a90956976ec54df1e7f78ca4e796119e8",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "diazepam",
+      "canonical_name": "diazepam",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:diazepam-valium",
+      "source_url": "https://mothertobaby.org/fact-sheets/diazepam-valium/",
+      "retrieved_at": "2026-09-18T08:23:17.101051+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "source_content_hash": "d7259f0f3293dceffde78286c32af9b372c05e627ed0186aa9bfcfdbd1e0a7e8",
+      "error_code": null
+    },
+    "source_content_hash": "d7259f0f3293dceffde78286c32af9b372c05e627ed0186aa9bfcfdbd1e0a7e8",
+    "source_product_identifier": "fact-sheets:diazepam-valium",
+    "source_version": "Thu, 20 Aug 2026 11:24:19 GMT",
+    "canonical_name": "diazepam",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Some, but not all, studies reported that taking diazepam or other benzodiazepines in pregnancy might increase the chance for pregnancy complications such as preterm delivery (delivery before 37 weeks of pregnancy), low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth), and/or smaller head size. As there can be many causes of pregnancy-related complications, it is hard to know if a medication, the medical condition, or other factors are the cause of the reported complications."
+  }
+}

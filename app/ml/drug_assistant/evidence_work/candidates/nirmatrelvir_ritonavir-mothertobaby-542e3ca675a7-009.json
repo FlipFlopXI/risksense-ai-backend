@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "nirmatrelvir_ritonavir-mothertobaby-542e3ca675a7-009",
+      "drug_id": "nirmatrelvir_ritonavir",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Since the amount of nirmatrelvir/ritonavir in the milk is expected to be low, it is not expected to cause side effects in nursing infants. However, if you suspect the baby has any symptoms (such as diarrhea or irritability), contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Nirmatrelvir/Ritonavir (Paxlovid®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/nirmatrelvir-ritonavir-paxlovid/",
+      "source_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+      "source_section": "Breastfeeding while taking nirmatrelvir/ritonavir:",
+      "source_revision_date": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "retrieved_at": "2026-09-18T08:23:42.872342+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "content_hash": "cdd210d6b7d0a593cbea2920b40458733d3ffad3ce6a494c209474d3b303783f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "nirmatrelvir_ritonavir",
+      "canonical_name": "nirmatrelvir/ritonavir",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+      "source_url": "https://mothertobaby.org/fact-sheets/nirmatrelvir-ritonavir-paxlovid/",
+      "retrieved_at": "2026-09-18T08:23:42.872342+00:00",
+      "source_revision_date": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "source_content_hash": "542e3ca675a7d933e7bb755a35d8d77a0fa741d7b7beceaab05fd8d0151c4ed7",
+      "error_code": null
+    },
+    "source_content_hash": "542e3ca675a7d933e7bb755a35d8d77a0fa741d7b7beceaab05fd8d0151c4ed7",
+    "source_product_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+    "source_version": "Fri, 24 Jul 2026 11:27:13 GMT",
+    "canonical_name": "nirmatrelvir/ritonavir",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Since the amount of nirmatrelvir/ritonavir in the milk is expected to be low, it is not expected to cause side effects in nursing infants. However, if you suspect the baby has any symptoms (such as diarrhea or irritability), contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

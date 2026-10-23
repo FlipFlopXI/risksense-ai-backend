@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "clindamycin-mothertobaby-781dc7be6232-008",
+      "drug_id": "clindamycin",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "There are no specific studies on clindamycin and breastfeeding. One report described a newborn with two bloody stools while both the baby and mother were taking multiple antibiotics. It is unclear what role, if any, clindamycin in breast milk played. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Clindamycin",
+      "source_url": "https://mothertobaby.org/fact-sheets/clindamycin-pregnancy/",
+      "source_identifier": "fact-sheets:clindamycin-pregnancy",
+      "source_section": "Breastfeeding while taking clindamycin:",
+      "source_revision_date": "Thu, 02 Apr 2026 06:11:06 GMT",
+      "retrieved_at": "2026-09-18T08:23:15.772382+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 02 Apr 2026 06:11:06 GMT",
+      "content_hash": "c77f09aff2fc3edf62db19b10f3f61c50e43a2654acae32f2f9674280cea0f1d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "clindamycin",
+      "canonical_name": "clindamycin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:clindamycin-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/clindamycin-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:15.772382+00:00",
+      "source_revision_date": "Thu, 02 Apr 2026 06:11:06 GMT",
+      "source_content_hash": "781dc7be6232108b2c12317080419ba25f3cc3e41ccbe9d9aeba2d41ace02609",
+      "error_code": null
+    },
+    "source_content_hash": "781dc7be6232108b2c12317080419ba25f3cc3e41ccbe9d9aeba2d41ace02609",
+    "source_product_identifier": "fact-sheets:clindamycin-pregnancy",
+    "source_version": "Thu, 02 Apr 2026 06:11:06 GMT",
+    "canonical_name": "clindamycin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "There are no specific studies on clindamycin and breastfeeding. One report described a newborn with two bloody stools while both the baby and mother were taking multiple antibiotics. It is unclear what role, if any, clindamycin in breast milk played. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

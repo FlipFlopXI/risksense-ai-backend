@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lorazepam-mothertobaby-2080ccb30bff-006",
+      "drug_id": "lorazepam",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "It is unlikely that lorazepam significantly increases the chance of birth defects. One study found a possible association with anal atresia (bottom of the intestinal tract is closed off), and another study found an increased chance of pulmonary valve stenosis (abnormal development of the baby’s heart). However, other studies did not find an increased chance of birth defects with the use of lorazepam.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lorazepam",
+      "source_url": "https://mothertobaby.org/fact-sheets/lorazepam/",
+      "source_identifier": "fact-sheets:lorazepam",
+      "source_section": "Does taking lorazepam increase the chance of birth defects?",
+      "source_revision_date": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:32.128416+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "content_hash": "c7cc9c577c6a5bf8a9af9094c6b226f4bf647d08a20d0ffb18bfd26d63d775bb",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lorazepam",
+      "canonical_name": "lorazepam",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lorazepam",
+      "source_url": "https://mothertobaby.org/fact-sheets/lorazepam/",
+      "retrieved_at": "2026-09-18T08:23:32.128416+00:00",
+      "source_revision_date": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "source_content_hash": "2080ccb30bff2e5aac614e9e8e7e3a4edd81f3502252abe8d66724327a12ab94",
+      "error_code": null
+    },
+    "source_content_hash": "2080ccb30bff2e5aac614e9e8e7e3a4edd81f3502252abe8d66724327a12ab94",
+    "source_product_identifier": "fact-sheets:lorazepam",
+    "source_version": "Fri, 26 Jun 2026 15:57:01 GMT",
+    "canonical_name": "lorazepam",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "It is unlikely that lorazepam significantly increases the chance of birth defects. One study found a possible association with anal atresia (bottom of the intestinal tract is closed off), and another study found an increased chance of pulmonary valve stenosis (abnormal development of the baby’s heart). However, other studies did not find an increased chance of birth defects with the use of lorazepam."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "citalopram-mothertobaby-a92941833622-006",
+      "drug_id": "citalopram",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "​A study looked at a worldwide database of reports of problems that happened after using medications. The study suggested that citalopram might increase the chance of stillbirth (pregnancy loss after week 20). However, this suggestion was based on only a small number of cases of stillbirth after use of citalopram in pregnancy (7 in total), and the overall increased risk appeared to be low. Also, the reports of stillbirth did not include information about other possible causes, such as the health or past medical history of the person who was pregnant, use of other medications, or other factors during the pregnancy. This makes it hard to know if the medication or other factors were the cause of these stillbirths.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Citalopram | Escitalopram (Celexa® | Lexapro®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/citalopramescitalopram-celexalexapro-pregnancy/",
+      "source_identifier": "fact-sheets:citalopramescitalopram-celexalexapro-pregnancy",
+      "source_section": "Does taking citalopram or escitalopram in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:20 GMT",
+      "retrieved_at": "2026-09-18T08:23:15.274832+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:20 GMT",
+      "content_hash": "4468fb11d9887197a0641d23e221ae1e2d81d7a9b5ad35bf5a32d48c978754a1",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "citalopram",
+      "canonical_name": "citalopram",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:citalopramescitalopram-celexalexapro-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/citalopramescitalopram-celexalexapro-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:15.274832+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:20 GMT",
+      "source_content_hash": "a929418336220d5f8c72e60b0b463f14c9e6850133cf27adec2810ac91e276e2",
+      "error_code": null
+    },
+    "source_content_hash": "a929418336220d5f8c72e60b0b463f14c9e6850133cf27adec2810ac91e276e2",
+    "source_product_identifier": "fact-sheets:citalopramescitalopram-celexalexapro-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:20 GMT",
+    "canonical_name": "citalopram",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "​A study looked at a worldwide database of reports of problems that happened after using medications. The study suggested that citalopram might increase the chance of stillbirth (pregnancy loss after week 20). However, this suggestion was based on only a small number of cases of stillbirth after use of citalopram in pregnancy (7 in total), and the overall increased risk appeared to be low. Also, the reports of stillbirth did not include information about other possible causes, such as the health or past medical history of the person who was pregnant, use of other medications, or other factors during the pregnancy. This makes it hard to know if the medication or other factors were the cause of these stillbirths."
+  }
+}

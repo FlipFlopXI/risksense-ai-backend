@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "isotretinoin-mothertobaby-e586d09bf641-002",
+      "drug_id": "isotretinoin",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "The product label for isotretinoin recommends not using this medication while pregnant or breastfeeding. If you are taking isotretinoin and find out you are pregnant, stop taking the medication and contact your healthcare provider immediately. If you are taking isotretinoin and want to get pregnant, talk with your healthcare provider.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Isotretinoin (Accutane®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/isotretinoin-accutane-pregnancy/",
+      "source_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+      "source_section": "What is isotretinoin?",
+      "source_revision_date": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "retrieved_at": "2026-09-18T08:23:29.158362+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "content_hash": "8a3735815e0c199bf5605c895adadad61b754b813413ab93b7e1e1207336991b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "isotretinoin",
+      "canonical_name": "isotretinoin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/isotretinoin-accutane-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:29.158362+00:00",
+      "source_revision_date": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "source_content_hash": "e586d09bf641dc9e1c1cc9375d8f72db9ba978e420d84ace8d75327a1ecd65da",
+      "error_code": null
+    },
+    "source_content_hash": "e586d09bf641dc9e1c1cc9375d8f72db9ba978e420d84ace8d75327a1ecd65da",
+    "source_product_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+    "source_version": "Thu, 09 Apr 2026 06:56:33 GMT",
+    "canonical_name": "isotretinoin",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "The product label for isotretinoin recommends not using this medication while pregnant or breastfeeding. If you are taking isotretinoin and find out you are pregnant, stop taking the medication and contact your healthcare provider immediately. If you are taking isotretinoin and want to get pregnant, talk with your healthcare provider."
+  }
+}

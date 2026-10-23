@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "hydroxyzine-mothertobaby-0ed488883da1-001",
+      "drug_id": "hydroxyzine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Hydroxyzine (Vistaril®, Atarax®) is an antihistamine. Antihistamines work by helping the body lower the response to allergens including pollen, nuts, or skin irritants, which can make you itch or develop hives. Some antihistamines, like hydroxyzine, are used to help treat anxiety, nausea, tension, or to help you sleep better.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Hydroxyzine (Vistaril®, Atarax®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/hydroxyzine-vistaril-atarax/",
+      "source_identifier": "fact-sheets:hydroxyzine-vistaril-atarax",
+      "source_section": "What is Hydroxyzine?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "retrieved_at": "2026-09-18T08:23:27.227022+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "content_hash": "40aef123c470a19a52d199ff18db907487f8ba8c3f5cf5268cf68cadfdc230c1",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "hydroxyzine",
+      "canonical_name": "hydroxyzine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:hydroxyzine-vistaril-atarax",
+      "source_url": "https://mothertobaby.org/fact-sheets/hydroxyzine-vistaril-atarax/",
+      "retrieved_at": "2026-09-18T08:23:27.227022+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "source_content_hash": "0ed488883da12ed11b19092a691be7bf5f794a1072a555d59fccbb4b8571a93d",
+      "error_code": null
+    },
+    "source_content_hash": "0ed488883da12ed11b19092a691be7bf5f794a1072a555d59fccbb4b8571a93d",
+    "source_product_identifier": "fact-sheets:hydroxyzine-vistaril-atarax",
+    "source_version": "Tue, 02 Dec 2025 11:59:12 GMT",
+    "canonical_name": "hydroxyzine",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Hydroxyzine (Vistaril®, Atarax®) is an antihistamine. Antihistamines work by helping the body lower the response to allergens including pollen, nuts, or skin irritants, which can make you itch or develop hives. Some antihistamines, like hydroxyzine, are used to help treat anxiety, nausea, tension, or to help you sleep better."
+  }
+}

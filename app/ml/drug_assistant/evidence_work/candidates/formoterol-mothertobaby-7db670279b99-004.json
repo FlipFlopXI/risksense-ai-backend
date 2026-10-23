@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "formoterol-mothertobaby-7db670279b99-004",
+      "drug_id": "formoterol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. In one study of 53 pregnancies exposed to formoterol and similar medications, an increased chance of miscarriage was not reported.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Formoterol (Foradil®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/formoterol-pregnancy/",
+      "source_identifier": "fact-sheets:formoterol-pregnancy",
+      "source_section": "Does taking formoterol increase the chance of miscarriage?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "retrieved_at": "2026-09-18T08:23:23.735627+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "content_hash": "50bb5bdad549df3d7ba527323460574cd40bc2d5d4a4de6e2992c374f1c1244f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "formoterol",
+      "canonical_name": "formoterol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:formoterol-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/formoterol-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:23.735627+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "source_content_hash": "7db670279b99b06343b95570d7d5b13d8d4f04be1a7d928820cb27c8c23e826e",
+      "error_code": null
+    },
+    "source_content_hash": "7db670279b99b06343b95570d7d5b13d8d4f04be1a7d928820cb27c8c23e826e",
+    "source_product_identifier": "fact-sheets:formoterol-pregnancy",
+    "source_version": "Mon, 24 Aug 2026 10:37:48 GMT",
+    "canonical_name": "formoterol",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. In one study of 53 pregnancies exposed to formoterol and similar medications, an increased chance of miscarriage was not reported."
+  }
+}

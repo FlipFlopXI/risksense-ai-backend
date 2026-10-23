@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "evolocumab-mothertobaby-de83f498c998-003",
+      "drug_id": "evolocumab",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done in humans to see if evolocumab can make it harder to get pregnant. Information from animal studies does not suggest that taking evolocumab in pregnancy can make it harder to get pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Evolocumab (Repatha®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/evolocumab/",
+      "source_identifier": "fact-sheets:evolocumab",
+      "source_section": "I take evolocumab. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:20 GMT",
+      "retrieved_at": "2026-09-18T08:23:20.389560+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:51:20 GMT",
+      "content_hash": "7915bd3d29800a4d70d5f599f95ae6339ef3c8039ad971db1d69472e8fa1e3f9",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "evolocumab",
+      "canonical_name": "evolocumab",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:evolocumab",
+      "source_url": "https://mothertobaby.org/fact-sheets/evolocumab/",
+      "retrieved_at": "2026-09-18T08:23:20.389560+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:20 GMT",
+      "source_content_hash": "de83f498c99806a12659c31d2714cdc5d8e6e220702d9ce26a27eb148d856dd8",
+      "error_code": null
+    },
+    "source_content_hash": "de83f498c99806a12659c31d2714cdc5d8e6e220702d9ce26a27eb148d856dd8",
+    "source_product_identifier": "fact-sheets:evolocumab",
+    "source_version": "Tue, 02 Dec 2025 11:51:20 GMT",
+    "canonical_name": "evolocumab",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Studies have not been done in humans to see if evolocumab can make it harder to get pregnant. Information from animal studies does not suggest that taking evolocumab in pregnancy can make it harder to get pregnant."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "bempedoic_acid-dailymed-71d2654c8889-005",
+      "drug_id": "bempedoic_acid",
+      "related_drug_ids": [],
+      "topic": "warnings",
+      "subtopic": "warnings_and_precautions",
+      "claim": "Hyperuricemia: Elevations in serum uric acid have occurred. Assess uric acid levels periodically as clinically indicated. Monitor for signs and symptoms of hyperuricemia, and initiate treatment with urate-lowering drugs as appropriate. ( 5.1 ) Tendon Rupture: Tendon rupture has occurred. Discontinue NEXLETOL at the first sign of tendon rupture. Avoid NEXLETOL in patients who have a history of tendon disorders or tendon rupture. ( 5.2 ) NEXLETOL inhibits renal tubular OAT2 and may increase blood uric acid levels [see Clinical Pharmacology (12.3) ] . In the primary hypercholesterolemia trials [see Clinical Studies (14.2) ] , 26% of NEXLETOL-treated patients with normal baseline uric acid values (versus 9.5% placebo) experienced hyperuricemia one or more times, and 3.5% of patients experienced clinically significant hyperuricemia reported as an adverse reaction (versus 1.1% placebo). Increases in uric acid levels usually occurred within the first 4 weeks of treatment initiation, persisted throughout treatment, and returned to baseline following discontinuation of treatment. After 12 weeks of treatment, the mean placebo-adjusted increase in uric acid compared to baseline was 0.8 mg/dL for patients treated with NEXLETOL. In the cardiovascular outcomes trial [see Clinical Studies (14.1) ], 16.4% of NEXLETOL-treated patients experienced clinically significant hyperuricemia reported as an adverse reaction (versus 8.2% placebo). Elevated blood uric acid may lead to the development of gout. In the primary hypercholesterolemia trials, gout was reported in 1.5% of patients treated with",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use NEXLETOL ® safely and effectively. See full prescribing information for NEXLETOL. NEXLETOL (bempedoic acid) tablets, for oral use Initial U.S. Approval: 2020",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_section": "5 WARNINGS AND PRECAUTIONS",
+      "source_revision_date": "20",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "20",
+      "content_hash": "07715bad0ec6bf3dc205562a73e9bdcf499030a71529fbe121e623222f9029ea",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "bempedoic_acid",
+      "canonical_name": "bempedoic acid",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+      "error_code": null,
+      "candidates": [
+        {
+          "set_id": "3fa2108c-0300-47b8-9d34-f762af7c93c6",
+          "title": "NEXLIZET (BEMPEDOIC ACID AND EZETIMIBE) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "23",
+          "published_date": "Jul 20, 2026"
+        },
+        {
+          "set_id": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+          "title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "20",
+          "published_date": "Jul 20, 2026"
+        }
+      ],
+      "candidate_list_complete": true,
+      "candidate_list_retrieved_at": "2026-09-23T10:02:53.194460+00:00",
+      "product_selection_reason": "HIGH_CONFIDENCE_UNIQUE_MATCH",
+      "product_resolution_version": "1.0.0",
+      "product_resolution_at": "2026-09-23T10:02:54.967932+00:00",
+      "product_resolution_criteria": {
+        "complete_search": true,
+        "human_prescription": true,
+        "single_exact_active_ingredient": true,
+        "unique_compatible_candidate": true,
+        "routes": [
+          "ORAL"
+        ],
+        "dosage_forms": [
+          "BLISTER PACK",
+          "BOTTLE",
+          "BOTTLE, PLASTIC",
+          "TABLET, FILM COATED"
+        ]
+      },
+      "selected_product_title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]"
+    },
+    "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+    "source_product_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+    "source_version": "20",
+    "canonical_name": "bempedoic acid",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Hyperuricemia: Elevations in serum uric acid have occurred. Assess uric acid levels periodically as clinically indicated. Monitor for signs and symptoms of hyperuricemia, and initiate treatment with urate-lowering drugs as appropriate. ( 5.1 ) Tendon Rupture: Tendon rupture has occurred. Discontinue NEXLETOL at the first sign of tendon rupture. Avoid NEXLETOL in patients who have a history of tendon disorders or tendon rupture. ( 5.2 ) NEXLETOL inhibits renal tubular OAT2 and may increase blood uric acid levels [see Clinical Pharmacology (12.3) ] . In the primary hypercholesterolemia trials [see Clinical Studies (14.2) ] , 26% of NEXLETOL-treated patients with normal baseline uric acid values (versus 9.5% placebo) experienced hyperuricemia one or more times, and 3.5% of patients experienced clinically significant hyperuricemia reported as an adverse reaction (versus 1.1% placebo). Increases in uric acid levels usually occurred within the first 4 weeks of treatment initiation, persisted throughout treatment, and returned to baseline following discontinuation of treatment. After 12 weeks of treatment, the mean placebo-adjusted increase in uric acid compared to baseline was 0.8 mg/dL for patients treated with NEXLETOL. In the cardiovascular outcomes trial [see Clinical Studies (14.1) ], 16.4% of NEXLETOL-treated patients experienced clinically significant hyperuricemia reported as an adverse reaction (versus 8.2% placebo). Elevated blood uric acid may lead to the development of gout. In the primary hypercholesterolemia trials, gout was reported in 1.5% of patients treated with NEXLETOL and 0.4% of patients treated with placebo. In the cardiovascular outcomes trial, gout was reported in 3.2% of patients treated with NEXLETOL and 2.2% treated with placebo. Advise patients to contact their healthcare provider if symptoms of hyperuricemia occur. Assess serum uric acid when clinically indicated. Monitor patients for signs and symptoms of hyperuricemia, and initiate treatment with urate-lowering drugs as appropriate. NEXLETOL is associated with an increased risk of tendon rupture or injury. In the primary hypercholesterolemia trials [see Clinical Studies (14.2) ] , tendon rupture occurred in 0.5% of patients treated with NEXLETOL versus 0% of placebo-treated patients and involved the rotator cuff (the shoulder), biceps tendon, or Achilles tendon. Tendon rupture occurred within weeks to months of starting NEXLETOL. In the cardiovascular outcomes trial [see Clinical Studies (14.1) ] , tendon rupture events occurred in 1.2% of NEXLETOL-treated patients versus 0.9% of placebo-treated patients. Tendon rupture may occur more frequently in patients over 60 years of age, in those taking corticosteroid or fluoroquinolone drugs, in patients with renal failure, and in patients with previous tendon disorders. Discontinue NEXLETOL immediately if the patient experiences rupture of a tendon. Consider discontinuing NEXLETOL if the patient experiences joint pain, swelling, or inflammation. Advise patients to rest at the first sign of tendinitis or tendon rupture and to contact their healthcare provider if tendinitis or tendon rupture symptoms occur. Consider alternative therapy in patients with a history of tendon disorders or tendon rupture."
+  }
+}

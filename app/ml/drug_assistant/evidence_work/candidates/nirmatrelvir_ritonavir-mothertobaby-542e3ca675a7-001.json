@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "nirmatrelvir_ritonavir-mothertobaby-542e3ca675a7-001",
+      "drug_id": "nirmatrelvir_ritonavir",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Nirmatrelvir and ritonavir are medications that have been used together to treat COVID-19 (the illness caused by the SARS-CoV-2 virus). The combination of nirmatrelvir and ritonavir is sold under the brand name Paxlovid®. To be most effective, nirmatrelvir/ritonavir treatment should be started as soon as possible after a diagnosis of COVID-19 and within 5 days of the start of symptoms. For more information on COVID-19, please the fact sheet at https://mothertobaby.org/fact-sheets/covid-19/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Nirmatrelvir/Ritonavir (Paxlovid®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/nirmatrelvir-ritonavir-paxlovid/",
+      "source_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+      "source_section": "What is nirmatrelvir/ritonavir?",
+      "source_revision_date": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "retrieved_at": "2026-09-18T08:23:42.872342+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "content_hash": "5b072eb1803b98beb7eebe087f2f10d67feaaa7892f4537b3c7a63e1aee220cf",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "nirmatrelvir_ritonavir",
+      "canonical_name": "nirmatrelvir/ritonavir",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+      "source_url": "https://mothertobaby.org/fact-sheets/nirmatrelvir-ritonavir-paxlovid/",
+      "retrieved_at": "2026-09-18T08:23:42.872342+00:00",
+      "source_revision_date": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "source_content_hash": "542e3ca675a7d933e7bb755a35d8d77a0fa741d7b7beceaab05fd8d0151c4ed7",
+      "error_code": null
+    },
+    "source_content_hash": "542e3ca675a7d933e7bb755a35d8d77a0fa741d7b7beceaab05fd8d0151c4ed7",
+    "source_product_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+    "source_version": "Fri, 24 Jul 2026 11:27:13 GMT",
+    "canonical_name": "nirmatrelvir/ritonavir",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Nirmatrelvir and ritonavir are medications that have been used together to treat COVID-19 (the illness caused by the SARS-CoV-2 virus). The combination of nirmatrelvir and ritonavir is sold under the brand name Paxlovid®. To be most effective, nirmatrelvir/ritonavir treatment should be started as soon as possible after a diagnosis of COVID-19 and within 5 days of the start of symptoms. For more information on COVID-19, please the fact sheet at https://mothertobaby.org/fact-sheets/covid-19/."
+  }
+}

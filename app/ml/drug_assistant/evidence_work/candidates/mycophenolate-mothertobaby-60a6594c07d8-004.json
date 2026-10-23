@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "mycophenolate-mothertobaby-60a6594c07d8-004",
+      "drug_id": "mycophenolate",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "The U.S. Food and Drug Administration (FDA) requires that women who may become pregnant participate in a mycophenolate education program before they start taking the medication. Healthcare providers who prescribe mycophenolate must also participate in the program. The program requires having a negative pregnancy test before starting mycophenolate and another negative pregnancy test eight to ten days after treatment begins. The program also recommends using effective birth control to prevent pregnancy while taking mycophenolate. Birth control should continue for 6 weeks after stopping mycophenolate. It is important to know that mycophenolate might make hormonal birth control methods, like birth control pills, not work as well to prevent pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Mycophenolate (Cellcept®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/mycophenolate/",
+      "source_identifier": "fact-sheets:mycophenolate",
+      "source_section": "I take mycophenolate. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:43 GMT",
+      "retrieved_at": "2026-09-18T08:23:40.417131+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:51:43 GMT",
+      "content_hash": "f30dd5ddd764b0072b05a78825be63dca3d8c19626357b6e81929f2ea25ba655",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "mycophenolate",
+      "canonical_name": "mycophenolate",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:mycophenolate",
+      "source_url": "https://mothertobaby.org/fact-sheets/mycophenolate/",
+      "retrieved_at": "2026-09-18T08:23:40.417131+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:43 GMT",
+      "source_content_hash": "60a6594c07d86a8ed4da5ecfe5ed5556f825b19a5eef2cbc5eb553d3ca16e6ac",
+      "error_code": null
+    },
+    "source_content_hash": "60a6594c07d86a8ed4da5ecfe5ed5556f825b19a5eef2cbc5eb553d3ca16e6ac",
+    "source_product_identifier": "fact-sheets:mycophenolate",
+    "source_version": "Tue, 02 Dec 2025 11:51:43 GMT",
+    "canonical_name": "mycophenolate",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "The U.S. Food and Drug Administration (FDA) requires that women who may become pregnant participate in a mycophenolate education program before they start taking the medication. Healthcare providers who prescribe mycophenolate must also participate in the program. The program requires having a negative pregnancy test before starting mycophenolate and another negative pregnancy test eight to ten days after treatment begins. The program also recommends using effective birth control to prevent pregnancy while taking mycophenolate. Birth control should continue for 6 weeks after stopping mycophenolate. It is important to know that mycophenolate might make hormonal birth control methods, like birth control pills, not work as well to prevent pregnancy."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "risperidone-mothertobaby-7986ba850adb-010",
+      "drug_id": "risperidone",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Information on the use of risperidone during breastfeeding is limited. When taken in doses of up to 6 mg a day, risperidone was found in breast milk in small amounts. Side effects were not reported in a small number of breastfed infants. If you suspect the baby has any symptoms (being more sleepy than usual, jitteriness, poor feeding, crankiness, or unusual movements) contact the child’s healthcare provider.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Risperidone",
+      "source_url": "https://mothertobaby.org/fact-sheets/risperidone-pregnancy/",
+      "source_identifier": "fact-sheets:risperidone-pregnancy",
+      "source_section": "Breastfeeding while taking risperidone:",
+      "source_revision_date": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "retrieved_at": "2026-09-18T08:29:31.704984+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "content_hash": "f31a3fae9d63cf783ecd93c729aaab774186232d7d67de3fb1b70dce32f1f4fd",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "risperidone",
+      "canonical_name": "risperidone",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:risperidone-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/risperidone-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:31.704984+00:00",
+      "source_revision_date": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "source_content_hash": "7986ba850adb30aaeb6e1846437aee357519b17284e4c2f447fa747a8170e0d7",
+      "error_code": null
+    },
+    "source_content_hash": "7986ba850adb30aaeb6e1846437aee357519b17284e4c2f447fa747a8170e0d7",
+    "source_product_identifier": "fact-sheets:risperidone-pregnancy",
+    "source_version": "Thu, 25 Jun 2026 15:36:11 GMT",
+    "canonical_name": "risperidone",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Information on the use of risperidone during breastfeeding is limited. When taken in doses of up to 6 mg a day, risperidone was found in breast milk in small amounts. Side effects were not reported in a small number of breastfed infants. If you suspect the baby has any symptoms (being more sleepy than usual, jitteriness, poor feeding, crankiness, or unusual movements) contact the child’s healthcare provider."
+  }
+}

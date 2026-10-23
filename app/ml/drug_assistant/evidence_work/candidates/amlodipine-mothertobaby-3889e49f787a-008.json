@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "amlodipine-mothertobaby-3889e49f787a-008",
+      "drug_id": "amlodipine",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "The product label for amlodipine recommends women who are breastfeeding not use this medication. But the benefits of using amlodipine and the benefits of breastfeeding your baby might outweigh possible risks. Your healthcare providers can talk with you about using amlodipine and what treatment is best for you. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Amlodipine (Norvasc®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/amlodipine-norvasc/",
+      "source_identifier": "fact-sheets:amlodipine-norvasc",
+      "source_section": "Breastfeeding while taking amlodipine:",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "retrieved_at": "2026-09-18T08:23:09.174791+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "content_hash": "a76392ffae5bc996baf9a9556b2d3193bb0c312884cabf1c65a252659a84ccf6",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "amlodipine",
+      "canonical_name": "amlodipine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:amlodipine-norvasc",
+      "source_url": "https://mothertobaby.org/fact-sheets/amlodipine-norvasc/",
+      "retrieved_at": "2026-09-18T08:23:09.174791+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "source_content_hash": "3889e49f787a2c53d726b6b94666094027393c0ab22b3f66849df9668f86be72",
+      "error_code": null
+    },
+    "source_content_hash": "3889e49f787a2c53d726b6b94666094027393c0ab22b3f66849df9668f86be72",
+    "source_product_identifier": "fact-sheets:amlodipine-norvasc",
+    "source_version": "Tue, 02 Dec 2025 11:58:16 GMT",
+    "canonical_name": "amlodipine",
+    "therapeutic_group": "calcium_channel_blockers",
+    "source_excerpt": "The product label for amlodipine recommends women who are breastfeeding not use this medication. But the benefits of using amlodipine and the benefits of breastfeeding your baby might outweigh possible risks. Your healthcare providers can talk with you about using amlodipine and what treatment is best for you. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

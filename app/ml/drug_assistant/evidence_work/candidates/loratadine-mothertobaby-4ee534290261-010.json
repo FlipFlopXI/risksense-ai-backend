@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "loratadine-mothertobaby-4ee534290261-010",
+      "drug_id": "loratadine",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Taking loratadine might decrease the amount of milk that is made, especially if it is taken in combination with other medications. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Loratadine (Claritin®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/loratadine-pregnancy/",
+      "source_identifier": "fact-sheets:loratadine-pregnancy",
+      "source_section": "Breastfeeding while taking loratadine:",
+      "source_revision_date": "Wed, 01 Apr 2026 10:34:12 GMT",
+      "retrieved_at": "2026-09-18T08:23:31.713052+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 01 Apr 2026 10:34:12 GMT",
+      "content_hash": "8268b7ae690a217bc35ae0cb97ca95e0efc1117a71dd7c638806a0c4cd9b0802",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "loratadine",
+      "canonical_name": "loratadine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:loratadine-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/loratadine-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:31.713052+00:00",
+      "source_revision_date": "Wed, 01 Apr 2026 10:34:12 GMT",
+      "source_content_hash": "4ee534290261d19ea319ed79e6a9e4ec5f5566d9df2d084a09278c3e79b4b090",
+      "error_code": null
+    },
+    "source_content_hash": "4ee534290261d19ea319ed79e6a9e4ec5f5566d9df2d084a09278c3e79b4b090",
+    "source_product_identifier": "fact-sheets:loratadine-pregnancy",
+    "source_version": "Wed, 01 Apr 2026 10:34:12 GMT",
+    "canonical_name": "loratadine",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Taking loratadine might decrease the amount of milk that is made, especially if it is taken in combination with other medications. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

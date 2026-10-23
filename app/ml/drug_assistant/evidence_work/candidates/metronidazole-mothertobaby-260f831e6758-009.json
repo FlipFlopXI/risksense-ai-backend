@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "metronidazole-mothertobaby-260f831e6758-009",
+      "drug_id": "metronidazole",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "It is not known if metronidazole could affect male fertility (ability to get a woman pregnant) or increase the chance of birth defects in a partner’s pregnancy. In general, exposures that men have are unlikely to increase the risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Metronidazole (Flagyl®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/metronidazole-flagyl-pregnancy/",
+      "source_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+      "source_section": "If a man takes metronidazole, could it affect his fertility or increase the chance of birth defects?",
+      "source_revision_date": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "retrieved_at": "2026-09-18T08:23:36.304648+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "content_hash": "fd745715c4b621ad517537977f042043e76666b857bb7517845a361faa99e27b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "metronidazole",
+      "canonical_name": "metronidazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/metronidazole-flagyl-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:36.304648+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "source_content_hash": "260f831e6758714cf0d85ef3029aca0c8864184c2f8dd4e8d660b6615020f033",
+      "error_code": null
+    },
+    "source_content_hash": "260f831e6758714cf0d85ef3029aca0c8864184c2f8dd4e8d660b6615020f033",
+    "source_product_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+    "source_version": "Thu, 23 Jul 2026 17:20:32 GMT",
+    "canonical_name": "metronidazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "It is not known if metronidazole could affect male fertility (ability to get a woman pregnant) or increase the chance of birth defects in a partner’s pregnancy. In general, exposures that men have are unlikely to increase the risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

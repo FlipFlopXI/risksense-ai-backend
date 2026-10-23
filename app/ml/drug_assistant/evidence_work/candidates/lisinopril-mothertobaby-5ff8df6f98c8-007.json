@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lisinopril-mothertobaby-5ff8df6f98c8-007",
+      "drug_id": "lisinopril",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "When used after the first trimester, ACE inhibitors such as lisinopril can cause low levels of amniotic fluid (fluid that surrounds the fetus during pregnancy). Low levels of amniotic fluid can lead to health problems for the developing fetus. Some of these problems include poor lung development, poor growth, poor development of the skull bones, birth defects, and problems with the development of the kidneys. In the most severe cases, fetal death could occur. ACE inhibitors can also cause low blood pressure and kidney failure in the newborn baby. There are some cases of babies who have died from these complications.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lisinopril",
+      "source_url": "https://mothertobaby.org/fact-sheets/lisinopril/",
+      "source_identifier": "fact-sheets:lisinopril",
+      "source_section": "Does taking lisinopril in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "retrieved_at": "2026-09-18T08:23:30.559426+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "content_hash": "bc0f6abb07afc27d79d0af5b461b8d481146c887eb346a172ad3116454075d58",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lisinopril",
+      "canonical_name": "lisinopril",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lisinopril",
+      "source_url": "https://mothertobaby.org/fact-sheets/lisinopril/",
+      "retrieved_at": "2026-09-18T08:23:30.559426+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "source_content_hash": "5ff8df6f98c8ba6323195b1ed35858a400f5fcba16f03895256e38f25a5005fe",
+      "error_code": null
+    },
+    "source_content_hash": "5ff8df6f98c8ba6323195b1ed35858a400f5fcba16f03895256e38f25a5005fe",
+    "source_product_identifier": "fact-sheets:lisinopril",
+    "source_version": "Thu, 23 Jul 2026 08:56:19 GMT",
+    "canonical_name": "lisinopril",
+    "therapeutic_group": "ace_inhibitors",
+    "source_excerpt": "When used after the first trimester, ACE inhibitors such as lisinopril can cause low levels of amniotic fluid (fluid that surrounds the fetus during pregnancy). Low levels of amniotic fluid can lead to health problems for the developing fetus. Some of these problems include poor lung development, poor growth, poor development of the skull bones, birth defects, and problems with the development of the kidneys. In the most severe cases, fetal death could occur. ACE inhibitors can also cause low blood pressure and kidney failure in the newborn baby. There are some cases of babies who have died from these complications."
+  }
+}

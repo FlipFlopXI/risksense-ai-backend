@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lamotrigine-mothertobaby-faa195b3de9c-006",
+      "drug_id": "lamotrigine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "One study suggested a small (less than 1% [less than 1 in 100]) increased chance of oral clefts, such as cleft lip and/or cleft palate (an opening in the upper lip or the roof of the mouth), when lamotrigine was used during the first trimester of pregnancy. However, this finding was not confirmed by other studies. Overall, several studies involving thousands of pregnancies have found no increased chance of birth defects with lamotrigine use during pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lamotrigine (Lamictal®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/lamotrigine/",
+      "source_identifier": "fact-sheets:lamotrigine",
+      "source_section": "Does taking lamotrigine increase the chance of birth defects?",
+      "source_revision_date": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "retrieved_at": "2026-09-18T08:23:30.037777+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "content_hash": "915bee9cc3a77c66e0d7f1b30c2e92d3c944ff3c99c6b7fa35dfa4bac26c953b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lamotrigine",
+      "canonical_name": "lamotrigine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lamotrigine",
+      "source_url": "https://mothertobaby.org/fact-sheets/lamotrigine/",
+      "retrieved_at": "2026-09-18T08:23:30.037777+00:00",
+      "source_revision_date": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "source_content_hash": "faa195b3de9ceea9cec7cb3fb7cb8bab4b3cd0f000dffa2cee235f3bb3970e8a",
+      "error_code": null
+    },
+    "source_content_hash": "faa195b3de9ceea9cec7cb3fb7cb8bab4b3cd0f000dffa2cee235f3bb3970e8a",
+    "source_product_identifier": "fact-sheets:lamotrigine",
+    "source_version": "Tue, 25 Aug 2026 09:33:11 GMT",
+    "canonical_name": "lamotrigine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "One study suggested a small (less than 1% [less than 1 in 100]) increased chance of oral clefts, such as cleft lip and/or cleft palate (an opening in the upper lip or the roof of the mouth), when lamotrigine was used during the first trimester of pregnancy. However, this finding was not confirmed by other studies. Overall, several studies involving thousands of pregnancies have found no increased chance of birth defects with lamotrigine use during pregnancy."
+  }
+}

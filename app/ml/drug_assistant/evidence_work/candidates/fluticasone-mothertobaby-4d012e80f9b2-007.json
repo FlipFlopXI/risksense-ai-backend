@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fluticasone-mothertobaby-4d012e80f9b2-007",
+      "drug_id": "fluticasone",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Asthma that is not well controlled during pregnancy can increase the chances of preterm delivery, low birth weight, and other pregnancy complications. A recent study showed that treating asthma with inhaled corticosteroids, like fluticasone, might lower the chance of preterm delivery compared to having untreated asthma. Talk with your healthcare provider about the best way to treat your asthma during pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "​​Fluticasone (Flovent®, Flonase®)​",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluticasone-flovent-flonase/",
+      "source_identifier": "fact-sheets:fluticasone-flovent-flonase",
+      "source_section": "Does taking fluticasone in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Tue, 14 Jul 2026 12:12:38 GMT",
+      "retrieved_at": "2026-09-18T08:23:23.172027+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 14 Jul 2026 12:12:38 GMT",
+      "content_hash": "5550af79e032cfe1f61897912139c138f6a37027e3d2809f6b818f0cca64854e",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fluticasone",
+      "canonical_name": "fluticasone",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fluticasone-flovent-flonase",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluticasone-flovent-flonase/",
+      "retrieved_at": "2026-09-18T08:23:23.172027+00:00",
+      "source_revision_date": "Tue, 14 Jul 2026 12:12:38 GMT",
+      "source_content_hash": "4d012e80f9b214e2c76bf8584e43a5c2eb3dd20273beb8df70529e8ecf87f5ae",
+      "error_code": null
+    },
+    "source_content_hash": "4d012e80f9b214e2c76bf8584e43a5c2eb3dd20273beb8df70529e8ecf87f5ae",
+    "source_product_identifier": "fact-sheets:fluticasone-flovent-flonase",
+    "source_version": "Tue, 14 Jul 2026 12:12:38 GMT",
+    "canonical_name": "fluticasone",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Asthma that is not well controlled during pregnancy can increase the chances of preterm delivery, low birth weight, and other pregnancy complications. A recent study showed that treating asthma with inhaled corticosteroids, like fluticasone, might lower the chance of preterm delivery compared to having untreated asthma. Talk with your healthcare provider about the best way to treat your asthma during pregnancy."
+  }
+}

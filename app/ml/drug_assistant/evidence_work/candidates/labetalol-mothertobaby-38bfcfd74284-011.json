@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "labetalol-mothertobaby-38bfcfd74284-011",
+      "drug_id": "labetalol",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "There have been case reports of sexual dysfunction (trouble with ejaculation) in men while they were taking labetalol. This can make it harder to get a woman pregnant. Studies have not been done to see if labetalol could increase the chance of birth defects in a partner’s pregnancy. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Labetalol",
+      "source_url": "https://mothertobaby.org/fact-sheets/labetalol/",
+      "source_identifier": "fact-sheets:labetalol",
+      "source_section": "If a male takes labetalol, could it affect his fertility or increase the chance of birth defects?",
+      "source_revision_date": "Thu, 07 May 2026 15:52:54 GMT",
+      "retrieved_at": "2026-09-18T08:23:29.595331+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 07 May 2026 15:52:54 GMT",
+      "content_hash": "d6bec861713945c024649f56464f98214d0a43e9368b310b50d34662c80a3b8f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "labetalol",
+      "canonical_name": "labetalol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:labetalol",
+      "source_url": "https://mothertobaby.org/fact-sheets/labetalol/",
+      "retrieved_at": "2026-09-18T08:23:29.595331+00:00",
+      "source_revision_date": "Thu, 07 May 2026 15:52:54 GMT",
+      "source_content_hash": "38bfcfd742841a479ab9ca4bc53ffeca35c5369ca607f690236586eb45a35dc2",
+      "error_code": null
+    },
+    "source_content_hash": "38bfcfd742841a479ab9ca4bc53ffeca35c5369ca607f690236586eb45a35dc2",
+    "source_product_identifier": "fact-sheets:labetalol",
+    "source_version": "Thu, 07 May 2026 15:52:54 GMT",
+    "canonical_name": "labetalol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "There have been case reports of sexual dysfunction (trouble with ejaculation) in men while they were taking labetalol. This can make it harder to get a woman pregnant. Studies have not been done to see if labetalol could increase the chance of birth defects in a partner’s pregnancy. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

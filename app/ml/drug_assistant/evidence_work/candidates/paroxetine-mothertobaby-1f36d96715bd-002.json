@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "paroxetine-mothertobaby-1f36d96715bd-002",
+      "drug_id": "paroxetine",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "In some people, paroxetine may raise the levels of a hormone called prolactin. High levels of prolactin can stop ovulation (part of the menstrual cycle when an ovary releases an egg). This can make it harder to get pregnant. Paroxetine has also been associated with changes in sexual function (such as less desire to have sex).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Paroxetine",
+      "source_url": "https://mothertobaby.org/fact-sheets/paroxetine-paxil-pregnancy/",
+      "source_identifier": "fact-sheets:paroxetine-paxil-pregnancy",
+      "source_section": "I take paroxetine. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:09 GMT",
+      "retrieved_at": "2026-09-18T08:29:28.345592+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:09 GMT",
+      "content_hash": "7c3d624f36de6678233547941c08ddf709f3a90787a376aabce4f39f2ed53bdd",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "paroxetine",
+      "canonical_name": "paroxetine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:paroxetine-paxil-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/paroxetine-paxil-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:28.345592+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:09 GMT",
+      "source_content_hash": "1f36d96715bd4e82680f3ccf329fd23f04848d3ef0247582c1604d8e224e18f2",
+      "error_code": null
+    },
+    "source_content_hash": "1f36d96715bd4e82680f3ccf329fd23f04848d3ef0247582c1604d8e224e18f2",
+    "source_product_identifier": "fact-sheets:paroxetine-paxil-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:09 GMT",
+    "canonical_name": "paroxetine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "In some people, paroxetine may raise the levels of a hormone called prolactin. High levels of prolactin can stop ovulation (part of the menstrual cycle when an ovary releases an egg). This can make it harder to get pregnant. Paroxetine has also been associated with changes in sexual function (such as less desire to have sex)."
+  }
+}

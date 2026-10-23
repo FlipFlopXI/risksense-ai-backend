@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "venlafaxine-mothertobaby-a6705742dac4-003",
+      "drug_id": "venlafaxine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. One study suggests that taking venlafaxine might increase the chance of miscarriage, while other studies have not. Research also shows that depression itself might increase the chance of miscarriage. This makes it hard to know if it is the medication, untreated or poorly treated depression, or other factors (age, health, medical conditions, other medications used) that can increase the chance of miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Venlafaxine (Effexor®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/venlafaxine-effexor-pregnancy/",
+      "source_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+      "source_section": "Does taking venlafaxine increase the chance of miscarriage?",
+      "source_revision_date": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "retrieved_at": "2026-09-18T08:29:36.622299+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "content_hash": "05b86d05bad18e37208d064b81032ade25e8add5a5f62ddb7f70127555703279",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "venlafaxine",
+      "canonical_name": "venlafaxine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/venlafaxine-effexor-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:36.622299+00:00",
+      "source_revision_date": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "source_content_hash": "a6705742dac44a79e960f1be443c30d74dd66f5c7808c163df9340ca1a1d3bc9",
+      "error_code": null
+    },
+    "source_content_hash": "a6705742dac44a79e960f1be443c30d74dd66f5c7808c163df9340ca1a1d3bc9",
+    "source_product_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+    "source_version": "Thu, 09 Apr 2026 07:26:32 GMT",
+    "canonical_name": "venlafaxine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. One study suggests that taking venlafaxine might increase the chance of miscarriage, while other studies have not. Research also shows that depression itself might increase the chance of miscarriage. This makes it hard to know if it is the medication, untreated or poorly treated depression, or other factors (age, health, medical conditions, other medications used) that can increase the chance of miscarriage."
+  }
+}

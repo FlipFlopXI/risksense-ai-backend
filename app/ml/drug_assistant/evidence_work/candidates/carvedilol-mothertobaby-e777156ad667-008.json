@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "carvedilol-mothertobaby-e777156ad667-008",
+      "drug_id": "carvedilol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "In three other studies, taking beta-blockers (including carvedilol) during pregnancy was associated with an increased chance of heart defects. However, some of these studies did not consider other factors that could influence the chance of heart defects, including the underlying health condition being treated or a family history of heart defects.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "​​Carvedilol (Coreg®)​",
+      "source_url": "https://mothertobaby.org/fact-sheets/carvedilol-coreg/",
+      "source_identifier": "fact-sheets:carvedilol-coreg",
+      "source_section": "Does taking carvedilol increase the chance of birth defects?",
+      "source_revision_date": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "retrieved_at": "2026-09-18T08:23:13.823545+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "content_hash": "5e1d0bca4b841f1135d8e636dfe2bdc33f3fde1b497b12bd51c66245501923b0",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "carvedilol",
+      "canonical_name": "carvedilol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:carvedilol-coreg",
+      "source_url": "https://mothertobaby.org/fact-sheets/carvedilol-coreg/",
+      "retrieved_at": "2026-09-18T08:23:13.823545+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "source_content_hash": "e777156ad6672533e571497765a26dc269f15a456ee085c094b563347d691e17",
+      "error_code": null
+    },
+    "source_content_hash": "e777156ad6672533e571497765a26dc269f15a456ee085c094b563347d691e17",
+    "source_product_identifier": "fact-sheets:carvedilol-coreg",
+    "source_version": "Thu, 23 Jul 2026 08:15:21 GMT",
+    "canonical_name": "carvedilol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "In three other studies, taking beta-blockers (including carvedilol) during pregnancy was associated with an increased chance of heart defects. However, some of these studies did not consider other factors that could influence the chance of heart defects, including the underlying health condition being treated or a family history of heart defects."
+  }
+}

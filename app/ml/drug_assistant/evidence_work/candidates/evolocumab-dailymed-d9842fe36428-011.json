@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "evolocumab-dailymed-d9842fe36428-011",
+      "drug_id": "evolocumab",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "pllr_8_2",
+      "claim": "Risk Summary There is no information regarding the presence of evolocumab in human milk, the effects on the breastfed infant, or the effects on milk production. Human IgG is present in human milk, but published data suggest that breast milk antibodies do not enter the neonatal and infant circulation in substantial amounts. The development and health benefits of breastfeeding should be considered along with the mother's clinical need for REPATHA and any potential adverse effects on the breastfed infant from REPATHA or from the underlying maternal condition.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use REPATHA ® safely and effectively. See full prescribing information for REPATHA. REPATHA (evolocumab) injection, for subcutaneous use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cd61e902-166d-4aa6-9f3c-a18c1008d07e.xml",
+      "source_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+      "source_section": "8.2 Lactation",
+      "source_revision_date": "32",
+      "retrieved_at": "2026-09-18T08:16:17.213762+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "32",
+      "content_hash": "7731d06c6722dfc7d26106f5a85bc3ba287c1a3a8dca07fb643ebe49b3687db6",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "evolocumab",
+      "canonical_name": "evolocumab",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cd61e902-166d-4aa6-9f3c-a18c1008d07e.xml",
+      "retrieved_at": "2026-09-18T08:16:17.213762+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d9842fe364280107ed506d3adb39a602519d43dbb80c68a2e80aa48113e935b5",
+      "error_code": null
+    },
+    "source_content_hash": "d9842fe364280107ed506d3adb39a602519d43dbb80c68a2e80aa48113e935b5",
+    "source_product_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+    "source_version": "32",
+    "canonical_name": "evolocumab",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Risk Summary There is no information regarding the presence of evolocumab in human milk, the effects on the breastfed infant, or the effects on milk production. Human IgG is present in human milk, but published data suggest that breast milk antibodies do not enter the neonatal and infant circulation in substantial amounts. The development and health benefits of breastfeeding should be considered along with the mother's clinical need for REPATHA and any potential adverse effects on the breastfed infant from REPATHA or from the underlying maternal condition."
+  }
+}

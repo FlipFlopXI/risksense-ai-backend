@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "carvedilol-mothertobaby-e777156ad667-010",
+      "drug_id": "carvedilol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "In one study, there was no difference in the growth of fetuses exposed to beta-blockers (including carvedilol) compared to those not exposed to beta-blockers. Two studies have reported an increased chance of hypoglycemia (low blood sugar) in infants exposed to beta blockers during pregnancy. However, there were limitations to the methods used in these studies, which made it hard to draw conclusions based on the results.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "​​Carvedilol (Coreg®)​",
+      "source_url": "https://mothertobaby.org/fact-sheets/carvedilol-coreg/",
+      "source_identifier": "fact-sheets:carvedilol-coreg",
+      "source_section": "Does taking carvedilol in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "retrieved_at": "2026-09-18T08:23:13.823545+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "content_hash": "2eaf3a8db33f64ae36180455b9cc20f30a7b174f9545019ae365862c343f09b4",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "carvedilol",
+      "canonical_name": "carvedilol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:carvedilol-coreg",
+      "source_url": "https://mothertobaby.org/fact-sheets/carvedilol-coreg/",
+      "retrieved_at": "2026-09-18T08:23:13.823545+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "source_content_hash": "e777156ad6672533e571497765a26dc269f15a456ee085c094b563347d691e17",
+      "error_code": null
+    },
+    "source_content_hash": "e777156ad6672533e571497765a26dc269f15a456ee085c094b563347d691e17",
+    "source_product_identifier": "fact-sheets:carvedilol-coreg",
+    "source_version": "Thu, 23 Jul 2026 08:15:21 GMT",
+    "canonical_name": "carvedilol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "In one study, there was no difference in the growth of fetuses exposed to beta-blockers (including carvedilol) compared to those not exposed to beta-blockers. Two studies have reported an increased chance of hypoglycemia (low blood sugar) in infants exposed to beta blockers during pregnancy. However, there were limitations to the methods used in these studies, which made it hard to draw conclusions based on the results."
+  }
+}

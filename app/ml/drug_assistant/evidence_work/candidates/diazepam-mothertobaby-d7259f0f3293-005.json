@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "diazepam-mothertobaby-d7259f0f3293-005",
+      "drug_id": "diazepam",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Diazepam is not expected to increase the chance of birth defects. Older studies suggested a less than 1 in 100 (less than 1%) increased chance of cleft lip and/or cleft palate if a woman uses diazepam in the first trimester of pregnancy. A cleft lip or cleft palate is when the lip and/or roof of the mouth is formed with a split and can need surgery to be corrected. More recent studies that are larger and better designed have not found an increased chance of oral clefts or other birth defects with diazepam use in pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Diazepam (Valium®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/diazepam-valium/",
+      "source_identifier": "fact-sheets:diazepam-valium",
+      "source_section": "Does taking diazepam increase the chance of birth defects?",
+      "source_revision_date": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "retrieved_at": "2026-09-18T08:23:17.101051+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "content_hash": "4f0674762c611b8f85c8c98dc923ff292fe97b6d8d0a60935cf17e51e8cfa4b2",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "diazepam",
+      "canonical_name": "diazepam",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:diazepam-valium",
+      "source_url": "https://mothertobaby.org/fact-sheets/diazepam-valium/",
+      "retrieved_at": "2026-09-18T08:23:17.101051+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "source_content_hash": "d7259f0f3293dceffde78286c32af9b372c05e627ed0186aa9bfcfdbd1e0a7e8",
+      "error_code": null
+    },
+    "source_content_hash": "d7259f0f3293dceffde78286c32af9b372c05e627ed0186aa9bfcfdbd1e0a7e8",
+    "source_product_identifier": "fact-sheets:diazepam-valium",
+    "source_version": "Thu, 20 Aug 2026 11:24:19 GMT",
+    "canonical_name": "diazepam",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Diazepam is not expected to increase the chance of birth defects. Older studies suggested a less than 1 in 100 (less than 1%) increased chance of cleft lip and/or cleft palate if a woman uses diazepam in the first trimester of pregnancy. A cleft lip or cleft palate is when the lip and/or roof of the mouth is formed with a split and can need surgery to be corrected. More recent studies that are larger and better designed have not found an increased chance of oral clefts or other birth defects with diazepam use in pregnancy."
+  }
+}

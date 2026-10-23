@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "azithromycin-mothertobaby-2b7713da2d3f-008",
+      "drug_id": "azithromycin",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Azithromycin passes into breast milk in small amounts. The amount of azithromycin that gets into breast milk is lower than what would be given to a child to treat an infection. Short term use of azithromycin is generally considered compatible with breastfeeding.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Azithromycin (Z-Pak®)​",
+      "source_url": "https://mothertobaby.org/fact-sheets/azithromycin-z-pak/",
+      "source_identifier": "fact-sheets:azithromycin-z-pak",
+      "source_section": "Breastfeeding while taking azithromycin:",
+      "source_revision_date": "Thu, 23 Jul 2026 08:23:02 GMT",
+      "retrieved_at": "2026-09-18T08:23:11.667910+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:23:02 GMT",
+      "content_hash": "fe6b0e88f31d6bdfdaf56eae125ed915e68be0a7da35cb927c9b00b55f773740",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "azithromycin",
+      "canonical_name": "azithromycin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:azithromycin-z-pak",
+      "source_url": "https://mothertobaby.org/fact-sheets/azithromycin-z-pak/",
+      "retrieved_at": "2026-09-18T08:23:11.667910+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:23:02 GMT",
+      "source_content_hash": "2b7713da2d3ffd2dc65546c7cd8c0d13708e6ce836f9e81169308c20e17892bb",
+      "error_code": null
+    },
+    "source_content_hash": "2b7713da2d3ffd2dc65546c7cd8c0d13708e6ce836f9e81169308c20e17892bb",
+    "source_product_identifier": "fact-sheets:azithromycin-z-pak",
+    "source_version": "Thu, 23 Jul 2026 08:23:02 GMT",
+    "canonical_name": "azithromycin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Azithromycin passes into breast milk in small amounts. The amount of azithromycin that gets into breast milk is lower than what would be given to a child to treat an infection. Short term use of azithromycin is generally considered compatible with breastfeeding."
+  }
+}

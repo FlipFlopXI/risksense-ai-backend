@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "citalopram-mothertobaby-a92941833622-010",
+      "drug_id": "citalopram",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Citalopram and escitalopram get into breast milk in small amounts. There have been a few case reports of sleepiness and weight loss in infants. Most studies have not reported harmful effects, or differences in intellectual development, in babies exposed to citalopram or escitalopram through breast milk. If you suspect the baby has any symptoms, such as being very sleepy (hard to wake for feeding), poor feeding, or poor weight gain, contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Citalopram | Escitalopram (Celexa® | Lexapro®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/citalopramescitalopram-celexalexapro-pregnancy/",
+      "source_identifier": "fact-sheets:citalopramescitalopram-celexalexapro-pregnancy",
+      "source_section": "Breastfeeding while taking citalopram or escitalopram:",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:20 GMT",
+      "retrieved_at": "2026-09-18T08:23:15.274832+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:20 GMT",
+      "content_hash": "b292a8e4889bb66261e50260cf91f35c362ac0b9d79d367112ba2031c7421c6d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "citalopram",
+      "canonical_name": "citalopram",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:citalopramescitalopram-celexalexapro-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/citalopramescitalopram-celexalexapro-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:15.274832+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:20 GMT",
+      "source_content_hash": "a929418336220d5f8c72e60b0b463f14c9e6850133cf27adec2810ac91e276e2",
+      "error_code": null
+    },
+    "source_content_hash": "a929418336220d5f8c72e60b0b463f14c9e6850133cf27adec2810ac91e276e2",
+    "source_product_identifier": "fact-sheets:citalopramescitalopram-celexalexapro-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:20 GMT",
+    "canonical_name": "citalopram",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Citalopram and escitalopram get into breast milk in small amounts. There have been a few case reports of sleepiness and weight loss in infants. Most studies have not reported harmful effects, or differences in intellectual development, in babies exposed to citalopram or escitalopram through breast milk. If you suspect the baby has any symptoms, such as being very sleepy (hard to wake for feeding), poor feeding, or poor weight gain, contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

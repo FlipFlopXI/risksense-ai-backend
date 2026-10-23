@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "clotrimazole-mothertobaby-f1ed5c70bcf5-009",
+      "drug_id": "clotrimazole",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if clotrimazole could affect male fertility (ability to get a woman pregnant) or increase the chance of birth defects. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Clotrimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/clotrimazole/",
+      "source_identifier": "fact-sheets:clotrimazole",
+      "source_section": "If a man takes clotrimazole, could it affect his fertility or increase the chance of birth defects?",
+      "source_revision_date": "Wed, 19 Aug 2026 15:59:14 GMT",
+      "retrieved_at": "2026-09-18T08:23:16.670713+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 15:59:14 GMT",
+      "content_hash": "b076e283531026a1e4f24cefd712d0a7fcb9f1d645bfdeff1f5358e32223a1f0",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "clotrimazole",
+      "canonical_name": "clotrimazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:clotrimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/clotrimazole/",
+      "retrieved_at": "2026-09-18T08:23:16.670713+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 15:59:14 GMT",
+      "source_content_hash": "f1ed5c70bcf54e3a1d3a92be30b1e0e825a3011220404fa32c9bed4c22d8946d",
+      "error_code": null
+    },
+    "source_content_hash": "f1ed5c70bcf54e3a1d3a92be30b1e0e825a3011220404fa32c9bed4c22d8946d",
+    "source_product_identifier": "fact-sheets:clotrimazole",
+    "source_version": "Wed, 19 Aug 2026 15:59:14 GMT",
+    "canonical_name": "clotrimazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Studies have not been done to see if clotrimazole could affect male fertility (ability to get a woman pregnant) or increase the chance of birth defects. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fluconazole-mothertobaby-9442b5be5848-003",
+      "drug_id": "fluconazole",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if taking fluconazole can make it harder to get pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Fluconazole (Diflucan®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluconazole-pregnancy/",
+      "source_identifier": "fact-sheets:fluconazole-pregnancy",
+      "source_section": "I take fluconazole. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:21.631403+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "content_hash": "bd8d2cdadcd134d6631139b6bb3a464af3962d4b8f5839fb03c42e69e1d3fcb6",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fluconazole",
+      "canonical_name": "fluconazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fluconazole-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluconazole-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:21.631403+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "source_content_hash": "9442b5be5848b5b43bd1168c0ca54eb33287a2007a27ad4afe4708586ed34e36",
+      "error_code": null
+    },
+    "source_content_hash": "9442b5be5848b5b43bd1168c0ca54eb33287a2007a27ad4afe4708586ed34e36",
+    "source_product_identifier": "fact-sheets:fluconazole-pregnancy",
+    "source_version": "Thu, 20 Aug 2026 08:40:28 GMT",
+    "canonical_name": "fluconazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Studies have not been done to see if taking fluconazole can make it harder to get pregnant."
+  }
+}

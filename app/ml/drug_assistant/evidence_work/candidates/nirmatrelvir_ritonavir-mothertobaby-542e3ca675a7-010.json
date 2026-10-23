@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "nirmatrelvir_ritonavir-mothertobaby-542e3ca675a7-010",
+      "drug_id": "nirmatrelvir_ritonavir",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done in humans to see if nirmatrelvir/ritonavir could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects. Animal studies on ritonavir have not shown an effect on male fertility. In general, exposures that men have are unlikely to increase the risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Nirmatrelvir/Ritonavir (Paxlovid®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/nirmatrelvir-ritonavir-paxlovid/",
+      "source_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+      "source_section": "If a man takes nirmatrelvir/ritonavir, could it affect his fertility or increase the chance of birth defects?",
+      "source_revision_date": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "retrieved_at": "2026-09-18T08:23:42.872342+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "content_hash": "080471d18851e00442481088b77c4b5413a140ae11ad0cc284bb1ef4be111bc3",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "nirmatrelvir_ritonavir",
+      "canonical_name": "nirmatrelvir/ritonavir",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+      "source_url": "https://mothertobaby.org/fact-sheets/nirmatrelvir-ritonavir-paxlovid/",
+      "retrieved_at": "2026-09-18T08:23:42.872342+00:00",
+      "source_revision_date": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "source_content_hash": "542e3ca675a7d933e7bb755a35d8d77a0fa741d7b7beceaab05fd8d0151c4ed7",
+      "error_code": null
+    },
+    "source_content_hash": "542e3ca675a7d933e7bb755a35d8d77a0fa741d7b7beceaab05fd8d0151c4ed7",
+    "source_product_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+    "source_version": "Fri, 24 Jul 2026 11:27:13 GMT",
+    "canonical_name": "nirmatrelvir/ritonavir",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Studies have not been done in humans to see if nirmatrelvir/ritonavir could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects. Animal studies on ritonavir have not shown an effect on male fertility. In general, exposures that men have are unlikely to increase the risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

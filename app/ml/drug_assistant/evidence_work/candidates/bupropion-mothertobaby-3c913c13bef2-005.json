@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "bupropion-mothertobaby-3c913c13bef2-005",
+      "drug_id": "bupropion",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like bupropion, might increase the chance of birth defects in a pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Bupropion (Wellbutrin®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/bupropion-wellbutrin-pregnancy/",
+      "source_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+      "source_section": "Does taking bupropion increase the chance of birth defects?",
+      "source_revision_date": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:12.156990+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "content_hash": "571eff5cb6471b3b553736af23fe9e68fe5c04600dda4fb2556c4ae26b106cae",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "bupropion",
+      "canonical_name": "bupropion",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/bupropion-wellbutrin-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:12.156990+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "source_content_hash": "3c913c13bef24d3e7228cd9d22bcedbdce46f267a9bd67e2c3e3338809a13def",
+      "error_code": null
+    },
+    "source_content_hash": "3c913c13bef24d3e7228cd9d22bcedbdce46f267a9bd67e2c3e3338809a13def",
+    "source_product_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+    "source_version": "Wed, 19 Aug 2026 16:43:28 GMT",
+    "canonical_name": "bupropion",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like bupropion, might increase the chance of birth defects in a pregnancy."
+  }
+}

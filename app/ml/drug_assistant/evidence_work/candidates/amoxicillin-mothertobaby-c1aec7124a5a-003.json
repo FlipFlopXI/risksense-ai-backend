@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "amoxicillin-mothertobaby-c1aec7124a5a-003",
+      "drug_id": "amoxicillin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like amoxicillin and clavulanic acid, might increase the chance of birth defects in a pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Amoxicillin and Clavulanic Acid",
+      "source_url": "https://mothertobaby.org/fact-sheets/amoxicillin-clavulanate/",
+      "source_identifier": "fact-sheets:amoxicillin-clavulanate",
+      "source_section": "Does taking amoxicillin and clavulanic acid increase the chance of birth defects?",
+      "source_revision_date": "Tue, 28 Jul 2026 07:03:23 GMT",
+      "retrieved_at": "2026-09-18T08:23:09.841633+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 28 Jul 2026 07:03:23 GMT",
+      "content_hash": "5eb6ae7979daca1f2ddb2b97e1e309d54ef4cd8d52b6886c1eda82a05476389f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "amoxicillin",
+      "canonical_name": "amoxicillin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:amoxicillin-clavulanate",
+      "source_url": "https://mothertobaby.org/fact-sheets/amoxicillin-clavulanate/",
+      "retrieved_at": "2026-09-18T08:23:09.841633+00:00",
+      "source_revision_date": "Tue, 28 Jul 2026 07:03:23 GMT",
+      "source_content_hash": "c1aec7124a5ab44c9a3a12bb056c41280fde049adea6ec18439d8cb8c9f8aaa9",
+      "error_code": null
+    },
+    "source_content_hash": "c1aec7124a5ab44c9a3a12bb056c41280fde049adea6ec18439d8cb8c9f8aaa9",
+    "source_product_identifier": "fact-sheets:amoxicillin-clavulanate",
+    "source_version": "Tue, 28 Jul 2026 07:03:23 GMT",
+    "canonical_name": "amoxicillin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like amoxicillin and clavulanic acid, might increase the chance of birth defects in a pregnancy."
+  }
+}

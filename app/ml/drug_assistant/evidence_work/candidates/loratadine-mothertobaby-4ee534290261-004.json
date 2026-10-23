@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "loratadine-mothertobaby-4ee534290261-004",
+      "drug_id": "loratadine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like loratadine, might increase the chance of birth defects in a pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Loratadine (Claritin®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/loratadine-pregnancy/",
+      "source_identifier": "fact-sheets:loratadine-pregnancy",
+      "source_section": "Does taking loratadine increase the chance of birth defects?",
+      "source_revision_date": "Wed, 01 Apr 2026 10:34:12 GMT",
+      "retrieved_at": "2026-09-18T08:23:31.713052+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 01 Apr 2026 10:34:12 GMT",
+      "content_hash": "0a1ad041e9a67ee39db22f7287284739a09ad74055dd98f6edcc44f33ee8258f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "loratadine",
+      "canonical_name": "loratadine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:loratadine-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/loratadine-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:31.713052+00:00",
+      "source_revision_date": "Wed, 01 Apr 2026 10:34:12 GMT",
+      "source_content_hash": "4ee534290261d19ea319ed79e6a9e4ec5f5566d9df2d084a09278c3e79b4b090",
+      "error_code": null
+    },
+    "source_content_hash": "4ee534290261d19ea319ed79e6a9e4ec5f5566d9df2d084a09278c3e79b4b090",
+    "source_product_identifier": "fact-sheets:loratadine-pregnancy",
+    "source_version": "Wed, 01 Apr 2026 10:34:12 GMT",
+    "canonical_name": "loratadine",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like loratadine, might increase the chance of birth defects in a pregnancy."
+  }
+}

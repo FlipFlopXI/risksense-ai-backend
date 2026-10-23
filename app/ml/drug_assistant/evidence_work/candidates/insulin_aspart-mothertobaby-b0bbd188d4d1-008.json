@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "insulin_aspart-mothertobaby-b0bbd188d4d1-008",
+      "drug_id": "insulin_aspart",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if insulin aspart could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Insulin Aspart (NovoLog®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/insulin-aspart-novolog/",
+      "source_identifier": "fact-sheets:insulin-aspart-novolog",
+      "source_section": "If a man takes insulin aspart, could it affect his fertility or increase the chance of birth defects?",
+      "source_revision_date": "Wed, 01 Apr 2026 09:04:48 GMT",
+      "retrieved_at": "2026-09-18T08:23:28.087215+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 01 Apr 2026 09:04:48 GMT",
+      "content_hash": "9d99c63dc30b1c2182969b3fd46b955dba3abc227902020310ba7dc92c7e52d0",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "insulin_aspart",
+      "canonical_name": "insulin aspart",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:insulin-aspart-novolog",
+      "source_url": "https://mothertobaby.org/fact-sheets/insulin-aspart-novolog/",
+      "retrieved_at": "2026-09-18T08:23:28.087215+00:00",
+      "source_revision_date": "Wed, 01 Apr 2026 09:04:48 GMT",
+      "source_content_hash": "b0bbd188d4d11d20939bdb895b90abf28fa5fac365cc0c89e492597a6afb0f1f",
+      "error_code": null
+    },
+    "source_content_hash": "b0bbd188d4d11d20939bdb895b90abf28fa5fac365cc0c89e492597a6afb0f1f",
+    "source_product_identifier": "fact-sheets:insulin-aspart-novolog",
+    "source_version": "Wed, 01 Apr 2026 09:04:48 GMT",
+    "canonical_name": "insulin aspart",
+    "therapeutic_group": "insulins",
+    "source_excerpt": "Studies have not been done to see if insulin aspart could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "labetalol-mothertobaby-38bfcfd74284-001",
+      "drug_id": "labetalol",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Labetalol is a medication that has been used to treat high blood pressure and chest pain. Labetalol lowers blood pressure and improves blood flow by slowing the heart rate and opening blood vessels. Labetalol belongs to a group of medications called beta-blockers.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Labetalol",
+      "source_url": "https://mothertobaby.org/fact-sheets/labetalol/",
+      "source_identifier": "fact-sheets:labetalol",
+      "source_section": "What is labetalol?",
+      "source_revision_date": "Thu, 07 May 2026 15:52:54 GMT",
+      "retrieved_at": "2026-09-18T08:23:29.595331+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 07 May 2026 15:52:54 GMT",
+      "content_hash": "c4f236a7855de08b658bd75ecca9d758bb866245590b0b5e2c1949857510fa28",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "labetalol",
+      "canonical_name": "labetalol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:labetalol",
+      "source_url": "https://mothertobaby.org/fact-sheets/labetalol/",
+      "retrieved_at": "2026-09-18T08:23:29.595331+00:00",
+      "source_revision_date": "Thu, 07 May 2026 15:52:54 GMT",
+      "source_content_hash": "38bfcfd742841a479ab9ca4bc53ffeca35c5369ca607f690236586eb45a35dc2",
+      "error_code": null
+    },
+    "source_content_hash": "38bfcfd742841a479ab9ca4bc53ffeca35c5369ca607f690236586eb45a35dc2",
+    "source_product_identifier": "fact-sheets:labetalol",
+    "source_version": "Thu, 07 May 2026 15:52:54 GMT",
+    "canonical_name": "labetalol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "Labetalol is a medication that has been used to treat high blood pressure and chest pain. Labetalol lowers blood pressure and improves blood flow by slowing the heart rate and opening blood vessels. Labetalol belongs to a group of medications called beta-blockers."
+  }
+}

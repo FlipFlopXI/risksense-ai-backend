@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "methotrexate-mothertobaby-002b8d6ac816-003",
+      "drug_id": "methotrexate",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Methotrexate lowers the body’s ability to use folic acid. During pregnancy, folic acid is important for the growing fetus. If you have recently stopped taking methotrexate and are planning to get pregnant, talk with your healthcare provider about taking a folic acid supplement and what dose you should take. More information on folic acid can be found in our fact sheet here: https://mothertobaby.org/fact-sheets/folic-acid/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Methotrexate",
+      "source_url": "https://mothertobaby.org/fact-sheets/methotrexate-pregnancy/",
+      "source_identifier": "fact-sheets:methotrexate-pregnancy",
+      "source_section": "What is methotrexate?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:34.275180+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "content_hash": "6afbe12a100c013e75847c1118b530526369225316e49f92e0559ed041d2572b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "methotrexate",
+      "canonical_name": "methotrexate",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:methotrexate-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/methotrexate-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:34.275180+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "source_content_hash": "002b8d6ac816b7cff051c87c1aca342a94e83cadfdc2c68adae9513075c8d99d",
+      "error_code": null
+    },
+    "source_content_hash": "002b8d6ac816b7cff051c87c1aca342a94e83cadfdc2c68adae9513075c8d99d",
+    "source_product_identifier": "fact-sheets:methotrexate-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:01 GMT",
+    "canonical_name": "methotrexate",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Methotrexate lowers the body’s ability to use folic acid. During pregnancy, folic acid is important for the growing fetus. If you have recently stopped taking methotrexate and are planning to get pregnant, talk with your healthcare provider about taking a folic acid supplement and what dose you should take. More information on folic acid can be found in our fact sheet here: https://mothertobaby.org/fact-sheets/folic-acid/."
+  }
+}

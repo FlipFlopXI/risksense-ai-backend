@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "venlafaxine-mothertobaby-a6705742dac4-007",
+      "drug_id": "venlafaxine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "The use of venlafaxine during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal and can include jitteriness, increased muscle tone, irritability, changes in sleep patterns, tremors, seizures, trouble eating, and problems with breathing. Most of the time these effects are mild and go away on their own. Some babies might need to stay in the hospital for several days to help manage the symptoms. Not all babies exposed to venlafaxine will have these symptoms. It is important that your healthcare providers know you are taking venlafaxine so that if symptoms occur, your baby can get the care that is best for them.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Venlafaxine (Effexor®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/venlafaxine-effexor-pregnancy/",
+      "source_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+      "source_section": "I need to take venlafaxine during my pregnancy. Will it cause withdrawal symptoms in my baby after birth?",
+      "source_revision_date": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "retrieved_at": "2026-09-18T08:29:36.622299+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "content_hash": "4b80f6c9b8862d53e7ee80569564ff3a0a5e8e2ac6deab56500319a2e54c5502",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "venlafaxine",
+      "canonical_name": "venlafaxine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/venlafaxine-effexor-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:36.622299+00:00",
+      "source_revision_date": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "source_content_hash": "a6705742dac44a79e960f1be443c30d74dd66f5c7808c163df9340ca1a1d3bc9",
+      "error_code": null
+    },
+    "source_content_hash": "a6705742dac44a79e960f1be443c30d74dd66f5c7808c163df9340ca1a1d3bc9",
+    "source_product_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+    "source_version": "Thu, 09 Apr 2026 07:26:32 GMT",
+    "canonical_name": "venlafaxine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "The use of venlafaxine during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal and can include jitteriness, increased muscle tone, irritability, changes in sleep patterns, tremors, seizures, trouble eating, and problems with breathing. Most of the time these effects are mild and go away on their own. Some babies might need to stay in the hospital for several days to help manage the symptoms. Not all babies exposed to venlafaxine will have these symptoms. It is important that your healthcare providers know you are taking venlafaxine so that if symptoms occur, your baby can get the care that is best for them."
+  }
+}

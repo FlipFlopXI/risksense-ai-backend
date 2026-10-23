@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "edoxaban-dailymed-f15492d2a274-016",
+      "drug_id": "edoxaban",
+      "related_drug_ids": [],
+      "topic": "clinician_discussion",
+      "subtopic": "patient_counseling_information",
+      "claim": "Advise the patient to read the FDA-approved patient labeling (Medication Guide). Advise patients of the following: Instructions for Patient Use Advise patients to take SAVAYSA exactly as prescribed. Remind patients to not discontinue SAVAYSA without talking to the healthcare provider who prescribed it. Instruct patients to keep an adequate supply of tablets to ensure continuous dosing of SAVAYSA. Instruct patients who cannot swallow the tablet whole to crush SAVAYSA, combine with 2 to 3 ounces of water or applesauce and ingest immediately. Instruct patients who require a gastric tube to crush the SAVAYSA tablet and mix it with 2 to 3 ounces of water before administering immediately via the gastric feeding tube. Inform patients that if a dose is missed, they should take SAVAYSA as soon as possible the same day, and resume the normal dosing schedule the following day. The dose should not be doubled to make up for a missing dose. Bleeding Risk Advise patients that they may bleed more easily, may bleed longer, or bruise more easily when treated with SAVAYSA. Instruct patients to report any unusual bleeding immediately to their healthcare provider. For patients that are having neuraxial anesthesia or spinal puncture, advise patients to watch for signs and symptoms of spinal or epidural hematoma, such as back pain, tingling, numbness (especially in the lower limbs), muscle weakness, and stool or urine incontinence. If any of these symptoms occur, advise the patient to contact his or her physician immediately [see Boxed Warning ]. Invasive or Surgical Procedures Remind patients to",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SAVAYSA safely and effectively. See full prescribing information for SAVAYSA. SAVAYSA ® (edoxaban) tablets, for oral use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_section": "17 PATIENT COUNSELING INFORMATION",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "0bda36df3b3e9411b5a4a8e22e295c6c34f1374b3d9c184ed14ece349897ac79",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "edoxaban",
+      "canonical_name": "edoxaban",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+      "error_code": null
+    },
+    "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+    "source_product_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+    "source_version": "28",
+    "canonical_name": "edoxaban",
+    "therapeutic_group": "antiplatelets_anticoagulants",
+    "source_excerpt": "Advise the patient to read the FDA-approved patient labeling (Medication Guide). Advise patients of the following: Instructions for Patient Use Advise patients to take SAVAYSA exactly as prescribed. Remind patients to not discontinue SAVAYSA without talking to the healthcare provider who prescribed it. Instruct patients to keep an adequate supply of tablets to ensure continuous dosing of SAVAYSA. Instruct patients who cannot swallow the tablet whole to crush SAVAYSA, combine with 2 to 3 ounces of water or applesauce and ingest immediately. Instruct patients who require a gastric tube to crush the SAVAYSA tablet and mix it with 2 to 3 ounces of water before administering immediately via the gastric feeding tube. Inform patients that if a dose is missed, they should take SAVAYSA as soon as possible the same day, and resume the normal dosing schedule the following day. The dose should not be doubled to make up for a missing dose. Bleeding Risk Advise patients that they may bleed more easily, may bleed longer, or bruise more easily when treated with SAVAYSA. Instruct patients to report any unusual bleeding immediately to their healthcare provider. For patients that are having neuraxial anesthesia or spinal puncture, advise patients to watch for signs and symptoms of spinal or epidural hematoma, such as back pain, tingling, numbness (especially in the lower limbs), muscle weakness, and stool or urine incontinence. If any of these symptoms occur, advise the patient to contact his or her physician immediately [see Boxed Warning ]. Invasive or Surgical Procedures Remind patients to inform their healthcare providers that they are taking SAVAYSA before any surgery, medical, or dental procedure is scheduled. Concomitant Medication and Herbals Remind patients to inform their healthcare providers and dentists if they plan to take, or are taking any prescription medications, over-the-counter drugs or herbal products. Pregnancy Remind patients to inform their healthcare provider immediately if they become pregnant or intend to become pregnant during treatment with SAVAYSA. Inform patients to not breastfeed if they are taking SAVAYSA [see Use in Specific Populations (8.2) ]."
+  }
+}

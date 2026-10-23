@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "pramlintide-dailymed-e223f4cb25da-010",
+      "drug_id": "pramlintide",
+      "related_drug_ids": [],
+      "topic": "monitoring",
+      "subtopic": "explicit_monitoring",
+      "claim": "Upon initiation of SYMLIN, reduce mealtime insulin dose by 50% and frequently monitor blood glucoses (5.2) . • Never share a SymlinPen between patients, even if the needle is changed (5.3) . • Do not mix SYMLIN and insulin: Mixing can alter the pharmacokinetics of both products.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SYMLIN safely and effectively. See full prescribing information for SYMLIN. SYMLIN ® (pramlintide acetate) injection for subcutaneous use Initial U.S. Approval: 2005",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4aea30ff-eb0d-45c1-b114-3127966328ff.xml",
+      "source_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "source_section": "5 WARNINGS AND PRECAUTIONS",
+      "source_revision_date": "18",
+      "retrieved_at": "2026-09-18T08:21:23.487818+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "18",
+      "content_hash": "52a5ab1dd6a777952a8ac26b62e20d143308dc3ed750372e947441e5532fd3b7",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "pramlintide",
+      "canonical_name": "pramlintide",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4aea30ff-eb0d-45c1-b114-3127966328ff.xml",
+      "retrieved_at": "2026-09-18T08:21:23.487818+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "e223f4cb25daee6d6785fc4e0d427c65dbbe94d27da19f34b5fafb7ba6a1842a",
+      "error_code": null
+    },
+    "source_content_hash": "e223f4cb25daee6d6785fc4e0d427c65dbbe94d27da19f34b5fafb7ba6a1842a",
+    "source_product_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+    "source_version": "18",
+    "canonical_name": "pramlintide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "Upon initiation of SYMLIN, reduce mealtime insulin dose by 50% and frequently monitor blood glucoses (5.2) . • Never share a SymlinPen between patients, even if the needle is changed (5.3) . • Do not mix SYMLIN and insulin: Mixing can alter the pharmacokinetics of both products."
+  }
+}

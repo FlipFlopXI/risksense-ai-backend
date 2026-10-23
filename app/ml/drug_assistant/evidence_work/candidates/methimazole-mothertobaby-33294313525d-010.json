@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "methimazole-mothertobaby-33294313525d-010",
+      "drug_id": "methimazole",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if methimazole could affect a man’s fertility (ability to get a woman pregnant) or increase the chance of birth defects above the background risk. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Methimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/methimazole/",
+      "source_identifier": "fact-sheets:methimazole",
+      "source_section": "If a man takes methimazole, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:49 GMT",
+      "retrieved_at": "2026-09-18T08:23:33.881998+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:58:49 GMT",
+      "content_hash": "77d33cf0d6a9f55ae58ed133760f0288952f82569ad394875243792c4414aa3f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "methimazole",
+      "canonical_name": "methimazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:methimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/methimazole/",
+      "retrieved_at": "2026-09-18T08:23:33.881998+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:49 GMT",
+      "source_content_hash": "33294313525d1c567c6128b3eff065e9a062fd9c2e095ddb58828f23e9d4bb9f",
+      "error_code": null
+    },
+    "source_content_hash": "33294313525d1c567c6128b3eff065e9a062fd9c2e095ddb58828f23e9d4bb9f",
+    "source_product_identifier": "fact-sheets:methimazole",
+    "source_version": "Tue, 02 Dec 2025 11:58:49 GMT",
+    "canonical_name": "methimazole",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Studies have not been done to see if methimazole could affect a man’s fertility (ability to get a woman pregnant) or increase the chance of birth defects above the background risk. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

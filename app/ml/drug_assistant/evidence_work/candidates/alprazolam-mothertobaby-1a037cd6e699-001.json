@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "alprazolam-mothertobaby-1a037cd6e699-001",
+      "drug_id": "alprazolam",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Alprazolam is a medication that has been used to treat anxiety and panic disorders, including anxiety associated with depression. It is in a class of medication called benzodiazepines. Alprazolam has been sold under the brand names Xanax®, Niravam®, or Gabazolamine-0.5®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Alprazolam",
+      "source_url": "https://mothertobaby.org/fact-sheets/alprazolam/",
+      "source_identifier": "fact-sheets:alprazolam",
+      "source_section": "What is alprazolam?",
+      "source_revision_date": "Wed, 22 Jul 2026 10:37:57 GMT",
+      "retrieved_at": "2026-09-18T08:23:07.163762+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 22 Jul 2026 10:37:57 GMT",
+      "content_hash": "caf178c558d91580a9c6238d65faa9a37e1c1cfc086a484b38cad4603c9c4c92",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "alprazolam",
+      "canonical_name": "alprazolam",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:alprazolam",
+      "source_url": "https://mothertobaby.org/fact-sheets/alprazolam/",
+      "retrieved_at": "2026-09-18T08:23:07.163762+00:00",
+      "source_revision_date": "Wed, 22 Jul 2026 10:37:57 GMT",
+      "source_content_hash": "1a037cd6e69942b1958ab0e3af62dbc29a170552a6ad12acffa4a0a907b5f210",
+      "error_code": null
+    },
+    "source_content_hash": "1a037cd6e69942b1958ab0e3af62dbc29a170552a6ad12acffa4a0a907b5f210",
+    "source_product_identifier": "fact-sheets:alprazolam",
+    "source_version": "Wed, 22 Jul 2026 10:37:57 GMT",
+    "canonical_name": "alprazolam",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Alprazolam is a medication that has been used to treat anxiety and panic disorders, including anxiety associated with depression. It is in a class of medication called benzodiazepines. Alprazolam has been sold under the brand names Xanax®, Niravam®, or Gabazolamine-0.5®."
+  }
+}

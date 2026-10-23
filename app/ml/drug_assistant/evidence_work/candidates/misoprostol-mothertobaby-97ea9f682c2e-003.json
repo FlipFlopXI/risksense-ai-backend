@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "misoprostol-mothertobaby-97ea9f682c2e-003",
+      "drug_id": "misoprostol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "People eliminate medication at different rates. In healthy adults, it takes up to 2 to 4 hours, on average, for most of the misoprostol to be gone from the body. However, the manufacturer has recommended to wait at least 1 month or through 1 menstrual cycle after stopping misoprostol before trying to get pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Misoprostol (Cytotec®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/misoprostol-cytotec/",
+      "source_identifier": "fact-sheets:misoprostol-cytotec",
+      "source_section": "I am taking misoprostol, but I would like to stop taking it before becoming pregnant. How long does the drug stay in my body?",
+      "source_revision_date": "Wed, 05 Aug 2026 13:56:46 GMT",
+      "retrieved_at": "2026-09-18T08:23:39.497704+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 05 Aug 2026 13:56:46 GMT",
+      "content_hash": "c8def4860145476c378622bafe4249750db5e7145a48de2c05ecc0b09afbebc5",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "misoprostol",
+      "canonical_name": "misoprostol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:misoprostol-cytotec",
+      "source_url": "https://mothertobaby.org/fact-sheets/misoprostol-cytotec/",
+      "retrieved_at": "2026-09-18T08:23:39.497704+00:00",
+      "source_revision_date": "Wed, 05 Aug 2026 13:56:46 GMT",
+      "source_content_hash": "97ea9f682c2e9e64d044954ca68151810a06dca0dfdbe3ac7d3804fd4c81b1b2",
+      "error_code": null
+    },
+    "source_content_hash": "97ea9f682c2e9e64d044954ca68151810a06dca0dfdbe3ac7d3804fd4c81b1b2",
+    "source_product_identifier": "fact-sheets:misoprostol-cytotec",
+    "source_version": "Wed, 05 Aug 2026 13:56:46 GMT",
+    "canonical_name": "misoprostol",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "People eliminate medication at different rates. In healthy adults, it takes up to 2 to 4 hours, on average, for most of the misoprostol to be gone from the body. However, the manufacturer has recommended to wait at least 1 month or through 1 menstrual cycle after stopping misoprostol before trying to get pregnant."
+  }
+}

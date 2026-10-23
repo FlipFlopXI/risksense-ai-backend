@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "azithromycin-mothertobaby-2b7713da2d3f-007",
+      "drug_id": "azithromycin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "One study looking at over 8,000 children exposed to azithromycin or other antibiotics like azithromycin during pregnancy found no significant increased chance of attention deficit hyperactivity disorder (ADHD) or autism spectrum disorder.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Azithromycin (Z-Pak®)​",
+      "source_url": "https://mothertobaby.org/fact-sheets/azithromycin-z-pak/",
+      "source_identifier": "fact-sheets:azithromycin-z-pak",
+      "source_section": "Does taking azithromycin in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Thu, 23 Jul 2026 08:23:02 GMT",
+      "retrieved_at": "2026-09-18T08:23:11.667910+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:23:02 GMT",
+      "content_hash": "f6fffd070da55f346f54715c399a879aab21fbd15cc8abd727bd3107651dcc91",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "azithromycin",
+      "canonical_name": "azithromycin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:azithromycin-z-pak",
+      "source_url": "https://mothertobaby.org/fact-sheets/azithromycin-z-pak/",
+      "retrieved_at": "2026-09-18T08:23:11.667910+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:23:02 GMT",
+      "source_content_hash": "2b7713da2d3ffd2dc65546c7cd8c0d13708e6ce836f9e81169308c20e17892bb",
+      "error_code": null
+    },
+    "source_content_hash": "2b7713da2d3ffd2dc65546c7cd8c0d13708e6ce836f9e81169308c20e17892bb",
+    "source_product_identifier": "fact-sheets:azithromycin-z-pak",
+    "source_version": "Thu, 23 Jul 2026 08:23:02 GMT",
+    "canonical_name": "azithromycin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "One study looking at over 8,000 children exposed to azithromycin or other antibiotics like azithromycin during pregnancy found no significant increased chance of attention deficit hyperactivity disorder (ADHD) or autism spectrum disorder."
+  }
+}

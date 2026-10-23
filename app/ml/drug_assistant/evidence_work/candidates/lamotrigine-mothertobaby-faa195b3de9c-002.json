@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lamotrigine-mothertobaby-faa195b3de9c-002",
+      "drug_id": "lamotrigine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Sometimes when women find out they are pregnant, they think about changing how they take their medication, or stopping their medication altogether. However, it is important to talk with your healthcare providers before making any changes to how you take your medication. Your healthcare providers can talk with you about the benefits of treating your condition and the risks of untreated illness during pregnancy. If your lamotrigine dose increases during pregnancy, talk with your healthcare provider about how and when to lower your dose after delivery.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lamotrigine (Lamictal®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/lamotrigine/",
+      "source_identifier": "fact-sheets:lamotrigine",
+      "source_section": "What is lamotrigine?",
+      "source_revision_date": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "retrieved_at": "2026-09-18T08:23:30.037777+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "content_hash": "9e27e76b6e1f32c327f742fba59b06aafbe9f6808bdec847d28f296a851fde1d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lamotrigine",
+      "canonical_name": "lamotrigine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lamotrigine",
+      "source_url": "https://mothertobaby.org/fact-sheets/lamotrigine/",
+      "retrieved_at": "2026-09-18T08:23:30.037777+00:00",
+      "source_revision_date": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "source_content_hash": "faa195b3de9ceea9cec7cb3fb7cb8bab4b3cd0f000dffa2cee235f3bb3970e8a",
+      "error_code": null
+    },
+    "source_content_hash": "faa195b3de9ceea9cec7cb3fb7cb8bab4b3cd0f000dffa2cee235f3bb3970e8a",
+    "source_product_identifier": "fact-sheets:lamotrigine",
+    "source_version": "Tue, 25 Aug 2026 09:33:11 GMT",
+    "canonical_name": "lamotrigine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Sometimes when women find out they are pregnant, they think about changing how they take their medication, or stopping their medication altogether. However, it is important to talk with your healthcare providers before making any changes to how you take your medication. Your healthcare providers can talk with you about the benefits of treating your condition and the risks of untreated illness during pregnancy. If your lamotrigine dose increases during pregnancy, talk with your healthcare provider about how and when to lower your dose after delivery."
+  }
+}

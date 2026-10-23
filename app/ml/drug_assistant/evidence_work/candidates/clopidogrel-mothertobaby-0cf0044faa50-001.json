@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "clopidogrel-mothertobaby-0cf0044faa50-001",
+      "drug_id": "clopidogrel",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Clopidogrel is an antiplatelet medication that helps prevent blood clots. It has been used to help prevent heart attacks and strokes. A brand name for clopidogrel is Plavix®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Clopidogrel (Plavix®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/clopidogrel-plavix/",
+      "source_identifier": "fact-sheets:clopidogrel-plavix",
+      "source_section": "What is clopidogrel?",
+      "source_revision_date": "Thu, 23 Apr 2026 12:33:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:16.255727+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Apr 2026 12:33:28 GMT",
+      "content_hash": "f55bde42168b69b4c2f319c2a37c5c7d69518d5d68ca9371c01db68337420d35",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "clopidogrel",
+      "canonical_name": "clopidogrel",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:clopidogrel-plavix",
+      "source_url": "https://mothertobaby.org/fact-sheets/clopidogrel-plavix/",
+      "retrieved_at": "2026-09-18T08:23:16.255727+00:00",
+      "source_revision_date": "Thu, 23 Apr 2026 12:33:28 GMT",
+      "source_content_hash": "0cf0044faa507cde73cb2aaa6d5cd85e730164e4cb93e914665e568d3eb292bd",
+      "error_code": null
+    },
+    "source_content_hash": "0cf0044faa507cde73cb2aaa6d5cd85e730164e4cb93e914665e568d3eb292bd",
+    "source_product_identifier": "fact-sheets:clopidogrel-plavix",
+    "source_version": "Thu, 23 Apr 2026 12:33:28 GMT",
+    "canonical_name": "clopidogrel",
+    "therapeutic_group": "antiplatelets_anticoagulants",
+    "source_excerpt": "Clopidogrel is an antiplatelet medication that helps prevent blood clots. It has been used to help prevent heart attacks and strokes. A brand name for clopidogrel is Plavix®."
+  }
+}

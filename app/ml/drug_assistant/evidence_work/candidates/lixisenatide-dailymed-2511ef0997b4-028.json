@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lixisenatide-dailymed-2511ef0997b4-028",
+      "drug_id": "lixisenatide",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "pllr_8_2",
+      "claim": "Risk Summary There is no information regarding the presence of lixisenatide and insulin glargine in human milk, the effects on the breastfed infant, or the effects on milk production. Endogenous insulin is present in human milk. Lixisenatide is present in rat milk [see Data ] . The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for SOLIQUA 100/33 and any potential adverse effects on the breastfed child from SOLIQUA 100/33 or from the underlying maternal condition. Data Lixisenatide A study in lactating rats showed low (9.4%) transfer of lixisenatide and its metabolites into milk and negligible (0.01%) levels of unchanged lixisenatide protein in the gastric contents of weaning offspring.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SOLIQUA 100/33 safely and effectively . See full prescribing information for SOLIQUA 100/33. SOLIQUA ® 100/33 (insulin glargine and lixisenatide) injection, for subcutaneous use Initial U.S. Approval: 2016",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4bba538b-cf7c-4310-ae8f-cb711ed21bcc.xml",
+      "source_identifier": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+      "source_section": "8.2 Lactation",
+      "source_revision_date": "25",
+      "retrieved_at": "2026-09-18T08:17:26.677988+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "25",
+      "content_hash": "7e95f3cdbbe44c132c94f16339fe7ab48b485f7657d7bdf5ef837dc70336256a",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lixisenatide",
+      "canonical_name": "lixisenatide",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4bba538b-cf7c-4310-ae8f-cb711ed21bcc.xml",
+      "retrieved_at": "2026-09-18T08:17:26.677988+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "2511ef0997b45689233cf8cba2b27ede88281df2a07bf4a4ec376c4136c5d612",
+      "error_code": null
+    },
+    "source_content_hash": "2511ef0997b45689233cf8cba2b27ede88281df2a07bf4a4ec376c4136c5d612",
+    "source_product_identifier": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+    "source_version": "25",
+    "canonical_name": "lixisenatide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "Risk Summary There is no information regarding the presence of lixisenatide and insulin glargine in human milk, the effects on the breastfed infant, or the effects on milk production. Endogenous insulin is present in human milk. Lixisenatide is present in rat milk [see Data ] . The developmental and health benefits of breastfeeding should be considered along with the mother's clinical need for SOLIQUA 100/33 and any potential adverse effects on the breastfed child from SOLIQUA 100/33 or from the underlying maternal condition. Data Lixisenatide A study in lactating rats showed low (9.4%) transfer of lixisenatide and its metabolites into milk and negligible (0.01%) levels of unchanged lixisenatide protein in the gastric contents of weaning offspring."
+  }
+}

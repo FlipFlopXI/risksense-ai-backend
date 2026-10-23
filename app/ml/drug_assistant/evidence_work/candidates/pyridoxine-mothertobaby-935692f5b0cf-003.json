@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "pyridoxine-mothertobaby-935692f5b0cf-003",
+      "drug_id": "pyridoxine",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "It is not known if doxylamine succinate-pyridoxine hydrochloride can make it harder to get pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Doxylamine succinate-pyridoxine hydrochloride (Diclegis®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy/",
+      "source_identifier": "fact-sheets:doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy",
+      "source_section": "I take doxylamine succinate-pyridoxine hydrochloride. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:39 GMT",
+      "retrieved_at": "2026-09-18T08:29:30.772129+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:39 GMT",
+      "content_hash": "6f2fbd6f11a9665c2502bdac7e5961a8ede08ffc4ce330f5b9a55ef8098dda95",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "pyridoxine",
+      "canonical_name": "pyridoxine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:30.772129+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:39 GMT",
+      "source_content_hash": "935692f5b0cf1df4148a3508eecf4a511912620769d87a380b69d31e1652566f",
+      "error_code": null
+    },
+    "source_content_hash": "935692f5b0cf1df4148a3508eecf4a511912620769d87a380b69d31e1652566f",
+    "source_product_identifier": "fact-sheets:doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:39 GMT",
+    "canonical_name": "pyridoxine",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "It is not known if doxylamine succinate-pyridoxine hydrochloride can make it harder to get pregnant."
+  }
+}

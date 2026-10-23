@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "carvedilol-mothertobaby-e777156ad667-012",
+      "drug_id": "carvedilol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Studies have not been done to see if carvedilol can increase the chance of behavior or learning issues for the child.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "​​Carvedilol (Coreg®)​",
+      "source_url": "https://mothertobaby.org/fact-sheets/carvedilol-coreg/",
+      "source_identifier": "fact-sheets:carvedilol-coreg",
+      "source_section": "Does taking carvedilol in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "retrieved_at": "2026-09-18T08:23:13.823545+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "content_hash": "80833dfa7e175726f09425a18d43e3bf0b8c126a70f4af8c5f099ef88ed3dc25",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "carvedilol",
+      "canonical_name": "carvedilol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:carvedilol-coreg",
+      "source_url": "https://mothertobaby.org/fact-sheets/carvedilol-coreg/",
+      "retrieved_at": "2026-09-18T08:23:13.823545+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "source_content_hash": "e777156ad6672533e571497765a26dc269f15a456ee085c094b563347d691e17",
+      "error_code": null
+    },
+    "source_content_hash": "e777156ad6672533e571497765a26dc269f15a456ee085c094b563347d691e17",
+    "source_product_identifier": "fact-sheets:carvedilol-coreg",
+    "source_version": "Thu, 23 Jul 2026 08:15:21 GMT",
+    "canonical_name": "carvedilol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "Studies have not been done to see if carvedilol can increase the chance of behavior or learning issues for the child."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "inclisiran-dailymed-d1454a0e4aff-010",
+      "drug_id": "inclisiran",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "mechanism_of_action",
+      "claim": "Inclisiran is a double-stranded small interfering ribonucleic acid (siRNA), conjugated on the sense strand with triantennary N-Acetylgalactosamine (GalNAc) to facilitate uptake by hepatocytes. In hepatocytes, inclisiran utilizes the RNA interference mechanism and directs catalytic breakdown of mRNA for PCSK9. This increases LDL-C receptor recycling and expression on the hepatocyte cell surface, which increases LDL-C uptake and lowers LDL-C levels in the circulation.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use LEQVIO safely and effectively. See full prescribing information for LEQVIO. LEQVIO ® (inclisiran) injection, for subcutaneous use Initial U.S. Approval: 2021",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_section": "12.1 Mechanism of Action",
+      "source_revision_date": "13",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "13",
+      "content_hash": "318c5b65dd1d32f543066ee334010f8827533d95ef8d0706589db53d62ac73a9",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "inclisiran",
+      "canonical_name": "inclisiran",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+      "error_code": null
+    },
+    "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+    "source_product_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+    "source_version": "13",
+    "canonical_name": "inclisiran",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Inclisiran is a double-stranded small interfering ribonucleic acid (siRNA), conjugated on the sense strand with triantennary N-Acetylgalactosamine (GalNAc) to facilitate uptake by hepatocytes. In hepatocytes, inclisiran utilizes the RNA interference mechanism and directs catalytic breakdown of mRNA for PCSK9. This increases LDL-C receptor recycling and expression on the hepatocyte cell surface, which increases LDL-C uptake and lowers LDL-C levels in the circulation."
+  }
+}

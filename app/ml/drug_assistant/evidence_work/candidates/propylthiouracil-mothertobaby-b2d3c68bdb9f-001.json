@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "propylthiouracil-mothertobaby-b2d3c68bdb9f-001",
+      "drug_id": "propylthiouracil",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Propylthiouracil (PTU) is a medication that has been used to treat hyperthyroidism (when the thyroid gland makes too much thyroid hormone) and Graves’ disease (a common cause of hyperthyroidism). It lowers the amount of thyroid hormone that the thyroid gland makes. One brand name for PTU is Propycil ®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Propylthiouracil (PTU)",
+      "source_url": "https://mothertobaby.org/fact-sheets/propylthiouracil-ptu/",
+      "source_identifier": "fact-sheets:propylthiouracil-ptu",
+      "source_section": "What is propylthiouracil?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:11 GMT",
+      "retrieved_at": "2026-09-18T08:29:30.282735+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:52:11 GMT",
+      "content_hash": "c8e539355823bfa260de0a978ea9339bc2b02adba35669f1d057dd1e6b896daa",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "propylthiouracil",
+      "canonical_name": "propylthiouracil",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:propylthiouracil-ptu",
+      "source_url": "https://mothertobaby.org/fact-sheets/propylthiouracil-ptu/",
+      "retrieved_at": "2026-09-18T08:29:30.282735+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:11 GMT",
+      "source_content_hash": "b2d3c68bdb9f781cece2928de9a942e53c11d476244e424b97fb1d24cb0d655c",
+      "error_code": null
+    },
+    "source_content_hash": "b2d3c68bdb9f781cece2928de9a942e53c11d476244e424b97fb1d24cb0d655c",
+    "source_product_identifier": "fact-sheets:propylthiouracil-ptu",
+    "source_version": "Tue, 02 Dec 2025 11:52:11 GMT",
+    "canonical_name": "propylthiouracil",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Propylthiouracil (PTU) is a medication that has been used to treat hyperthyroidism (when the thyroid gland makes too much thyroid hormone) and Graves’ disease (a common cause of hyperthyroidism). It lowers the amount of thyroid hormone that the thyroid gland makes. One brand name for PTU is Propycil ®."
+  }
+}

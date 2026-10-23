@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "inclisiran-dailymed-d1454a0e4aff-005-warnings",
+      "drug_id": "inclisiran",
+      "related_drug_ids": [],
+      "topic": "warnings",
+      "subtopic": "warnings_and_precautions",
+      "claim": "Hypersensitivity Reactions: Have been reported in patients treated with LEQVIO. Advise patients on the signs and symptoms of hypersensitivity reactions and instruct patients to seek medical attention promptly. ( 5.1 ) Hypersensitivity reactions, including anaphylaxis and angioedema, have been reported in patients treated with LEQVIO [see Adverse Reactions (6.2)] . Advise patients on the signs and symptoms of hypersensitivity reactions and instruct patients to seek medical attention promptly. LEQVIO is contraindicated in patients with a prior serious hypersensitivity reaction to inclisiran or any of the excipients in LEQVIO.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use LEQVIO safely and effectively. See full prescribing information for LEQVIO. LEQVIO ® (inclisiran) injection, for subcutaneous use Initial U.S. Approval: 2021",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_section": "5 WARNINGS AND PRECAUTIONS",
+      "source_revision_date": "13",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "13",
+      "content_hash": "0eada78a0f5967d075c952e26d9a44c18665207c84068ea255111cac4fbe5a3a",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "inclisiran",
+      "canonical_name": "inclisiran",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+      "error_code": null
+    },
+    "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+    "source_product_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+    "source_version": "13",
+    "canonical_name": "inclisiran",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Hypersensitivity Reactions: Have been reported in patients treated with LEQVIO. Advise patients on the signs and symptoms of hypersensitivity reactions and instruct patients to seek medical attention promptly. ( 5.1 ) Hypersensitivity reactions, including anaphylaxis and angioedema, have been reported in patients treated with LEQVIO [see Adverse Reactions (6.2)] . Advise patients on the signs and symptoms of hypersensitivity reactions and instruct patients to seek medical attention promptly. LEQVIO is contraindicated in patients with a prior serious hypersensitivity reaction to inclisiran or any of the excipients in LEQVIO."
+  }
+}

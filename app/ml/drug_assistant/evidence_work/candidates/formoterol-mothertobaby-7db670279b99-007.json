@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "formoterol-mothertobaby-7db670279b99-007",
+      "drug_id": "formoterol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if formoterol might increase the chance of other pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). In 1 report with 33 women who took formoterol during pregnancy, 5 infants were reported to be delivered preterm. Another study, which compared 162 pregnancies exposed to formoterol with those exposed to another LABA, found no differences in birth weight, size of the infants, or the chance of preterm delivery.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Formoterol (Foradil®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/formoterol-pregnancy/",
+      "source_identifier": "fact-sheets:formoterol-pregnancy",
+      "source_section": "Does taking formoterol in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "retrieved_at": "2026-09-18T08:23:23.735627+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "content_hash": "0e69a227c3e9d783a52d171e8073abe31c3eadd8a30ff4b081a68c0d866b54bd",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "formoterol",
+      "canonical_name": "formoterol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:formoterol-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/formoterol-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:23.735627+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "source_content_hash": "7db670279b99b06343b95570d7d5b13d8d4f04be1a7d928820cb27c8c23e826e",
+      "error_code": null
+    },
+    "source_content_hash": "7db670279b99b06343b95570d7d5b13d8d4f04be1a7d928820cb27c8c23e826e",
+    "source_product_identifier": "fact-sheets:formoterol-pregnancy",
+    "source_version": "Mon, 24 Aug 2026 10:37:48 GMT",
+    "canonical_name": "formoterol",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "It is not known if formoterol might increase the chance of other pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). In 1 report with 33 women who took formoterol during pregnancy, 5 infants were reported to be delivered preterm. Another study, which compared 162 pregnancies exposed to formoterol with those exposed to another LABA, found no differences in birth weight, size of the infants, or the chance of preterm delivery."
+  }
+}

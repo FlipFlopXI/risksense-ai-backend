@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "acetaminophen-mothertobaby-3faaa27fee51-002",
+      "drug_id": "acetaminophen",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Acetaminophen is in many combination products. Always check the labels to see if they contain acetaminophen. Adding up the amount of acetaminophen in medications can help make sure you are not taking more than is recommended by your healthcare providers within 24 hours.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Acetaminophen (Paracetamol)",
+      "source_url": "https://mothertobaby.org/fact-sheets/acetaminophen-pregnancy/",
+      "source_identifier": "fact-sheets:acetaminophen-pregnancy",
+      "source_section": "What is acetaminophen?",
+      "source_revision_date": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "retrieved_at": "2026-09-18T08:23:04.054879+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "content_hash": "f98dce8fc93f13ef14ca7514b98a7e76dec875095ef1aa8434ce0f508e5167e4",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "acetaminophen",
+      "canonical_name": "acetaminophen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:acetaminophen-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/acetaminophen-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:04.054879+00:00",
+      "source_revision_date": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "source_content_hash": "3faaa27fee5163b33a40606b18a6c75986d744168020e9a5914e59946111821f",
+      "error_code": null
+    },
+    "source_content_hash": "3faaa27fee5163b33a40606b18a6c75986d744168020e9a5914e59946111821f",
+    "source_product_identifier": "fact-sheets:acetaminophen-pregnancy",
+    "source_version": "Thu, 15 Jan 2026 09:05:00 GMT",
+    "canonical_name": "acetaminophen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Acetaminophen is in many combination products. Always check the labels to see if they contain acetaminophen. Adding up the amount of acetaminophen in medications can help make sure you are not taking more than is recommended by your healthcare providers within 24 hours."
+  }
+}

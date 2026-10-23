@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "quetiapine-mothertobaby-77e814386405-008",
+      "drug_id": "quetiapine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "One study suggested that exposure to quetiapine or similar medications might cause short-term delayed development and behavior problems. These delays were seen at two months and six months of age, but not at one year of age. This suggests such delays can be temporary. Another study found no association between quetiapine use during the pregnancy and poor outcomes in school. These findings suggest that there are no neurodevelopmental outcomes in children exposed to quetiapine during the pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Quetiapine (Seroquel®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/quetiapine/",
+      "source_identifier": "fact-sheets:quetiapine",
+      "source_section": "Does taking quetiapine in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:07 GMT",
+      "retrieved_at": "2026-09-18T08:29:31.155723+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:52:07 GMT",
+      "content_hash": "363b4b6ae6393f291874d717893b5bead30b54c141c820fd1ce7a131b12ccdbc",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "quetiapine",
+      "canonical_name": "quetiapine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:quetiapine",
+      "source_url": "https://mothertobaby.org/fact-sheets/quetiapine/",
+      "retrieved_at": "2026-09-18T08:29:31.155723+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:07 GMT",
+      "source_content_hash": "77e814386405ee6eb2a7ba45020721d7af6b138ba760cfed8fe386d08ef70609",
+      "error_code": null
+    },
+    "source_content_hash": "77e814386405ee6eb2a7ba45020721d7af6b138ba760cfed8fe386d08ef70609",
+    "source_product_identifier": "fact-sheets:quetiapine",
+    "source_version": "Tue, 02 Dec 2025 11:52:07 GMT",
+    "canonical_name": "quetiapine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "One study suggested that exposure to quetiapine or similar medications might cause short-term delayed development and behavior problems. These delays were seen at two months and six months of age, but not at one year of age. This suggests such delays can be temporary. Another study found no association between quetiapine use during the pregnancy and poor outcomes in school. These findings suggest that there are no neurodevelopmental outcomes in children exposed to quetiapine during the pregnancy."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "risperidone-mothertobaby-7986ba850adb-002",
+      "drug_id": "risperidone",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "In some women, risperidone may raise the levels of the hormone prolactin. High levels of prolactin can stop ovulation (part of the menstrual cycle when an ovary releases an egg). This would make it harder to get pregnant. Your healthcare provider can monitor your levels of prolactin if there is concern.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Risperidone",
+      "source_url": "https://mothertobaby.org/fact-sheets/risperidone-pregnancy/",
+      "source_identifier": "fact-sheets:risperidone-pregnancy",
+      "source_section": "I take risperidone. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "retrieved_at": "2026-09-18T08:29:31.704984+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "content_hash": "97ea11bbb3fc8f103fc1b1f79299889d1e5d387e964c2b73afe62eb1527eb201",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "risperidone",
+      "canonical_name": "risperidone",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:risperidone-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/risperidone-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:31.704984+00:00",
+      "source_revision_date": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "source_content_hash": "7986ba850adb30aaeb6e1846437aee357519b17284e4c2f447fa747a8170e0d7",
+      "error_code": null
+    },
+    "source_content_hash": "7986ba850adb30aaeb6e1846437aee357519b17284e4c2f447fa747a8170e0d7",
+    "source_product_identifier": "fact-sheets:risperidone-pregnancy",
+    "source_version": "Thu, 25 Jun 2026 15:36:11 GMT",
+    "canonical_name": "risperidone",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "In some women, risperidone may raise the levels of the hormone prolactin. High levels of prolactin can stop ovulation (part of the menstrual cycle when an ovary releases an egg). This would make it harder to get pregnant. Your healthcare provider can monitor your levels of prolactin if there is concern."
+  }
+}

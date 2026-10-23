@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "eprosartan-dailymed-00aa7d282abb-004",
+      "drug_id": "eprosartan",
+      "related_drug_ids": [],
+      "topic": "drug_interactions",
+      "subtopic": "drug_interactions",
+      "claim": "Eprosartan Mesylate: Eprosartan has been shown to have no effect on the pharmacokinetics of digoxin and the pharmacodynamics of warfarin and glyburide. Thus, no dosing adjustments are necessary during concomitant use with these agents. Because eprosartan is not metabolized by the cytochrome P450 system, inhibitors of CYP450 enzyme would not be expected to affect its metabolism, and ketoconazole and fluconazole, potent inhibitors of CYP3A and 2C9, respectively, have been shown to have no effect on eprosartan pharmacokinetics. Ranitidine also has no effect on eprosartan pharmacokinetics. Eprosartan (up to 400 mg b.i.d. or 800 mg q.d.) doses have been safely used concomitantly with a thiazide diuretic (hydrochlorothiazide). Eprosartan doses of up to 300 mg b.i.d. have been safely used concomitantly with sustained-release calcium channel blockers (sustained-release nifedipine) with no clinically significant adverse interactions. As with other drugs that block angiotensin II or its effects, concomitant use of potassium-sparing diuretics (e.g., spironolactone, triamterene, amiloride), potassium supplements or salt substitutes containing potassium may lead to increases in serum potassium (see PRECAUTIONS, Information for Patients, Potassium Supplements ). In patients who are elderly, volume-depleted (including those on diuretic therapy), or with compromised renal function, co-administration of NSAIDs, including selective COX-2 inhibitors, with angiotensin II receptor antagonists, including eprosartan, may result in deterioration of renal function, including possible acute renal fa",
+      "source_organisation": "DailyMed",
+      "source_title": "TEVETEN ® HCT (eprosartan mesylate/hydrochlorothiazide)600/12.5mg 600/25mg",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b1dfcac3-ef66-4d3e-9d58-37d3f516eb31.xml",
+      "source_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+      "source_section": "Drug Interactions",
+      "source_revision_date": "2",
+      "retrieved_at": "2026-09-18T08:16:03.771762+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "2",
+      "content_hash": "80fe5a3e39fddcd5d74ba8919b83458f1064e63031d644f5637fb38596b27207",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "eprosartan",
+      "canonical_name": "eprosartan",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b1dfcac3-ef66-4d3e-9d58-37d3f516eb31.xml",
+      "retrieved_at": "2026-09-18T08:16:03.771762+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "00aa7d282abb3353c77049f2662f53d7a250446faca5775ef26e3e2945d6e198",
+      "error_code": null
+    },
+    "source_content_hash": "00aa7d282abb3353c77049f2662f53d7a250446faca5775ef26e3e2945d6e198",
+    "source_product_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+    "source_version": "2",
+    "canonical_name": "eprosartan",
+    "therapeutic_group": "arbs",
+    "source_excerpt": "Eprosartan Mesylate: Eprosartan has been shown to have no effect on the pharmacokinetics of digoxin and the pharmacodynamics of warfarin and glyburide. Thus, no dosing adjustments are necessary during concomitant use with these agents. Because eprosartan is not metabolized by the cytochrome P450 system, inhibitors of CYP450 enzyme would not be expected to affect its metabolism, and ketoconazole and fluconazole, potent inhibitors of CYP3A and 2C9, respectively, have been shown to have no effect on eprosartan pharmacokinetics. Ranitidine also has no effect on eprosartan pharmacokinetics. Eprosartan (up to 400 mg b.i.d. or 800 mg q.d.) doses have been safely used concomitantly with a thiazide diuretic (hydrochlorothiazide). Eprosartan doses of up to 300 mg b.i.d. have been safely used concomitantly with sustained-release calcium channel blockers (sustained-release nifedipine) with no clinically significant adverse interactions. As with other drugs that block angiotensin II or its effects, concomitant use of potassium-sparing diuretics (e.g., spironolactone, triamterene, amiloride), potassium supplements or salt substitutes containing potassium may lead to increases in serum potassium (see PRECAUTIONS, Information for Patients, Potassium Supplements ). In patients who are elderly, volume-depleted (including those on diuretic therapy), or with compromised renal function, co-administration of NSAIDs, including selective COX-2 inhibitors, with angiotensin II receptor antagonists, including eprosartan, may result in deterioration of renal function, including possible acute renal failure. These effects are usually reversible. Monitor renal function periodically in patients receiving eprosartan and NSAID therapy. The antihypertensive effect of angiotensin II receptor antagonists, including eprosartan may be attenuated by NSAIDs including selective COX-2 inhibitors. Hydrochlorothiazide: When administered concurrently the following drugs may interact with thiazide diuretics: Alcohol, barbiturates, or narcotics – potentiation of orthostatic hypotension may occur. Antidiabetic drug (oral agents and insulin) – dosage adjustment of the antidiabetic drug may be required. Other antihypertensive drugs – additive effect or potentiation. Cholestyramine and colestipol resins – Absorption of hydrochlorothiazide is impaired in the presence of anionic exchange resins. Single doses of either cholestyramine or colestipol resins bind the hydrochlorothiazide and reduce its absorption from the gastrointestinal tract by up to 85% and 43%, respectively. Corticosteroids, ACTH – intensified electrolyte depletion, particularly hypokalemia. Pressor amines (e.g., norepinephrine) – possible decreased response to pressor amines but not sufficient to preclude their use. Skeletal muscle relaxants, nondepolarizing (e.g., tubocurarine) – possible increased responsiveness to the muscle relaxant. Lithium – should not generally be given with diuretics. Diuretic agents reduce the renal clearance of lithium and add a high risk of lithium toxicity. Refer to the package insert for lithium preparations before use of such preparations with TEVETEN ® HCT. Nonsteroidal Anti-Inflammatory Drugs – in some patients, the administration of a nonsteroidal anti-inflammatory agent can reduce the diuretic, natriuretic, and antihypertensive effects of loop, potassium-sparing and thiazide diuretics. Therefore, when TEVETEN ® HCT and nonsteroidal anti-inflammatory agents are used concomitantly, the patient should be observed closely to determine if the desired effect of the diuretic is obtained."
+  }
+}

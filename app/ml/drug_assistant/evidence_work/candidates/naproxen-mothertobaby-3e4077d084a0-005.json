@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "naproxen-mothertobaby-3e4077d084a0-005",
+      "drug_id": "naproxen",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Some studies have reported a small increased chance for certain birth defects, including heart defects and cleft lip and/or palate (opening in the roof of the mouth and/or the lip), when NSAIDs are used in early pregnancy. A review of NSAID use in pregnancy has also suggested a possible small increase in the chance of some birth defects, although findings have been mixed. It is not known if naproxen, the medical condition being treated, or other factors caused these findings.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Naproxen",
+      "source_url": "https://mothertobaby.org/fact-sheets/naproxen/",
+      "source_identifier": "fact-sheets:naproxen",
+      "source_section": "Does taking naproxen increase the chance of birth defects?",
+      "source_revision_date": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "retrieved_at": "2026-09-18T08:23:40.838808+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "content_hash": "e553d69d3cfd4aa61340fc44ae0d717757b517c4ee21bf8a62fd714c80ad0077",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "naproxen",
+      "canonical_name": "naproxen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:naproxen",
+      "source_url": "https://mothertobaby.org/fact-sheets/naproxen/",
+      "retrieved_at": "2026-09-18T08:23:40.838808+00:00",
+      "source_revision_date": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "source_content_hash": "3e4077d084a0ac9b0d5feb8d3bbf7a2b6cb2fd9f64664ce60ba9e8b79e808afa",
+      "error_code": null
+    },
+    "source_content_hash": "3e4077d084a0ac9b0d5feb8d3bbf7a2b6cb2fd9f64664ce60ba9e8b79e808afa",
+    "source_product_identifier": "fact-sheets:naproxen",
+    "source_version": "Fri, 26 Jun 2026 12:15:04 GMT",
+    "canonical_name": "naproxen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Some studies have reported a small increased chance for certain birth defects, including heart defects and cleft lip and/or palate (opening in the roof of the mouth and/or the lip), when NSAIDs are used in early pregnancy. A review of NSAID use in pregnancy has also suggested a possible small increase in the chance of some birth defects, although findings have been mixed. It is not known if naproxen, the medical condition being treated, or other factors caused these findings."
+  }
+}

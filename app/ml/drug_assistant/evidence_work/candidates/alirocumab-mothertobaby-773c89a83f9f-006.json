@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "alirocumab-mothertobaby-773c89a83f9f-006",
+      "drug_id": "alirocumab",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Based on what is known about similar medications, very little alirocumab is expected to cross the placenta during the first trimester, when many of the fetal organs and body structures are developing.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Alirocumab (Praluent®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/alirocumab/",
+      "source_identifier": "fact-sheets:alirocumab",
+      "source_section": "Does taking alirocumab increase the chance of birth defects?",
+      "source_revision_date": "Wed, 19 Aug 2026 07:46:26 GMT",
+      "retrieved_at": "2026-09-18T08:23:05.609691+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 07:46:26 GMT",
+      "content_hash": "30dac7ee46c6dcfa01290fbb3395f077856b244ea902a57a560fe0cf814116f3",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "alirocumab",
+      "canonical_name": "alirocumab",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:alirocumab",
+      "source_url": "https://mothertobaby.org/fact-sheets/alirocumab/",
+      "retrieved_at": "2026-09-18T08:23:05.609691+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 07:46:26 GMT",
+      "source_content_hash": "773c89a83f9f0855b9836ab499dcf1e03f47a08a3cd293df36c5e654f2e350f6",
+      "error_code": null
+    },
+    "source_content_hash": "773c89a83f9f0855b9836ab499dcf1e03f47a08a3cd293df36c5e654f2e350f6",
+    "source_product_identifier": "fact-sheets:alirocumab",
+    "source_version": "Wed, 19 Aug 2026 07:46:26 GMT",
+    "canonical_name": "alirocumab",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Based on what is known about similar medications, very little alirocumab is expected to cross the placenta during the first trimester, when many of the fetal organs and body structures are developing."
+  }
+}

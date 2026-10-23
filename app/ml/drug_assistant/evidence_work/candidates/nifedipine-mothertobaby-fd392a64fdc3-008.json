@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "nifedipine-mothertobaby-fd392a64fdc3-008",
+      "drug_id": "nifedipine",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Nifedipine gets into breastmilk in small amounts. No problems have been reported in nursing infants with exposure to nifedipine through breastmilk. However, some women metabolize the drug differently which results in a higher amount in breastmilk. If you suspect the baby has any symptoms (excessive sleepiness or poor feeding), contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Nifedipine (Procardia®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/nifedipine/",
+      "source_identifier": "fact-sheets:nifedipine",
+      "source_section": "Breastfeeding while taking nifedipine:",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:05 GMT",
+      "retrieved_at": "2026-09-18T08:23:41.358350+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:52:05 GMT",
+      "content_hash": "fab3548cf71a71bf63d54134e4c61fd2ca9346ecc92c70a356fa1561a62dff44",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "nifedipine",
+      "canonical_name": "nifedipine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:nifedipine",
+      "source_url": "https://mothertobaby.org/fact-sheets/nifedipine/",
+      "retrieved_at": "2026-09-18T08:23:41.358350+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:05 GMT",
+      "source_content_hash": "fd392a64fdc37af68eb802edde1a47e6f836251a07692f2b127f9278b3a28276",
+      "error_code": null
+    },
+    "source_content_hash": "fd392a64fdc37af68eb802edde1a47e6f836251a07692f2b127f9278b3a28276",
+    "source_product_identifier": "fact-sheets:nifedipine",
+    "source_version": "Tue, 02 Dec 2025 11:52:05 GMT",
+    "canonical_name": "nifedipine",
+    "therapeutic_group": "calcium_channel_blockers",
+    "source_excerpt": "Nifedipine gets into breastmilk in small amounts. No problems have been reported in nursing infants with exposure to nifedipine through breastmilk. However, some women metabolize the drug differently which results in a higher amount in breastmilk. If you suspect the baby has any symptoms (excessive sleepiness or poor feeding), contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

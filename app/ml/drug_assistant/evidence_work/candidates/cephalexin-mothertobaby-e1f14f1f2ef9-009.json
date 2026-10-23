@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "cephalexin-mothertobaby-e1f14f1f2ef9-009",
+      "drug_id": "cephalexin",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if cephalexin could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects. Some infections, such as Staph or E.coli, might affect male fertility. In general, men’s exposures are less likely to increase risks to a pregnancy. For more general information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Cephalexin (Keflex®, Keftab®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/cephalexin-keflex-keftab/",
+      "source_identifier": "fact-sheets:cephalexin-keflex-keftab",
+      "source_section": "If a man takes cephalexin, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:14.344620+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "content_hash": "c704ada32d16e48bece7eac29971a3991103db0d508019b02696cbcdce349b4b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "cephalexin",
+      "canonical_name": "cephalexin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:cephalexin-keflex-keftab",
+      "source_url": "https://mothertobaby.org/fact-sheets/cephalexin-keflex-keftab/",
+      "retrieved_at": "2026-09-18T08:23:14.344620+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "source_content_hash": "e1f14f1f2ef965736fe0d40138394b805e20da55505c7ef9813e9140d684d5b9",
+      "error_code": null
+    },
+    "source_content_hash": "e1f14f1f2ef965736fe0d40138394b805e20da55505c7ef9813e9140d684d5b9",
+    "source_product_identifier": "fact-sheets:cephalexin-keflex-keftab",
+    "source_version": "Thu, 20 Aug 2026 07:41:01 GMT",
+    "canonical_name": "cephalexin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Studies have not been done to see if cephalexin could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects. Some infections, such as Staph or E.coli, might affect male fertility. In general, men’s exposures are less likely to increase risks to a pregnancy. For more general information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "sertraline-mothertobaby-f1945122cc5d-009",
+      "drug_id": "sertraline",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Most large studies have not shown that using sertraline during pregnancy would increase the chance of behavior or learning issues for the child. Some studies looking at children whose mothers had depression (or other mental health conditions) and used sertraline during pregnancy have found differences in behavior and learning compared to children whose mothers did not have depression or use sertraline during pregnancy. However, when studies look only at children whose mothers had depression (or other mental health conditions) during pregnancy, most of the studies do not find differences in child development when the mothers used sertraline and when they did not. This suggests that differences seen in child development are more likely related to the underlying depression, other factors related to the mental health condition, or other factors, and not to the sertraline used during pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Sertraline (Zoloft®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/sertraline-zoloft-pregnancy/",
+      "source_identifier": "fact-sheets:sertraline-zoloft-pregnancy",
+      "source_section": "Does taking sertraline in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:19 GMT",
+      "retrieved_at": "2026-09-18T08:29:33.058015+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:19 GMT",
+      "content_hash": "656f5fd8d0a042e3c2f8ee9ebf0b408473415061555678833bd98855fb4e3b6d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "sertraline",
+      "canonical_name": "sertraline",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:sertraline-zoloft-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/sertraline-zoloft-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:33.058015+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:19 GMT",
+      "source_content_hash": "f1945122cc5da6ac91b789a3aaf3b2332af415a3885b533358777c633d5c24e7",
+      "error_code": null
+    },
+    "source_content_hash": "f1945122cc5da6ac91b789a3aaf3b2332af415a3885b533358777c633d5c24e7",
+    "source_product_identifier": "fact-sheets:sertraline-zoloft-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:19 GMT",
+    "canonical_name": "sertraline",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Most large studies have not shown that using sertraline during pregnancy would increase the chance of behavior or learning issues for the child. Some studies looking at children whose mothers had depression (or other mental health conditions) and used sertraline during pregnancy have found differences in behavior and learning compared to children whose mothers did not have depression or use sertraline during pregnancy. However, when studies look only at children whose mothers had depression (or other mental health conditions) during pregnancy, most of the studies do not find differences in child development when the mothers used sertraline and when they did not. This suggests that differences seen in child development are more likely related to the underlying depression, other factors related to the mental health condition, or other factors, and not to the sertraline used during pregnancy."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "bupropion-mothertobaby-3c913c13bef2-009",
+      "drug_id": "bupropion",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if taking bupropion during pregnancy can increase the chance of behavior or learning issues for the child. One small study suggested a possible link between bupropion exposure during pregnancy and attention-deficit/hyperactivity disorder (ADHD). However, the study did not account for other factors, such as a family history of ADHD, making it hard to know whether the findings were related to bupropion or other factors.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Bupropion (Wellbutrin®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/bupropion-wellbutrin-pregnancy/",
+      "source_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+      "source_section": "Does taking bupropion in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:12.156990+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "content_hash": "cab008cd36d32adc2830e181bc3c560e3402a5be1fdccc4125a9695a11649f3b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "bupropion",
+      "canonical_name": "bupropion",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/bupropion-wellbutrin-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:12.156990+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "source_content_hash": "3c913c13bef24d3e7228cd9d22bcedbdce46f267a9bd67e2c3e3338809a13def",
+      "error_code": null
+    },
+    "source_content_hash": "3c913c13bef24d3e7228cd9d22bcedbdce46f267a9bd67e2c3e3338809a13def",
+    "source_product_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+    "source_version": "Wed, 19 Aug 2026 16:43:28 GMT",
+    "canonical_name": "bupropion",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "It is not known if taking bupropion during pregnancy can increase the chance of behavior or learning issues for the child. One small study suggested a possible link between bupropion exposure during pregnancy and attention-deficit/hyperactivity disorder (ADHD). However, the study did not account for other factors, such as a family history of ADHD, making it hard to know whether the findings were related to bupropion or other factors."
+  }
+}

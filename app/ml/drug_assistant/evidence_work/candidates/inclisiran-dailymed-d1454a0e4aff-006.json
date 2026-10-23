@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "inclisiran-dailymed-d1454a0e4aff-006",
+      "drug_id": "inclisiran",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pllr_8_1",
+      "claim": "Risk Summary Discontinue LEQVIO when pregnancy is recognized. Alternatively, consider the ongoing therapeutic needs of the individual patient. Inclisiran increases LDL-C uptake and lowers LDL-C levels in the circulation, thus decreasing cholesterol and possibly other biologically active substances derived from cholesterol; therefore, LEQVIO may cause fetal harm when administered to pregnant patients based on the mechanism of action [see Clinical Pharmacology (12.1)] . In addition, treatment of hypercholesterolemia is not generally necessary during pregnancy. Atherosclerosis is a chronic process and the discontinuation of lipid-lowering drugs during pregnancy should have little impact on the outcome of long-term therapy of hypercholesterolemia for most patients. There are no available data on the use of LEQVIO in pregnant patients to evaluate for a drug-associated risk of major birth defects, miscarriage or adverse maternal or fetal outcomes. In animal reproduction studies, no adverse developmental effects were observed in rats and rabbits with subcutaneous administration of inclisiran during organogenesis at doses up to 5 to 10 times the maximum recommended human dose (MRHD) based on body surface area (BSA) comparison ( see Data ). No adverse developmental outcomes were observed in offspring of rats administered inclisiran from organogenesis through lactation at 5 times the MRHD based on BSA comparison ( see Data ). The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated back",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use LEQVIO safely and effectively. See full prescribing information for LEQVIO. LEQVIO ® (inclisiran) injection, for subcutaneous use Initial U.S. Approval: 2021",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_section": "8.1 Pregnancy",
+      "source_revision_date": "13",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "13",
+      "content_hash": "ddca38675ddbc856fab4895b174570db57c6c5b2b1406c105af61a0c5a115b82",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "inclisiran",
+      "canonical_name": "inclisiran",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+      "error_code": null
+    },
+    "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+    "source_product_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+    "source_version": "13",
+    "canonical_name": "inclisiran",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Risk Summary Discontinue LEQVIO when pregnancy is recognized. Alternatively, consider the ongoing therapeutic needs of the individual patient. Inclisiran increases LDL-C uptake and lowers LDL-C levels in the circulation, thus decreasing cholesterol and possibly other biologically active substances derived from cholesterol; therefore, LEQVIO may cause fetal harm when administered to pregnant patients based on the mechanism of action [see Clinical Pharmacology (12.1)] . In addition, treatment of hypercholesterolemia is not generally necessary during pregnancy. Atherosclerosis is a chronic process and the discontinuation of lipid-lowering drugs during pregnancy should have little impact on the outcome of long-term therapy of hypercholesterolemia for most patients. There are no available data on the use of LEQVIO in pregnant patients to evaluate for a drug-associated risk of major birth defects, miscarriage or adverse maternal or fetal outcomes. In animal reproduction studies, no adverse developmental effects were observed in rats and rabbits with subcutaneous administration of inclisiran during organogenesis at doses up to 5 to 10 times the maximum recommended human dose (MRHD) based on body surface area (BSA) comparison ( see Data ). No adverse developmental outcomes were observed in offspring of rats administered inclisiran from organogenesis through lactation at 5 times the MRHD based on BSA comparison ( see Data ). The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2%–4% and 15%–20%, respectively. There is a pregnancy safety study for LEQVIO. Report pregnancies by contacting Novartis at 1-888-669-6682 or usdrugsafety.operations@novartis.com. Data Animal Data In embryo-fetal development studies conducted in Sprague-Dawley rats and New Zealand White rabbits, inclisiran was administered by subcutaneous injection at dose levels of 50, 100, and 150 mg/kg once daily during organogenesis (rats: Gestation Days 6 to 17; rabbits: Gestation Days 7 to 19). There was no evidence of embryo-fetal toxicity or teratogenicity at doses up to 5 and 10 times, respectively, the MRHD based on BSA comparison/dose. Inclisiran crosses the placenta and was detected in rat fetal plasma at concentrations that were 65 to 154 times lower than maternal levels. In a pre- and postnatal development study conducted in Sprague-Dawley rats, inclisiran was administered once daily by subcutaneous injection at levels of 50, 100, and 150 mg/kg from Gestation Day 6 through Lactation Day 20. Inclisiran was well-tolerated in maternal rats, with no evidence of maternal toxicity and no effects on maternal performance. There were no effects on the development of the F1 generation, including survival, growth, physical and reflexological development, behavior, and reproductive performance at doses up to 5 times the MRHD, based on BSA comparison/dose."
+  }
+}

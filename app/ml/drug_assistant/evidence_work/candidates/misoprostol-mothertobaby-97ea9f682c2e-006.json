@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "misoprostol-mothertobaby-97ea9f682c2e-006",
+      "drug_id": "misoprostol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Every pregnancy starts out with a 3-5% chance of having a birth defect. This is called the background risk. Most infants born to women who use misoprostol during pregnancy do not have birth defects. However, misoprostol can cause poor blood flow to the fetus (called vascular disruption) and increase the chance of birth defects in early pregnancy. Birth defects related to misoprostol exposure in pregnancy are poor growth of limbs (missing parts of finger/toes, or parts of arms/legs), Moebius syndrome (weakness or paralysis of the facial and eye muscles), cleft lip and/or cleft palate (lip and or roof of mouth formed with a split), arthrogryposis (stiff joints), muscle weakness, and club foot (foot points downward and inward).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Misoprostol (Cytotec®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/misoprostol-cytotec/",
+      "source_identifier": "fact-sheets:misoprostol-cytotec",
+      "source_section": "Does taking misoprostol increase the chance of birth defects?",
+      "source_revision_date": "Wed, 05 Aug 2026 13:56:46 GMT",
+      "retrieved_at": "2026-09-18T08:23:39.497704+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 05 Aug 2026 13:56:46 GMT",
+      "content_hash": "542674e41757293da8eef34ad40985efd766e59762b48582a3b41e7428549c5e",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "misoprostol",
+      "canonical_name": "misoprostol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:misoprostol-cytotec",
+      "source_url": "https://mothertobaby.org/fact-sheets/misoprostol-cytotec/",
+      "retrieved_at": "2026-09-18T08:23:39.497704+00:00",
+      "source_revision_date": "Wed, 05 Aug 2026 13:56:46 GMT",
+      "source_content_hash": "97ea9f682c2e9e64d044954ca68151810a06dca0dfdbe3ac7d3804fd4c81b1b2",
+      "error_code": null
+    },
+    "source_content_hash": "97ea9f682c2e9e64d044954ca68151810a06dca0dfdbe3ac7d3804fd4c81b1b2",
+    "source_product_identifier": "fact-sheets:misoprostol-cytotec",
+    "source_version": "Wed, 05 Aug 2026 13:56:46 GMT",
+    "canonical_name": "misoprostol",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Every pregnancy starts out with a 3-5% chance of having a birth defect. This is called the background risk. Most infants born to women who use misoprostol during pregnancy do not have birth defects. However, misoprostol can cause poor blood flow to the fetus (called vascular disruption) and increase the chance of birth defects in early pregnancy. Birth defects related to misoprostol exposure in pregnancy are poor growth of limbs (missing parts of finger/toes, or parts of arms/legs), Moebius syndrome (weakness or paralysis of the facial and eye muscles), cleft lip and/or cleft palate (lip and or roof of mouth formed with a split), arthrogryposis (stiff joints), muscle weakness, and club foot (foot points downward and inward)."
+  }
+}

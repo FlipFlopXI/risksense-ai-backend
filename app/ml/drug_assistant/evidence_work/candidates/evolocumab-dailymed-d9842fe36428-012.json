@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "evolocumab-dailymed-d9842fe36428-012",
+      "drug_id": "evolocumab",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "description",
+      "claim": "Evolocumab is a human monoclonal immunoglobulin G2 (IgG2) directed against human proprotein convertase subtilisin kexin type 9 (PCSK9). Evolocumab has an approximate molecular weight (MW) of 144 kDa and is produced in genetically engineered mammalian (Chinese hamster ovary) cells. REPATHA is a sterile, preservative-free, clear to opalescent, colorless to pale yellow solution for subcutaneous use. Each 1 mL prefilled single-dose pen, prefilled single-dose SureClick ® autoinjector and prefilled single-dose syringe contains 140 mg evolocumab, acetate (1.2 mg), polysorbate 80 (0.1 mg), proline (25 mg) in Water for Injection, USP. Sodium hydroxide may be used to adjust to a pH of 5.0.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use REPATHA ® safely and effectively. See full prescribing information for REPATHA. REPATHA (evolocumab) injection, for subcutaneous use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cd61e902-166d-4aa6-9f3c-a18c1008d07e.xml",
+      "source_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+      "source_section": "11 DESCRIPTION",
+      "source_revision_date": "32",
+      "retrieved_at": "2026-09-18T08:16:17.213762+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "32",
+      "content_hash": "e9a8d9117ad4cc24a09b3f2aa1ad4c389e2c70349e6a601470a37dd8ed1e1989",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "evolocumab",
+      "canonical_name": "evolocumab",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cd61e902-166d-4aa6-9f3c-a18c1008d07e.xml",
+      "retrieved_at": "2026-09-18T08:16:17.213762+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d9842fe364280107ed506d3adb39a602519d43dbb80c68a2e80aa48113e935b5",
+      "error_code": null
+    },
+    "source_content_hash": "d9842fe364280107ed506d3adb39a602519d43dbb80c68a2e80aa48113e935b5",
+    "source_product_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+    "source_version": "32",
+    "canonical_name": "evolocumab",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Evolocumab is a human monoclonal immunoglobulin G2 (IgG2) directed against human proprotein convertase subtilisin kexin type 9 (PCSK9). Evolocumab has an approximate molecular weight (MW) of 144 kDa and is produced in genetically engineered mammalian (Chinese hamster ovary) cells. REPATHA is a sterile, preservative-free, clear to opalescent, colorless to pale yellow solution for subcutaneous use. Each 1 mL prefilled single-dose pen, prefilled single-dose SureClick ® autoinjector and prefilled single-dose syringe contains 140 mg evolocumab, acetate (1.2 mg), polysorbate 80 (0.1 mg), proline (25 mg) in Water for Injection, USP. Sodium hydroxide may be used to adjust to a pH of 5.0."
+  }
+}

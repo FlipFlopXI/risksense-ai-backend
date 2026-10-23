@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "valproic_acid-mothertobaby-bce693a53a4c-003",
+      "drug_id": "valproic_acid",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "The time it takes the body to metabolize (process) medication is not the same for everyone. In healthy non-pregnant adults, it takes up to 2-4 days, on average, for most of the valproic acid to be gone from the body.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Valproic Acid",
+      "source_url": "https://mothertobaby.org/fact-sheets/valproic-acid-pregnancy/",
+      "source_identifier": "fact-sheets:valproic-acid-pregnancy",
+      "source_section": "I am taking valproic acid, but I would like to stop taking it before getting pregnant. How long does the drug stay in my body?",
+      "source_revision_date": "Thu, 02 Apr 2026 07:46:26 GMT",
+      "retrieved_at": "2026-09-18T08:29:35.219441+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 02 Apr 2026 07:46:26 GMT",
+      "content_hash": "e312cd75258c130ec8b846a14e85259bc629703fe4bd0658e27f51d145c2f186",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "valproic_acid",
+      "canonical_name": "valproic acid",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:valproic-acid-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/valproic-acid-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:35.219441+00:00",
+      "source_revision_date": "Thu, 02 Apr 2026 07:46:26 GMT",
+      "source_content_hash": "bce693a53a4c6976f4243e1f7f81a614d4f9407ee67308648d4e25cea314dd20",
+      "error_code": null
+    },
+    "source_content_hash": "bce693a53a4c6976f4243e1f7f81a614d4f9407ee67308648d4e25cea314dd20",
+    "source_product_identifier": "fact-sheets:valproic-acid-pregnancy",
+    "source_version": "Thu, 02 Apr 2026 07:46:26 GMT",
+    "canonical_name": "valproic acid",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "The time it takes the body to metabolize (process) medication is not the same for everyone. In healthy non-pregnant adults, it takes up to 2-4 days, on average, for most of the valproic acid to be gone from the body."
+  }
+}

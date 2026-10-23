@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "famotidine-mothertobaby-c060ce700d57-006",
+      "drug_id": "famotidine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if famotidine can increase the chance of behavior or learning issues for the child.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Famotidine",
+      "source_url": "https://mothertobaby.org/fact-sheets/famotidine/",
+      "source_identifier": "fact-sheets:famotidine",
+      "source_section": "Does taking famotidine in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Mon, 14 Sep 2026 05:38:15 GMT",
+      "retrieved_at": "2026-09-18T08:23:20.795218+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 14 Sep 2026 05:38:15 GMT",
+      "content_hash": "e0da9973ecfc996babc61ac913f46ea8af33f264586bd17ff28e4e9738731dee",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "famotidine",
+      "canonical_name": "famotidine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:famotidine",
+      "source_url": "https://mothertobaby.org/fact-sheets/famotidine/",
+      "retrieved_at": "2026-09-18T08:23:20.795218+00:00",
+      "source_revision_date": "Mon, 14 Sep 2026 05:38:15 GMT",
+      "source_content_hash": "c060ce700d57dff4a4cb361218c8c3ea9d54c45a9ec1509cac66bd632c8d8556",
+      "error_code": null
+    },
+    "source_content_hash": "c060ce700d57dff4a4cb361218c8c3ea9d54c45a9ec1509cac66bd632c8d8556",
+    "source_product_identifier": "fact-sheets:famotidine",
+    "source_version": "Mon, 14 Sep 2026 05:38:15 GMT",
+    "canonical_name": "famotidine",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "It is not known if famotidine can increase the chance of behavior or learning issues for the child."
+  }
+}

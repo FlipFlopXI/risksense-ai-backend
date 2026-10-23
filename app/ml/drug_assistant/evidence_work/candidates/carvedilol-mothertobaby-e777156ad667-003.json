@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "carvedilol-mothertobaby-e777156ad667-003",
+      "drug_id": "carvedilol",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "In experimental animal studies, there were no effects on fertility (ability to get pregnant) when animals were given 10 times more carvedilol than would be given to humans.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "​​Carvedilol (Coreg®)​",
+      "source_url": "https://mothertobaby.org/fact-sheets/carvedilol-coreg/",
+      "source_identifier": "fact-sheets:carvedilol-coreg",
+      "source_section": "I take carvedilol. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "retrieved_at": "2026-09-18T08:23:13.823545+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "content_hash": "23a37d7b6297890e3b27f80f8a699068c8cb737ea72c368551ee68eceff48bff",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "carvedilol",
+      "canonical_name": "carvedilol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:carvedilol-coreg",
+      "source_url": "https://mothertobaby.org/fact-sheets/carvedilol-coreg/",
+      "retrieved_at": "2026-09-18T08:23:13.823545+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "source_content_hash": "e777156ad6672533e571497765a26dc269f15a456ee085c094b563347d691e17",
+      "error_code": null
+    },
+    "source_content_hash": "e777156ad6672533e571497765a26dc269f15a456ee085c094b563347d691e17",
+    "source_product_identifier": "fact-sheets:carvedilol-coreg",
+    "source_version": "Thu, 23 Jul 2026 08:15:21 GMT",
+    "canonical_name": "carvedilol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "In experimental animal studies, there were no effects on fertility (ability to get pregnant) when animals were given 10 times more carvedilol than would be given to humans."
+  }
+}

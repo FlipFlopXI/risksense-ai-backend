@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "hydroxyzine-mothertobaby-0ed488883da1-008",
+      "drug_id": "hydroxyzine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if taking hydroxyzine alone can increase the chance of preterm delivery (birth before 37 weeks), or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams]).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Hydroxyzine (Vistaril®, Atarax®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/hydroxyzine-vistaril-atarax/",
+      "source_identifier": "fact-sheets:hydroxyzine-vistaril-atarax",
+      "source_section": "Does taking hydroxyzine in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "retrieved_at": "2026-09-18T08:23:27.227022+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "content_hash": "b32d552256eb5b92af2a2baa5fa45a7e683945b11235199dbd133b2d61e2b6da",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "hydroxyzine",
+      "canonical_name": "hydroxyzine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:hydroxyzine-vistaril-atarax",
+      "source_url": "https://mothertobaby.org/fact-sheets/hydroxyzine-vistaril-atarax/",
+      "retrieved_at": "2026-09-18T08:23:27.227022+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "source_content_hash": "0ed488883da12ed11b19092a691be7bf5f794a1072a555d59fccbb4b8571a93d",
+      "error_code": null
+    },
+    "source_content_hash": "0ed488883da12ed11b19092a691be7bf5f794a1072a555d59fccbb4b8571a93d",
+    "source_product_identifier": "fact-sheets:hydroxyzine-vistaril-atarax",
+    "source_version": "Tue, 02 Dec 2025 11:59:12 GMT",
+    "canonical_name": "hydroxyzine",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "It is not known if taking hydroxyzine alone can increase the chance of preterm delivery (birth before 37 weeks), or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams])."
+  }
+}

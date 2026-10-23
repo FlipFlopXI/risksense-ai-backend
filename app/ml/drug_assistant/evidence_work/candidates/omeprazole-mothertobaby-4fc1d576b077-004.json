@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "omeprazole-mothertobaby-4fc1d576b077-004",
+      "drug_id": "omeprazole",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Omeprazole (which has the same active medication as esomeprazole) is the best studied of the PPIs. Available information does not suggest an increased chance of birth defects when omeprazole or esomeprazole is used in pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Omeprazole | Esomeprazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/omeprazole-esomeprazole/",
+      "source_identifier": "fact-sheets:omeprazole-esomeprazole",
+      "source_section": "Does taking omeprazole or esomeprazole increase the chance of birth defects?",
+      "source_revision_date": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "retrieved_at": "2026-09-18T08:29:25.689006+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "content_hash": "984d9c50dbd4dca558062c30ef4f89d134eda2dad37fd60a2bf6f0a967251977",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "omeprazole",
+      "canonical_name": "omeprazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:omeprazole-esomeprazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/omeprazole-esomeprazole/",
+      "retrieved_at": "2026-09-18T08:29:25.689006+00:00",
+      "source_revision_date": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "source_content_hash": "4fc1d576b077d4ae1dd55a8da28a99b9e3ada2a2bf37a781b31f221c9917e1bf",
+      "error_code": null
+    },
+    "source_content_hash": "4fc1d576b077d4ae1dd55a8da28a99b9e3ada2a2bf37a781b31f221c9917e1bf",
+    "source_product_identifier": "fact-sheets:omeprazole-esomeprazole",
+    "source_version": "Sat, 25 Jul 2026 17:42:14 GMT",
+    "canonical_name": "omeprazole",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Omeprazole (which has the same active medication as esomeprazole) is the best studied of the PPIs. Available information does not suggest an increased chance of birth defects when omeprazole or esomeprazole is used in pregnancy."
+  }
+}

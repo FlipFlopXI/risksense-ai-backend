@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "meclizine-mothertobaby-8856054d7071-005",
+      "drug_id": "meclizine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if meclizine can increase the chance of other pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). One large study looking at over 16,000 pregnancies exposed to meclizine in the first trimester found no increased chance of preterm birth, low birth weight, short body length, and small head circumference after exposure to meclizine.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Meclizine",
+      "source_url": "https://mothertobaby.org/fact-sheets/meclizine-pregnancy/",
+      "source_identifier": "fact-sheets:meclizine-pregnancy",
+      "source_section": "Does taking meclizine in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Tue, 27 Jan 2026 06:25:37 GMT",
+      "retrieved_at": "2026-09-18T08:23:32.999227+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 27 Jan 2026 06:25:37 GMT",
+      "content_hash": "1ad1abcf2d25bf7710625bd44059b1a0db7fba530485bd6c932c29ad240dc443",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "meclizine",
+      "canonical_name": "meclizine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:meclizine-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/meclizine-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:32.999227+00:00",
+      "source_revision_date": "Tue, 27 Jan 2026 06:25:37 GMT",
+      "source_content_hash": "8856054d7071599119781a27a9f453fbd0eaf6fb7b5144c174d8a22b78a16215",
+      "error_code": null
+    },
+    "source_content_hash": "8856054d7071599119781a27a9f453fbd0eaf6fb7b5144c174d8a22b78a16215",
+    "source_product_identifier": "fact-sheets:meclizine-pregnancy",
+    "source_version": "Tue, 27 Jan 2026 06:25:37 GMT",
+    "canonical_name": "meclizine",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "It is not known if meclizine can increase the chance of other pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). One large study looking at over 16,000 pregnancies exposed to meclizine in the first trimester found no increased chance of preterm birth, low birth weight, short body length, and small head circumference after exposure to meclizine."
+  }
+}

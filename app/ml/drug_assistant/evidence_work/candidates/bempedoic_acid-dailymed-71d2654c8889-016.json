@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "bempedoic_acid-dailymed-71d2654c8889-016",
+      "drug_id": "bempedoic_acid",
+      "related_drug_ids": [],
+      "topic": "clinician_discussion",
+      "subtopic": "patient_counseling_information",
+      "claim": "Advise patients to read the FDA-approved patient labeling (Patient Information). Risk of Hyperuricemia Advise patients of the risk of elevated serum uric acid levels, including development of gout. Inform patients that serum uric acid levels may be monitored during treatment with NEXLETOL. Patients with signs or symptoms of hyperuricemia should contact their healthcare provider if symptoms occur [See Warnings and Precautions (5.1) ] Risk of Tendon Rupture Inform patients of the risk of tendon rupture. Advise patients to rest at the first sign of tendinitis or tendon rupture and to immediately contact their healthcare provider if tendinitis or tendon rupture symptoms occur [see Warnings and Precautions (5.2) ]. Risk of Myopathy with Concomitant Use of Simvastatin or Pravastatin Advise patients to notify their healthcare provider(s) if they are taking, or plan to take simvastatin or pravastatin. The risk of myopathy occurring with the use of simvastatin or pravastatin may be increased when taken with NEXLETOL [see Drug Interactions (7) ]. Pregnancy Advise pregnant women of the potential risk to a fetus based on NEXLETOL's mechanism of action. Advise females to inform their healthcare provider of a known or suspected pregnancy. Advise patients that there is a pregnancy safety study that monitors pregnancy outcomes in patients exposed to NEXLETOL during pregnancy. Encourage these patients to report their pregnancy to Esperion at 1-833-377-7633 [see Use in Specific Populations (8.1) ].",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use NEXLETOL ® safely and effectively. See full prescribing information for NEXLETOL. NEXLETOL (bempedoic acid) tablets, for oral use Initial U.S. Approval: 2020",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_section": "17 PATIENT COUNSELING INFORMATION",
+      "source_revision_date": "20",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "20",
+      "content_hash": "c2a826e162b1cbbd5d9477d427b8ae4bdb9b225b932144cf604c7ebb01cdca2b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "bempedoic_acid",
+      "canonical_name": "bempedoic acid",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+      "error_code": null,
+      "candidates": [
+        {
+          "set_id": "3fa2108c-0300-47b8-9d34-f762af7c93c6",
+          "title": "NEXLIZET (BEMPEDOIC ACID AND EZETIMIBE) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "23",
+          "published_date": "Jul 20, 2026"
+        },
+        {
+          "set_id": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+          "title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "20",
+          "published_date": "Jul 20, 2026"
+        }
+      ],
+      "candidate_list_complete": true,
+      "candidate_list_retrieved_at": "2026-09-23T10:02:53.194460+00:00",
+      "product_selection_reason": "HIGH_CONFIDENCE_UNIQUE_MATCH",
+      "product_resolution_version": "1.0.0",
+      "product_resolution_at": "2026-09-23T10:02:54.967932+00:00",
+      "product_resolution_criteria": {
+        "complete_search": true,
+        "human_prescription": true,
+        "single_exact_active_ingredient": true,
+        "unique_compatible_candidate": true,
+        "routes": [
+          "ORAL"
+        ],
+        "dosage_forms": [
+          "BLISTER PACK",
+          "BOTTLE",
+          "BOTTLE, PLASTIC",
+          "TABLET, FILM COATED"
+        ]
+      },
+      "selected_product_title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]"
+    },
+    "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+    "source_product_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+    "source_version": "20",
+    "canonical_name": "bempedoic acid",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Advise patients to read the FDA-approved patient labeling (Patient Information). Risk of Hyperuricemia Advise patients of the risk of elevated serum uric acid levels, including development of gout. Inform patients that serum uric acid levels may be monitored during treatment with NEXLETOL. Patients with signs or symptoms of hyperuricemia should contact their healthcare provider if symptoms occur [See Warnings and Precautions (5.1) ] Risk of Tendon Rupture Inform patients of the risk of tendon rupture. Advise patients to rest at the first sign of tendinitis or tendon rupture and to immediately contact their healthcare provider if tendinitis or tendon rupture symptoms occur [see Warnings and Precautions (5.2) ]. Risk of Myopathy with Concomitant Use of Simvastatin or Pravastatin Advise patients to notify their healthcare provider(s) if they are taking, or plan to take simvastatin or pravastatin. The risk of myopathy occurring with the use of simvastatin or pravastatin may be increased when taken with NEXLETOL [see Drug Interactions (7) ]. Pregnancy Advise pregnant women of the potential risk to a fetus based on NEXLETOL's mechanism of action. Advise females to inform their healthcare provider of a known or suspected pregnancy. Advise patients that there is a pregnancy safety study that monitors pregnancy outcomes in patients exposed to NEXLETOL during pregnancy. Encourage these patients to report their pregnancy to Esperion at 1-833-377-7633 [see Use in Specific Populations (8.1) ]."
+  }
+}

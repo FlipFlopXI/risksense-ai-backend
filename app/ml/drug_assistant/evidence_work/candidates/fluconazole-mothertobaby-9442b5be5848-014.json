@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fluconazole-mothertobaby-9442b5be5848-014",
+      "drug_id": "fluconazole",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done in humans to see if fluconazole could affect men’s fertility (ability to make healthy sperm) or increase the chance of birth defects. One study in laboratory animals found lowered sperm count while the animal was exposed to fluconazole. Sperm counts returned to normal two months after stopping treatment. In general, exposures that fathers or sperm donors are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Fluconazole (Diflucan®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluconazole-pregnancy/",
+      "source_identifier": "fact-sheets:fluconazole-pregnancy",
+      "source_section": "If a man takes fluconazole, could it affect his fertility or increase the chance of birth defects?",
+      "source_revision_date": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:21.631403+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "content_hash": "b3ec630dd6d54d7c43fab67d38ac63c666a5e9586369c3ccf9b95e3def98d5e5",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fluconazole",
+      "canonical_name": "fluconazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fluconazole-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluconazole-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:21.631403+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "source_content_hash": "9442b5be5848b5b43bd1168c0ca54eb33287a2007a27ad4afe4708586ed34e36",
+      "error_code": null
+    },
+    "source_content_hash": "9442b5be5848b5b43bd1168c0ca54eb33287a2007a27ad4afe4708586ed34e36",
+    "source_product_identifier": "fact-sheets:fluconazole-pregnancy",
+    "source_version": "Thu, 20 Aug 2026 08:40:28 GMT",
+    "canonical_name": "fluconazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Studies have not been done in humans to see if fluconazole could affect men’s fertility (ability to make healthy sperm) or increase the chance of birth defects. One study in laboratory animals found lowered sperm count while the animal was exposed to fluconazole. Sperm counts returned to normal two months after stopping treatment. In general, exposures that fathers or sperm donors are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

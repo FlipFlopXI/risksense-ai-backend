@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "valproic_acid-mothertobaby-bce693a53a4c-005",
+      "drug_id": "valproic_acid",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. It is not known if taking valproic acid can increase the chance of miscarriage. One recent study has shown an increased chance of miscarriage with valproic acid use during pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Valproic Acid",
+      "source_url": "https://mothertobaby.org/fact-sheets/valproic-acid-pregnancy/",
+      "source_identifier": "fact-sheets:valproic-acid-pregnancy",
+      "source_section": "Does taking valproic acid increase the chance of miscarriage?",
+      "source_revision_date": "Thu, 02 Apr 2026 07:46:26 GMT",
+      "retrieved_at": "2026-09-18T08:29:35.219441+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 02 Apr 2026 07:46:26 GMT",
+      "content_hash": "24aaff011262b4cfcda3172305b664ffe863edd1daf357f45ea624e9e966568d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "valproic_acid",
+      "canonical_name": "valproic acid",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:valproic-acid-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/valproic-acid-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:35.219441+00:00",
+      "source_revision_date": "Thu, 02 Apr 2026 07:46:26 GMT",
+      "source_content_hash": "bce693a53a4c6976f4243e1f7f81a614d4f9407ee67308648d4e25cea314dd20",
+      "error_code": null
+    },
+    "source_content_hash": "bce693a53a4c6976f4243e1f7f81a614d4f9407ee67308648d4e25cea314dd20",
+    "source_product_identifier": "fact-sheets:valproic-acid-pregnancy",
+    "source_version": "Thu, 02 Apr 2026 07:46:26 GMT",
+    "canonical_name": "valproic acid",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. It is not known if taking valproic acid can increase the chance of miscarriage. One recent study has shown an increased chance of miscarriage with valproic acid use during pregnancy."
+  }
+}

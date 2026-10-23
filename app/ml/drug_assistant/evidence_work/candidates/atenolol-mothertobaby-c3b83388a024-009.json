@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "atenolol-mothertobaby-c3b83388a024-009",
+      "drug_id": "atenolol",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Atenolol may lower the amount of testosterone and cause erectile dysfunction, which could affect a man’s fertility (ability to get a woman pregnant). Also, men with conditions like hypertension may have problems with fertility. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet on Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Atenolol (Tenormin®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/atenolol-tenormin/",
+      "source_identifier": "fact-sheets:atenolol-tenormin",
+      "source_section": "If a man takes atenolol, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:54 GMT",
+      "retrieved_at": "2026-09-18T08:23:10.750512+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:51:54 GMT",
+      "content_hash": "16936af24ac6816fa30f2108be82de139f780f4ca5062e6e934d86ec7e734e24",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "atenolol",
+      "canonical_name": "atenolol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:atenolol-tenormin",
+      "source_url": "https://mothertobaby.org/fact-sheets/atenolol-tenormin/",
+      "retrieved_at": "2026-09-18T08:23:10.750512+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:54 GMT",
+      "source_content_hash": "c3b83388a024534ce2372160b1d908b9ad486d566a4a2fa678961f23d1b6567e",
+      "error_code": null
+    },
+    "source_content_hash": "c3b83388a024534ce2372160b1d908b9ad486d566a4a2fa678961f23d1b6567e",
+    "source_product_identifier": "fact-sheets:atenolol-tenormin",
+    "source_version": "Tue, 02 Dec 2025 11:51:54 GMT",
+    "canonical_name": "atenolol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "Atenolol may lower the amount of testosterone and cause erectile dysfunction, which could affect a man’s fertility (ability to get a woman pregnant). Also, men with conditions like hypertension may have problems with fertility. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet on Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

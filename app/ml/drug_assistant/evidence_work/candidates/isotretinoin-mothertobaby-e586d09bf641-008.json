@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "isotretinoin-mothertobaby-e586d09bf641-008",
+      "drug_id": "isotretinoin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like isotretinoin, might increase the chance of birth defects in a pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Isotretinoin (Accutane®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/isotretinoin-accutane-pregnancy/",
+      "source_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+      "source_section": "Does taking isotretinoin increase the chance of birth defects?",
+      "source_revision_date": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "retrieved_at": "2026-09-18T08:23:29.158362+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "content_hash": "c019e43abcdeaaf4bfdd890ad329dabaa8a455691354974d6a742d525d31a5b4",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "isotretinoin",
+      "canonical_name": "isotretinoin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/isotretinoin-accutane-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:29.158362+00:00",
+      "source_revision_date": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "source_content_hash": "e586d09bf641dc9e1c1cc9375d8f72db9ba978e420d84ace8d75327a1ecd65da",
+      "error_code": null
+    },
+    "source_content_hash": "e586d09bf641dc9e1c1cc9375d8f72db9ba978e420d84ace8d75327a1ecd65da",
+    "source_product_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+    "source_version": "Thu, 09 Apr 2026 06:56:33 GMT",
+    "canonical_name": "isotretinoin",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like isotretinoin, might increase the chance of birth defects in a pregnancy."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "cetirizine-mothertobaby-0dfe76a41b93-005",
+      "drug_id": "cetirizine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Studies have not been done to see if cetirizine can increase the chance of behavior or learning issues for the child.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Cetirizine (Zyrtec®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/cetirizine/",
+      "source_identifier": "fact-sheets:cetirizine",
+      "source_section": "Does taking cetirizine in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:12 GMT",
+      "retrieved_at": "2026-09-18T08:23:14.746127+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:51:12 GMT",
+      "content_hash": "450cdda25046764fc48dd2e98e5205990e836ab9facd279bc876dee2023ce033",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "cetirizine",
+      "canonical_name": "cetirizine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:cetirizine",
+      "source_url": "https://mothertobaby.org/fact-sheets/cetirizine/",
+      "retrieved_at": "2026-09-18T08:23:14.746127+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:12 GMT",
+      "source_content_hash": "0dfe76a41b93b83fc1aca2f187fa328f82c230b418b652dc4fe3718cbf11e5d4",
+      "error_code": null
+    },
+    "source_content_hash": "0dfe76a41b93b83fc1aca2f187fa328f82c230b418b652dc4fe3718cbf11e5d4",
+    "source_product_identifier": "fact-sheets:cetirizine",
+    "source_version": "Tue, 02 Dec 2025 11:51:12 GMT",
+    "canonical_name": "cetirizine",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Studies have not been done to see if cetirizine can increase the chance of behavior or learning issues for the child."
+  }
+}

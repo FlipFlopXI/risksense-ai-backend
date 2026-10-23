@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "metformin-mothertobaby-66291b1c129e-006",
+      "drug_id": "metformin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if taking metformin can increase the chance of other pregnancy-related problems, such as preterm delivery (birth before week 37 of pregnancy) and low birth weight (weighing less than 5 pounds, 8 ounces [2,500 grams]). Some studies have suggested that taking metformin to treat gestational or type 2 diabetes during pregnancy might increase the chance of preterm delivery, low birth weight, and infants who are small for gestational age (born smaller than expected). Other studies have not reported an increased chance of these outcomes.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Metformin",
+      "source_url": "https://mothertobaby.org/fact-sheets/metformin-pregnancy/",
+      "source_identifier": "fact-sheets:metformin-pregnancy",
+      "source_section": "Does taking metformin in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Wed, 12 Aug 2026 08:52:21 GMT",
+      "retrieved_at": "2026-09-18T08:23:33.369406+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 12 Aug 2026 08:52:21 GMT",
+      "content_hash": "5184e275d0bc573e0fbcf38381cdc4808a14d6999fdb2b883d4f610f3cf8dec8",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "metformin",
+      "canonical_name": "metformin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:metformin-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/metformin-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:33.369406+00:00",
+      "source_revision_date": "Wed, 12 Aug 2026 08:52:21 GMT",
+      "source_content_hash": "66291b1c129e171d550acb6433a83beb2a9613d9036b9de0f4914d73c8a98bfd",
+      "error_code": null
+    },
+    "source_content_hash": "66291b1c129e171d550acb6433a83beb2a9613d9036b9de0f4914d73c8a98bfd",
+    "source_product_identifier": "fact-sheets:metformin-pregnancy",
+    "source_version": "Wed, 12 Aug 2026 08:52:21 GMT",
+    "canonical_name": "metformin",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "It is not known if taking metformin can increase the chance of other pregnancy-related problems, such as preterm delivery (birth before week 37 of pregnancy) and low birth weight (weighing less than 5 pounds, 8 ounces [2,500 grams]). Some studies have suggested that taking metformin to treat gestational or type 2 diabetes during pregnancy might increase the chance of preterm delivery, low birth weight, and infants who are small for gestational age (born smaller than expected). Other studies have not reported an increased chance of these outcomes."
+  }
+}

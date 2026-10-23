@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fluoxetine-mothertobaby-63b339071331-008",
+      "drug_id": "fluoxetine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "The use of fluoxetine during pregnancy and/or in the third trimester can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. Symptoms include being irritable and/or jittery, crying, tight muscles, trouble breathing, unusual sleep patterns, tremors (shivers), and/or trouble eating. In most cases, symptoms are mild and go away in a few weeks with no treatment, or with only supportive care. Not all babies exposed to fluoxetine will have these symptoms. There might be a higher chance of withdrawal symptoms if other psychiatric medications are also taken with fluoxetine during pregnancy. It is important that your healthcare providers know you are taking fluoxetine so that if symptoms occur, your baby can get the care that is best for them.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Fluoxetine (Prozac®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluoxetine-prozac-pregnancy/",
+      "source_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+      "source_section": "I need to take fluoxetine throughout my entire pregnancy. Will it cause withdrawal symptoms in my baby after birth?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "retrieved_at": "2026-09-18T08:23:22.026163+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "content_hash": "cf4205224048618ed7bce0182159e29c1005227af283d987f1b66b78d6b9635b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fluoxetine",
+      "canonical_name": "fluoxetine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluoxetine-prozac-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:22.026163+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "source_content_hash": "63b339071331460672c24657a3cfd3da112ebfabf8ae8301e54486570e990fc2",
+      "error_code": null
+    },
+    "source_content_hash": "63b339071331460672c24657a3cfd3da112ebfabf8ae8301e54486570e990fc2",
+    "source_product_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+    "source_version": "Mon, 24 Aug 2026 10:28:09 GMT",
+    "canonical_name": "fluoxetine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "The use of fluoxetine during pregnancy and/or in the third trimester can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. Symptoms include being irritable and/or jittery, crying, tight muscles, trouble breathing, unusual sleep patterns, tremors (shivers), and/or trouble eating. In most cases, symptoms are mild and go away in a few weeks with no treatment, or with only supportive care. Not all babies exposed to fluoxetine will have these symptoms. There might be a higher chance of withdrawal symptoms if other psychiatric medications are also taken with fluoxetine during pregnancy. It is important that your healthcare providers know you are taking fluoxetine so that if symptoms occur, your baby can get the care that is best for them."
+  }
+}

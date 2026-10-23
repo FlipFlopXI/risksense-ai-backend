@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "isotretinoin-mothertobaby-e586d09bf641-011",
+      "drug_id": "isotretinoin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Children exposed to isotretinoin during pregnancy may have hearing or vision problems that can affect learning. They may also have behavioral problems or intellectual disability. These issues are not always seen at birth and may appear as the child grows.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Isotretinoin (Accutane®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/isotretinoin-accutane-pregnancy/",
+      "source_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+      "source_section": "Does taking isotretinoin in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "retrieved_at": "2026-09-18T08:23:29.158362+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "content_hash": "8ed19ca3d733589be19b78a2c31149f8e4ca9810c6c103a143a64fcec33c4c11",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "isotretinoin",
+      "canonical_name": "isotretinoin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/isotretinoin-accutane-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:29.158362+00:00",
+      "source_revision_date": "Thu, 09 Apr 2026 06:56:33 GMT",
+      "source_content_hash": "e586d09bf641dc9e1c1cc9375d8f72db9ba978e420d84ace8d75327a1ecd65da",
+      "error_code": null
+    },
+    "source_content_hash": "e586d09bf641dc9e1c1cc9375d8f72db9ba978e420d84ace8d75327a1ecd65da",
+    "source_product_identifier": "fact-sheets:isotretinoin-accutane-pregnancy",
+    "source_version": "Thu, 09 Apr 2026 06:56:33 GMT",
+    "canonical_name": "isotretinoin",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Children exposed to isotretinoin during pregnancy may have hearing or vision problems that can affect learning. They may also have behavioral problems or intellectual disability. These issues are not always seen at birth and may appear as the child grows."
+  }
+}

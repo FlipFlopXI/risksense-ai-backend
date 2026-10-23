@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "naproxen-mothertobaby-3e4077d084a0-006",
+      "drug_id": "naproxen",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Naproxen is usually not recommended after week 20 of pregnancy. Some reports suggest that using NSAIDs in the second half of pregnancy might affect the fetal kidneys and lower the amount of amniotic fluid (the fluid around the fetus in the womb). One study also suggested that NSAID use earlier in pregnancy might have similar effects. Too little amniotic fluid (called oligohydramnios) can lead to problems like poor lung development, stiff joints, or the need for early delivery by induction or C-section. In rare cases, oligohydramnios could cause fetal death before birth.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Naproxen",
+      "source_url": "https://mothertobaby.org/fact-sheets/naproxen/",
+      "source_identifier": "fact-sheets:naproxen",
+      "source_section": "Does taking naproxen in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "retrieved_at": "2026-09-18T08:23:40.838808+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "content_hash": "ba61f0253700008e144f148d5da55ca6b910b8e31fad50570dfb4a294787c492",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "naproxen",
+      "canonical_name": "naproxen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:naproxen",
+      "source_url": "https://mothertobaby.org/fact-sheets/naproxen/",
+      "retrieved_at": "2026-09-18T08:23:40.838808+00:00",
+      "source_revision_date": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "source_content_hash": "3e4077d084a0ac9b0d5feb8d3bbf7a2b6cb2fd9f64664ce60ba9e8b79e808afa",
+      "error_code": null
+    },
+    "source_content_hash": "3e4077d084a0ac9b0d5feb8d3bbf7a2b6cb2fd9f64664ce60ba9e8b79e808afa",
+    "source_product_identifier": "fact-sheets:naproxen",
+    "source_version": "Fri, 26 Jun 2026 12:15:04 GMT",
+    "canonical_name": "naproxen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Naproxen is usually not recommended after week 20 of pregnancy. Some reports suggest that using NSAIDs in the second half of pregnancy might affect the fetal kidneys and lower the amount of amniotic fluid (the fluid around the fetus in the womb). One study also suggested that NSAID use earlier in pregnancy might have similar effects. Too little amniotic fluid (called oligohydramnios) can lead to problems like poor lung development, stiff joints, or the need for early delivery by induction or C-section. In rare cases, oligohydramnios could cause fetal death before birth."
+  }
+}

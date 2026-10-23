@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "spironolactone-mothertobaby-eb529665351c-011",
+      "drug_id": "spironolactone",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Spironolactone can affect men’s ability to maintain an erection, which might affect fertility (ability to get a woman pregnant). There are no data to suggest that a man’s use of spironolactone around the time of conception can increase the chance of birth defects in a woman’s pregnancy. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Spironolactone (Aldactone®, Carospir®, Qaialdo®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/spironolactone-aldactone-carospir-qaialdo/",
+      "source_identifier": "fact-sheets:spironolactone-aldactone-carospir-qaialdo",
+      "source_section": "If a man takes spironolactone, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "retrieved_at": "2026-09-18T08:29:33.571578+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "content_hash": "b67da45650486cf7d4fc326e201715fc8d26d9e459f65e36934c1fcd83dc8b62",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "spironolactone",
+      "canonical_name": "spironolactone",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:spironolactone-aldactone-carospir-qaialdo",
+      "source_url": "https://mothertobaby.org/fact-sheets/spironolactone-aldactone-carospir-qaialdo/",
+      "retrieved_at": "2026-09-18T08:29:33.571578+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "source_content_hash": "eb529665351c79e2cd41070206bfbb96914d5ba7ea546d9a0ca1bdd58ea21f80",
+      "error_code": null
+    },
+    "source_content_hash": "eb529665351c79e2cd41070206bfbb96914d5ba7ea546d9a0ca1bdd58ea21f80",
+    "source_product_identifier": "fact-sheets:spironolactone-aldactone-carospir-qaialdo",
+    "source_version": "Tue, 02 Dec 2025 11:59:12 GMT",
+    "canonical_name": "spironolactone",
+    "therapeutic_group": "diuretics",
+    "source_excerpt": "Spironolactone can affect men’s ability to maintain an erection, which might affect fertility (ability to get a woman pregnant). There are no data to suggest that a man’s use of spironolactone around the time of conception can increase the chance of birth defects in a woman’s pregnancy. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

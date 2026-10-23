@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "venlafaxine-mothertobaby-a6705742dac4-004",
+      "drug_id": "venlafaxine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like venlafaxine, might increase the chance of birth defects in a pregnancy. While some studies suggest that taking venlafaxine during pregnancy could possibly increase the chance of birth defects, several large studies have not found a higher chance of birth defects. If there is an increased chance of birth defects above the background risk with use of venlafaxine in pregnancy, it is likely to be small.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Venlafaxine (Effexor®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/venlafaxine-effexor-pregnancy/",
+      "source_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+      "source_section": "Does taking venlafaxine increase the chance of birth defects?",
+      "source_revision_date": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "retrieved_at": "2026-09-18T08:29:36.622299+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "content_hash": "1209e649cedfa3a51c3b66516b3902c018a23595136d53f0fc274f529b87c4e9",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "venlafaxine",
+      "canonical_name": "venlafaxine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/venlafaxine-effexor-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:36.622299+00:00",
+      "source_revision_date": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "source_content_hash": "a6705742dac44a79e960f1be443c30d74dd66f5c7808c163df9340ca1a1d3bc9",
+      "error_code": null
+    },
+    "source_content_hash": "a6705742dac44a79e960f1be443c30d74dd66f5c7808c163df9340ca1a1d3bc9",
+    "source_product_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+    "source_version": "Thu, 09 Apr 2026 07:26:32 GMT",
+    "canonical_name": "venlafaxine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like venlafaxine, might increase the chance of birth defects in a pregnancy. While some studies suggest that taking venlafaxine during pregnancy could possibly increase the chance of birth defects, several large studies have not found a higher chance of birth defects. If there is an increased chance of birth defects above the background risk with use of venlafaxine in pregnancy, it is likely to be small."
+  }
+}

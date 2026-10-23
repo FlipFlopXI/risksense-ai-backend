@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "ibuprofen-mothertobaby-8913beb99fcd-006",
+      "drug_id": "ibuprofen",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "There is not enough information to confirm if ibuprofen increases the chance of birth defects.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Ibuprofen",
+      "source_url": "https://mothertobaby.org/fact-sheets/ibuprofen-pregnancy/",
+      "source_identifier": "fact-sheets:ibuprofen-pregnancy",
+      "source_section": "Does taking ibuprofen increase the chance of birth defects?",
+      "source_revision_date": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "retrieved_at": "2026-09-18T08:23:27.669861+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "content_hash": "b394edf0763e06f4079b0773c2f57dacb409c0f5831e4f28b830662b6050cc0b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "ibuprofen",
+      "canonical_name": "ibuprofen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:ibuprofen-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/ibuprofen-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:27.669861+00:00",
+      "source_revision_date": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "source_content_hash": "8913beb99fcd256bf1c394df727437c7ea71f8d04747be73c77bbd8469c8f8d2",
+      "error_code": null
+    },
+    "source_content_hash": "8913beb99fcd256bf1c394df727437c7ea71f8d04747be73c77bbd8469c8f8d2",
+    "source_product_identifier": "fact-sheets:ibuprofen-pregnancy",
+    "source_version": "Mon, 12 Jan 2026 13:06:08 GMT",
+    "canonical_name": "ibuprofen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "There is not enough information to confirm if ibuprofen increases the chance of birth defects."
+  }
+}

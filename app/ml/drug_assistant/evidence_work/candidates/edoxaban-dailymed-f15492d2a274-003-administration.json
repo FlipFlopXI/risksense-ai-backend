@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "edoxaban-dailymed-f15492d2a274-003-administration",
+      "drug_id": "edoxaban",
+      "related_drug_ids": [],
+      "topic": "administration",
+      "subtopic": "dosage_forms_and_strengths",
+      "claim": "60 mg, yellow round shaped, film-coated tablets, debossed with DSC L60 on one side 30 mg, pink round shaped, film-coated tablets, debossed with DSC L30 on one side 15 mg, orange round shaped, film-coated tablets, debossed with DSC L15 on one side Tablets: 60 mg, 30 mg, and 15 mg ( 3 )",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SAVAYSA safely and effectively. See full prescribing information for SAVAYSA. SAVAYSA ® (edoxaban) tablets, for oral use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_section": "3 DOSAGE FORMS AND STRENGTHS",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "5f06a3d9a883a1070b57fbcd4c0617ee1d9a2b5529932483ae473c1b93916897",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "edoxaban",
+      "canonical_name": "edoxaban",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+      "error_code": null
+    },
+    "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+    "source_product_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+    "source_version": "28",
+    "canonical_name": "edoxaban",
+    "therapeutic_group": "antiplatelets_anticoagulants",
+    "source_excerpt": "60 mg, yellow round shaped, film-coated tablets, debossed with DSC L60 on one side 30 mg, pink round shaped, film-coated tablets, debossed with DSC L30 on one side 15 mg, orange round shaped, film-coated tablets, debossed with DSC L15 on one side Tablets: 60 mg, 30 mg, and 15 mg ( 3 )"
+  }
+}

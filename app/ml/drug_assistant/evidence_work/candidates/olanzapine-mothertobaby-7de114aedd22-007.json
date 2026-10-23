@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "olanzapine-mothertobaby-7de114aedd22-007",
+      "drug_id": "olanzapine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "The use of olanzapine during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. Symptoms can include stiff or floppy muscle tone, drowsiness, agitation, trouble with breathing, trouble with feeding, or tremors. Symptoms usually go away in a few days. Not all babies exposed to olanzapine will have these symptoms. It is important that your healthcare providers know you are taking olanzapine so that if symptoms occur, your baby can get the care that is best for them.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Olanzapine (Zyprexa®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/olanzapine/",
+      "source_identifier": "fact-sheets:olanzapine",
+      "source_section": "I need to take olanzapine during my pregnancy. Will it cause withdrawal symptoms in my baby after birth?",
+      "source_revision_date": "Wed, 12 Aug 2026 06:11:57 GMT",
+      "retrieved_at": "2026-09-18T08:29:24.954992+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 12 Aug 2026 06:11:57 GMT",
+      "content_hash": "f05c3eb5bd24472b4c31b15d8a8deb16796ac6e2035851c9f136320b64f1e153",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "olanzapine",
+      "canonical_name": "olanzapine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:olanzapine",
+      "source_url": "https://mothertobaby.org/fact-sheets/olanzapine/",
+      "retrieved_at": "2026-09-18T08:29:24.954992+00:00",
+      "source_revision_date": "Wed, 12 Aug 2026 06:11:57 GMT",
+      "source_content_hash": "7de114aedd22d828d5a20acc90e945956c28106c0a58a57a0661ad41b8bc1401",
+      "error_code": null
+    },
+    "source_content_hash": "7de114aedd22d828d5a20acc90e945956c28106c0a58a57a0661ad41b8bc1401",
+    "source_product_identifier": "fact-sheets:olanzapine",
+    "source_version": "Wed, 12 Aug 2026 06:11:57 GMT",
+    "canonical_name": "olanzapine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "The use of olanzapine during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. Symptoms can include stiff or floppy muscle tone, drowsiness, agitation, trouble with breathing, trouble with feeding, or tremors. Symptoms usually go away in a few days. Not all babies exposed to olanzapine will have these symptoms. It is important that your healthcare providers know you are taking olanzapine so that if symptoms occur, your baby can get the care that is best for them."
+  }
+}

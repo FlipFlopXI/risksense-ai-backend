@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "acetaminophen-mothertobaby-3faaa27fee51-007",
+      "drug_id": "acetaminophen",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Pregnancy-related problems including preterm delivery (birth before week 37) and low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth) were not found in a report that reviewed medical literature with acetaminophen use in over 36,000 pregnancies.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Acetaminophen (Paracetamol)",
+      "source_url": "https://mothertobaby.org/fact-sheets/acetaminophen-pregnancy/",
+      "source_identifier": "fact-sheets:acetaminophen-pregnancy",
+      "source_section": "Does taking acetaminophen in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "retrieved_at": "2026-09-18T08:23:04.054879+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "content_hash": "84d5ebc97ff32228bffe339154b5cd013c553a26646d486072485bcd31fe9931",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "acetaminophen",
+      "canonical_name": "acetaminophen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:acetaminophen-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/acetaminophen-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:04.054879+00:00",
+      "source_revision_date": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "source_content_hash": "3faaa27fee5163b33a40606b18a6c75986d744168020e9a5914e59946111821f",
+      "error_code": null
+    },
+    "source_content_hash": "3faaa27fee5163b33a40606b18a6c75986d744168020e9a5914e59946111821f",
+    "source_product_identifier": "fact-sheets:acetaminophen-pregnancy",
+    "source_version": "Thu, 15 Jan 2026 09:05:00 GMT",
+    "canonical_name": "acetaminophen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Pregnancy-related problems including preterm delivery (birth before week 37) and low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth) were not found in a report that reviewed medical literature with acetaminophen use in over 36,000 pregnancies."
+  }
+}

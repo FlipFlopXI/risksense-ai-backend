@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "metronidazole-mothertobaby-260f831e6758-005",
+      "drug_id": "metronidazole",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Metronidazole is not expected to increase the chance for other pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Metronidazole (Flagyl®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/metronidazole-flagyl-pregnancy/",
+      "source_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+      "source_section": "Does taking metronidazole in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "retrieved_at": "2026-09-18T08:23:36.304648+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "content_hash": "b054a5ee1aca45ae5597331b11aaa08c04a0d955e0cde81e1bc6fe3ac759e3b1",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "metronidazole",
+      "canonical_name": "metronidazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/metronidazole-flagyl-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:36.304648+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "source_content_hash": "260f831e6758714cf0d85ef3029aca0c8864184c2f8dd4e8d660b6615020f033",
+      "error_code": null
+    },
+    "source_content_hash": "260f831e6758714cf0d85ef3029aca0c8864184c2f8dd4e8d660b6615020f033",
+    "source_product_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+    "source_version": "Thu, 23 Jul 2026 17:20:32 GMT",
+    "canonical_name": "metronidazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Metronidazole is not expected to increase the chance for other pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth)."
+  }
+}

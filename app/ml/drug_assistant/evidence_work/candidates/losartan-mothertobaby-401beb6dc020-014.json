@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "losartan-mothertobaby-401beb6dc020-014",
+      "drug_id": "losartan",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if losartan could affect a man’s fertility (ability to get a woman pregnant) or increase the chance of birth defects. In general, exposures that men have are unlikely to increase the risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Losartan",
+      "source_url": "https://mothertobaby.org/fact-sheets/losartan-cozaar/",
+      "source_identifier": "fact-sheets:losartan-cozaar",
+      "source_section": "If a man takes losartan, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "retrieved_at": "2026-09-18T08:23:32.517174+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "content_hash": "32df2196eb9681b3ab072830929a4829cd3dc3490ea4db911979aa02ef1c41d0",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "losartan",
+      "canonical_name": "losartan",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:losartan-cozaar",
+      "source_url": "https://mothertobaby.org/fact-sheets/losartan-cozaar/",
+      "retrieved_at": "2026-09-18T08:23:32.517174+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "source_content_hash": "401beb6dc020ac01c20344dff088a89e68ed283f7cfa1c15dfb3c42664d7d2c8",
+      "error_code": null
+    },
+    "source_content_hash": "401beb6dc020ac01c20344dff088a89e68ed283f7cfa1c15dfb3c42664d7d2c8",
+    "source_product_identifier": "fact-sheets:losartan-cozaar",
+    "source_version": "Tue, 02 Dec 2025 11:56:35 GMT",
+    "canonical_name": "losartan",
+    "therapeutic_group": "arbs",
+    "source_excerpt": "Studies have not been done to see if losartan could affect a man’s fertility (ability to get a woman pregnant) or increase the chance of birth defects. In general, exposures that men have are unlikely to increase the risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "albuterol-mothertobaby-7efd9cf4cec3-001",
+      "drug_id": "albuterol",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Albuterol (also called salbutamol) is a medication used for the treatment of breathing conditions like asthma. It is a bronchodilator (a beta2-agonist bronchodilator). Bronchodilators help to open the airways in the lungs so you can breathe better. Albuterol has commonly been used as an inhaled medication in fast-acting inhalers for immediate treatment of trouble breathing and wheezing. Some brand names are Proventil® and Ventolin®. Albuterol can also be found in combination with another medication, budesonide in a medication called Airsupra®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Albuterol",
+      "source_url": "https://mothertobaby.org/fact-sheets/albuterol-pregnancy/",
+      "source_identifier": "fact-sheets:albuterol-pregnancy",
+      "source_section": "What is albuterol?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "retrieved_at": "2026-09-18T08:23:04.964673+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "content_hash": "f16160edbf670f811c95f70b46cf1efd34d78e4ac3f2229c2f4aab49f0c83952",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "albuterol",
+      "canonical_name": "albuterol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:albuterol-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/albuterol-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:04.964673+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "source_content_hash": "7efd9cf4cec3a2ee90ebabb056672d60f1383fa855f4a687545f324949814da2",
+      "error_code": null
+    },
+    "source_content_hash": "7efd9cf4cec3a2ee90ebabb056672d60f1383fa855f4a687545f324949814da2",
+    "source_product_identifier": "fact-sheets:albuterol-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:09 GMT",
+    "canonical_name": "albuterol",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Albuterol (also called salbutamol) is a medication used for the treatment of breathing conditions like asthma. It is a bronchodilator (a beta2-agonist bronchodilator). Bronchodilators help to open the airways in the lungs so you can breathe better. Albuterol has commonly been used as an inhaled medication in fast-acting inhalers for immediate treatment of trouble breathing and wheezing. Some brand names are Proventil® and Ventolin®. Albuterol can also be found in combination with another medication, budesonide in a medication called Airsupra®."
+  }
+}

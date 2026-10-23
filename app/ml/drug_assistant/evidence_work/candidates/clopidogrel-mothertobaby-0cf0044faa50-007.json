@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "clopidogrel-mothertobaby-0cf0044faa50-007",
+      "drug_id": "clopidogrel",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Taking clopidogrel during labor or delivery may increase the chance of bleeding and hemorrhaging (too much blood loss) in the woman giving birth. There is also an increased chance of spinal hematoma (when blood collects in the spine) when women who take clopidogrel get an epidural (injection of medication into the space around your spinal nerves to provide pain relief (analgesia) or numbness in one area of the body). The product label and professional medical societies, including the American Society of Regional Anesthesia and Pain Medicine and the American Academy of Pain Medicine, have recommended that anyone taking clopidogrel stop taking it 5-7 days before labor, delivery, or getting an epidural.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Clopidogrel (Plavix®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/clopidogrel-plavix/",
+      "source_identifier": "fact-sheets:clopidogrel-plavix",
+      "source_section": "Does taking clopidogrel in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Thu, 23 Apr 2026 12:33:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:16.255727+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Apr 2026 12:33:28 GMT",
+      "content_hash": "8fde6e664cec7be97b7df113920f071aadeeb00d913fe4a22a51f8d8244d74e5",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "clopidogrel",
+      "canonical_name": "clopidogrel",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:clopidogrel-plavix",
+      "source_url": "https://mothertobaby.org/fact-sheets/clopidogrel-plavix/",
+      "retrieved_at": "2026-09-18T08:23:16.255727+00:00",
+      "source_revision_date": "Thu, 23 Apr 2026 12:33:28 GMT",
+      "source_content_hash": "0cf0044faa507cde73cb2aaa6d5cd85e730164e4cb93e914665e568d3eb292bd",
+      "error_code": null
+    },
+    "source_content_hash": "0cf0044faa507cde73cb2aaa6d5cd85e730164e4cb93e914665e568d3eb292bd",
+    "source_product_identifier": "fact-sheets:clopidogrel-plavix",
+    "source_version": "Thu, 23 Apr 2026 12:33:28 GMT",
+    "canonical_name": "clopidogrel",
+    "therapeutic_group": "antiplatelets_anticoagulants",
+    "source_excerpt": "Taking clopidogrel during labor or delivery may increase the chance of bleeding and hemorrhaging (too much blood loss) in the woman giving birth. There is also an increased chance of spinal hematoma (when blood collects in the spine) when women who take clopidogrel get an epidural (injection of medication into the space around your spinal nerves to provide pain relief (analgesia) or numbness in one area of the body). The product label and professional medical societies, including the American Society of Regional Anesthesia and Pain Medicine and the American Academy of Pain Medicine, have recommended that anyone taking clopidogrel stop taking it 5-7 days before labor, delivery, or getting an epidural."
+  }
+}

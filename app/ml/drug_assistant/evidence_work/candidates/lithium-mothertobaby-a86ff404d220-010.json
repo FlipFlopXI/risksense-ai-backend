@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lithium-mothertobaby-a86ff404d220-010",
+      "drug_id": "lithium",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "The use of lithium during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. There have been reports of low muscle tone (floppiness), sedation (sleepiness), trouble with breathing and feeding, and jaundice (yellowing of the skin and eyes). These symptoms were reported when lithium was used near the time of delivery, especially if the mother’s own blood lithium level was high. Not all babies exposed to lithium will have symptoms. It is important that your healthcare providers know you are taking lithium so that if symptoms occur your baby can get the care that is best for them.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lithium",
+      "source_url": "https://mothertobaby.org/fact-sheets/lithium-pregnancy/",
+      "source_identifier": "fact-sheets:lithium-pregnancy",
+      "source_section": "I need to take lithium throughout my entire pregnancy. Will it cause symptoms in my baby after birth?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "retrieved_at": "2026-09-18T08:23:31.106545+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "content_hash": "1e77c20e7e0600f1e10247f0be94e2cf177a6f49393b791f597fcade3bd3cc03",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lithium",
+      "canonical_name": "lithium",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lithium-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/lithium-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:31.106545+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "source_content_hash": "a86ff404d220a4f3bd3456b13ee73fb314961964ca02ca829c7521da1c174f93",
+      "error_code": null
+    },
+    "source_content_hash": "a86ff404d220a4f3bd3456b13ee73fb314961964ca02ca829c7521da1c174f93",
+    "source_product_identifier": "fact-sheets:lithium-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:53 GMT",
+    "canonical_name": "lithium",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "The use of lithium during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. There have been reports of low muscle tone (floppiness), sedation (sleepiness), trouble with breathing and feeding, and jaundice (yellowing of the skin and eyes). These symptoms were reported when lithium was used near the time of delivery, especially if the mother’s own blood lithium level was high. Not all babies exposed to lithium will have symptoms. It is important that your healthcare providers know you are taking lithium so that if symptoms occur your baby can get the care that is best for them."
+  }
+}

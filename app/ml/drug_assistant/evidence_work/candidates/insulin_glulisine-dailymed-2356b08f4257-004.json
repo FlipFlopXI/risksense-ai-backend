@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "insulin_glulisine-dailymed-2356b08f4257-004",
+      "drug_id": "insulin_glulisine",
+      "related_drug_ids": [],
+      "topic": "warnings",
+      "subtopic": "warnings_and_precautions",
+      "claim": "Never share an APIDRA SoloStar pen between patients, even if the needle is changed. ( 5.1 ) Hyperglycemia or Hypoglycemia with Changes in Insulin Regimen: Make changes to a patient's insulin regimen (e.g., insulin strength, manufacturer, type, injection site or method of administration) under close medical supervision with increased frequency of blood glucose monitoring. ( 5.2 ) Hypoglycemia: May be life-threatening. Increase frequency of glucose monitoring with changes to: insulin dosage, coadministered glucose lowering medications, meal pattern, physical activity; and in patients with renal impairment or hepatic impairment or hypoglycemia unawareness. ( 5.3 ) Hypoglycemia Due to Medication Errors: Accidental mix-ups between insulin products can occur. Instruct patients to check insulin labels before injection. ( 5.4 ) Hypokalemia: May be life-threatening. Monitor potassium levels in patients at risk for hypokalemia and treat if indicated. ( 5.5 ) Hypersensitivity Reactions: Severe, life-threatening, generalized allergy, including anaphylaxis, can occur. Discontinue APIDRA, monitor and treat if indicated. ( 5.6 ) Fluid Retention and Heart Failure Can Occur with Concomitant Use of Thiazolidinediones (TZDs): Observe for signs and symptoms of heart failure; consider dosage reduction or discontinuation of TZD if heart failure occurs. ( 5.7 ) Hyperglycemia and Ketoacidosis Due to Insulin Pump Device Malfunction: Monitor glucose and administer APIDRA by subcutaneous injection if pump malfunction occurs. ( 5.8 ) APIDRA SoloStar pens must never be shared between patients, even if",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use APIDRA safely and effectively. See full prescribing information for APIDRA. APIDRA ® (insulin glulisine) injection, for subcutaneous or intravenous use Initial U.S. Approval: 2004",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_section": "5 WARNINGS AND PRECAUTIONS",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "c597af2b854354999c0f11f9437891c791e823de904b6df364da87d97674ae3f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "insulin_glulisine",
+      "canonical_name": "insulin glulisine",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+      "error_code": null
+    },
+    "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+    "source_product_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+    "source_version": "28",
+    "canonical_name": "insulin glulisine",
+    "therapeutic_group": "insulins",
+    "source_excerpt": "Never share an APIDRA SoloStar pen between patients, even if the needle is changed. ( 5.1 ) Hyperglycemia or Hypoglycemia with Changes in Insulin Regimen: Make changes to a patient's insulin regimen (e.g., insulin strength, manufacturer, type, injection site or method of administration) under close medical supervision with increased frequency of blood glucose monitoring. ( 5.2 ) Hypoglycemia: May be life-threatening. Increase frequency of glucose monitoring with changes to: insulin dosage, coadministered glucose lowering medications, meal pattern, physical activity; and in patients with renal impairment or hepatic impairment or hypoglycemia unawareness. ( 5.3 ) Hypoglycemia Due to Medication Errors: Accidental mix-ups between insulin products can occur. Instruct patients to check insulin labels before injection. ( 5.4 ) Hypokalemia: May be life-threatening. Monitor potassium levels in patients at risk for hypokalemia and treat if indicated. ( 5.5 ) Hypersensitivity Reactions: Severe, life-threatening, generalized allergy, including anaphylaxis, can occur. Discontinue APIDRA, monitor and treat if indicated. ( 5.6 ) Fluid Retention and Heart Failure Can Occur with Concomitant Use of Thiazolidinediones (TZDs): Observe for signs and symptoms of heart failure; consider dosage reduction or discontinuation of TZD if heart failure occurs. ( 5.7 ) Hyperglycemia and Ketoacidosis Due to Insulin Pump Device Malfunction: Monitor glucose and administer APIDRA by subcutaneous injection if pump malfunction occurs. ( 5.8 ) APIDRA SoloStar pens must never be shared between patients, even if the needle is changed. Patients using APIDRA vials must never reuse or share needles or syringes with another person. Sharing poses a risk for transmission of blood-borne pathogens. Changes in an insulin regimen (e.g., insulin, insulin strength, manufacturer, type, injection site or method of administration) may affect glycemic control and predispose to hypoglycemia [see Warnings and Precautions (5.3) ] or hyperglycemia. Repeated insulin injections into areas of lipodystrophy or localized cutaneous amyloidosis have been reported to result in hyperglycemia; a sudden change in the injection site (to unaffected area) has been reported to result in hypoglycemia [see Adverse Reactions (6) ] . Make any changes to a patient's insulin regimen under close medical supervision with increased frequency of blood glucose monitoring. Advise patients who have repeatedly injected into areas of lipodystrophy or localized cutaneous amyloidosis to change the injection site to unaffected areas and closely monitor for hypoglycemia. For patients with type 2 diabetes, dosage adjustments in concomitant oral antidiabetic treatment may be needed. Hypoglycemia is the most common adverse reaction of all insulins, including APIDRA [see Adverse Reactions (6.1) ] . Severe hypoglycemia can cause seizures, may lead to unconsciousness, may be life-threatening, or cause death. Hypoglycemia can impair concentration ability and reaction time; this may place the patient and others at risk in situations where these abilities are important (e.g., driving or operating other machinery). APIDRA, or any insulin, should not be used during episodes of hypoglycemia [see Contraindications (4) ] . Hypoglycemia can happen suddenly, and symptoms may differ in each patient and change over time in the same patient. Symptomatic awareness of hypoglycemia may be less pronounced in patients with longstanding diabetes, in patients with diabetic neuropathy, in patients using medications that block the sympathetic nervous system (e.g., beta-blockers) [see Drug Interactions (7) ] , or in patients who experience recurrent hypoglycemia. Risk Factors for Hypoglycemia The risk of hypoglycemia after an injection is related to the duration of action of the insulin and, in general, is highest when the glucose lowering effect of the insulin is maximal. The timing of hypoglycemia usually reflects the time-action profile of the administered insulin formulation. As with all insulins, the glucose lowering effect time course of APIDRA may vary in different individuals or at different times in the same individual and depends on many conditions, including the area of injection as well as the injection site blood supply and temperature [see Clinical Pharmacology (12.2) ] . Other factors which may increase the risk of hypoglycemia include changes in meal pattern (e.g., macronutrient content or timing of meals), changes in level of physical activity, or changes to concomitant drugs [see Drug Interactions (7) ] . Patients with renal or hepatic impairment may be at higher risk of hypoglycemia [see Use in Specific Populations (8.6 , 8.7) ] . Risk Mitigation Strategies for Hypoglycemia Patients and caregivers must be educated to recognize and manage hypoglycemia. Self-monitoring of blood glucose plays an essential role in the prevention and management of hypoglycemia. In patients at higher risk for hypoglycemia and patie"
+  }
+}

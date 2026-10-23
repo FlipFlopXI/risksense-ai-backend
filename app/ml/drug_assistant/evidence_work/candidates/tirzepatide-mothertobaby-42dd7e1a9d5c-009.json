@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "tirzepatide-mothertobaby-42dd7e1a9d5c-009",
+      "drug_id": "tirzepatide",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Human studies have not been done to see if tirzepatide can increase the chance of pregnancy-related problems such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). Animal studies reported a decrease in the weight of the offspring after exposure to tirzepatide in pregnancy. It is unclear if this was due to the medication, weight loss in the mother, or other factors. Diabetes with unmet glucose goals/targets in pregnancy can increase the chance of pregnancy complications.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Tirzepatide (Mounjaro®, Zepbound®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/tirzepatide/",
+      "source_identifier": "fact-sheets:tirzepatide",
+      "source_section": "Does taking tirzepatide in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "retrieved_at": "2026-09-18T08:29:34.671940+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "content_hash": "2acd436a8145f699b29ed8d57ab225a938da2a5b9118c4405fdba571a39a6189",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "tirzepatide",
+      "canonical_name": "tirzepatide",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:tirzepatide",
+      "source_url": "https://mothertobaby.org/fact-sheets/tirzepatide/",
+      "retrieved_at": "2026-09-18T08:29:34.671940+00:00",
+      "source_revision_date": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "source_content_hash": "42dd7e1a9d5c3d3089e85558cf53e49125e98309a4c803e9ff3c469936fd5e4c",
+      "error_code": null
+    },
+    "source_content_hash": "42dd7e1a9d5c3d3089e85558cf53e49125e98309a4c803e9ff3c469936fd5e4c",
+    "source_product_identifier": "fact-sheets:tirzepatide",
+    "source_version": "Mon, 27 Jul 2026 12:23:15 GMT",
+    "canonical_name": "tirzepatide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "Human studies have not been done to see if tirzepatide can increase the chance of pregnancy-related problems such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). Animal studies reported a decrease in the weight of the offspring after exposure to tirzepatide in pregnancy. It is unclear if this was due to the medication, weight loss in the mother, or other factors. Diabetes with unmet glucose goals/targets in pregnancy can increase the chance of pregnancy complications."
+  }
+}

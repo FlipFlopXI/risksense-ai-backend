@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "ibuprofen-mothertobaby-8913beb99fcd-003",
+      "drug_id": "ibuprofen",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Some studies have suggested that the use of ibuprofen might increase the chance of miscarriage, especially if taken around the time of conception or over a long period of time. As there can be many causes of miscarriage, it is hard to know if a medication, the medical condition being treated, or other factors are the cause of a miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Ibuprofen",
+      "source_url": "https://mothertobaby.org/fact-sheets/ibuprofen-pregnancy/",
+      "source_identifier": "fact-sheets:ibuprofen-pregnancy",
+      "source_section": "Does taking ibuprofen increase the chance of miscarriage?",
+      "source_revision_date": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "retrieved_at": "2026-09-18T08:23:27.669861+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "content_hash": "08fc9c5c15ce7f024ff29734a77cb8062d8013358ceb2ba4facf510684392029",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "ibuprofen",
+      "canonical_name": "ibuprofen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:ibuprofen-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/ibuprofen-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:27.669861+00:00",
+      "source_revision_date": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "source_content_hash": "8913beb99fcd256bf1c394df727437c7ea71f8d04747be73c77bbd8469c8f8d2",
+      "error_code": null
+    },
+    "source_content_hash": "8913beb99fcd256bf1c394df727437c7ea71f8d04747be73c77bbd8469c8f8d2",
+    "source_product_identifier": "fact-sheets:ibuprofen-pregnancy",
+    "source_version": "Mon, 12 Jan 2026 13:06:08 GMT",
+    "canonical_name": "ibuprofen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Some studies have suggested that the use of ibuprofen might increase the chance of miscarriage, especially if taken around the time of conception or over a long period of time. As there can be many causes of miscarriage, it is hard to know if a medication, the medical condition being treated, or other factors are the cause of a miscarriage."
+  }
+}

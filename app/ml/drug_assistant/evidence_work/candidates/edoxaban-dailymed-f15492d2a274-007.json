@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "edoxaban-dailymed-f15492d2a274-007",
+      "drug_id": "edoxaban",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pllr_8_1",
+      "claim": "Risk Summary Available data about SAVAYSA use in pregnant women are insufficient to determine whether there are drug-associated risks for adverse developmental outcomes. In animal developmental studies, no adverse developmental effects were seen when edoxaban was administered orally to pregnant rats and rabbits during organogenesis at up to 16-times and 8-times, respectively, the human exposure, when based on body surface area and AUC, respectively (see Data ) . The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively. Clinical Considerations Disease-associated maternal and/or embryo/fetal risk Pregnancy confers an increased risk of thromboembolism that is higher for women with underlying thromboembolic disease and certain high-risk pregnancy conditions. Published data describe that women with a previous history of venous thrombosis are at high risk for recurrence during pregnancy. Fetal/Neonatal adverse reactions Use of anticoagulants, including edoxaban, may increase the risk of bleeding in the fetus and neonate. Monitor neonates for bleeding [see Warnings and Precautions (5.3) ] . Labor or delivery All patients receiving anticoagulants, including pregnant women, are at risk for bleeding. SAVAYSA use during labor or delivery in women who are receiving neuraxial ane",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SAVAYSA safely and effectively. See full prescribing information for SAVAYSA. SAVAYSA ® (edoxaban) tablets, for oral use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_section": "8.1 Pregnancy",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "ee838820f389046e37c92411db5dfa511c08d09c830706adbde6cdb5b8bb4bc4",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "edoxaban",
+      "canonical_name": "edoxaban",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+      "error_code": null
+    },
+    "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+    "source_product_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+    "source_version": "28",
+    "canonical_name": "edoxaban",
+    "therapeutic_group": "antiplatelets_anticoagulants",
+    "source_excerpt": "Risk Summary Available data about SAVAYSA use in pregnant women are insufficient to determine whether there are drug-associated risks for adverse developmental outcomes. In animal developmental studies, no adverse developmental effects were seen when edoxaban was administered orally to pregnant rats and rabbits during organogenesis at up to 16-times and 8-times, respectively, the human exposure, when based on body surface area and AUC, respectively (see Data ) . The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. All pregnancies have a background risk of birth defect, loss, or other adverse outcomes. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively. Clinical Considerations Disease-associated maternal and/or embryo/fetal risk Pregnancy confers an increased risk of thromboembolism that is higher for women with underlying thromboembolic disease and certain high-risk pregnancy conditions. Published data describe that women with a previous history of venous thrombosis are at high risk for recurrence during pregnancy. Fetal/Neonatal adverse reactions Use of anticoagulants, including edoxaban, may increase the risk of bleeding in the fetus and neonate. Monitor neonates for bleeding [see Warnings and Precautions (5.3) ] . Labor or delivery All patients receiving anticoagulants, including pregnant women, are at risk for bleeding. SAVAYSA use during labor or delivery in women who are receiving neuraxial anesthesia may result in epidural or spinal hematomas. Consider use of a shorter acting anticoagulant as delivery approaches [see Warnings and Precautions (5.3) ] . Data Animal Data Embryo-fetal development studies were conducted in pregnant rats and rabbits during the period of organogenesis. In rats, no malformation was seen when edoxaban was administered orally at doses up to 300 mg/kg/day, or 49 times the human dose of 60 mg/day normalized to body surface area. Increased post-implantation loss occurred at 300 mg/kg/day, but this effect may be secondary to the maternal vaginal hemorrhage seen at this dose. In rabbits, no malformation was seen at doses up to 600 mg/kg/day (49 times the human exposure at a dose of 60 mg/day when based on AUC). Embryo-fetal toxicities occurred at maternally toxic doses, and included absent or small fetal gallbladder at 600 mg/kg/day, and increased post-implantation loss, increased spontaneous abortion, and decreased live fetuses and fetal weight at doses equal to or greater than 200 mg/kg/day, which is equal to or greater than 20 times the human exposure. In a rat pre- and post-natal developmental study, edoxaban was administered orally during the period of organogenesis and through lactation day 20 at doses up to 30 mg/kg/day, which is up to 3 times the human exposure when based on AUC. Vaginal bleeding in pregnant rats and delayed avoidance response (a learning test) in female offspring were seen at 30 mg/kg/day."
+  }
+}

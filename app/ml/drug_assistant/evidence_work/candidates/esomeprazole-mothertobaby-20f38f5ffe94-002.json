@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "esomeprazole-mothertobaby-20f38f5ffe94-002",
+      "drug_id": "esomeprazole",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Information from limited studies suggest that taking omeprazole or esomeprazole during pregnancy is not expected to increase the chance of miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Omeprazole | Esomeprazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/omeprazole-esomeprazole/",
+      "source_identifier": "fact-sheets:omeprazole-esomeprazole",
+      "source_section": "Does taking omeprazole or esomeprazole increase the chance of miscarriage?",
+      "source_revision_date": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "retrieved_at": "2026-09-18T08:23:19.646803+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "content_hash": "7a673216610659d89ce3583c7c7e39ff7c0b57ca5ab6f7c57f02eac62ffad27a",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "esomeprazole",
+      "canonical_name": "esomeprazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:omeprazole-esomeprazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/omeprazole-esomeprazole/",
+      "retrieved_at": "2026-09-18T08:23:19.646803+00:00",
+      "source_revision_date": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "source_content_hash": "20f38f5ffe9437de97a1a3a1b88972dea2755a0911c2868aa0ef0e84be8c14f2",
+      "error_code": null
+    },
+    "source_content_hash": "20f38f5ffe9437de97a1a3a1b88972dea2755a0911c2868aa0ef0e84be8c14f2",
+    "source_product_identifier": "fact-sheets:omeprazole-esomeprazole",
+    "source_version": "Sat, 25 Jul 2026 17:42:14 GMT",
+    "canonical_name": "esomeprazole",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Information from limited studies suggest that taking omeprazole or esomeprazole during pregnancy is not expected to increase the chance of miscarriage."
+  }
+}

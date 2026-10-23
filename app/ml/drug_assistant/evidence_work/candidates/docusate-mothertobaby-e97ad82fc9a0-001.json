@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "docusate-mothertobaby-e97ad82fc9a0-001",
+      "drug_id": "docusate",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Docusate sodium is a stool softener that has been used to treat constipation (when a person passes less than three bowel movements a week or has trouble with bowel movements). Docusate sodium is found in many products and has been sold under many different brand names. Some brand names are Colace®, Correctol®, Docusate®, Surfak®, and Soflax®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Docusate Sodium",
+      "source_url": "https://mothertobaby.org/fact-sheets/docusate-sodium-pregnancy/",
+      "source_identifier": "fact-sheets:docusate-sodium-pregnancy",
+      "source_section": "What is docusate sodium?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:17.973380+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:28 GMT",
+      "content_hash": "d6aa456ca7e4b6eca5f1084ca28fbefc0f50be3820d307e71c24b9108edd3416",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "docusate",
+      "canonical_name": "docusate",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:docusate-sodium-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/docusate-sodium-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:17.973380+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:28 GMT",
+      "source_content_hash": "e97ad82fc9a0a2ca30179858b4a5e938c58de0208709a2be24aeba81ebfc7066",
+      "error_code": null
+    },
+    "source_content_hash": "e97ad82fc9a0a2ca30179858b4a5e938c58de0208709a2be24aeba81ebfc7066",
+    "source_product_identifier": "fact-sheets:docusate-sodium-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:28 GMT",
+    "canonical_name": "docusate",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Docusate sodium is a stool softener that has been used to treat constipation (when a person passes less than three bowel movements a week or has trouble with bowel movements). Docusate sodium is found in many products and has been sold under many different brand names. Some brand names are Colace®, Correctol®, Docusate®, Surfak®, and Soflax®."
+  }
+}

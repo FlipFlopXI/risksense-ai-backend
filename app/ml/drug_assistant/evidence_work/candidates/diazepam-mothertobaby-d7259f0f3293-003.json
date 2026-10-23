@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "diazepam-mothertobaby-d7259f0f3293-003",
+      "drug_id": "diazepam",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. It is not known if diazepam can increase the chance of miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Diazepam (Valium®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/diazepam-valium/",
+      "source_identifier": "fact-sheets:diazepam-valium",
+      "source_section": "Does taking diazepam increase the chance of miscarriage?",
+      "source_revision_date": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "retrieved_at": "2026-09-18T08:23:17.101051+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "content_hash": "3bea437a7014d6781c448f3150cd1c26fc295d072ed0513cfa40fb2cc4e36075",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "diazepam",
+      "canonical_name": "diazepam",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:diazepam-valium",
+      "source_url": "https://mothertobaby.org/fact-sheets/diazepam-valium/",
+      "retrieved_at": "2026-09-18T08:23:17.101051+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "source_content_hash": "d7259f0f3293dceffde78286c32af9b372c05e627ed0186aa9bfcfdbd1e0a7e8",
+      "error_code": null
+    },
+    "source_content_hash": "d7259f0f3293dceffde78286c32af9b372c05e627ed0186aa9bfcfdbd1e0a7e8",
+    "source_product_identifier": "fact-sheets:diazepam-valium",
+    "source_version": "Thu, 20 Aug 2026 11:24:19 GMT",
+    "canonical_name": "diazepam",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. It is not known if diazepam can increase the chance of miscarriage."
+  }
+}

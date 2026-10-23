@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lorazepam-mothertobaby-2080ccb30bff-010",
+      "drug_id": "lorazepam",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Lorazepam gets into breast milk in small amounts. No side effects were found in studies of children exposed through breast milk. If you suspect the baby has any symptoms (being too sleepy, slower breathing rate, poor feeding, or poor weight gain), contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lorazepam",
+      "source_url": "https://mothertobaby.org/fact-sheets/lorazepam/",
+      "source_identifier": "fact-sheets:lorazepam",
+      "source_section": "Breastfeeding while taking lorazepam:",
+      "source_revision_date": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:32.128416+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "content_hash": "c375dab5eb0327eb611332e2c34eec35386bdd40a6e59951c3c66ac45309ce0c",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lorazepam",
+      "canonical_name": "lorazepam",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lorazepam",
+      "source_url": "https://mothertobaby.org/fact-sheets/lorazepam/",
+      "retrieved_at": "2026-09-18T08:23:32.128416+00:00",
+      "source_revision_date": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "source_content_hash": "2080ccb30bff2e5aac614e9e8e7e3a4edd81f3502252abe8d66724327a12ab94",
+      "error_code": null
+    },
+    "source_content_hash": "2080ccb30bff2e5aac614e9e8e7e3a4edd81f3502252abe8d66724327a12ab94",
+    "source_product_identifier": "fact-sheets:lorazepam",
+    "source_version": "Fri, 26 Jun 2026 15:57:01 GMT",
+    "canonical_name": "lorazepam",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Lorazepam gets into breast milk in small amounts. No side effects were found in studies of children exposed through breast milk. If you suspect the baby has any symptoms (being too sleepy, slower breathing rate, poor feeding, or poor weight gain), contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

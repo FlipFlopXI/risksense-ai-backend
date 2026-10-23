@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "insulin_glulisine-dailymed-2356b08f4257-003",
+      "drug_id": "insulin_glulisine",
+      "related_drug_ids": [],
+      "topic": "contraindications",
+      "subtopic": "contraindications",
+      "claim": "APIDRA is contraindicated: during episodes of hypoglycemia in patients with known hypersensitivity to insulin glulisine or to any of the excipients in APIDRA; systemic allergic reactions have occurred with APIDRA [see Adverse Reactions (6.1) ] . Do not use during episodes of hypoglycemia. ( 4 ) Do not use in patients with hypersensitivity to insulin glulisine or any excipients in APIDRA ( 4 )",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use APIDRA safely and effectively. See full prescribing information for APIDRA. APIDRA ® (insulin glulisine) injection, for subcutaneous or intravenous use Initial U.S. Approval: 2004",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_section": "4 CONTRAINDICATIONS",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "3833abed108bda86a514415bdad4308b7967934edec41deac45f2b6747060a59",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "insulin_glulisine",
+      "canonical_name": "insulin glulisine",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+      "error_code": null
+    },
+    "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+    "source_product_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+    "source_version": "28",
+    "canonical_name": "insulin glulisine",
+    "therapeutic_group": "insulins",
+    "source_excerpt": "APIDRA is contraindicated: during episodes of hypoglycemia in patients with known hypersensitivity to insulin glulisine or to any of the excipients in APIDRA; systemic allergic reactions have occurred with APIDRA [see Adverse Reactions (6.1) ] . Do not use during episodes of hypoglycemia. ( 4 ) Do not use in patients with hypersensitivity to insulin glulisine or any excipients in APIDRA ( 4 )"
+  }
+}

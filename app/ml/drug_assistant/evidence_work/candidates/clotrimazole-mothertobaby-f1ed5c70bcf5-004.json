@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "clotrimazole-mothertobaby-f1ed5c70bcf5-004",
+      "drug_id": "clotrimazole",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like clotrimazole, might increase the chance of birth defects in a pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Clotrimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/clotrimazole/",
+      "source_identifier": "fact-sheets:clotrimazole",
+      "source_section": "Does taking clotrimazole increase the chance of birth defects?",
+      "source_revision_date": "Wed, 19 Aug 2026 15:59:14 GMT",
+      "retrieved_at": "2026-09-18T08:23:16.670713+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 15:59:14 GMT",
+      "content_hash": "19274fcb5131c7f113ea82d0d2399a2cbf26318aac30f7a77d8d51d8a05d1b2d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "clotrimazole",
+      "canonical_name": "clotrimazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:clotrimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/clotrimazole/",
+      "retrieved_at": "2026-09-18T08:23:16.670713+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 15:59:14 GMT",
+      "source_content_hash": "f1ed5c70bcf54e3a1d3a92be30b1e0e825a3011220404fa32c9bed4c22d8946d",
+      "error_code": null
+    },
+    "source_content_hash": "f1ed5c70bcf54e3a1d3a92be30b1e0e825a3011220404fa32c9bed4c22d8946d",
+    "source_product_identifier": "fact-sheets:clotrimazole",
+    "source_version": "Wed, 19 Aug 2026 15:59:14 GMT",
+    "canonical_name": "clotrimazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like clotrimazole, might increase the chance of birth defects in a pregnancy."
+  }
+}

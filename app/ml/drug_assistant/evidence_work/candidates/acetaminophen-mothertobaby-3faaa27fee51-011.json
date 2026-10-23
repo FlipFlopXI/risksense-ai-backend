@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "acetaminophen-mothertobaby-3faaa27fee51-011",
+      "drug_id": "acetaminophen",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "One study reported a possible link between the use of acetaminophen in pregnancy and mild developmental delay (including language delay) and hyperactivity. This link was stronger when acetaminophen was used for 28 days or more during pregnancy. However, this study had some important limitations. It did not measure how serious the illness was that led to acetaminophen use, making it unclear if the reported increased risk was related to acetaminophen use, the condition being treated, or a combination of factors. Also, the ADHD diagnoses were based on health records and not confirmed by researchers.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Acetaminophen (Paracetamol)",
+      "source_url": "https://mothertobaby.org/fact-sheets/acetaminophen-pregnancy/",
+      "source_identifier": "fact-sheets:acetaminophen-pregnancy",
+      "source_section": "Does taking acetaminophen in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "retrieved_at": "2026-09-18T08:23:04.054879+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "content_hash": "3fac4e9aded939937a55bdb953cfce6efcc719724e8331689abc9a2d8ba357ba",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "acetaminophen",
+      "canonical_name": "acetaminophen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:acetaminophen-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/acetaminophen-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:04.054879+00:00",
+      "source_revision_date": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "source_content_hash": "3faaa27fee5163b33a40606b18a6c75986d744168020e9a5914e59946111821f",
+      "error_code": null
+    },
+    "source_content_hash": "3faaa27fee5163b33a40606b18a6c75986d744168020e9a5914e59946111821f",
+    "source_product_identifier": "fact-sheets:acetaminophen-pregnancy",
+    "source_version": "Thu, 15 Jan 2026 09:05:00 GMT",
+    "canonical_name": "acetaminophen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "One study reported a possible link between the use of acetaminophen in pregnancy and mild developmental delay (including language delay) and hyperactivity. This link was stronger when acetaminophen was used for 28 days or more during pregnancy. However, this study had some important limitations. It did not measure how serious the illness was that led to acetaminophen use, making it unclear if the reported increased risk was related to acetaminophen use, the condition being treated, or a combination of factors. Also, the ADHD diagnoses were based on health records and not confirmed by researchers."
+  }
+}

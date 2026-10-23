@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "risperidone-mothertobaby-7986ba850adb-009",
+      "drug_id": "risperidone",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Studies to see if risperidone can increase the chance of behavior or learning issues for a child are limited. One study that looked at the filling of at least one prescription for risperidone after 18 weeks of pregnancy did not find an increased risk of developmental or behavioral disorders (autism, ADHD, learning or speech problems) in children followed up to age 14. Studies based on filled prescriptions cannot tell if the medication was taken as directed. This makes it hard to know if the study outcomes are related to medication or other factors.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Risperidone",
+      "source_url": "https://mothertobaby.org/fact-sheets/risperidone-pregnancy/",
+      "source_identifier": "fact-sheets:risperidone-pregnancy",
+      "source_section": "Does taking risperidone in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "retrieved_at": "2026-09-18T08:29:31.704984+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "content_hash": "a08956ea7e285bfb0433c1cb0cc27a31d9484fb119abf61d228d23eaa8ca7263",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "risperidone",
+      "canonical_name": "risperidone",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:risperidone-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/risperidone-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:31.704984+00:00",
+      "source_revision_date": "Thu, 25 Jun 2026 15:36:11 GMT",
+      "source_content_hash": "7986ba850adb30aaeb6e1846437aee357519b17284e4c2f447fa747a8170e0d7",
+      "error_code": null
+    },
+    "source_content_hash": "7986ba850adb30aaeb6e1846437aee357519b17284e4c2f447fa747a8170e0d7",
+    "source_product_identifier": "fact-sheets:risperidone-pregnancy",
+    "source_version": "Thu, 25 Jun 2026 15:36:11 GMT",
+    "canonical_name": "risperidone",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Studies to see if risperidone can increase the chance of behavior or learning issues for a child are limited. One study that looked at the filling of at least one prescription for risperidone after 18 weeks of pregnancy did not find an increased risk of developmental or behavioral disorders (autism, ADHD, learning or speech problems) in children followed up to age 14. Studies based on filled prescriptions cannot tell if the medication was taken as directed. This makes it hard to know if the study outcomes are related to medication or other factors."
+  }
+}

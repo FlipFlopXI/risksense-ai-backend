@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "quetiapine-mothertobaby-77e814386405-007",
+      "drug_id": "quetiapine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "The use of quetiapine during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. There is limited information about the use of quetiapine during late pregnancy and how a newborn adjusts after delivery. It has been suggested that babies exposed to quetiapine during late pregnancy be monitored for possible symptoms such as: too much or too little muscle tone (stiff or floppy), sleepiness, agitation, problems with breathing and feeding, or unusual muscle movements (tremors). It is important to note that not every newborn will have these symptoms and if they do, the symptoms usually go away in a short time.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Quetiapine (Seroquel®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/quetiapine/",
+      "source_identifier": "fact-sheets:quetiapine",
+      "source_section": "I need to take quetiapine throughout my entire pregnancy. Will it cause withdrawal symptoms in my baby after birth?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:07 GMT",
+      "retrieved_at": "2026-09-18T08:29:31.155723+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:52:07 GMT",
+      "content_hash": "305375fad44a51532e80cd691cee64513336584a6adeb0d83cb91567c8b39933",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "quetiapine",
+      "canonical_name": "quetiapine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:quetiapine",
+      "source_url": "https://mothertobaby.org/fact-sheets/quetiapine/",
+      "retrieved_at": "2026-09-18T08:29:31.155723+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:07 GMT",
+      "source_content_hash": "77e814386405ee6eb2a7ba45020721d7af6b138ba760cfed8fe386d08ef70609",
+      "error_code": null
+    },
+    "source_content_hash": "77e814386405ee6eb2a7ba45020721d7af6b138ba760cfed8fe386d08ef70609",
+    "source_product_identifier": "fact-sheets:quetiapine",
+    "source_version": "Tue, 02 Dec 2025 11:52:07 GMT",
+    "canonical_name": "quetiapine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "The use of quetiapine during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. There is limited information about the use of quetiapine during late pregnancy and how a newborn adjusts after delivery. It has been suggested that babies exposed to quetiapine during late pregnancy be monitored for possible symptoms such as: too much or too little muscle tone (stiff or floppy), sleepiness, agitation, problems with breathing and feeding, or unusual muscle movements (tremors). It is important to note that not every newborn will have these symptoms and if they do, the symptoms usually go away in a short time."
+  }
+}

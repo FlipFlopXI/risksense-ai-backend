@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "labetalol-mothertobaby-38bfcfd74284-004",
+      "drug_id": "labetalol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like labetalol, might increase the chance of birth defects in a pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Labetalol",
+      "source_url": "https://mothertobaby.org/fact-sheets/labetalol/",
+      "source_identifier": "fact-sheets:labetalol",
+      "source_section": "Does taking labetalol increase the chance of birth defects?",
+      "source_revision_date": "Thu, 07 May 2026 15:52:54 GMT",
+      "retrieved_at": "2026-09-18T08:23:29.595331+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 07 May 2026 15:52:54 GMT",
+      "content_hash": "482af058b31bf2160cef708dc7e9f5adfb013da7f6b8b6639380120f51f1d7c1",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "labetalol",
+      "canonical_name": "labetalol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:labetalol",
+      "source_url": "https://mothertobaby.org/fact-sheets/labetalol/",
+      "retrieved_at": "2026-09-18T08:23:29.595331+00:00",
+      "source_revision_date": "Thu, 07 May 2026 15:52:54 GMT",
+      "source_content_hash": "38bfcfd742841a479ab9ca4bc53ffeca35c5369ca607f690236586eb45a35dc2",
+      "error_code": null
+    },
+    "source_content_hash": "38bfcfd742841a479ab9ca4bc53ffeca35c5369ca607f690236586eb45a35dc2",
+    "source_product_identifier": "fact-sheets:labetalol",
+    "source_version": "Thu, 07 May 2026 15:52:54 GMT",
+    "canonical_name": "labetalol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like labetalol, might increase the chance of birth defects in a pregnancy."
+  }
+}

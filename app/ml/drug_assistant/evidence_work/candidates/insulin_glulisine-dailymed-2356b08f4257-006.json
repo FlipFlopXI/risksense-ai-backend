@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "insulin_glulisine-dailymed-2356b08f4257-006",
+      "drug_id": "insulin_glulisine",
+      "related_drug_ids": [],
+      "topic": "drug_interactions",
+      "subtopic": "drug_interactions",
+      "claim": "Table 6: Clinically Significant Drug Interactions with APIDRA Drugs that May Increase the Risk of Hypoglycemia Drugs: Antidiabetic agents, ACE inhibitors, angiotensin II receptor blocking agents, disopyramide, fibrates, fluoxetine, monoamine oxidase inhibitors, pentoxifylline, pramlintide, salicylates, somatostatin analog (e.g., octreotide), and sulfonamide antibiotics. Intervention: Dose adjustment and increased frequency of glucose monitoring may be required when APIDRA is coadministered with these drugs. Drugs that May Decrease the Blood Glucose Lowering Effect of APIDRA Drugs: Atypical antipsychotics, corticosteroids, danazol, diuretics, estrogens, glucagon, isoniazid, niacin, phenothiazine derivatives, progestogens (e.g., in oral contraceptives), protease inhibitors, somatropin, sympathomimetic agents (e.g., albuterol, epinephrine, terbutaline), and thyroid hormones. Intervention: Dose adjustment and increased frequency of glucose monitoring may be required when APIDRA is coadministered with these drugs. Drugs that May Increase or Decrease the Blood Glucose Lowering Effect of APIDRA Drugs: Alcohol, beta-blockers, clonidine, and lithium salts. Pentamidine may cause hypoglycemia, which may sometimes be followed by hyperglycemia. Intervention: Dose adjustment and increased frequency of glucose monitoring may be required when APIDRA is coadministered with these drugs. Drugs that May Blunt Signs and Symptoms of Hypoglycemia Drugs: Beta-blockers, clonidine, guanethidine, and reserpine. Intervention: Increased frequency of glucose monitoring may be required when APIDRA is coa",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use APIDRA safely and effectively. See full prescribing information for APIDRA. APIDRA ® (insulin glulisine) injection, for subcutaneous or intravenous use Initial U.S. Approval: 2004",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_section": "7 DRUG INTERACTIONS",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "8df54de3ac184b4ffaf49d605af9ac32566a1f496473ea86e5c7ab085d766db4",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "insulin_glulisine",
+      "canonical_name": "insulin glulisine",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+      "error_code": null
+    },
+    "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+    "source_product_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+    "source_version": "28",
+    "canonical_name": "insulin glulisine",
+    "therapeutic_group": "insulins",
+    "source_excerpt": "Table 6: Clinically Significant Drug Interactions with APIDRA Drugs that May Increase the Risk of Hypoglycemia Drugs: Antidiabetic agents, ACE inhibitors, angiotensin II receptor blocking agents, disopyramide, fibrates, fluoxetine, monoamine oxidase inhibitors, pentoxifylline, pramlintide, salicylates, somatostatin analog (e.g., octreotide), and sulfonamide antibiotics. Intervention: Dose adjustment and increased frequency of glucose monitoring may be required when APIDRA is coadministered with these drugs. Drugs that May Decrease the Blood Glucose Lowering Effect of APIDRA Drugs: Atypical antipsychotics, corticosteroids, danazol, diuretics, estrogens, glucagon, isoniazid, niacin, phenothiazine derivatives, progestogens (e.g., in oral contraceptives), protease inhibitors, somatropin, sympathomimetic agents (e.g., albuterol, epinephrine, terbutaline), and thyroid hormones. Intervention: Dose adjustment and increased frequency of glucose monitoring may be required when APIDRA is coadministered with these drugs. Drugs that May Increase or Decrease the Blood Glucose Lowering Effect of APIDRA Drugs: Alcohol, beta-blockers, clonidine, and lithium salts. Pentamidine may cause hypoglycemia, which may sometimes be followed by hyperglycemia. Intervention: Dose adjustment and increased frequency of glucose monitoring may be required when APIDRA is coadministered with these drugs. Drugs that May Blunt Signs and Symptoms of Hypoglycemia Drugs: Beta-blockers, clonidine, guanethidine, and reserpine. Intervention: Increased frequency of glucose monitoring may be required when APIDRA is coadministered with these drugs. Drugs that Affect Glucose Metabolism: Adjustment of insulin dosage may be needed. ( 7 ) Antiadrenergic Drugs (e.g., beta-blockers, clonidine, guanethidine, and reserpine): Signs and symptoms of hypoglycemia may be reduced or absent. ( 5.3 , 7 )"
+  }
+}

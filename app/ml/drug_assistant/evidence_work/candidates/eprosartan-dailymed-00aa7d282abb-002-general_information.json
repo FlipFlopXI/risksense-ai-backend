@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "eprosartan-dailymed-00aa7d282abb-002-general_information",
+      "drug_id": "eprosartan",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "mechanism_of_action",
+      "claim": "Eprosartan: Angiotensin II (formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme [kininase II]), a potent vasoconstrictor, is the principal pressor agent of the renin-angiotensin system. Angiotensin II also stimulates aldosterone synthesis and secretion by the adrenal cortex, cardiac contraction, renal resorption of sodium, activity of the sympathetic nervous system, and smooth muscle cell growth. Eprosartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland). There is also an AT 2 receptor found in many tissues but it is not known to be associated with cardiovascular homeostasis. Eprosartan does not exhibit any partial agonist activity at the AT 1 receptor. Its affinity for the AT 1 receptor is 1,000 times greater than for the AT 2 receptor. In vitro binding studies indicate that eprosartan is a reversible, competitive inhibitor of the AT 1 receptor. Blockade of the AT 1 receptor removes the negative feedback of angiotensin II on renin secretion, but the resulting increased plasma renin activity and circulating angiotensin II do not overcome the effect of eprosartan on blood pressure. TEVETEN ® HCT does not inhibit kininase II, the enzyme that converts angiotensin I to angiotensin II and degrades bradykinin; whether this has clinical relevance is not known. It does not bind to or block other hormone receptors or ion channels known to be important in cardiovascular regulation.",
+      "source_organisation": "DailyMed",
+      "source_title": "TEVETEN ® HCT (eprosartan mesylate/hydrochlorothiazide)600/12.5mg 600/25mg",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b1dfcac3-ef66-4d3e-9d58-37d3f516eb31.xml",
+      "source_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+      "source_section": "Mechanism of Action",
+      "source_revision_date": "2",
+      "retrieved_at": "2026-09-18T08:16:03.771762+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "2",
+      "content_hash": "739c2a65a3f5323ced3fca866439d69ec19eea497d05e3e80ec1729d7725ebc0",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "eprosartan",
+      "canonical_name": "eprosartan",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b1dfcac3-ef66-4d3e-9d58-37d3f516eb31.xml",
+      "retrieved_at": "2026-09-18T08:16:03.771762+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "00aa7d282abb3353c77049f2662f53d7a250446faca5775ef26e3e2945d6e198",
+      "error_code": null
+    },
+    "source_content_hash": "00aa7d282abb3353c77049f2662f53d7a250446faca5775ef26e3e2945d6e198",
+    "source_product_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+    "source_version": "2",
+    "canonical_name": "eprosartan",
+    "therapeutic_group": "arbs",
+    "source_excerpt": "Eprosartan: Angiotensin II (formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme [kininase II]), a potent vasoconstrictor, is the principal pressor agent of the renin-angiotensin system. Angiotensin II also stimulates aldosterone synthesis and secretion by the adrenal cortex, cardiac contraction, renal resorption of sodium, activity of the sympathetic nervous system, and smooth muscle cell growth. Eprosartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland). There is also an AT 2 receptor found in many tissues but it is not known to be associated with cardiovascular homeostasis. Eprosartan does not exhibit any partial agonist activity at the AT 1 receptor. Its affinity for the AT 1 receptor is 1,000 times greater than for the AT 2 receptor. In vitro binding studies indicate that eprosartan is a reversible, competitive inhibitor of the AT 1 receptor. Blockade of the AT 1 receptor removes the negative feedback of angiotensin II on renin secretion, but the resulting increased plasma renin activity and circulating angiotensin II do not overcome the effect of eprosartan on blood pressure. TEVETEN ® HCT does not inhibit kininase II, the enzyme that converts angiotensin I to angiotensin II and degrades bradykinin; whether this has clinical relevance is not known. It does not bind to or block other hormone receptors or ion channels known to be important in cardiovascular regulation. Hydrochlorothiazide: Hydrochlorothiazide is a thiazide diuretic. Thiazides affect the renal tubular mechanisms of electrolyte reabsorption, directly increasing excretion of sodium and chloride in approximately equivalent amounts. Indirectly, the diuretic action of hydrochlorothiazide reduces plasma volume, with consequent increases in plasma renin activity, increases in aldosterone secretion, increases in urinary potassium loss, and decreases in serum potassium. The renin-aldosterone link is mediated by angiotensin II, so coadministration of an angiotensin II receptor antagonist tends to reverse the potassium loss associated with these diuretics. The mechanism of the antihypertensive effect of thiazides is unknown."
+  }
+}

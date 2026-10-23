@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lithium-mothertobaby-a86ff404d220-005",
+      "drug_id": "lithium",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. It is not known if lithium can increase the chance of miscarriage. Two studies reported an increase in miscarriage with use of lithium in pregnancy. However, neither study could control for other important factors, such as other medical conditions or other exposures. A third study did not find an increased chance of miscarriage with lithium use. As there can be many causes of miscarriage, it is hard to know if a medication, the medical condition being treated, or other factors are the cause of a miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lithium",
+      "source_url": "https://mothertobaby.org/fact-sheets/lithium-pregnancy/",
+      "source_identifier": "fact-sheets:lithium-pregnancy",
+      "source_section": "Does taking lithium increase the chance of miscarriage?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "retrieved_at": "2026-09-18T08:23:31.106545+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "content_hash": "66bdddc6654363e2c9876481a8589ae986f7fb0693d4f09cb4e6b2ebb806c2e9",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lithium",
+      "canonical_name": "lithium",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lithium-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/lithium-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:31.106545+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "source_content_hash": "a86ff404d220a4f3bd3456b13ee73fb314961964ca02ca829c7521da1c174f93",
+      "error_code": null
+    },
+    "source_content_hash": "a86ff404d220a4f3bd3456b13ee73fb314961964ca02ca829c7521da1c174f93",
+    "source_product_identifier": "fact-sheets:lithium-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:53 GMT",
+    "canonical_name": "lithium",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. It is not known if lithium can increase the chance of miscarriage. Two studies reported an increase in miscarriage with use of lithium in pregnancy. However, neither study could control for other important factors, such as other medical conditions or other exposures. A third study did not find an increased chance of miscarriage with lithium use. As there can be many causes of miscarriage, it is hard to know if a medication, the medical condition being treated, or other factors are the cause of a miscarriage."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "nifedipine-mothertobaby-fd392a64fdc3-001",
+      "drug_id": "nifedipine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Nifedipine is a medication that has been used to treat high blood pressure (hypertension), irregular heartbeat (cardiac arrhythmia) and chest pain (angina). It also has been used to stop labor before 37 weeks of pregnancy (preterm labor). Nifedipine is part of a group of medications called calcium channel blockers. Some brand names for nifedipine are Procardia®, Adalat CC®, and Afeditab CR®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Nifedipine (Procardia®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/nifedipine/",
+      "source_identifier": "fact-sheets:nifedipine",
+      "source_section": "What is nifedipine?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:05 GMT",
+      "retrieved_at": "2026-09-18T08:23:41.358350+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:52:05 GMT",
+      "content_hash": "c5d2e981b5685eee2bf2ab3de9b5d52f4e2b1033672d5d689ba763ecef00fed8",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "nifedipine",
+      "canonical_name": "nifedipine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:nifedipine",
+      "source_url": "https://mothertobaby.org/fact-sheets/nifedipine/",
+      "retrieved_at": "2026-09-18T08:23:41.358350+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:05 GMT",
+      "source_content_hash": "fd392a64fdc37af68eb802edde1a47e6f836251a07692f2b127f9278b3a28276",
+      "error_code": null
+    },
+    "source_content_hash": "fd392a64fdc37af68eb802edde1a47e6f836251a07692f2b127f9278b3a28276",
+    "source_product_identifier": "fact-sheets:nifedipine",
+    "source_version": "Tue, 02 Dec 2025 11:52:05 GMT",
+    "canonical_name": "nifedipine",
+    "therapeutic_group": "calcium_channel_blockers",
+    "source_excerpt": "Nifedipine is a medication that has been used to treat high blood pressure (hypertension), irregular heartbeat (cardiac arrhythmia) and chest pain (angina). It also has been used to stop labor before 37 weeks of pregnancy (preterm labor). Nifedipine is part of a group of medications called calcium channel blockers. Some brand names for nifedipine are Procardia®, Adalat CC®, and Afeditab CR®."
+  }
+}

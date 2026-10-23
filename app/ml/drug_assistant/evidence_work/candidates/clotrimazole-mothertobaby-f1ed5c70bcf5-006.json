@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "clotrimazole-mothertobaby-f1ed5c70bcf5-006",
+      "drug_id": "clotrimazole",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Studies have not been done to see if clotrimazole can increase the chance for pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Clotrimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/clotrimazole/",
+      "source_identifier": "fact-sheets:clotrimazole",
+      "source_section": "Does taking clotrimazole in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Wed, 19 Aug 2026 15:59:14 GMT",
+      "retrieved_at": "2026-09-18T08:23:16.670713+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 15:59:14 GMT",
+      "content_hash": "54173cf7ff52eb3cc5670f953f8cda11106e1ab38cc149238e2a99f22f636c49",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "clotrimazole",
+      "canonical_name": "clotrimazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:clotrimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/clotrimazole/",
+      "retrieved_at": "2026-09-18T08:23:16.670713+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 15:59:14 GMT",
+      "source_content_hash": "f1ed5c70bcf54e3a1d3a92be30b1e0e825a3011220404fa32c9bed4c22d8946d",
+      "error_code": null
+    },
+    "source_content_hash": "f1ed5c70bcf54e3a1d3a92be30b1e0e825a3011220404fa32c9bed4c22d8946d",
+    "source_product_identifier": "fact-sheets:clotrimazole",
+    "source_version": "Wed, 19 Aug 2026 15:59:14 GMT",
+    "canonical_name": "clotrimazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Studies have not been done to see if clotrimazole can increase the chance for pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth)."
+  }
+}

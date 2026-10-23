@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "ibuprofen-mothertobaby-8913beb99fcd-012",
+      "drug_id": "ibuprofen",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Some studies suggest ibuprofen could affect male fertility (ability to get a woman pregnant), and others do not. Studies have not been done to see if ibuprofen could increase the chance of birth defects. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Ibuprofen",
+      "source_url": "https://mothertobaby.org/fact-sheets/ibuprofen-pregnancy/",
+      "source_identifier": "fact-sheets:ibuprofen-pregnancy",
+      "source_section": "If a man takes ibuprofen, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "retrieved_at": "2026-09-18T08:23:27.669861+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "content_hash": "b14baed3cead360f47b1f1285650b6b71a0dba97ec6252fa615931aa9654e6b2",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "ibuprofen",
+      "canonical_name": "ibuprofen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:ibuprofen-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/ibuprofen-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:27.669861+00:00",
+      "source_revision_date": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "source_content_hash": "8913beb99fcd256bf1c394df727437c7ea71f8d04747be73c77bbd8469c8f8d2",
+      "error_code": null
+    },
+    "source_content_hash": "8913beb99fcd256bf1c394df727437c7ea71f8d04747be73c77bbd8469c8f8d2",
+    "source_product_identifier": "fact-sheets:ibuprofen-pregnancy",
+    "source_version": "Mon, 12 Jan 2026 13:06:08 GMT",
+    "canonical_name": "ibuprofen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Some studies suggest ibuprofen could affect male fertility (ability to get a woman pregnant), and others do not. Studies have not been done to see if ibuprofen could increase the chance of birth defects. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

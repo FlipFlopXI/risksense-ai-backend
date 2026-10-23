@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "mirtazapine-mothertobaby-901bf0153ac0-002",
+      "drug_id": "mirtazapine",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "In some people, mirtazapine might raise the levels of a hormone called prolactin. High levels of prolactin can stop ovulation (part of the menstrual cycle when an ovary releases an egg). This would make it harder to get pregnant. Your healthcare provider can test your levels of prolactin if there is concern.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Mirtazapine (Remeron®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/mirtazapine-remeron-pregnancy/",
+      "source_identifier": "fact-sheets:mirtazapine-remeron-pregnancy",
+      "source_section": "I take mirtazapine. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:56 GMT",
+      "retrieved_at": "2026-09-18T08:23:38.328797+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:56 GMT",
+      "content_hash": "782bb6e82b1cd3dc80d1c5faca774944c149da768a9e30c2fec3782ab970fe1f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "mirtazapine",
+      "canonical_name": "mirtazapine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:mirtazapine-remeron-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/mirtazapine-remeron-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:38.328797+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:56 GMT",
+      "source_content_hash": "901bf0153ac0d5576750e9012cb467acfea8df3458cac3c8415b3f98ec1015d6",
+      "error_code": null
+    },
+    "source_content_hash": "901bf0153ac0d5576750e9012cb467acfea8df3458cac3c8415b3f98ec1015d6",
+    "source_product_identifier": "fact-sheets:mirtazapine-remeron-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:56 GMT",
+    "canonical_name": "mirtazapine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "In some people, mirtazapine might raise the levels of a hormone called prolactin. High levels of prolactin can stop ovulation (part of the menstrual cycle when an ovary releases an egg). This would make it harder to get pregnant. Your healthcare provider can test your levels of prolactin if there is concern."
+  }
+}

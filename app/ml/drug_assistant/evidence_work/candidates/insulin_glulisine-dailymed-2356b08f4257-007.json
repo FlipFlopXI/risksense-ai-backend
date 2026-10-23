@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "insulin_glulisine-dailymed-2356b08f4257-007",
+      "drug_id": "insulin_glulisine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pllr_8_1",
+      "claim": "Risk Summary Available pharmacovigilance data have not established an association with insulin glulisine use during pregnancy and major birth defects, miscarriage or adverse maternal or fetal outcomes. There are risks to the mother and fetus associated with poorly controlled diabetes in pregnancy (see Clinical Considerations ) . Animal reproduction studies have been conducted with insulin glulisine in rats and rabbits using regular human insulin as a comparator. Insulin glulisine was given to female rats throughout pregnancy at subcutaneous doses up to 10 units/kg/day (2 times the average human dose, based on body surface area comparison) and to rabbits during organogenesis at subcutaneous doses up to 1.5 units/kg/day (0.5 times the average human dose, based on body surface area comparison). The effects did not differ from those observed with subcutaneous regular human insulin (see Data ) . In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively. The estimated background risk of major birth defects is 6% to 10% in women with pre-gestational diabetes with a peri-conceptional HbA1c >7 and has been reported to be as high as 20% to 25% in women with a peri-conceptional HbA1c >10. The estimated background risk of miscarriage for the indicated population is unknown. Clinical Considerations Disease-associated maternal and/or embryo-fetal risk Hypoglycemia and hyperglycemia occur more frequently during pregnancy in patients with pre-gestational diabetes. Poorly",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use APIDRA safely and effectively. See full prescribing information for APIDRA. APIDRA ® (insulin glulisine) injection, for subcutaneous or intravenous use Initial U.S. Approval: 2004",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_section": "8.1 Pregnancy",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "2be9ff43f37ff0345c57c2cccbece9a61a7f9dd6b6b7700c30ee3ffff8a7ee61",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "insulin_glulisine",
+      "canonical_name": "insulin glulisine",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+      "error_code": null
+    },
+    "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+    "source_product_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+    "source_version": "28",
+    "canonical_name": "insulin glulisine",
+    "therapeutic_group": "insulins",
+    "source_excerpt": "Risk Summary Available pharmacovigilance data have not established an association with insulin glulisine use during pregnancy and major birth defects, miscarriage or adverse maternal or fetal outcomes. There are risks to the mother and fetus associated with poorly controlled diabetes in pregnancy (see Clinical Considerations ) . Animal reproduction studies have been conducted with insulin glulisine in rats and rabbits using regular human insulin as a comparator. Insulin glulisine was given to female rats throughout pregnancy at subcutaneous doses up to 10 units/kg/day (2 times the average human dose, based on body surface area comparison) and to rabbits during organogenesis at subcutaneous doses up to 1.5 units/kg/day (0.5 times the average human dose, based on body surface area comparison). The effects did not differ from those observed with subcutaneous regular human insulin (see Data ) . In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2% to 4% and 15% to 20%, respectively. The estimated background risk of major birth defects is 6% to 10% in women with pre-gestational diabetes with a peri-conceptional HbA1c >7 and has been reported to be as high as 20% to 25% in women with a peri-conceptional HbA1c >10. The estimated background risk of miscarriage for the indicated population is unknown. Clinical Considerations Disease-associated maternal and/or embryo-fetal risk Hypoglycemia and hyperglycemia occur more frequently during pregnancy in patients with pre-gestational diabetes. Poorly controlled diabetes in pregnancy increases the maternal risk for diabetic ketoacidosis, pre-eclampsia, spontaneous abortions, preterm delivery, and delivery complications. Poorly controlled diabetes increases the fetal risk for major birth defects, still birth, and macrosomia-related morbidity. Data Animal data Insulin glulisine was given to pregnant female rabbits during gestation at doses up to 1.5 units/kg/day, resulting in an exposure 0.5 times the average human dose, based on body surface area. Adverse effects on embryo-fetal development, including postimplantation loss and skeletal defects, were observed at dose levels that caused maternal hypoglycemia and mortality. Insulin glulisine given to pregnant female rats during gestation at doses up to 10 units/kg/day, resulting in an exposure 2 times the average human dose based on body surface area, resulted in maternal toxicity indicative of hypoglycemia but did not adversely affect embryo-fetal development. Postnatal development was not adversely affected following administration of insulin glulisine to pregnant female rats during gestation and throughout lactation at doses up to 8 units/kg/day. The effects of insulin glulisine did not differ from those observed with regular human insulin used as a comparator in the same studies and administered at the same doses."
+  }
+}

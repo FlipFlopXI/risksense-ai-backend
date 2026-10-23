@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "carvedilol-mothertobaby-e777156ad667-002",
+      "drug_id": "carvedilol",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if taking carvedilol can make it harder to get pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "​​Carvedilol (Coreg®)​",
+      "source_url": "https://mothertobaby.org/fact-sheets/carvedilol-coreg/",
+      "source_identifier": "fact-sheets:carvedilol-coreg",
+      "source_section": "I take carvedilol. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "retrieved_at": "2026-09-18T08:23:13.823545+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "content_hash": "ad5c2961cbb8d0a2802c9fb12661cb45582bc452f09b5820cbaf427b53cf20bb",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "carvedilol",
+      "canonical_name": "carvedilol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:carvedilol-coreg",
+      "source_url": "https://mothertobaby.org/fact-sheets/carvedilol-coreg/",
+      "retrieved_at": "2026-09-18T08:23:13.823545+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:15:21 GMT",
+      "source_content_hash": "e777156ad6672533e571497765a26dc269f15a456ee085c094b563347d691e17",
+      "error_code": null
+    },
+    "source_content_hash": "e777156ad6672533e571497765a26dc269f15a456ee085c094b563347d691e17",
+    "source_product_identifier": "fact-sheets:carvedilol-coreg",
+    "source_version": "Thu, 23 Jul 2026 08:15:21 GMT",
+    "canonical_name": "carvedilol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "Studies have not been done to see if taking carvedilol can make it harder to get pregnant."
+  }
+}

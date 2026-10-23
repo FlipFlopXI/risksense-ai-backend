@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "docusate-mothertobaby-e97ad82fc9a0-006",
+      "drug_id": "docusate",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Using more than the recommended amount of docusate sodium can lower the levels of magnesium in a person’s blood. There is one reported case of low magnesium levels in a newborn that was linked to overuse of docusate sodium by the woman who was pregnant. The baby’s main symptom was jitteriness, which went away by age 2 days. There have been no reported problems linked to the use of recommended amounts of docusate sodium in pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Docusate Sodium",
+      "source_url": "https://mothertobaby.org/fact-sheets/docusate-sodium-pregnancy/",
+      "source_identifier": "fact-sheets:docusate-sodium-pregnancy",
+      "source_section": "Does taking docusate sodium in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:17.973380+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:28 GMT",
+      "content_hash": "45c28985666cc6d778f7c3bbd5286381ddcaddc309b9e885b35106eaac735b2b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "docusate",
+      "canonical_name": "docusate",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:docusate-sodium-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/docusate-sodium-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:17.973380+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:28 GMT",
+      "source_content_hash": "e97ad82fc9a0a2ca30179858b4a5e938c58de0208709a2be24aeba81ebfc7066",
+      "error_code": null
+    },
+    "source_content_hash": "e97ad82fc9a0a2ca30179858b4a5e938c58de0208709a2be24aeba81ebfc7066",
+    "source_product_identifier": "fact-sheets:docusate-sodium-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:28 GMT",
+    "canonical_name": "docusate",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Using more than the recommended amount of docusate sodium can lower the levels of magnesium in a person’s blood. There is one reported case of low magnesium levels in a newborn that was linked to overuse of docusate sodium by the woman who was pregnant. The baby’s main symptom was jitteriness, which went away by age 2 days. There have been no reported problems linked to the use of recommended amounts of docusate sodium in pregnancy."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "albuterol-mothertobaby-7efd9cf4cec3-005",
+      "drug_id": "albuterol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like albuterol, might increase the chance of birth defects in a pregnancy. Although data is limited, studies do not suggest an increased chance for birth defects with the use of inhaled albuterol during pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Albuterol",
+      "source_url": "https://mothertobaby.org/fact-sheets/albuterol-pregnancy/",
+      "source_identifier": "fact-sheets:albuterol-pregnancy",
+      "source_section": "Does taking albuterol increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "retrieved_at": "2026-09-18T08:23:04.964673+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "content_hash": "7216548052ac78838be6060176bff1a10714099c8db7256172153b104ba68644",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "albuterol",
+      "canonical_name": "albuterol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:albuterol-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/albuterol-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:04.964673+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "source_content_hash": "7efd9cf4cec3a2ee90ebabb056672d60f1383fa855f4a687545f324949814da2",
+      "error_code": null
+    },
+    "source_content_hash": "7efd9cf4cec3a2ee90ebabb056672d60f1383fa855f4a687545f324949814da2",
+    "source_product_identifier": "fact-sheets:albuterol-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:09 GMT",
+    "canonical_name": "albuterol",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like albuterol, might increase the chance of birth defects in a pregnancy. Although data is limited, studies do not suggest an increased chance for birth defects with the use of inhaled albuterol during pregnancy."
+  }
+}

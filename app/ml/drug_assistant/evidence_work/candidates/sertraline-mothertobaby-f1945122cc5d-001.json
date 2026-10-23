@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "sertraline-mothertobaby-f1945122cc5d-001",
+      "drug_id": "sertraline",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Sertraline is a medication that has been used to treat depression, anxiety, obsessive-compulsive disorder, panic disorder, post-traumatic stress disorder, premenstrual dysphoric disorder (a severe form of premenstrual syndrome), and social phobia. Sertraline belongs to the class of antidepressants known as selective serotonin reuptake inhibitors (SSRIs). A brand name for sertraline is Zoloft®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Sertraline (Zoloft®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/sertraline-zoloft-pregnancy/",
+      "source_identifier": "fact-sheets:sertraline-zoloft-pregnancy",
+      "source_section": "What is sertraline?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:19 GMT",
+      "retrieved_at": "2026-09-18T08:29:33.058015+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:19 GMT",
+      "content_hash": "32ca4d9758936b01d0b19784ce07c494e5e78f630155a88f6b03c3fdef781bc0",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "sertraline",
+      "canonical_name": "sertraline",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:sertraline-zoloft-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/sertraline-zoloft-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:33.058015+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:19 GMT",
+      "source_content_hash": "f1945122cc5da6ac91b789a3aaf3b2332af415a3885b533358777c633d5c24e7",
+      "error_code": null
+    },
+    "source_content_hash": "f1945122cc5da6ac91b789a3aaf3b2332af415a3885b533358777c633d5c24e7",
+    "source_product_identifier": "fact-sheets:sertraline-zoloft-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:19 GMT",
+    "canonical_name": "sertraline",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Sertraline is a medication that has been used to treat depression, anxiety, obsessive-compulsive disorder, panic disorder, post-traumatic stress disorder, premenstrual dysphoric disorder (a severe form of premenstrual syndrome), and social phobia. Sertraline belongs to the class of antidepressants known as selective serotonin reuptake inhibitors (SSRIs). A brand name for sertraline is Zoloft®."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "eprosartan-dailymed-00aa7d282abb-003",
+      "drug_id": "eprosartan",
+      "related_drug_ids": [],
+      "topic": "warnings",
+      "subtopic": "warnings",
+      "claim": "Drugs that act directly on the renin-angiotensin system can cause fetal and neonatal morbidity and death when administered to pregnant women. Several dozen cases have been reported in the world literature in patients who were taking angiotensin-converting enzyme inhibitors. When pregnancy is detected, TEVETEN ® HCT should be discontinued as soon as possible. The use of drugs that act directly on the renin-angiotensin system during the second and third trimesters of pregnancy has been associated with fetal and neonatal injury, including hypotension, neonatal skull hypoplasia, anuria, reversible or irreversible renal failure, and death. Oligohydramnios has also been reported, presumably resulting from decreased fetal renal function; oligohydramnios in this setting has been associated with fetal limb contractures, craniofacial deformation, and hypoplastic lung development. Prematurity, intrauterine growth retardation, and patent ductus arteriosus have also been reported, although it is not clear whether these occurrences were due to exposure to the drug. These adverse effects do not appear to have resulted from intrauterine drug exposure that has been limited to the first trimester. Mothers whose embryos and fetuses are exposed to an angiotensin II receptor antagonist only during the first trimester should be so informed. Nonetheless, when patients become pregnant, physicians should advise the patient to discontinue the use of eprosartan as soon as possible. Rarely (probably less often than once in every thousand pregnancies), no alternative to a drug acting on the renin-angio",
+      "source_organisation": "DailyMed",
+      "source_title": "TEVETEN ® HCT (eprosartan mesylate/hydrochlorothiazide)600/12.5mg 600/25mg",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b1dfcac3-ef66-4d3e-9d58-37d3f516eb31.xml",
+      "source_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+      "source_section": "WARNINGS",
+      "source_revision_date": "2",
+      "retrieved_at": "2026-09-18T08:16:03.771762+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "2",
+      "content_hash": "5ea9be1a15362af047c975eaa72daed59b0d5925ba8913bdba6a089f4f7854f8",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "eprosartan",
+      "canonical_name": "eprosartan",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b1dfcac3-ef66-4d3e-9d58-37d3f516eb31.xml",
+      "retrieved_at": "2026-09-18T08:16:03.771762+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "00aa7d282abb3353c77049f2662f53d7a250446faca5775ef26e3e2945d6e198",
+      "error_code": null
+    },
+    "source_content_hash": "00aa7d282abb3353c77049f2662f53d7a250446faca5775ef26e3e2945d6e198",
+    "source_product_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+    "source_version": "2",
+    "canonical_name": "eprosartan",
+    "therapeutic_group": "arbs",
+    "source_excerpt": "Drugs that act directly on the renin-angiotensin system can cause fetal and neonatal morbidity and death when administered to pregnant women. Several dozen cases have been reported in the world literature in patients who were taking angiotensin-converting enzyme inhibitors. When pregnancy is detected, TEVETEN ® HCT should be discontinued as soon as possible. The use of drugs that act directly on the renin-angiotensin system during the second and third trimesters of pregnancy has been associated with fetal and neonatal injury, including hypotension, neonatal skull hypoplasia, anuria, reversible or irreversible renal failure, and death. Oligohydramnios has also been reported, presumably resulting from decreased fetal renal function; oligohydramnios in this setting has been associated with fetal limb contractures, craniofacial deformation, and hypoplastic lung development. Prematurity, intrauterine growth retardation, and patent ductus arteriosus have also been reported, although it is not clear whether these occurrences were due to exposure to the drug. These adverse effects do not appear to have resulted from intrauterine drug exposure that has been limited to the first trimester. Mothers whose embryos and fetuses are exposed to an angiotensin II receptor antagonist only during the first trimester should be so informed. Nonetheless, when patients become pregnant, physicians should advise the patient to discontinue the use of eprosartan as soon as possible. Rarely (probably less often than once in every thousand pregnancies), no alternative to a drug acting on the renin-angiotensin system will be found. In these rare cases, the mothers should be apprised of the potential hazards to their fetuses, and serial ultrasound examinations should be performed to assess the intra-amniotic environment. If oligohydramnios is observed, TEVETEN ® HCT should be discontinued unless it is considered life-saving for the mother. Contraction stress testing (CST), a nonstress test (NST) or biophysical profiling (BPP) may be appropriate, depending upon the week of pregnancy. Patients and physicians should be aware, however, that oligohydramnios may not appear until after the fetus has sustained irreversible injury. Infants with histories of in utero exposure to an angiotensin II receptor antagonist should be closely observed for hypotension, oliguria, and hyperkalemia. If oliguria occurs, attention should be directed toward support of blood pressure and renal perfusion. Exchange transfusion or dialysis may be required as means of reversing hypotension and/or substituting for disordered renal function. Eprosartan mesylate, alone or in combination with hydrochlorothiazide, has been shown to produce maternal and fetal toxicities (maternal and fetal mortality, low maternal body weight and food consumption, resorptions, abortions and litter loss) in pregnant rabbits given oral doses as low as 10 mg eprosartan/kg/day and 3 mg hydrochlorothiazide/kg/day. No maternal or fetal adverse effects were observed in rabbits at 3 mg eprosartan/kg/day alone or in combination with 1 mg/kg/day of hydrochlorothiazide; this oral dose yielded a systemic exposure (AUC) to unbound eprosartan approximately equal to the human systemic exposure achieved with the dose of eprosartan mesylate contained in the maximum recommended human dose of TEVETEN ® HCT (600 mg eprosartan/day). No adverse effects on in utero or postnatal development and maturation of offspring were observed when eprosartan mesylate was administered to pregnant rats at oral doses up to 1000 mg eprosartan/kg/day (the 1000 mg eprosartan/kg/day dose in non-pregnant rats yielded systemic exposure to unbound eprosartan approximately 0.8 times the exposure achieved in humans given 600 mg/day). Thiazides cross the placental barrier and appear in cord blood. There is a risk of fetal or neonatal jaundice, thrombocytopenia, and possibly other adverse reactions that have occurred in adults. In patients with an activated renin-angiotensin system, such as volume- and/or salt-depleted patients (e.g., those being treated with diuretics), symptomatic hypotension may occur. These conditions should be corrected prior to administration of TEVETEN ® HCT, or the treatment should start under close medical supervision. If hypotension occurs, the patient should be placed in the supine position and, if necessary, given an intravenous infusion of normal saline. A transient hypotensive response is not a contraindication to further treatment, which usually can be continued without difficulty once the blood pressure has stabilized. Impaired Hepatic Function: Thiazides should be used with caution in patients with impaired hepatic function or progressive liver disease, since minor alterations of fluid and electrolyte balance may precipitate hepatic coma. Hypersensitivity Reactions: Hypersensitivity reactions to hydrochlorothiazide may occur in patients with or without a history of allergy or bronchial asthma, but are more "
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "valacyclovir-mothertobaby-520dfb9fa174-009",
+      "drug_id": "valacyclovir",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Information on the effects of acyclovir/valacyclovir on men’s fertility (ability to make healthy sperm) is limited. One study in 20 men found that high doses of acyclovir for 6 months did not lower sperm production. Studies have not been done to know if acyclovir/valacyclovir can increase the chance of birth defects. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Acyclovir (Zovirax®) | Valacyclovir (Valtrex®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/acyclovir-zoviraxvalacyclovir-valtrex-pregnancy/",
+      "source_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+      "source_section": "If a man takes acyclovir/valacyclovir, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "retrieved_at": "2026-09-18T08:29:34.820274+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "content_hash": "f35c00c0396690fb6abbbd7032f46a702295c6f1fd799d11baf688e895d7b0ec",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "valacyclovir",
+      "canonical_name": "valacyclovir",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/acyclovir-zoviraxvalacyclovir-valtrex-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:34.820274+00:00",
+      "source_revision_date": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "source_content_hash": "520dfb9fa174771115306579c9d34363d4da98f2cb94e09d174226c5f4c4b8ef",
+      "error_code": null
+    },
+    "source_content_hash": "520dfb9fa174771115306579c9d34363d4da98f2cb94e09d174226c5f4c4b8ef",
+    "source_product_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+    "source_version": "Wed, 22 Jul 2026 08:22:57 GMT",
+    "canonical_name": "valacyclovir",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Information on the effects of acyclovir/valacyclovir on men’s fertility (ability to make healthy sperm) is limited. One study in 20 men found that high doses of acyclovir for 6 months did not lower sperm production. Studies have not been done to know if acyclovir/valacyclovir can increase the chance of birth defects. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

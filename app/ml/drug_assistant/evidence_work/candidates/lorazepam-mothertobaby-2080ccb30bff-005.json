@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lorazepam-mothertobaby-2080ccb30bff-005",
+      "drug_id": "lorazepam",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like lorazepam, might increase the chance of birth defects in a pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lorazepam",
+      "source_url": "https://mothertobaby.org/fact-sheets/lorazepam/",
+      "source_identifier": "fact-sheets:lorazepam",
+      "source_section": "Does taking lorazepam increase the chance of birth defects?",
+      "source_revision_date": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:32.128416+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "content_hash": "a6c7171467b7546ead464ff0e38969c6267eb2a0202dc9d727d258c7f199d75c",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lorazepam",
+      "canonical_name": "lorazepam",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lorazepam",
+      "source_url": "https://mothertobaby.org/fact-sheets/lorazepam/",
+      "retrieved_at": "2026-09-18T08:23:32.128416+00:00",
+      "source_revision_date": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "source_content_hash": "2080ccb30bff2e5aac614e9e8e7e3a4edd81f3502252abe8d66724327a12ab94",
+      "error_code": null
+    },
+    "source_content_hash": "2080ccb30bff2e5aac614e9e8e7e3a4edd81f3502252abe8d66724327a12ab94",
+    "source_product_identifier": "fact-sheets:lorazepam",
+    "source_version": "Fri, 26 Jun 2026 15:57:01 GMT",
+    "canonical_name": "lorazepam",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like lorazepam, might increase the chance of birth defects in a pregnancy."
+  }
+}

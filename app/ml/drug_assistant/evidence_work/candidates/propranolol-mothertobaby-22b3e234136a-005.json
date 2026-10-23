@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "propranolol-mothertobaby-22b3e234136a-005",
+      "drug_id": "propranolol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Propranolol has been linked to low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth. However, it is not clear if this happens because of the medication, the condition being treated, or other factors.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Propranolol",
+      "source_url": "https://mothertobaby.org/fact-sheets/propranolol/",
+      "source_identifier": "fact-sheets:propranolol",
+      "source_section": "Does taking propranolol in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Mon, 14 Sep 2026 09:59:16 GMT",
+      "retrieved_at": "2026-09-18T08:29:29.905811+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 14 Sep 2026 09:59:16 GMT",
+      "content_hash": "fe8455e408253535f0c782ea3ca9bea1a491910bf7d24ffb5ffc67343d9f3fb8",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "propranolol",
+      "canonical_name": "propranolol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:propranolol",
+      "source_url": "https://mothertobaby.org/fact-sheets/propranolol/",
+      "retrieved_at": "2026-09-18T08:29:29.905811+00:00",
+      "source_revision_date": "Mon, 14 Sep 2026 09:59:16 GMT",
+      "source_content_hash": "22b3e234136a1f51541724b922b4eac96172b2a61338a6c85f74925a7b88b5ed",
+      "error_code": null
+    },
+    "source_content_hash": "22b3e234136a1f51541724b922b4eac96172b2a61338a6c85f74925a7b88b5ed",
+    "source_product_identifier": "fact-sheets:propranolol",
+    "source_version": "Mon, 14 Sep 2026 09:59:16 GMT",
+    "canonical_name": "propranolol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "Propranolol has been linked to low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth. However, it is not clear if this happens because of the medication, the condition being treated, or other factors."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "amlodipine-mothertobaby-3889e49f787a-004",
+      "drug_id": "amlodipine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. Information on the use of amlodipine in pregnancy is very limited. Most available information on the use of calcium channel blockers as a group in human pregnancy does not suggest an increased chance of birth defects.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Amlodipine (Norvasc®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/amlodipine-norvasc/",
+      "source_identifier": "fact-sheets:amlodipine-norvasc",
+      "source_section": "Does taking amlodipine increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "retrieved_at": "2026-09-18T08:23:09.174791+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "content_hash": "7ef0ab5cab761eea45c895f7c65c8519bb0d72ad76e8b212cb54f0e4e20c1aee",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "amlodipine",
+      "canonical_name": "amlodipine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:amlodipine-norvasc",
+      "source_url": "https://mothertobaby.org/fact-sheets/amlodipine-norvasc/",
+      "retrieved_at": "2026-09-18T08:23:09.174791+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "source_content_hash": "3889e49f787a2c53d726b6b94666094027393c0ab22b3f66849df9668f86be72",
+      "error_code": null
+    },
+    "source_content_hash": "3889e49f787a2c53d726b6b94666094027393c0ab22b3f66849df9668f86be72",
+    "source_product_identifier": "fact-sheets:amlodipine-norvasc",
+    "source_version": "Tue, 02 Dec 2025 11:58:16 GMT",
+    "canonical_name": "amlodipine",
+    "therapeutic_group": "calcium_channel_blockers",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. Information on the use of amlodipine in pregnancy is very limited. Most available information on the use of calcium channel blockers as a group in human pregnancy does not suggest an increased chance of birth defects."
+  }
+}

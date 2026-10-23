@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "hydroxychloroquine-mothertobaby-063eea92db53-004",
+      "drug_id": "hydroxychloroquine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Several studies have not found a higher chance of miscarriage related to hydroxychloroquine use. One study reported a higher number of miscarriages than expected, but the authors stated that the mother’s health conditions may have contributed to this finding since malaria and lupus can increase the chance of miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Hydroxychloroquine (Plaquenil®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/hydroxychloroquine-pregnancy/",
+      "source_identifier": "fact-sheets:hydroxychloroquine-pregnancy",
+      "source_section": "Does taking hydroxychloroquine increase the chance of miscarriage?",
+      "source_revision_date": "Thu, 16 Apr 2026 10:33:40 GMT",
+      "retrieved_at": "2026-09-18T08:23:26.826288+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 16 Apr 2026 10:33:40 GMT",
+      "content_hash": "fdfb7af89ae136c7995558347c9d40503ebc5486f6e65ebf787b896e0c2f5e89",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "hydroxychloroquine",
+      "canonical_name": "hydroxychloroquine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:hydroxychloroquine-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/hydroxychloroquine-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:26.826288+00:00",
+      "source_revision_date": "Thu, 16 Apr 2026 10:33:40 GMT",
+      "source_content_hash": "063eea92db53df958e00f96f607c19971ed6060fcae0ec975dd16b59fc8519cb",
+      "error_code": null
+    },
+    "source_content_hash": "063eea92db53df958e00f96f607c19971ed6060fcae0ec975dd16b59fc8519cb",
+    "source_product_identifier": "fact-sheets:hydroxychloroquine-pregnancy",
+    "source_version": "Thu, 16 Apr 2026 10:33:40 GMT",
+    "canonical_name": "hydroxychloroquine",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Several studies have not found a higher chance of miscarriage related to hydroxychloroquine use. One study reported a higher number of miscarriages than expected, but the authors stated that the mother’s health conditions may have contributed to this finding since malaria and lupus can increase the chance of miscarriage."
+  }
+}

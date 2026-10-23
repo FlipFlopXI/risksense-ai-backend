@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lamotrigine-mothertobaby-faa195b3de9c-005",
+      "drug_id": "lamotrigine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like lamotrigine, might increase the chance of birth defects in a pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lamotrigine (Lamictal®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/lamotrigine/",
+      "source_identifier": "fact-sheets:lamotrigine",
+      "source_section": "Does taking lamotrigine increase the chance of birth defects?",
+      "source_revision_date": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "retrieved_at": "2026-09-18T08:23:30.037777+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "content_hash": "e62f2be22b42b3fd84cc96a34d1a2c640f6fa87a4ac8bd1495d5e10fd9e49b71",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lamotrigine",
+      "canonical_name": "lamotrigine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lamotrigine",
+      "source_url": "https://mothertobaby.org/fact-sheets/lamotrigine/",
+      "retrieved_at": "2026-09-18T08:23:30.037777+00:00",
+      "source_revision_date": "Tue, 25 Aug 2026 09:33:11 GMT",
+      "source_content_hash": "faa195b3de9ceea9cec7cb3fb7cb8bab4b3cd0f000dffa2cee235f3bb3970e8a",
+      "error_code": null
+    },
+    "source_content_hash": "faa195b3de9ceea9cec7cb3fb7cb8bab4b3cd0f000dffa2cee235f3bb3970e8a",
+    "source_product_identifier": "fact-sheets:lamotrigine",
+    "source_version": "Tue, 25 Aug 2026 09:33:11 GMT",
+    "canonical_name": "lamotrigine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like lamotrigine, might increase the chance of birth defects in a pregnancy."
+  }
+}

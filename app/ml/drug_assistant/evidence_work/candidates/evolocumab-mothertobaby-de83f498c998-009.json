@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "evolocumab-mothertobaby-de83f498c998-009",
+      "drug_id": "evolocumab",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Evolocumab has not been studied for use during breastfeeding. This medication is a very large protein, so it is not likely that much of the medication passes into breast milk. Evolocumab is not well absorbed by the stomach, so any medication that passes into breast milk would be unlikely to enter the baby’s blood.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Evolocumab (Repatha®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/evolocumab/",
+      "source_identifier": "fact-sheets:evolocumab",
+      "source_section": "Breastfeeding while taking evolocumab:",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:20 GMT",
+      "retrieved_at": "2026-09-18T08:23:20.389560+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:51:20 GMT",
+      "content_hash": "250c6f3688735de0eef36dd1808ae965bbdc21be2c6b9a28e1824913a76e6505",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "evolocumab",
+      "canonical_name": "evolocumab",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:evolocumab",
+      "source_url": "https://mothertobaby.org/fact-sheets/evolocumab/",
+      "retrieved_at": "2026-09-18T08:23:20.389560+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:20 GMT",
+      "source_content_hash": "de83f498c99806a12659c31d2714cdc5d8e6e220702d9ce26a27eb148d856dd8",
+      "error_code": null
+    },
+    "source_content_hash": "de83f498c99806a12659c31d2714cdc5d8e6e220702d9ce26a27eb148d856dd8",
+    "source_product_identifier": "fact-sheets:evolocumab",
+    "source_version": "Tue, 02 Dec 2025 11:51:20 GMT",
+    "canonical_name": "evolocumab",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Evolocumab has not been studied for use during breastfeeding. This medication is a very large protein, so it is not likely that much of the medication passes into breast milk. Evolocumab is not well absorbed by the stomach, so any medication that passes into breast milk would be unlikely to enter the baby’s blood."
+  }
+}

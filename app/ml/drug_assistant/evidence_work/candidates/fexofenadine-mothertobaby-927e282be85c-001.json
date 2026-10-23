@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fexofenadine-mothertobaby-927e282be85c-001",
+      "drug_id": "fexofenadine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Fexofenadine is an over-the-counter antihistamine that has been used to treat and prevent allergy symptoms such as sneezing, runny nose, watery eyes, itching, and hives. A brand name for fexofenadine is Allegra®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Fexofenadine (Allegra®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/fexofenadine-pregnancy/",
+      "source_identifier": "fact-sheets:fexofenadine-pregnancy",
+      "source_section": "What is fexofenadine?",
+      "source_revision_date": "Wed, 01 Apr 2026 06:58:37 GMT",
+      "retrieved_at": "2026-09-18T08:23:21.178034+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 01 Apr 2026 06:58:37 GMT",
+      "content_hash": "87275f2f4491cdd28ce84ef2bc5d9b585aacced66cdb3da9b5f1319633b10e6e",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fexofenadine",
+      "canonical_name": "fexofenadine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fexofenadine-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/fexofenadine-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:21.178034+00:00",
+      "source_revision_date": "Wed, 01 Apr 2026 06:58:37 GMT",
+      "source_content_hash": "927e282be85c5d1f16f9aa050bd6fac2f63c387e61e85a98013cf0b175865b4d",
+      "error_code": null
+    },
+    "source_content_hash": "927e282be85c5d1f16f9aa050bd6fac2f63c387e61e85a98013cf0b175865b4d",
+    "source_product_identifier": "fact-sheets:fexofenadine-pregnancy",
+    "source_version": "Wed, 01 Apr 2026 06:58:37 GMT",
+    "canonical_name": "fexofenadine",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Fexofenadine is an over-the-counter antihistamine that has been used to treat and prevent allergy symptoms such as sneezing, runny nose, watery eyes, itching, and hives. A brand name for fexofenadine is Allegra®."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "quetiapine-mothertobaby-77e814386405-003",
+      "drug_id": "quetiapine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Most studies have found that the chance of miscarriage is not different between women who take quetiapine and women who use similar medications. One study reported an increased chance of miscarriage in women taking quetiapine or similar medications during pregnancy when compared with groups that were not taking such medications. However, the authors of the study noted that their findings may be due to the person’s underlying condition rather than the medication used as treatment. Studies have shown that untreated or poorly treated depression can increase the chance for miscarriage. This makes it difficult to determine if it is the medication, poorly treated depression. or other factors that increased the chance for miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Quetiapine (Seroquel®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/quetiapine/",
+      "source_identifier": "fact-sheets:quetiapine",
+      "source_section": "Does taking quetiapine increase the chance for miscarriage?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:07 GMT",
+      "retrieved_at": "2026-09-18T08:29:31.155723+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:52:07 GMT",
+      "content_hash": "f92dcee177982f8cc49c7bcb5b7db3fcf772ed8aef9e3dca758bd71c51ab48e7",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "quetiapine",
+      "canonical_name": "quetiapine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:quetiapine",
+      "source_url": "https://mothertobaby.org/fact-sheets/quetiapine/",
+      "retrieved_at": "2026-09-18T08:29:31.155723+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:07 GMT",
+      "source_content_hash": "77e814386405ee6eb2a7ba45020721d7af6b138ba760cfed8fe386d08ef70609",
+      "error_code": null
+    },
+    "source_content_hash": "77e814386405ee6eb2a7ba45020721d7af6b138ba760cfed8fe386d08ef70609",
+    "source_product_identifier": "fact-sheets:quetiapine",
+    "source_version": "Tue, 02 Dec 2025 11:52:07 GMT",
+    "canonical_name": "quetiapine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Most studies have found that the chance of miscarriage is not different between women who take quetiapine and women who use similar medications. One study reported an increased chance of miscarriage in women taking quetiapine or similar medications during pregnancy when compared with groups that were not taking such medications. However, the authors of the study noted that their findings may be due to the person’s underlying condition rather than the medication used as treatment. Studies have shown that untreated or poorly treated depression can increase the chance for miscarriage. This makes it difficult to determine if it is the medication, poorly treated depression. or other factors that increased the chance for miscarriage."
+  }
+}

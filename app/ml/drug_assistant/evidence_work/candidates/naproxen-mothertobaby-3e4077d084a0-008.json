@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "naproxen-mothertobaby-3e4077d084a0-008",
+      "drug_id": "naproxen",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "One study found that NSAID use, including naproxen, during pregnancy was associated with an increased chance of having a baby that was smaller than expected for gestational age (small for gestational age). Naproxen should only be used under a healthcare provider’s supervision, particularly in the 2nd and 3rd trimesters. Your healthcare providers can closely monitor your pregnancy, if needed.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Naproxen",
+      "source_url": "https://mothertobaby.org/fact-sheets/naproxen/",
+      "source_identifier": "fact-sheets:naproxen",
+      "source_section": "Does taking naproxen in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "retrieved_at": "2026-09-18T08:23:40.838808+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "content_hash": "c2e647df28e16d753ed871d438c88118cabfc583a7f7b7711755dd2b192bdb56",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "naproxen",
+      "canonical_name": "naproxen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:naproxen",
+      "source_url": "https://mothertobaby.org/fact-sheets/naproxen/",
+      "retrieved_at": "2026-09-18T08:23:40.838808+00:00",
+      "source_revision_date": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "source_content_hash": "3e4077d084a0ac9b0d5feb8d3bbf7a2b6cb2fd9f64664ce60ba9e8b79e808afa",
+      "error_code": null
+    },
+    "source_content_hash": "3e4077d084a0ac9b0d5feb8d3bbf7a2b6cb2fd9f64664ce60ba9e8b79e808afa",
+    "source_product_identifier": "fact-sheets:naproxen",
+    "source_version": "Fri, 26 Jun 2026 12:15:04 GMT",
+    "canonical_name": "naproxen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "One study found that NSAID use, including naproxen, during pregnancy was associated with an increased chance of having a baby that was smaller than expected for gestational age (small for gestational age). Naproxen should only be used under a healthcare provider’s supervision, particularly in the 2nd and 3rd trimesters. Your healthcare providers can closely monitor your pregnancy, if needed."
+  }
+}

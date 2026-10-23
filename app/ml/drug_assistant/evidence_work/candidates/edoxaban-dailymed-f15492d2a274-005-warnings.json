@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "edoxaban-dailymed-f15492d2a274-005-warnings",
+      "drug_id": "edoxaban",
+      "related_drug_ids": [],
+      "topic": "warnings",
+      "subtopic": "warnings_and_precautions",
+      "claim": "Bleeding: Serious and potentially fatal bleeding. Promptly evaluate signs and symptoms of blood loss ( 5.3 ) Mechanical Heart Valves or Moderate to Severe Mitral Stenosis: Use is not recommended ( 5.5 ) Increased Risk of Thrombosis in Patients with Triple Positive Antiphospholipid Syndrome: SAVAYSA use not recommended. ( 5.6 ) SAVAYSA should not be used in patients with CrCL > 95 mL/min. In the randomized ENGAGE AF-TIMI 48 study, NVAF patients with CrCL > 95 mL/min had an increased rate of ischemic stroke with SAVAYSA 60 mg daily compared to patients treated with warfarin. In these patients another anticoagulant should be used [see Dosage and Administration (2.1) and Clinical Studies (14.1) ] . Premature discontinuation of any oral anticoagulant in the absence of adequate alternative anticoagulation increases the risk of ischemic events. If SAVAYSA is discontinued for a reason other than pathological bleeding or completion of a course of therapy, consider coverage with another anticoagulant as described in the transition guidance [see Dosage and Administration (2.4) and Clinical Studies (14.1) ] . SAVAYSA increases the risk of bleeding and can cause serious and potentially fatal bleeding. Promptly evaluate any signs or symptoms of blood loss. Discontinue SAVAYSA in patients with active pathological bleeding. Concomitant use of drugs affecting hemostasis may increase the risk of bleeding. These include aspirin and other antiplatelet agents, other antithrombotic agents, fibrinolytic therapy, chronic use of nonsteroidal anti-inflammatory drugs (NSAIDs), selective serotonin reu",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SAVAYSA safely and effectively. See full prescribing information for SAVAYSA. SAVAYSA ® (edoxaban) tablets, for oral use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_section": "5 WARNINGS AND PRECAUTIONS",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "c540f153fb437098e2ca7637efc34d6920623d1d83d23f1dd16a326919fffe53",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "edoxaban",
+      "canonical_name": "edoxaban",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+      "error_code": null
+    },
+    "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+    "source_product_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+    "source_version": "28",
+    "canonical_name": "edoxaban",
+    "therapeutic_group": "antiplatelets_anticoagulants",
+    "source_excerpt": "Bleeding: Serious and potentially fatal bleeding. Promptly evaluate signs and symptoms of blood loss ( 5.3 ) Mechanical Heart Valves or Moderate to Severe Mitral Stenosis: Use is not recommended ( 5.5 ) Increased Risk of Thrombosis in Patients with Triple Positive Antiphospholipid Syndrome: SAVAYSA use not recommended. ( 5.6 ) SAVAYSA should not be used in patients with CrCL > 95 mL/min. In the randomized ENGAGE AF-TIMI 48 study, NVAF patients with CrCL > 95 mL/min had an increased rate of ischemic stroke with SAVAYSA 60 mg daily compared to patients treated with warfarin. In these patients another anticoagulant should be used [see Dosage and Administration (2.1) and Clinical Studies (14.1) ] . Premature discontinuation of any oral anticoagulant in the absence of adequate alternative anticoagulation increases the risk of ischemic events. If SAVAYSA is discontinued for a reason other than pathological bleeding or completion of a course of therapy, consider coverage with another anticoagulant as described in the transition guidance [see Dosage and Administration (2.4) and Clinical Studies (14.1) ] . SAVAYSA increases the risk of bleeding and can cause serious and potentially fatal bleeding. Promptly evaluate any signs or symptoms of blood loss. Discontinue SAVAYSA in patients with active pathological bleeding. Concomitant use of drugs affecting hemostasis may increase the risk of bleeding. These include aspirin and other antiplatelet agents, other antithrombotic agents, fibrinolytic therapy, chronic use of nonsteroidal anti-inflammatory drugs (NSAIDs), selective serotonin reuptake inhibitors (SSRIs) and serotonin norepinephrine reuptake inhibitors (SNRIs) [see Drug Interactions (7.1) ] . Reversal of Anticoagulant Effect There is no established way to reverse the anticoagulant effects of SAVAYSA, which can be expected to persist for approximately 24 hours after the last dose. The anticoagulant effect of SAVAYSA cannot be reliably monitored with standard laboratory testing. A specific reversal agent for edoxaban is not available. Hemodialysis does not significantly contribute to edoxaban clearance [see Clinical Pharmacology (12.3) ] . Protamine sulfate, vitamin K, and tranexamic acid are not expected to reverse the anticoagulant activity of SAVAYSA. The use of prothrombin complex concentrates (PCC), or other procoagulant reversal agents such as activated prothrombin complex concentrate (APCC) or recombinant factor VIIa (rFVIIa) may be considered but has not been evaluated in clinical outcome studies [see Clinical Pharmacology (12.2) ] . When PCCs are used, monitoring for anticoagulation effect of edoxaban using clotting test (PT, INR, or aPTT) or anti-FXa activity is not useful and is not recommended. When neuraxial anesthesia (spinal/epidural anesthesia) or spinal/epidural puncture is employed, patients treated with antithrombotic agents for prevention of thromboembolic complications are at risk of developing an epidural or spinal hematoma, which can result in long-term or permanent paralysis. The risk of these events may be increased by the postoperative use of indwelling epidural catheters or the concomitant use of medicinal products affecting hemostasis. Indwelling epidural or intrathecal catheters should not be removed earlier than 12 hours after the last administration of SAVAYSA. The next dose of SAVAYSA should not be administered earlier than 2 hours after the removal of the catheter. The risk may also be increased by traumatic or repeated epidural or spinal puncture. Monitor patients frequently for signs and symptoms of neurological impairment (e.g., numbness or weakness of the legs, bowel, or bladder dysfunction). If neurological compromise is noted, urgent diagnosis and treatment is necessary. Prior to neuraxial intervention the physician should consider the potential benefit versus the risk in anticoagulated patients or in patients to be anticoagulated for thromboprophylaxis. The safety and efficacy of SAVAYSA has not been studied in patients with mechanical heart valves or moderate to severe mitral stenosis. The use of SAVAYSA is not recommended in these patients [see Clinical Studies (14.1) ] . Direct-acting oral anticoagulants (DOACs), including SAVAYSA, are not recommended for use in patients with triple positive antiphospholipid syndrome (APS). For patients with APS (especially those who are triple positive [positive for lupus anticoagulant, anticardiolipin antibodies, and anti-beta 2-glycoprotein I antibodies]), treatment with DOACs has been associated with increased rates of recurrent thrombotic events compared with vitamin K antagonist therapy."
+  }
+}

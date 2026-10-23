@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "metformin-mothertobaby-66291b1c129e-008",
+      "drug_id": "metformin",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Metformin passes into breast milk in very small amounts. Studies have not found problems in breastfed infants. Metformin should be used with caution in newborns, premature infants, or infants with kidney problems because their kidneys may not remove the medication from the body as well as the kidneys of older infants or infants without kidney problems. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Metformin",
+      "source_url": "https://mothertobaby.org/fact-sheets/metformin-pregnancy/",
+      "source_identifier": "fact-sheets:metformin-pregnancy",
+      "source_section": "Breastfeeding while taking metformin:",
+      "source_revision_date": "Wed, 12 Aug 2026 08:52:21 GMT",
+      "retrieved_at": "2026-09-18T08:23:33.369406+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 12 Aug 2026 08:52:21 GMT",
+      "content_hash": "f366fe03db48a679f4e968ca94e1f6b7f68f08795b0cb378adc0343615b34016",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "metformin",
+      "canonical_name": "metformin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:metformin-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/metformin-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:33.369406+00:00",
+      "source_revision_date": "Wed, 12 Aug 2026 08:52:21 GMT",
+      "source_content_hash": "66291b1c129e171d550acb6433a83beb2a9613d9036b9de0f4914d73c8a98bfd",
+      "error_code": null
+    },
+    "source_content_hash": "66291b1c129e171d550acb6433a83beb2a9613d9036b9de0f4914d73c8a98bfd",
+    "source_product_identifier": "fact-sheets:metformin-pregnancy",
+    "source_version": "Wed, 12 Aug 2026 08:52:21 GMT",
+    "canonical_name": "metformin",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "Metformin passes into breast milk in very small amounts. Studies have not found problems in breastfed infants. Metformin should be used with caution in newborns, premature infants, or infants with kidney problems because their kidneys may not remove the medication from the body as well as the kidneys of older infants or infants without kidney problems. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

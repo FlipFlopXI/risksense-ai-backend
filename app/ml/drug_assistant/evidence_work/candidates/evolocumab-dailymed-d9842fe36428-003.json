@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "evolocumab-dailymed-d9842fe36428-003",
+      "drug_id": "evolocumab",
+      "related_drug_ids": [],
+      "topic": "contraindications",
+      "subtopic": "contraindications",
+      "claim": "REPATHA is contraindicated in patients with a history of a serious hypersensitivity reaction to evolocumab or any of the excipients in REPATHA. Serious hypersensitivity reactions including angioedema have occurred in patients treated with REPATHA [see Warnings and Precautions (5.1) ] . Patients with a history of a serious hypersensitivity reaction to evolocumab or any of the excipients in REPATHA. ( 4 )",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use REPATHA ® safely and effectively. See full prescribing information for REPATHA. REPATHA (evolocumab) injection, for subcutaneous use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cd61e902-166d-4aa6-9f3c-a18c1008d07e.xml",
+      "source_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+      "source_section": "4 CONTRAINDICATIONS",
+      "source_revision_date": "32",
+      "retrieved_at": "2026-09-18T08:16:17.213762+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "32",
+      "content_hash": "9e735c766fb668d8fb6771123e3a065a2cb5f8cbe14551aa28eb6013b1e2c860",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "evolocumab",
+      "canonical_name": "evolocumab",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cd61e902-166d-4aa6-9f3c-a18c1008d07e.xml",
+      "retrieved_at": "2026-09-18T08:16:17.213762+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d9842fe364280107ed506d3adb39a602519d43dbb80c68a2e80aa48113e935b5",
+      "error_code": null
+    },
+    "source_content_hash": "d9842fe364280107ed506d3adb39a602519d43dbb80c68a2e80aa48113e935b5",
+    "source_product_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+    "source_version": "32",
+    "canonical_name": "evolocumab",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "REPATHA is contraindicated in patients with a history of a serious hypersensitivity reaction to evolocumab or any of the excipients in REPATHA. Serious hypersensitivity reactions including angioedema have occurred in patients treated with REPATHA [see Warnings and Precautions (5.1) ] . Patients with a history of a serious hypersensitivity reaction to evolocumab or any of the excipients in REPATHA. ( 4 )"
+  }
+}

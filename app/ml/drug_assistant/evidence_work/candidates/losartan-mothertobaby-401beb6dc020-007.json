@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "losartan-mothertobaby-401beb6dc020-007",
+      "drug_id": "losartan",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Losartan has not been well studied for use during pregnancy. It is not known if losartan can increase the chance of birth defects when used in the first trimester of pregnancy. There are case reports with typical outcomes after first trimester exposure to losartan when the medication was not used throughout pregnancy. One small study looked at 20 pregnancies exposed to the class of ARB medications. The study reported that 1 infant had craniosynostosis (when the bones in the skull join together too early) and another had inguinal hernia (when soft tissue bulges through a weak place in the belly muscles). Some of the women in this study had diabetes, which has also been linked to an increased chance of birth defects. It is not known if the medication taken, or other factors caused the reported birth defects.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Losartan",
+      "source_url": "https://mothertobaby.org/fact-sheets/losartan-cozaar/",
+      "source_identifier": "fact-sheets:losartan-cozaar",
+      "source_section": "Does taking losartan increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "retrieved_at": "2026-09-18T08:23:32.517174+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "content_hash": "cb14dffd310088580344215c57ff7b006f3024e57e7b6dbd92143d4c9f7f9f82",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "losartan",
+      "canonical_name": "losartan",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:losartan-cozaar",
+      "source_url": "https://mothertobaby.org/fact-sheets/losartan-cozaar/",
+      "retrieved_at": "2026-09-18T08:23:32.517174+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "source_content_hash": "401beb6dc020ac01c20344dff088a89e68ed283f7cfa1c15dfb3c42664d7d2c8",
+      "error_code": null
+    },
+    "source_content_hash": "401beb6dc020ac01c20344dff088a89e68ed283f7cfa1c15dfb3c42664d7d2c8",
+    "source_product_identifier": "fact-sheets:losartan-cozaar",
+    "source_version": "Tue, 02 Dec 2025 11:56:35 GMT",
+    "canonical_name": "losartan",
+    "therapeutic_group": "arbs",
+    "source_excerpt": "Losartan has not been well studied for use during pregnancy. It is not known if losartan can increase the chance of birth defects when used in the first trimester of pregnancy. There are case reports with typical outcomes after first trimester exposure to losartan when the medication was not used throughout pregnancy. One small study looked at 20 pregnancies exposed to the class of ARB medications. The study reported that 1 infant had craniosynostosis (when the bones in the skull join together too early) and another had inguinal hernia (when soft tissue bulges through a weak place in the belly muscles). Some of the women in this study had diabetes, which has also been linked to an increased chance of birth defects. It is not known if the medication taken, or other factors caused the reported birth defects."
+  }
+}

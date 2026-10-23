@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "misoprostol-mothertobaby-97ea9f682c2e-002",
+      "drug_id": "misoprostol",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "The product label for misoprostol recommends that women who are pregnant or planning to become pregnant not use this medication. However, it is important to talk with your healthcare providers before making any changes to how you take your medication. Your healthcare providers can talk with you about using misoprostol and what treatment is best for you.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Misoprostol (Cytotec®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/misoprostol-cytotec/",
+      "source_identifier": "fact-sheets:misoprostol-cytotec",
+      "source_section": "What is misoprostol?",
+      "source_revision_date": "Wed, 05 Aug 2026 13:56:46 GMT",
+      "retrieved_at": "2026-09-18T08:23:39.497704+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 05 Aug 2026 13:56:46 GMT",
+      "content_hash": "fa389b3cc5a5d17b2649e92263215e5dae12585ca917b4016ec0d5f8bd3b0c58",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "misoprostol",
+      "canonical_name": "misoprostol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:misoprostol-cytotec",
+      "source_url": "https://mothertobaby.org/fact-sheets/misoprostol-cytotec/",
+      "retrieved_at": "2026-09-18T08:23:39.497704+00:00",
+      "source_revision_date": "Wed, 05 Aug 2026 13:56:46 GMT",
+      "source_content_hash": "97ea9f682c2e9e64d044954ca68151810a06dca0dfdbe3ac7d3804fd4c81b1b2",
+      "error_code": null
+    },
+    "source_content_hash": "97ea9f682c2e9e64d044954ca68151810a06dca0dfdbe3ac7d3804fd4c81b1b2",
+    "source_product_identifier": "fact-sheets:misoprostol-cytotec",
+    "source_version": "Wed, 05 Aug 2026 13:56:46 GMT",
+    "canonical_name": "misoprostol",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "The product label for misoprostol recommends that women who are pregnant or planning to become pregnant not use this medication. However, it is important to talk with your healthcare providers before making any changes to how you take your medication. Your healthcare providers can talk with you about using misoprostol and what treatment is best for you."
+  }
+}

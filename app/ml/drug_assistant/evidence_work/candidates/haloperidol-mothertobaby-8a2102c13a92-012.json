@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "haloperidol-mothertobaby-8a2102c13a92-012",
+      "drug_id": "haloperidol",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Taking haloperidol could raise a person’s levels of the hormone prolactin, which might affect male fertility (ability to make healthy sperm). Studies have not been done to see if haloperidol use by men could increase the chance of birth defects. In general, men’s exposures are unlikely to increase the risks to a pregnancy. For more general information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Haloperidol (Haldol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/haloperidol-haldol/",
+      "source_identifier": "fact-sheets:haloperidol-haldol",
+      "source_section": "If a man takes haloperidol, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "retrieved_at": "2026-09-18T08:23:26.269952+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "content_hash": "36a1ef1dd814dcb55aa73518a620d25349d551e1e414aa049e28a30c32556435",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "haloperidol",
+      "canonical_name": "haloperidol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:haloperidol-haldol",
+      "source_url": "https://mothertobaby.org/fact-sheets/haloperidol-haldol/",
+      "retrieved_at": "2026-09-18T08:23:26.269952+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "source_content_hash": "8a2102c13a92aa2ca71d8932208c641bf3a76e3a4cfc4e542ac33c9a6f972979",
+      "error_code": null
+    },
+    "source_content_hash": "8a2102c13a92aa2ca71d8932208c641bf3a76e3a4cfc4e542ac33c9a6f972979",
+    "source_product_identifier": "fact-sheets:haloperidol-haldol",
+    "source_version": "Mon, 24 Aug 2026 12:42:22 GMT",
+    "canonical_name": "haloperidol",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Taking haloperidol could raise a person’s levels of the hormone prolactin, which might affect male fertility (ability to make healthy sperm). Studies have not been done to see if haloperidol use by men could increase the chance of birth defects. In general, men’s exposures are unlikely to increase the risks to a pregnancy. For more general information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

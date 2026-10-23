@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lisinopril-mothertobaby-5ff8df6f98c8-006",
+      "drug_id": "lisinopril",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Talk with your healthcare provider right away if you are pregnant and taking any ACE inhibitor, including lisinopril.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lisinopril",
+      "source_url": "https://mothertobaby.org/fact-sheets/lisinopril/",
+      "source_identifier": "fact-sheets:lisinopril",
+      "source_section": "Does taking lisinopril in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "retrieved_at": "2026-09-18T08:23:30.559426+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "content_hash": "51c082817046c46bf582aff368b454ba7be23a19f3e65aa5dea7d70467ca10ea",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lisinopril",
+      "canonical_name": "lisinopril",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lisinopril",
+      "source_url": "https://mothertobaby.org/fact-sheets/lisinopril/",
+      "retrieved_at": "2026-09-18T08:23:30.559426+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "source_content_hash": "5ff8df6f98c8ba6323195b1ed35858a400f5fcba16f03895256e38f25a5005fe",
+      "error_code": null
+    },
+    "source_content_hash": "5ff8df6f98c8ba6323195b1ed35858a400f5fcba16f03895256e38f25a5005fe",
+    "source_product_identifier": "fact-sheets:lisinopril",
+    "source_version": "Thu, 23 Jul 2026 08:56:19 GMT",
+    "canonical_name": "lisinopril",
+    "therapeutic_group": "ace_inhibitors",
+    "source_excerpt": "Talk with your healthcare provider right away if you are pregnant and taking any ACE inhibitor, including lisinopril."
+  }
+}

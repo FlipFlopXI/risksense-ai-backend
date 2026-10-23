@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "sertraline-mothertobaby-f1945122cc5d-011",
+      "drug_id": "sertraline",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Some studies have shown that SSRIs might have sexual side effects, like low sexual desire or problems with ejaculation. These side effects might affect a man’s fertility (ability to get a woman pregnant). Having depression might also lower sex drive. A man’s use of sertraline is not expected to increase the chance of birth defects. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposure at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Sertraline (Zoloft®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/sertraline-zoloft-pregnancy/",
+      "source_identifier": "fact-sheets:sertraline-zoloft-pregnancy",
+      "source_section": "If a man takes sertraline, could it affect his fertility or increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:19 GMT",
+      "retrieved_at": "2026-09-18T08:29:33.058015+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:19 GMT",
+      "content_hash": "5b8f6d0b35d4a6f8107338e32c11d3e66178f771c7221be7ccf48a73d5b59764",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "sertraline",
+      "canonical_name": "sertraline",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:sertraline-zoloft-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/sertraline-zoloft-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:33.058015+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:19 GMT",
+      "source_content_hash": "f1945122cc5da6ac91b789a3aaf3b2332af415a3885b533358777c633d5c24e7",
+      "error_code": null
+    },
+    "source_content_hash": "f1945122cc5da6ac91b789a3aaf3b2332af415a3885b533358777c633d5c24e7",
+    "source_product_identifier": "fact-sheets:sertraline-zoloft-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:19 GMT",
+    "canonical_name": "sertraline",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Some studies have shown that SSRIs might have sexual side effects, like low sexual desire or problems with ejaculation. These side effects might affect a man’s fertility (ability to get a woman pregnant). Having depression might also lower sex drive. A man’s use of sertraline is not expected to increase the chance of birth defects. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposure at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

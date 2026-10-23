@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "evolocumab-mothertobaby-de83f498c998-002",
+      "drug_id": "evolocumab",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "People eliminate medication at different rates. In healthy non-pregnant adults, it takes up to 102 days (or about 14 and a ½ weeks), on average, for most of the evolocumab to be gone from the body.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Evolocumab (Repatha®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/evolocumab/",
+      "source_identifier": "fact-sheets:evolocumab",
+      "source_section": "I am taking evolocumab, but I would like to stop taking it before getting pregnant. How long does the drug stay in my body?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:20 GMT",
+      "retrieved_at": "2026-09-18T08:23:20.389560+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:51:20 GMT",
+      "content_hash": "a42128b509c2cc6915e879ebe6560d9e8d4b647a30c80c453736a296dfcea60f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "evolocumab",
+      "canonical_name": "evolocumab",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:evolocumab",
+      "source_url": "https://mothertobaby.org/fact-sheets/evolocumab/",
+      "retrieved_at": "2026-09-18T08:23:20.389560+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:20 GMT",
+      "source_content_hash": "de83f498c99806a12659c31d2714cdc5d8e6e220702d9ce26a27eb148d856dd8",
+      "error_code": null
+    },
+    "source_content_hash": "de83f498c99806a12659c31d2714cdc5d8e6e220702d9ce26a27eb148d856dd8",
+    "source_product_identifier": "fact-sheets:evolocumab",
+    "source_version": "Tue, 02 Dec 2025 11:51:20 GMT",
+    "canonical_name": "evolocumab",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "People eliminate medication at different rates. In healthy non-pregnant adults, it takes up to 102 days (or about 14 and a ½ weeks), on average, for most of the evolocumab to be gone from the body."
+  }
+}

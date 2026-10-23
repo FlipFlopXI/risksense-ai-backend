@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lithium-mothertobaby-a86ff404d220-014",
+      "drug_id": "lithium",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "There are reports of lower sperm quality and less sperm movement with lithium use in men. One of these reports found no effects on men’s fertility (ability to get a partner pregnant). Lower sex drive was reported in another study, but this is a common side effect of depression and might not be due to lithium. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lithium",
+      "source_url": "https://mothertobaby.org/fact-sheets/lithium-pregnancy/",
+      "source_identifier": "fact-sheets:lithium-pregnancy",
+      "source_section": "If a man takes lithium, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "retrieved_at": "2026-09-18T08:23:31.106545+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "content_hash": "1865cce43124a11ac9e6ae76f028b219e47e50e5e2c4f7d633e253146d4efe31",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lithium",
+      "canonical_name": "lithium",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lithium-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/lithium-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:31.106545+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "source_content_hash": "a86ff404d220a4f3bd3456b13ee73fb314961964ca02ca829c7521da1c174f93",
+      "error_code": null
+    },
+    "source_content_hash": "a86ff404d220a4f3bd3456b13ee73fb314961964ca02ca829c7521da1c174f93",
+    "source_product_identifier": "fact-sheets:lithium-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:53 GMT",
+    "canonical_name": "lithium",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "There are reports of lower sperm quality and less sperm movement with lithium use in men. One of these reports found no effects on men’s fertility (ability to get a partner pregnant). Lower sex drive was reported in another study, but this is a common side effect of depression and might not be due to lithium. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

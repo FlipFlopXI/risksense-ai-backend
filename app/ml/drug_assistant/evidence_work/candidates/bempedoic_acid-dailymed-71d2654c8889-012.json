@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "bempedoic_acid-dailymed-71d2654c8889-012",
+      "drug_id": "bempedoic_acid",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pllr_8_1",
+      "claim": "Risk Summary Discontinue NEXLETOL when pregnancy is recognized unless the benefits of therapy outweigh the potential risks to the fetus. There are insufficient data on NEXLETOL use in pregnant women to evaluate for a drug-associated risk of major birth defects, miscarriage, or adverse maternal or fetal outcomes. In animal reproduction studies, bempedoic acid was not teratogenic in rats and rabbits when administered at doses resulting in exposures up to 11 and 12 times, respectively, the human exposures at the maximum clinical dose, based on AUC (see Data ) . NEXLETOL decreases cholesterol synthesis and possibly the synthesis of other biologically active substances derived from cholesterol; therefore, NEXLETOL may cause fetal harm when administered to pregnant women based on the mechanism of action [see Clinical Pharmacology (12.1) ] . In addition, treatment of hypercholesterolemia is not generally necessary during pregnancy. Atherosclerosis is a chronic process and the discontinuation of lipid-lowering drugs during pregnancy should have little impact on the outcome of long-term therapy of primary hypercholesterolemia for most patients. The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively. Report pregnancies to the Esperion Therapeutics, Inc. Adverse Event reporting line at 1-833-377-7633. Data Animal Data Bempedoic acid was not teratogenic when given",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use NEXLETOL ® safely and effectively. See full prescribing information for NEXLETOL. NEXLETOL (bempedoic acid) tablets, for oral use Initial U.S. Approval: 2020",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_section": "8.1 Pregnancy",
+      "source_revision_date": "20",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "20",
+      "content_hash": "8d778ce33eaef2678e4f480e87665bd55b50ad88cfabf575bd30df29c5244de5",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "bempedoic_acid",
+      "canonical_name": "bempedoic acid",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/88d06d89-a3da-40b4-b273-8f4f7d56c4c9.xml",
+      "retrieved_at": "2026-09-23T10:02:54.967896+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+      "error_code": null,
+      "candidates": [
+        {
+          "set_id": "3fa2108c-0300-47b8-9d34-f762af7c93c6",
+          "title": "NEXLIZET (BEMPEDOIC ACID AND EZETIMIBE) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "23",
+          "published_date": "Jul 20, 2026"
+        },
+        {
+          "set_id": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+          "title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]",
+          "spl_version": "20",
+          "published_date": "Jul 20, 2026"
+        }
+      ],
+      "candidate_list_complete": true,
+      "candidate_list_retrieved_at": "2026-09-23T10:02:53.194460+00:00",
+      "product_selection_reason": "HIGH_CONFIDENCE_UNIQUE_MATCH",
+      "product_resolution_version": "1.0.0",
+      "product_resolution_at": "2026-09-23T10:02:54.967932+00:00",
+      "product_resolution_criteria": {
+        "complete_search": true,
+        "human_prescription": true,
+        "single_exact_active_ingredient": true,
+        "unique_compatible_candidate": true,
+        "routes": [
+          "ORAL"
+        ],
+        "dosage_forms": [
+          "BLISTER PACK",
+          "BOTTLE",
+          "BOTTLE, PLASTIC",
+          "TABLET, FILM COATED"
+        ]
+      },
+      "selected_product_title": "NEXLETOL (BEMPEDOIC ACID) TABLET, FILM COATED [ESPERION THERAPEUTICS, INC.]"
+    },
+    "source_content_hash": "71d2654c8889ecfa93f12f1f8897eadad71d32c76d1487d1597f2f4b9a56c044",
+    "source_product_identifier": "88d06d89-a3da-40b4-b273-8f4f7d56c4c9",
+    "source_version": "20",
+    "canonical_name": "bempedoic acid",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Risk Summary Discontinue NEXLETOL when pregnancy is recognized unless the benefits of therapy outweigh the potential risks to the fetus. There are insufficient data on NEXLETOL use in pregnant women to evaluate for a drug-associated risk of major birth defects, miscarriage, or adverse maternal or fetal outcomes. In animal reproduction studies, bempedoic acid was not teratogenic in rats and rabbits when administered at doses resulting in exposures up to 11 and 12 times, respectively, the human exposures at the maximum clinical dose, based on AUC (see Data ) . NEXLETOL decreases cholesterol synthesis and possibly the synthesis of other biologically active substances derived from cholesterol; therefore, NEXLETOL may cause fetal harm when administered to pregnant women based on the mechanism of action [see Clinical Pharmacology (12.1) ] . In addition, treatment of hypercholesterolemia is not generally necessary during pregnancy. Atherosclerosis is a chronic process and the discontinuation of lipid-lowering drugs during pregnancy should have little impact on the outcome of long-term therapy of primary hypercholesterolemia for most patients. The estimated background risk of major birth defects and miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively. Report pregnancies to the Esperion Therapeutics, Inc. Adverse Event reporting line at 1-833-377-7633. Data Animal Data Bempedoic acid was not teratogenic when given orally at doses of 60 and 80 mg/kg/day, resulting in 11 and 12 times the systemic exposure in humans at the maximum recommended human dose (MRHD) of 180 mg to pregnant rats and rabbits, respectively. In an embryofetal development study in rats, bempedoic acid was given orally to pregnant rats at 10, 30, and 60 mg/kg/day during the period of organogenesis from gestation day 6 to 17. There were increases in the incidence of non-adverse fetal skeletal variations (bent long bones and bent scapula and incomplete ossification) at doses ≥ 10 mg/kg/day (less than the clinical exposure) in the absence of maternal toxicity. At maternally toxic doses, bempedoic acid caused decreases in the numbers of viable fetuses, increases in post-implantation loss, and increased total resorptions at 60 mg/kg/day (11 times MRHD) and reduced fetal body weight at ≥ 30 mg/kg/day (4 times the MRHD). No adverse development effects were observed when bempedoic acid was given to pregnant rabbits during the period of organogenesis (gestation day 6 to 18) at doses up to 80 mg/kg/day (12 times MRHD). In a pre- and post-natal development study in pregnant rats given oral doses of bempedoic acid at 5, 10, 20, 30 and 60 mg/kg/day throughout pregnancy and lactation (gestation day 6 to lactation day 20), there were adverse effects on delivery in the presence of maternal toxicity, including: increases in stillborn pups, reductions in numbers of live pups, pup survival, pup growth and slight delays in learning and memory at ≥ 10 mg/kg/day (at exposures equivalent to the MRHD)."
+  }
+}

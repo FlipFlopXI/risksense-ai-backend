@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "bupropion-mothertobaby-3c913c13bef2-004",
+      "drug_id": "bupropion",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies looking at bupropion and miscarriage are limited. One study found that the chance of miscarriage among women taking bupropion was similar to that among women taking other medications for depression. Some conditions treated with bupropion, such as depression and smoking, may increase the chance of miscarriage, which makes it hard to know what is causing this outcome.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Bupropion (Wellbutrin®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/bupropion-wellbutrin-pregnancy/",
+      "source_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+      "source_section": "Does taking bupropion increase the chance of miscarriage?",
+      "source_revision_date": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:12.156990+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "content_hash": "c277b10844eb369f430944b190f67d2fe81d1b8aa73cdddb83a579f059d20960",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "bupropion",
+      "canonical_name": "bupropion",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/bupropion-wellbutrin-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:12.156990+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "source_content_hash": "3c913c13bef24d3e7228cd9d22bcedbdce46f267a9bd67e2c3e3338809a13def",
+      "error_code": null
+    },
+    "source_content_hash": "3c913c13bef24d3e7228cd9d22bcedbdce46f267a9bd67e2c3e3338809a13def",
+    "source_product_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+    "source_version": "Wed, 19 Aug 2026 16:43:28 GMT",
+    "canonical_name": "bupropion",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies looking at bupropion and miscarriage are limited. One study found that the chance of miscarriage among women taking bupropion was similar to that among women taking other medications for depression. Some conditions treated with bupropion, such as depression and smoking, may increase the chance of miscarriage, which makes it hard to know what is causing this outcome."
+  }
+}

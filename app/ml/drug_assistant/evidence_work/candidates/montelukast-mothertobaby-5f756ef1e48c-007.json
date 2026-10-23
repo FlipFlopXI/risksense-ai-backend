@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "montelukast-mothertobaby-5f756ef1e48c-007",
+      "drug_id": "montelukast",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Montelukast gets into breastmilk in small amounts. One study found that nursing infants would likely receive less of the medication in breastmilk than the dose used to treat an infant directly. Usually, no special precautions are required when using montelukast while breastfeeding. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Montelukast (Singulair®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/montelukast-singulair-pregnancy/",
+      "source_identifier": "fact-sheets:montelukast-singulair-pregnancy",
+      "source_section": "Breastfeeding while taking montelukast:",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:04 GMT",
+      "retrieved_at": "2026-09-18T08:23:40.036142+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:04 GMT",
+      "content_hash": "b2842d6cd876954f9c79de75bddaf972ea65e10dabe5278a9f70598b76a04b52",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "montelukast",
+      "canonical_name": "montelukast",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:montelukast-singulair-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/montelukast-singulair-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:40.036142+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:04 GMT",
+      "source_content_hash": "5f756ef1e48cd593f47867259eb0b74f5a6212854ac84890d1ca07beac23f23e",
+      "error_code": null
+    },
+    "source_content_hash": "5f756ef1e48cd593f47867259eb0b74f5a6212854ac84890d1ca07beac23f23e",
+    "source_product_identifier": "fact-sheets:montelukast-singulair-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:04 GMT",
+    "canonical_name": "montelukast",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Montelukast gets into breastmilk in small amounts. One study found that nursing infants would likely receive less of the medication in breastmilk than the dose used to treat an infant directly. Usually, no special precautions are required when using montelukast while breastfeeding. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

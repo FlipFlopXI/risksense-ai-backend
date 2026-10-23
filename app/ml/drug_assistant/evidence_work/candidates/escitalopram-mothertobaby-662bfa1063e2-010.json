@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "escitalopram-mothertobaby-662bfa1063e2-010",
+      "drug_id": "escitalopram",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "There is a pregnancy registry for women who take psychiatric medications, such as citalopram and escitalopram. For more information you can look at their website: https://womensmentalhealth.org/research/pregnancyregistry/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Citalopram | Escitalopram (Celexa® | Lexapro®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/citalopramescitalopram-celexalexapro-pregnancy/",
+      "source_identifier": "fact-sheets:citalopramescitalopram-celexalexapro-pregnancy",
+      "source_section": "If a man takes citalopram or escitalopram, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:20 GMT",
+      "retrieved_at": "2026-09-18T08:23:19.521819+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:20 GMT",
+      "content_hash": "519e96e3a270604886b897b9fcf5bad227e4904956416d1f5bcb466d97198abf",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "escitalopram",
+      "canonical_name": "escitalopram",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:citalopramescitalopram-celexalexapro-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/citalopramescitalopram-celexalexapro-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:19.521819+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:20 GMT",
+      "source_content_hash": "662bfa1063e2e463c869ae3259f6274b58d30f39ca6f688515eee63a51ca4bd0",
+      "error_code": null
+    },
+    "source_content_hash": "662bfa1063e2e463c869ae3259f6274b58d30f39ca6f688515eee63a51ca4bd0",
+    "source_product_identifier": "fact-sheets:citalopramescitalopram-celexalexapro-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:20 GMT",
+    "canonical_name": "escitalopram",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "There is a pregnancy registry for women who take psychiatric medications, such as citalopram and escitalopram. For more information you can look at their website: https://womensmentalhealth.org/research/pregnancyregistry/."
+  }
+}

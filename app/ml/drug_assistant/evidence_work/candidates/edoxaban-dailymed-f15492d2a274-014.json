@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "edoxaban-dailymed-f15492d2a274-014",
+      "drug_id": "edoxaban",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "description",
+      "claim": "Edoxaban, a factor Xa inhibitor, is supplied as edoxaban tosylate monohydrate. The chemical name is N- (5-Chloropyridin-2-yl)- N'- [(1 S ,2 R ,4 S )-4-( N,N- dimethylcarbamoyl)-2-(5-methyl-4,5,6,7-tetrahydro[1,3]thiazolo[5,4-c]pyridine-2-carboxamido)cyclohexyl] oxamide mono (4-methylbenzenesulfonate) monohydrate. Edoxaban tosylate monohydrate has the empirical formula C 24 H 30 ClN 7 O 4 S∙C 7 H 8 O 3 S∙H 2 O representing a molecular weight of 738.27. The chemical structure of edoxaban tosylate monohydrate is: It is a white to pale yellowish-white crystalline powder. The solubility of edoxaban tosylate (pKa 6.7) decreases with increasing pH. It is slightly soluble in water, pH 3 to 5 buffer, very slightly soluble at pH 6 to 7; and practically insoluble at pH 8 to 9. SAVAYSA is available for oral administration as a 60 mg, 30 mg, or 15 mg round shaped, film-coated tablet, debossed with product identification markings. Each 60 mg tablet contains 80.82 mg edoxaban tosylate monohydrate equivalent to 60 mg of edoxaban. Each 30 mg tablet contains 40.41 mg edoxaban tosylate monohydrate equivalent to 30 mg of edoxaban. Each 15 mg tablet contains 20.20 mg edoxaban tosylate monohydrate equivalent to 15 mg of edoxaban. The inactive ingredients are: mannitol, pregelatinized starch, crospovidone, hydroxypropyl cellulose, magnesium stearate, talc, and carnauba wax. The color coatings contain hypromellose, titanium dioxide, talc, polyethylene glycol 8000, iron oxide yellow (60 mg tablets and 15 mg tablets), and iron oxide red (30 mg tablets and 15 mg tablets). Chemical Structure",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SAVAYSA safely and effectively. See full prescribing information for SAVAYSA. SAVAYSA ® (edoxaban) tablets, for oral use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_section": "11 DESCRIPTION",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "0992841f60ba60867a2ecdf8acd7e13c64fbbf0224c9ce83f914b31a2024bc04",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "edoxaban",
+      "canonical_name": "edoxaban",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+      "error_code": null
+    },
+    "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+    "source_product_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+    "source_version": "28",
+    "canonical_name": "edoxaban",
+    "therapeutic_group": "antiplatelets_anticoagulants",
+    "source_excerpt": "Edoxaban, a factor Xa inhibitor, is supplied as edoxaban tosylate monohydrate. The chemical name is N- (5-Chloropyridin-2-yl)- N'- [(1 S ,2 R ,4 S )-4-( N,N- dimethylcarbamoyl)-2-(5-methyl-4,5,6,7-tetrahydro[1,3]thiazolo[5,4-c]pyridine-2-carboxamido)cyclohexyl] oxamide mono (4-methylbenzenesulfonate) monohydrate. Edoxaban tosylate monohydrate has the empirical formula C 24 H 30 ClN 7 O 4 S∙C 7 H 8 O 3 S∙H 2 O representing a molecular weight of 738.27. The chemical structure of edoxaban tosylate monohydrate is: It is a white to pale yellowish-white crystalline powder. The solubility of edoxaban tosylate (pKa 6.7) decreases with increasing pH. It is slightly soluble in water, pH 3 to 5 buffer, very slightly soluble at pH 6 to 7; and practically insoluble at pH 8 to 9. SAVAYSA is available for oral administration as a 60 mg, 30 mg, or 15 mg round shaped, film-coated tablet, debossed with product identification markings. Each 60 mg tablet contains 80.82 mg edoxaban tosylate monohydrate equivalent to 60 mg of edoxaban. Each 30 mg tablet contains 40.41 mg edoxaban tosylate monohydrate equivalent to 30 mg of edoxaban. Each 15 mg tablet contains 20.20 mg edoxaban tosylate monohydrate equivalent to 15 mg of edoxaban. The inactive ingredients are: mannitol, pregelatinized starch, crospovidone, hydroxypropyl cellulose, magnesium stearate, talc, and carnauba wax. The color coatings contain hypromellose, titanium dioxide, talc, polyethylene glycol 8000, iron oxide yellow (60 mg tablets and 15 mg tablets), and iron oxide red (30 mg tablets and 15 mg tablets). Chemical Structure"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "losartan-mothertobaby-401beb6dc020-001",
+      "drug_id": "losartan",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Losartan is part of a group of medications called angiotensin II receptor antagonists (also known as angiotensin receptor blockers (ARBs)). Losartan has been used to treat high blood pressure, protect the kidneys in people with diabetes, and lower the chance of cerebrovascular accident (when the supply of blood to the brain is reduced or blocked). A brand name for losartan is Cozaar®. Losartan is also available in combination with a diuretic called hydrochlorothiazide under the brand name Hyzaar®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Losartan",
+      "source_url": "https://mothertobaby.org/fact-sheets/losartan-cozaar/",
+      "source_identifier": "fact-sheets:losartan-cozaar",
+      "source_section": "What is losartan?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "retrieved_at": "2026-09-18T08:23:32.517174+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "content_hash": "d6c081d537154216c13d411907fb81f0433178048aca474c38465702ef91b11c",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "losartan",
+      "canonical_name": "losartan",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:losartan-cozaar",
+      "source_url": "https://mothertobaby.org/fact-sheets/losartan-cozaar/",
+      "retrieved_at": "2026-09-18T08:23:32.517174+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "source_content_hash": "401beb6dc020ac01c20344dff088a89e68ed283f7cfa1c15dfb3c42664d7d2c8",
+      "error_code": null
+    },
+    "source_content_hash": "401beb6dc020ac01c20344dff088a89e68ed283f7cfa1c15dfb3c42664d7d2c8",
+    "source_product_identifier": "fact-sheets:losartan-cozaar",
+    "source_version": "Tue, 02 Dec 2025 11:56:35 GMT",
+    "canonical_name": "losartan",
+    "therapeutic_group": "arbs",
+    "source_excerpt": "Losartan is part of a group of medications called angiotensin II receptor antagonists (also known as angiotensin receptor blockers (ARBs)). Losartan has been used to treat high blood pressure, protect the kidneys in people with diabetes, and lower the chance of cerebrovascular accident (when the supply of blood to the brain is reduced or blocked). A brand name for losartan is Cozaar®. Losartan is also available in combination with a diuretic called hydrochlorothiazide under the brand name Hyzaar®."
+  }
+}

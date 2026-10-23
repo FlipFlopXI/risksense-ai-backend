@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "metoclopramide-mothertobaby-c44acfc146c0-006",
+      "drug_id": "metoclopramide",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if metoclopramide can increase the chance of behavior or learning issues for the child. One study has reported an increased chance of attention deficit hyperactive disorder or other neurodevelopmental delays, but it had important limitations. Also, 1 study alone is not enough to make firm conclusions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Metoclopramide",
+      "source_url": "https://mothertobaby.org/fact-sheets/metoclopramide/",
+      "source_identifier": "fact-sheets:metoclopramide",
+      "source_section": "Does taking metoclopramide in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "retrieved_at": "2026-09-18T08:23:34.770169+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "content_hash": "bf488df0d8be900f7264cddb1c41c17a08fe86b86c8c7f3ac16fee9d7151721f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "metoclopramide",
+      "canonical_name": "metoclopramide",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:metoclopramide",
+      "source_url": "https://mothertobaby.org/fact-sheets/metoclopramide/",
+      "retrieved_at": "2026-09-18T08:23:34.770169+00:00",
+      "source_revision_date": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "source_content_hash": "c44acfc146c087c13cbb99bc27d8fabe86028c9d13c8be986c5bb56c498df239",
+      "error_code": null
+    },
+    "source_content_hash": "c44acfc146c087c13cbb99bc27d8fabe86028c9d13c8be986c5bb56c498df239",
+    "source_product_identifier": "fact-sheets:metoclopramide",
+    "source_version": "Wed, 01 Apr 2026 11:11:05 GMT",
+    "canonical_name": "metoclopramide",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "It is not known if metoclopramide can increase the chance of behavior or learning issues for the child. One study has reported an increased chance of attention deficit hyperactive disorder or other neurodevelopmental delays, but it had important limitations. Also, 1 study alone is not enough to make firm conclusions."
+  }
+}

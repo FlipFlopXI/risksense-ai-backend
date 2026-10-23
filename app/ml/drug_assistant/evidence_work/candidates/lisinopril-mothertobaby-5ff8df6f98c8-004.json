@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lisinopril-mothertobaby-5ff8df6f98c8-004",
+      "drug_id": "lisinopril",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies have not been done to see if lisinopril increases the chance for miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lisinopril",
+      "source_url": "https://mothertobaby.org/fact-sheets/lisinopril/",
+      "source_identifier": "fact-sheets:lisinopril",
+      "source_section": "Does taking lisinopril increase the chance of miscarriage?",
+      "source_revision_date": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "retrieved_at": "2026-09-18T08:23:30.559426+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "content_hash": "2a98da6bbb7c07329a4b1b6302a05138327c1c4d017db787286ad7efc990f92e",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lisinopril",
+      "canonical_name": "lisinopril",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lisinopril",
+      "source_url": "https://mothertobaby.org/fact-sheets/lisinopril/",
+      "retrieved_at": "2026-09-18T08:23:30.559426+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "source_content_hash": "5ff8df6f98c8ba6323195b1ed35858a400f5fcba16f03895256e38f25a5005fe",
+      "error_code": null
+    },
+    "source_content_hash": "5ff8df6f98c8ba6323195b1ed35858a400f5fcba16f03895256e38f25a5005fe",
+    "source_product_identifier": "fact-sheets:lisinopril",
+    "source_version": "Thu, 23 Jul 2026 08:56:19 GMT",
+    "canonical_name": "lisinopril",
+    "therapeutic_group": "ace_inhibitors",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies have not been done to see if lisinopril increases the chance for miscarriage."
+  }
+}

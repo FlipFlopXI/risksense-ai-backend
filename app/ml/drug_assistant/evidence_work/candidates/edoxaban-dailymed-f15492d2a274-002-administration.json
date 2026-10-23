@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "edoxaban-dailymed-f15492d2a274-002-administration",
+      "drug_id": "edoxaban",
+      "related_drug_ids": [],
+      "topic": "administration",
+      "subtopic": "dosage_and_administration",
+      "claim": "Treatment of NVAF: Assess CrCL before initiating therapy ( 2.1 ) The recommended dose is 60 mg once daily in patients with CrCL >50 to ≤ 95 mL/min. Do not use SAVAYSA in patients with CrCL > 95 mL/min ( 2.1 ) Reduce dose to 30 mg once daily in patients with creatinine clearance 15 to 50 mL/min ( 2.1 ) Treatment of DVT and PE: The recommended dose is 60 mg once daily ( 2.2 ) Reduce dose to 30 mg once daily for patients with CrCL 15 to 50 mL/min or body weight less than or equal to 60 kg or who use certain P-gp inhibitors ( 2.2 ) The recommended dose of SAVAYSA is 60 mg taken orally once daily [see Warnings and Precautions (5.1) and Clinical Studies (14.1) ] . Assess creatinine clearance, as calculated using the Cockcroft-Gault equation Cockcroft-Gault CrCL = (140-age) × (weight in kg) × (0.85 if female) / (72 × creatinine in mg/dL). , before initiating therapy with SAVAYSA. Do not use SAVAYSA in patients with CrCL > 95 mL/min. Reduce SAVAYSA dose to 30 mg once daily in patients with CrCL 15 to 50 mL/min [see Use in Specific Populations (8.6) , and Clinical Pharmacology (12.3) ] . The recommended dose of SAVAYSA is 60 mg taken orally once daily following 5 to 10 days of initial therapy with a parenteral anticoagulant [see Clinical Studies (14.2) ] . Reduce SAVAYSA dose to 30 mg once daily in patients with CrCL 15 to 50 mL/min, patients who weigh less than or equal to 60 kg, or patients who are taking certain concomitant P-gp inhibitor medications [see Clinical Studies (14.2) ] . If a dose of SAVAYSA is missed, the dose should be taken as soon as possible on the same day. Dosi",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SAVAYSA safely and effectively. See full prescribing information for SAVAYSA. SAVAYSA ® (edoxaban) tablets, for oral use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_section": "2 DOSAGE AND ADMINISTRATION",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "564ff0a6c57afe297e9c27ea612a79513325511f1122e1c382f05fd794638be4",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "edoxaban",
+      "canonical_name": "edoxaban",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+      "error_code": null
+    },
+    "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+    "source_product_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+    "source_version": "28",
+    "canonical_name": "edoxaban",
+    "therapeutic_group": "antiplatelets_anticoagulants",
+    "source_excerpt": "Treatment of NVAF: Assess CrCL before initiating therapy ( 2.1 ) The recommended dose is 60 mg once daily in patients with CrCL >50 to ≤ 95 mL/min. Do not use SAVAYSA in patients with CrCL > 95 mL/min ( 2.1 ) Reduce dose to 30 mg once daily in patients with creatinine clearance 15 to 50 mL/min ( 2.1 ) Treatment of DVT and PE: The recommended dose is 60 mg once daily ( 2.2 ) Reduce dose to 30 mg once daily for patients with CrCL 15 to 50 mL/min or body weight less than or equal to 60 kg or who use certain P-gp inhibitors ( 2.2 ) The recommended dose of SAVAYSA is 60 mg taken orally once daily [see Warnings and Precautions (5.1) and Clinical Studies (14.1) ] . Assess creatinine clearance, as calculated using the Cockcroft-Gault equation Cockcroft-Gault CrCL = (140-age) × (weight in kg) × (0.85 if female) / (72 × creatinine in mg/dL). , before initiating therapy with SAVAYSA. Do not use SAVAYSA in patients with CrCL > 95 mL/min. Reduce SAVAYSA dose to 30 mg once daily in patients with CrCL 15 to 50 mL/min [see Use in Specific Populations (8.6) , and Clinical Pharmacology (12.3) ] . The recommended dose of SAVAYSA is 60 mg taken orally once daily following 5 to 10 days of initial therapy with a parenteral anticoagulant [see Clinical Studies (14.2) ] . Reduce SAVAYSA dose to 30 mg once daily in patients with CrCL 15 to 50 mL/min, patients who weigh less than or equal to 60 kg, or patients who are taking certain concomitant P-gp inhibitor medications [see Clinical Studies (14.2) ] . If a dose of SAVAYSA is missed, the dose should be taken as soon as possible on the same day. Dosing should resume the next day according to the normal dosing schedule. The dose should not be doubled to make up for a missed dose. SAVAYSA can be taken without regard to food [see Clinical Pharmacology (12.3) ] . Transition to SAVAYSA From To Recommendation Warfarin or other Vitamin K Antagonists SAVAYSA Discontinue warfarin and start SAVAYSA when the INR is ≤ 2.5 Oral anticoagulants other than warfarin or other Vitamin K Antagonists SAVAYSA Discontinue current oral anticoagulant and start SAVAYSA at the time of the next scheduled dose of the other oral anticoagulant Low Molecular Weight Heparin (LMWH) SAVAYSA Discontinue LMWH and start SAVAYSA at the time of the next scheduled administration of LMWH Unfractionated heparin SAVAYSA Discontinue the infusion and start SAVAYSA 4 hours later Transition from SAVAYSA From To Recommendation Abbreviations: INR=International Normalized Ratio SAVAYSA Warfarin Oral option : For patients taking 60 mg of SAVAYSA, reduce the dose to 30 mg and begin warfarin concomitantly. For patients receiving 30 mg of SAVAYSA, reduce the dose to 15 mg and begin warfarin concomitantly. INR must be measured at least weekly and just prior to the daily dose of SAVAYSA to minimize the influence of SAVAYSA on INR measurements. Once a stable INR ≥ 2.0 is achieved, SAVAYSA should be discontinued and the warfarin continued SAVAYSA Warfarin Parenteral option : Discontinue SAVAYSA and administer a parenteral anticoagulant and warfarin at the time of the next scheduled SAVAYSA dose. Once a stable INR ≥ 2.0 is achieved the parenteral anticoagulant should be discontinued and the warfarin continued SAVAYSA Non-Vitamin-K-Dependent Oral anticoagulants Discontinue SAVAYSA and start the other oral anticoagulant at the time of the next dose of SAVAYSA SAVAYSA Parenteral anticoagulants Discontinue SAVAYSA and start the parenteral anticoagulant at the time of the next dose of SAVAYSA Discontinue SAVAYSA at least 24 hours before invasive or surgical procedures because of the risk of bleeding [see Warnings and Precautions (5.3) ] . If surgery cannot be delayed, there is an increased risk of bleeding. This risk of bleeding should be weighed against the urgency of intervention [see Warnings and Precautions (5.3) ] . SAVAYSA can be restarted after the surgical or other procedure as soon as adequate hemostasis has been established noting that the time to onset of pharmacodynamic effect is 1-2 hours [see Warnings and Precautions (5.2) ] . Administer a parenteral anticoagulant and then switch to oral SAVAYSA, if oral medication cannot be taken during or after surgical intervention. For patients who are unable to swallow whole tablets, SAVAYSA tablets may be crushed and mixed with 2 to 3 ounces of water and immediately administered by mouth or through a gastric tube. The crushed tablets may also be mixed into applesauce and immediately administered orally [see Clinical Pharmacology (12.3) ] ."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "insulin_glulisine-dailymed-2356b08f4257-019",
+      "drug_id": "insulin_glulisine",
+      "related_drug_ids": [],
+      "topic": "adverse_effects",
+      "subtopic": "adverse_reactions",
+      "claim": "The following adverse reactions are discussed elsewhere: Hypoglycemia [see Warnings and Precautions (5.3) ] Hypoglycemia Due to Medication Errors [see Warnings and Precautions (5.4) ] Hypokalemia [see Warnings and Precautions (5.5) ] Hypersensitivity Reactions [see Warnings and Precautions (5.6) ] Adverse reactions commonly associated with APIDRA include hypoglycemia, allergic reactions, injection site reactions, lipodystrophy, pruritus, rash, and weight gain. ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact sanofi-aventis at 1-800-633-1610 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. Because clinical trials are conducted under widely varying designs, the adverse reaction rates reported in one clinical trial may not be easily compared to those rates reported in another clinical trial and may not reflect the rates actually observed in clinical practice. The data in Table 1 reflect the exposure of 1591 patients with type 1 diabetes to APIDRA or comparators [see Clinical Studies (14.1) ] . The type 1 diabetes population had the following characteristics: Mean age was 39.74 years. 54.5 % were male, 95.5% were Caucasian, 1.5% were Black or African American. The data in Table 2 reflect the exposure of 1766 patients with type 2 diabetes to APIDRA or comparators [see Clinical Studies (14.2) ] . The type 2 diabetes population had the following characteristics: Mean age was 59.08 years. 51.2% were male, 88.5% were Caucasian, 7.2% were Black or African American. The frequencies of adverse drug reactions during APIDRA clinical trials in patients with type 1 diabetes mellitus",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use APIDRA safely and effectively. See full prescribing information for APIDRA. APIDRA ® (insulin glulisine) injection, for subcutaneous or intravenous use Initial U.S. Approval: 2004",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_section": "6 ADVERSE REACTIONS",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "e471e4e45e98335c02d2e701bb8fc03f1a2673a8909e2fc1f9b18ea1651f25c7",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "insulin_glulisine",
+      "canonical_name": "insulin glulisine",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+      "error_code": null
+    },
+    "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+    "source_product_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+    "source_version": "28",
+    "canonical_name": "insulin glulisine",
+    "therapeutic_group": "insulins",
+    "source_excerpt": "The following adverse reactions are discussed elsewhere: Hypoglycemia [see Warnings and Precautions (5.3) ] Hypoglycemia Due to Medication Errors [see Warnings and Precautions (5.4) ] Hypokalemia [see Warnings and Precautions (5.5) ] Hypersensitivity Reactions [see Warnings and Precautions (5.6) ] Adverse reactions commonly associated with APIDRA include hypoglycemia, allergic reactions, injection site reactions, lipodystrophy, pruritus, rash, and weight gain. ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact sanofi-aventis at 1-800-633-1610 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. Because clinical trials are conducted under widely varying designs, the adverse reaction rates reported in one clinical trial may not be easily compared to those rates reported in another clinical trial and may not reflect the rates actually observed in clinical practice. The data in Table 1 reflect the exposure of 1591 patients with type 1 diabetes to APIDRA or comparators [see Clinical Studies (14.1) ] . The type 1 diabetes population had the following characteristics: Mean age was 39.74 years. 54.5 % were male, 95.5% were Caucasian, 1.5% were Black or African American. The data in Table 2 reflect the exposure of 1766 patients with type 2 diabetes to APIDRA or comparators [see Clinical Studies (14.2) ] . The type 2 diabetes population had the following characteristics: Mean age was 59.08 years. 51.2% were male, 88.5% were Caucasian, 7.2% were Black or African American. The frequencies of adverse drug reactions during APIDRA clinical trials in patients with type 1 diabetes mellitus and type 2 diabetes mellitus are listed in the tables below. Table 1: Adverse Reactions Occurring ≥5% in Pooled Studies of Adults with Type 1 Diabetes APIDRA, % (n=950) All Comparators Insulin lispro, regular human insulin, insulin aspart , % (n=641) Nasopharyngitis 10.6 12.9 Hypoglycemia Only severe symptomatic hypoglycemia 6.8 6.7 Upper respiratory tract infection 6.6 5.6 Influenza 4.0 5.0 Table 2: Adverse Reactions Occurring ≥5% in Pooled Studies of Adults with Type 2 Diabetes APIDRA, % (n=883) Regular Human Insulin, % (n=883) Upper respiratory tract infection 10.5 7.7 Nasopharyngitis 7.6 8.2 Edema peripheral 7.5 7.8 Influenza 6.2 4.2 Arthralgia 5.9 6.3 Hypertension 3.9 5.3 Pediatrics Table 3 summarizes the adverse reactions occurring with frequency higher than 5% in a clinical study in pediatric patients with type 1 diabetes treated with APIDRA (n=277) or insulin lispro (n=295). Table 3: Adverse Reactions Occurring ≥5% in Pediatric Patients with Type 1 Diabetes APIDRA, % (n=277) Insulin Lispro, % (n=295) Nasopharyngitis 9.0 9.5 Upper respiratory tract infection 8.3 10.8 Headache 6.9 11.2 Hypoglycemic seizure 6.1 4.7 Severe Symptomatic Hypoglycemia Hypoglycemia was the most commonly observed adverse reaction in patients treated with insulin, including APIDRA. The rates of reported hypoglycemia depend on the definition of hypoglycemia used, diabetes type, insulin dose, intensity of glucose control, background therapies, and other intrinsic and extrinsic patient factors. For these reasons, comparing rates of hypoglycemia in clinical trials for APIDRA with the incidence of hypoglycemia for other products may be misleading and also, may not be representative of hypoglycemia rates that occur in clinical practice. The rates and incidence of severe symptomatic hypoglycemia, defined as hypoglycemia requiring intervention from a third party are presented in Table 4. In the clinical trials, children and adolescents with type 1 diabetes had a higher incidence of severe symptomatic hypoglycemia in the two treatment groups compared to adults with type 1 diabetes (see Table 4 ) [see Clinical Studies (14) ] . Table 4: Severe Symptomatic Hypoglycemia Severe symptomatic hypoglycemia defined as a hypoglycemic event requiring the assistance of another person that met one of the following criteria: the event was associated with a whole blood referenced blood glucose <36 mg/dL or the event was associated with prompt recovery after oral carbohydrate, intravenous glucose, or glucagon administration. Type 1 Diabetes Adults 12 weeks with insulin glargine Type 1 Diabetes Adults 26 weeks with insulin glargine Type 2 Diabetes Adults 26 weeks with NPH human insulin Type 1 Diabetes Pediatrics 26 weeks APIDRA Pre meal APIDRA Post meal Regular Human Insulin APIDRA Insulin Lispro APIDRA Regular Human Insulin APIDRA Insulin Lispro Events per month per patient 0.05 0.05 0.13 0.02 0.02 0.00 0.00 0.09 0.08 Percent of patients (n/total N) 8.4% (24/286) 8.4% (25/296) 10.1% (28/278) 4.8% (16/339) 4.0% (13/333) 1.4% (6/416) 1.2% (5/420) 16.2% (45/277) 19.3% (57/295) Adverse Reactions with Continuous Subcutaneous Insulin Infusion (CSII) In a 12-week randomized study in patients with type 1 diabetes (n=59), the rates of catheter occlusions and infusion site reactions were similar for APIDRA and insulin aspart–treated patients (see Table 5 ). Table 5: Catheter Occlusions and In"
+  }
+}

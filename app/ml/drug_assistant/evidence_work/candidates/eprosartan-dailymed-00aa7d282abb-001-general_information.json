@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "eprosartan-dailymed-00aa7d282abb-001-general_information",
+      "drug_id": "eprosartan",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "description",
+      "claim": "TEVETEN ® HCT 600/12.5 mg and TEVETEN ® HCT 600/25 mg (eprosartan mesylate-hydrochlorothiazide) combine an angiotensin II receptor (AT 1 subtype) antagonist and a diuretic, hydrochlorothiazide. TEVETEN ® (eprosartan mesylate) is a non-biphenyl non-tetrazole angiotensin II receptor (AT 1 ) antagonist. A selective non-peptide molecule, TEVETEN ® is chemically described as the monomethanesulfonate of ( E )-2-butyl-1-(p-carboxybenzyl)-α-2-thienylmethylimidazole-5-acrylic acid. Its empirical formula is C 23 H 24 N 2 O 4 S•CH 4 O 3 S and molecular weight is 520.625. Its structural formula is: Eprosartan mesylate is a white to off-white free-flowing crystalline powder that is insoluble in water, freely soluble in ethanol, and melts between 248°C and 250°C. Hydrochlorothiazide is 6-chloro-3,4-dihydro-2 H 1,2,4-benzothiadiazine-7-sulfonamide 1,1-dioxide. Its empirical formula is C 7 H 8 ClN 3 O 4 S 2 and its structural formula is: Hydrochlorothiazide is a white, or practically white, crystalline powder with a molecular weight of 297.74, which is slightly soluble in water, but freely soluble in sodium hydroxide solution. TEVETEN ® HCT is available for oral administration in film-coated, non-scored, capsule-shaped tablet combinations of eprosartan mesylate and hydrochlorothiazide. TEVETEN ® HCT 600/12.5 mg contains 735.8 mg of eprosartan mesylate (equivalent to 600 mg eprosartan) and 12.5 mg hydrochlorothiazide in a butterscotch-colored tablet. TEVETEN ® HCT 600/25 mg contains 735.8 mg of eprosartan mesylate (equivalent to 600 mg eprosartan) and 25 mg hydrochlorothiazide in a brick-re",
+      "source_organisation": "DailyMed",
+      "source_title": "TEVETEN ® HCT (eprosartan mesylate/hydrochlorothiazide)600/12.5mg 600/25mg",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b1dfcac3-ef66-4d3e-9d58-37d3f516eb31.xml",
+      "source_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+      "source_section": "DESCRIPTION",
+      "source_revision_date": "2",
+      "retrieved_at": "2026-09-18T08:16:03.771762+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "2",
+      "content_hash": "7535d76d8e9d1fb5378622e7b8db1c04483b7187381d1246fa8161acfd7ff254",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "eprosartan",
+      "canonical_name": "eprosartan",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b1dfcac3-ef66-4d3e-9d58-37d3f516eb31.xml",
+      "retrieved_at": "2026-09-18T08:16:03.771762+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "00aa7d282abb3353c77049f2662f53d7a250446faca5775ef26e3e2945d6e198",
+      "error_code": null
+    },
+    "source_content_hash": "00aa7d282abb3353c77049f2662f53d7a250446faca5775ef26e3e2945d6e198",
+    "source_product_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+    "source_version": "2",
+    "canonical_name": "eprosartan",
+    "therapeutic_group": "arbs",
+    "source_excerpt": "TEVETEN ® HCT 600/12.5 mg and TEVETEN ® HCT 600/25 mg (eprosartan mesylate-hydrochlorothiazide) combine an angiotensin II receptor (AT 1 subtype) antagonist and a diuretic, hydrochlorothiazide. TEVETEN ® (eprosartan mesylate) is a non-biphenyl non-tetrazole angiotensin II receptor (AT 1 ) antagonist. A selective non-peptide molecule, TEVETEN ® is chemically described as the monomethanesulfonate of ( E )-2-butyl-1-(p-carboxybenzyl)-α-2-thienylmethylimidazole-5-acrylic acid. Its empirical formula is C 23 H 24 N 2 O 4 S•CH 4 O 3 S and molecular weight is 520.625. Its structural formula is: Eprosartan mesylate is a white to off-white free-flowing crystalline powder that is insoluble in water, freely soluble in ethanol, and melts between 248°C and 250°C. Hydrochlorothiazide is 6-chloro-3,4-dihydro-2 H 1,2,4-benzothiadiazine-7-sulfonamide 1,1-dioxide. Its empirical formula is C 7 H 8 ClN 3 O 4 S 2 and its structural formula is: Hydrochlorothiazide is a white, or practically white, crystalline powder with a molecular weight of 297.74, which is slightly soluble in water, but freely soluble in sodium hydroxide solution. TEVETEN ® HCT is available for oral administration in film-coated, non-scored, capsule-shaped tablet combinations of eprosartan mesylate and hydrochlorothiazide. TEVETEN ® HCT 600/12.5 mg contains 735.8 mg of eprosartan mesylate (equivalent to 600 mg eprosartan) and 12.5 mg hydrochlorothiazide in a butterscotch-colored tablet. TEVETEN ® HCT 600/25 mg contains 735.8 mg of eprosartan mesylate (equivalent to 600 mg eprosartan) and 25 mg hydrochlorothiazide in a brick-red tablet. Inactive ingredients of both tablets: microcrystalline cellulose, lactose monohydrate, pregelatinized starch, crospovidone, magnesium stearate, and purified water. Ingredients of the OPADRY ® 85F27320 butterscotch film coating: polyethylene glycol 3350, talc, polyvinyl alcohol, titanium dioxide, iron oxide black, and iron oxide yellow. Ingredients of the OPADRY ® II 85F24297 pink film coating: polyethylene glycol 3350, titanium dioxide, talc, polyvinyl alcohol, iron oxide red, and iron oxide yellow. Chemical structure of eprosartan mesylate Chemical structure of hydrochlorothiazide"
+  }
+}

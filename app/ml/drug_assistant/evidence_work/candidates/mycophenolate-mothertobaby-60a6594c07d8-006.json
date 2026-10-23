@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "mycophenolate-mothertobaby-60a6594c07d8-006",
+      "drug_id": "mycophenolate",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Every pregnancy starts out with a 3-5% chance of having a birth defect. This is called the background risk. Taking mycophenolate during pregnancy might increase the chance of birth defects. A pattern of birth defects has been reported that includes unusually small or absent ears, eyes, and/or jaw; heart defects, cleft lip and/or palate (openings in the lip or the roof of the mouth), and others. Affected children might have only one birth defect or a combination of these birth defects. Not all children exposed to mycophenolate during pregnancy will have a birth defect.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Mycophenolate (Cellcept®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/mycophenolate/",
+      "source_identifier": "fact-sheets:mycophenolate",
+      "source_section": "Does taking mycophenolate increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:43 GMT",
+      "retrieved_at": "2026-09-18T08:23:40.417131+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:51:43 GMT",
+      "content_hash": "78d9b766f57a59014314f670e93fac20ffe6edafd5232d2df05ecfc8e626c709",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "mycophenolate",
+      "canonical_name": "mycophenolate",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:mycophenolate",
+      "source_url": "https://mothertobaby.org/fact-sheets/mycophenolate/",
+      "retrieved_at": "2026-09-18T08:23:40.417131+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:43 GMT",
+      "source_content_hash": "60a6594c07d86a8ed4da5ecfe5ed5556f825b19a5eef2cbc5eb553d3ca16e6ac",
+      "error_code": null
+    },
+    "source_content_hash": "60a6594c07d86a8ed4da5ecfe5ed5556f825b19a5eef2cbc5eb553d3ca16e6ac",
+    "source_product_identifier": "fact-sheets:mycophenolate",
+    "source_version": "Tue, 02 Dec 2025 11:51:43 GMT",
+    "canonical_name": "mycophenolate",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Every pregnancy starts out with a 3-5% chance of having a birth defect. This is called the background risk. Taking mycophenolate during pregnancy might increase the chance of birth defects. A pattern of birth defects has been reported that includes unusually small or absent ears, eyes, and/or jaw; heart defects, cleft lip and/or palate (openings in the lip or the roof of the mouth), and others. Affected children might have only one birth defect or a combination of these birth defects. Not all children exposed to mycophenolate during pregnancy will have a birth defect."
+  }
+}

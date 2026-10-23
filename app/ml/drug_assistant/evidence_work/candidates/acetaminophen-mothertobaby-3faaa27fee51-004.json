@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "acetaminophen-mothertobaby-3faaa27fee51-004",
+      "drug_id": "acetaminophen",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "It is not known if acetaminophen can make it harder to get pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Acetaminophen (Paracetamol)",
+      "source_url": "https://mothertobaby.org/fact-sheets/acetaminophen-pregnancy/",
+      "source_identifier": "fact-sheets:acetaminophen-pregnancy",
+      "source_section": "I take acetaminophen. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "retrieved_at": "2026-09-18T08:23:04.054879+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "content_hash": "7a9d0ed2fd01a35bae219fa5500a166da02d5315dd997c58260a59627d4a5932",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "acetaminophen",
+      "canonical_name": "acetaminophen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:acetaminophen-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/acetaminophen-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:04.054879+00:00",
+      "source_revision_date": "Thu, 15 Jan 2026 09:05:00 GMT",
+      "source_content_hash": "3faaa27fee5163b33a40606b18a6c75986d744168020e9a5914e59946111821f",
+      "error_code": null
+    },
+    "source_content_hash": "3faaa27fee5163b33a40606b18a6c75986d744168020e9a5914e59946111821f",
+    "source_product_identifier": "fact-sheets:acetaminophen-pregnancy",
+    "source_version": "Thu, 15 Jan 2026 09:05:00 GMT",
+    "canonical_name": "acetaminophen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "It is not known if acetaminophen can make it harder to get pregnant."
+  }
+}

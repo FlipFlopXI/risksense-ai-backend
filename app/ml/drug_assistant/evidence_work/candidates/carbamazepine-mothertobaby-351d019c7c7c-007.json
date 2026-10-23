@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "carbamazepine-mothertobaby-351d019c7c7c-007",
+      "drug_id": "carbamazepine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Taking carbamazepine in early pregnancy can increase the chance of neural tube defects. A neural tube defect happens when the spinal cord or the skull does not form properly. The most common type of neural tube defect is spina bifida (an opening anywhere along the spine). In the general population, the chance of a neural tube defect happening in a pregnancy is less than 1 in 1000 (less than 1% chance). For someone taking carbamazepine, the chance of a neural tube defect might increase to about 1 in 100 (1% chance). In the general population, taking folic acid before and during early pregnancy has been shown to lower the chance of neural tube defects. If you take carbamazepine, your healthcare provider might recommend that you take extra folic acid before and during pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Carbamazepine (Tegretol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/carbamazepine-pregnancy/",
+      "source_identifier": "fact-sheets:carbamazepine-pregnancy",
+      "source_section": "Does taking carbamazepine increase the chance of birth defects?",
+      "source_revision_date": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "retrieved_at": "2026-09-18T08:23:12.709997+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "content_hash": "93bdd2b97dab64e126ff79d1d233d558366f0c0dd6ac6e13e202df44c0d0913a",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "carbamazepine",
+      "canonical_name": "carbamazepine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:carbamazepine-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/carbamazepine-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:12.709997+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "source_content_hash": "351d019c7c7c1627a268a601df7d9808a05eb21af2cc3fc6cb6f069255c4a9ff",
+      "error_code": null
+    },
+    "source_content_hash": "351d019c7c7c1627a268a601df7d9808a05eb21af2cc3fc6cb6f069255c4a9ff",
+    "source_product_identifier": "fact-sheets:carbamazepine-pregnancy",
+    "source_version": "Thu, 20 Aug 2026 07:11:59 GMT",
+    "canonical_name": "carbamazepine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Taking carbamazepine in early pregnancy can increase the chance of neural tube defects. A neural tube defect happens when the spinal cord or the skull does not form properly. The most common type of neural tube defect is spina bifida (an opening anywhere along the spine). In the general population, the chance of a neural tube defect happening in a pregnancy is less than 1 in 1000 (less than 1% chance). For someone taking carbamazepine, the chance of a neural tube defect might increase to about 1 in 100 (1% chance). In the general population, taking folic acid before and during early pregnancy has been shown to lower the chance of neural tube defects. If you take carbamazepine, your healthcare provider might recommend that you take extra folic acid before and during pregnancy."
+  }
+}

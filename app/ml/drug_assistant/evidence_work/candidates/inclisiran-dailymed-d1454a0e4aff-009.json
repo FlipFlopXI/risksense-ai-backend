@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "inclisiran-dailymed-d1454a0e4aff-009",
+      "drug_id": "inclisiran",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "description",
+      "claim": "LEQVIO contains inclisiran sodium, a small interfering RNA (siRNA) directed to proprotein convertase subtilisin kexin type 9 (PCSK9) mRNA. Inclisiran contains a covalently linked ligand containing three N-acetylgalactosamine (GalNAc) residues to facilitate delivery to hepatocytes. With one exception, the 2'ribose moieties of the inclisiran sodium are present as 2'-F or 2'-OMe ribonucleotide. In addition, six of the terminal phosphodiester backbones are present as phosphorothioate linkages as indicated below. The molecular formula of inclisiran sodium is C 529 H 664 F 12 N 176 Na 43 O 316 P 43 S 6 and its molecular weight is 17,284.72 g/mol. It has the following structural formula: Abbreviations: Af = adenine 2'-F ribonucleotide; Cf = cytosine 2'-F ribonucleotide; Gf = guanine 2'-F ribonucleotide; Am = adenine 2'-OMe ribonucleotide; Cm = cytosine 2'-OMe ribonucleotide; Gm = guanine 2'-OMe ribonucleotide; Um = uracil 2'-OMe ribonucleotide; L96 = triantennary GalNAc (N-acetyl-galactosamine) LEQVIO is a sterile, preservative-free, clear, and colorless to pale yellow solution for subcutaneous use in a prefilled syringe. Each syringe contains 1.5 mL of solution containing the equivalent of 284 mg inclisiran (present as 300 mg inclisiran sodium salt). LEQVIO is formulated in Water for Injection and may also contain sodium hydroxide and/or phosphoric acid for pH adjustment to a target pH of 7.0. molecular formula of inclisiran sodium",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use LEQVIO safely and effectively. See full prescribing information for LEQVIO. LEQVIO ® (inclisiran) injection, for subcutaneous use Initial U.S. Approval: 2021",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_section": "11 DESCRIPTION",
+      "source_revision_date": "13",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "13",
+      "content_hash": "23ab402c12c8be36c69cd6fabe416ffd6f7c9f6d8b7b1fbf28750c651a0c69b6",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "inclisiran",
+      "canonical_name": "inclisiran",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+      "error_code": null
+    },
+    "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+    "source_product_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+    "source_version": "13",
+    "canonical_name": "inclisiran",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "LEQVIO contains inclisiran sodium, a small interfering RNA (siRNA) directed to proprotein convertase subtilisin kexin type 9 (PCSK9) mRNA. Inclisiran contains a covalently linked ligand containing three N-acetylgalactosamine (GalNAc) residues to facilitate delivery to hepatocytes. With one exception, the 2'ribose moieties of the inclisiran sodium are present as 2'-F or 2'-OMe ribonucleotide. In addition, six of the terminal phosphodiester backbones are present as phosphorothioate linkages as indicated below. The molecular formula of inclisiran sodium is C 529 H 664 F 12 N 176 Na 43 O 316 P 43 S 6 and its molecular weight is 17,284.72 g/mol. It has the following structural formula: Abbreviations: Af = adenine 2'-F ribonucleotide; Cf = cytosine 2'-F ribonucleotide; Gf = guanine 2'-F ribonucleotide; Am = adenine 2'-OMe ribonucleotide; Cm = cytosine 2'-OMe ribonucleotide; Gm = guanine 2'-OMe ribonucleotide; Um = uracil 2'-OMe ribonucleotide; L96 = triantennary GalNAc (N-acetyl-galactosamine) LEQVIO is a sterile, preservative-free, clear, and colorless to pale yellow solution for subcutaneous use in a prefilled syringe. Each syringe contains 1.5 mL of solution containing the equivalent of 284 mg inclisiran (present as 300 mg inclisiran sodium salt). LEQVIO is formulated in Water for Injection and may also contain sodium hydroxide and/or phosphoric acid for pH adjustment to a target pH of 7.0. molecular formula of inclisiran sodium"
+  }
+}

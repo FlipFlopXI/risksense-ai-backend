@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "doxylamine-mothertobaby-5183422b8058-002",
+      "drug_id": "doxylamine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Doxylamine succinate is an antihistamine. Antihistamines lessen the symptoms of allergic reactions and colds and help to treat insomnia (trouble sleeping). Pyridoxine hydrochloride is a form of vitamin B6. In the United States, the combination of doxylamine and pyridoxine can be found under the brand name Diclegis®. In Canada, it can be found under the brand name Diclectin®. Doxylamine succinate and/or pyridoxine hydrochloride are also available as over-the-counter medications.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Doxylamine succinate-pyridoxine hydrochloride (Diclegis®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy/",
+      "source_identifier": "fact-sheets:doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy",
+      "source_section": "What is doxylamine succinate-pyridoxine hydrochloride?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:39 GMT",
+      "retrieved_at": "2026-09-18T08:23:18.382343+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:39 GMT",
+      "content_hash": "c821af67665e37975b041d9381fcfe577db093dfab9bb4bd23bfdf909ffb7d16",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "doxylamine",
+      "canonical_name": "doxylamine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:18.382343+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:39 GMT",
+      "source_content_hash": "5183422b8058c8fb01299b83564a4efd7996cf2f018d843bf1707e9f8185e4a0",
+      "error_code": null
+    },
+    "source_content_hash": "5183422b8058c8fb01299b83564a4efd7996cf2f018d843bf1707e9f8185e4a0",
+    "source_product_identifier": "fact-sheets:doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:39 GMT",
+    "canonical_name": "doxylamine",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Doxylamine succinate is an antihistamine. Antihistamines lessen the symptoms of allergic reactions and colds and help to treat insomnia (trouble sleeping). Pyridoxine hydrochloride is a form of vitamin B6. In the United States, the combination of doxylamine and pyridoxine can be found under the brand name Diclegis®. In Canada, it can be found under the brand name Diclectin®. Doxylamine succinate and/or pyridoxine hydrochloride are also available as over-the-counter medications."
+  }
+}

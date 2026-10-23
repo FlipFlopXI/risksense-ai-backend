@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "nifedipine-mothertobaby-fd392a64fdc3-005",
+      "drug_id": "nifedipine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "It is not known if nifedipine can increase the chance of birth defects. Some studies have found a small increase in risk of birth defects in babies exposed to nifedipine in the 1st trimester of pregnancy. Other studies did not find an increased risk.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Nifedipine (Procardia®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/nifedipine/",
+      "source_identifier": "fact-sheets:nifedipine",
+      "source_section": "Does taking nifedipine increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:05 GMT",
+      "retrieved_at": "2026-09-18T08:23:41.358350+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:52:05 GMT",
+      "content_hash": "456a2049336009b74bedee4171614599d2fdedcf694273b136a8ebe9d7095ef4",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "nifedipine",
+      "canonical_name": "nifedipine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:nifedipine",
+      "source_url": "https://mothertobaby.org/fact-sheets/nifedipine/",
+      "retrieved_at": "2026-09-18T08:23:41.358350+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:52:05 GMT",
+      "source_content_hash": "fd392a64fdc37af68eb802edde1a47e6f836251a07692f2b127f9278b3a28276",
+      "error_code": null
+    },
+    "source_content_hash": "fd392a64fdc37af68eb802edde1a47e6f836251a07692f2b127f9278b3a28276",
+    "source_product_identifier": "fact-sheets:nifedipine",
+    "source_version": "Tue, 02 Dec 2025 11:52:05 GMT",
+    "canonical_name": "nifedipine",
+    "therapeutic_group": "calcium_channel_blockers",
+    "source_excerpt": "It is not known if nifedipine can increase the chance of birth defects. Some studies have found a small increase in risk of birth defects in babies exposed to nifedipine in the 1st trimester of pregnancy. Other studies did not find an increased risk."
+  }
+}

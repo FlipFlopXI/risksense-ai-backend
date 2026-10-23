@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "losartan-mothertobaby-401beb6dc020-002",
+      "drug_id": "losartan",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "It is usually recommended that women who are pregnant stop taking losartan under their healthcare provider’s guidance. However, it is important to talk with your healthcare providers before making any changes to how you take this medication. Your healthcare providers can talk with you about the benefits of treating your condition and the risks of untreated illness during pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Losartan",
+      "source_url": "https://mothertobaby.org/fact-sheets/losartan-cozaar/",
+      "source_identifier": "fact-sheets:losartan-cozaar",
+      "source_section": "What is losartan?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "retrieved_at": "2026-09-18T08:23:32.517174+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "content_hash": "52066061f8572ed07a955adc8f6dc8021cd80db490e2a9c0bcf7cffd593be601",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "losartan",
+      "canonical_name": "losartan",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:losartan-cozaar",
+      "source_url": "https://mothertobaby.org/fact-sheets/losartan-cozaar/",
+      "retrieved_at": "2026-09-18T08:23:32.517174+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:56:35 GMT",
+      "source_content_hash": "401beb6dc020ac01c20344dff088a89e68ed283f7cfa1c15dfb3c42664d7d2c8",
+      "error_code": null
+    },
+    "source_content_hash": "401beb6dc020ac01c20344dff088a89e68ed283f7cfa1c15dfb3c42664d7d2c8",
+    "source_product_identifier": "fact-sheets:losartan-cozaar",
+    "source_version": "Tue, 02 Dec 2025 11:56:35 GMT",
+    "canonical_name": "losartan",
+    "therapeutic_group": "arbs",
+    "source_excerpt": "It is usually recommended that women who are pregnant stop taking losartan under their healthcare provider’s guidance. However, it is important to talk with your healthcare providers before making any changes to how you take this medication. Your healthcare providers can talk with you about the benefits of treating your condition and the risks of untreated illness during pregnancy."
+  }
+}

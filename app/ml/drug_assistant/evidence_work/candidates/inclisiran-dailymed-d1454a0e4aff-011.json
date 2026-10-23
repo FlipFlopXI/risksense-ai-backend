@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "inclisiran-dailymed-d1454a0e4aff-011",
+      "drug_id": "inclisiran",
+      "related_drug_ids": [],
+      "topic": "clinician_discussion",
+      "subtopic": "patient_counseling_information",
+      "claim": "Pregnancy Advise pregnant patients and patients who can become pregnant of the potential risk to a fetus. Advise patients to inform their healthcare provider of a known or suspected pregnancy to discuss if LEQVIO should be discontinued [see Use in Specific Populations (8.1)] . Advise women who are exposed to LEQVIO during pregnancy that there is a pregnancy safety study that monitors pregnancy outcomes. Encourage these patients to report their pregnancy to Novartis at 1-888-669-6682 or usdrugsafety.operations@novartis.com [see Use in Specific Populations (8.1)] . Hypersensitivity Inform patients that serious hypersensitivity reactions, including anaphylaxis and angioedema, have been reported in patients treated with LEQVIO. Advise patients on the signs and symptoms of hypersensitivity reactions and instruct them to seek medical advice promptly if such symptoms occur [see Warnings and Precautions (5.1)] . Injection Site Reactions Advise patients that injection site reactions can occur with LEQVIO [see Adverse Reactions (6.1)] . Distributed by: Novartis Pharmaceuticals Corporation East Hanover, New Jersey 07936 For more information, visit www.leqvio.com or call 1-833-LEQVIO2 (1-833-537-8462). © Novartis T2026-34",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use LEQVIO safely and effectively. See full prescribing information for LEQVIO. LEQVIO ® (inclisiran) injection, for subcutaneous use Initial U.S. Approval: 2021",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_section": "17 PATIENT COUNSELING INFORMATION",
+      "source_revision_date": "13",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "13",
+      "content_hash": "d17946fb7b816ed2e43ef67f19b8f5ce7e66482ee1ade4fb0489e5cf0851ee17",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "inclisiran",
+      "canonical_name": "inclisiran",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+      "error_code": null
+    },
+    "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+    "source_product_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+    "source_version": "13",
+    "canonical_name": "inclisiran",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Pregnancy Advise pregnant patients and patients who can become pregnant of the potential risk to a fetus. Advise patients to inform their healthcare provider of a known or suspected pregnancy to discuss if LEQVIO should be discontinued [see Use in Specific Populations (8.1)] . Advise women who are exposed to LEQVIO during pregnancy that there is a pregnancy safety study that monitors pregnancy outcomes. Encourage these patients to report their pregnancy to Novartis at 1-888-669-6682 or usdrugsafety.operations@novartis.com [see Use in Specific Populations (8.1)] . Hypersensitivity Inform patients that serious hypersensitivity reactions, including anaphylaxis and angioedema, have been reported in patients treated with LEQVIO. Advise patients on the signs and symptoms of hypersensitivity reactions and instruct them to seek medical advice promptly if such symptoms occur [see Warnings and Precautions (5.1)] . Injection Site Reactions Advise patients that injection site reactions can occur with LEQVIO [see Adverse Reactions (6.1)] . Distributed by: Novartis Pharmaceuticals Corporation East Hanover, New Jersey 07936 For more information, visit www.leqvio.com or call 1-833-LEQVIO2 (1-833-537-8462). © Novartis T2026-34"
+  }
+}

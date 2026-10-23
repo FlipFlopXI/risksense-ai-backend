@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lixisenatide-dailymed-2511ef0997b4-007-warnings",
+      "drug_id": "lixisenatide",
+      "related_drug_ids": [],
+      "topic": "warnings",
+      "subtopic": "warnings_and_precautions",
+      "claim": "Anaphylaxis and Serious Hypersensitivity Reactions : Severe, life-threatening, and generalized allergic reactions can occur. Instruct patients to discontinue use if a reaction occurs and promptly seek medical attention. ( 5.1 ) Acute Pancreatitis : Has been observed in patients treated with GLP-1 receptor agonists, including SOLIQUA 100/33. Discontinue if pancreatitis is suspected. ( 5.2 ) Never share a SOLIQUA 100/33 prefilled pen between patients, even if the needle is changed. ( 5.3 ) Hyperglycemia or Hypoglycemia with Changes in Insulin Regimen : Make changes to a patient's insulin regimen (e.g., insulin strength, manufacturer, type, injection site or method of administration) under close medical supervision with increased frequency of blood glucose monitoring. ( 5.4 ) Overdose Due to Medication Errors : SOLIQUA 100/33 contains two drugs. Instruct patients to always check the label before each injection since accidental mix-ups with insulin products can occur. Do not exceed the maximum dose or use with other GLP-1 receptor agonists. ( 5.5 ) Hypoglycemia : May be life-threatening. Increase frequency of glucose monitoring with changes to insulin dosage, coadministered glucose lowering medications, meal pattern, physical activity; and in patients with renal or hepatic impairment and hypoglycemia unawareness. ( 5.6 ) Acute kidney injury Due to Volume Depletion : Monitor renal function in patients reporting adverse reactions that could lead to volume depletion. SOLIQUA 100/33 is not recommended in patients with end-stage renal disease. ( 5.7 ) Severe Gastrointestinal Adverse",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SOLIQUA 100/33 safely and effectively . See full prescribing information for SOLIQUA 100/33. SOLIQUA ® 100/33 (insulin glargine and lixisenatide) injection, for subcutaneous use Initial U.S. Approval: 2016",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4bba538b-cf7c-4310-ae8f-cb711ed21bcc.xml",
+      "source_identifier": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+      "source_section": "5 WARNINGS AND PRECAUTIONS",
+      "source_revision_date": "25",
+      "retrieved_at": "2026-09-18T08:17:26.677988+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "25",
+      "content_hash": "fbcc4dbcfe352a4add7479c2883eff805dc04a70e6d3c1b6660abbcc942902b6",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lixisenatide",
+      "canonical_name": "lixisenatide",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4bba538b-cf7c-4310-ae8f-cb711ed21bcc.xml",
+      "retrieved_at": "2026-09-18T08:17:26.677988+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "2511ef0997b45689233cf8cba2b27ede88281df2a07bf4a4ec376c4136c5d612",
+      "error_code": null
+    },
+    "source_content_hash": "2511ef0997b45689233cf8cba2b27ede88281df2a07bf4a4ec376c4136c5d612",
+    "source_product_identifier": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+    "source_version": "25",
+    "canonical_name": "lixisenatide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "Anaphylaxis and Serious Hypersensitivity Reactions : Severe, life-threatening, and generalized allergic reactions can occur. Instruct patients to discontinue use if a reaction occurs and promptly seek medical attention. ( 5.1 ) Acute Pancreatitis : Has been observed in patients treated with GLP-1 receptor agonists, including SOLIQUA 100/33. Discontinue if pancreatitis is suspected. ( 5.2 ) Never share a SOLIQUA 100/33 prefilled pen between patients, even if the needle is changed. ( 5.3 ) Hyperglycemia or Hypoglycemia with Changes in Insulin Regimen : Make changes to a patient's insulin regimen (e.g., insulin strength, manufacturer, type, injection site or method of administration) under close medical supervision with increased frequency of blood glucose monitoring. ( 5.4 ) Overdose Due to Medication Errors : SOLIQUA 100/33 contains two drugs. Instruct patients to always check the label before each injection since accidental mix-ups with insulin products can occur. Do not exceed the maximum dose or use with other GLP-1 receptor agonists. ( 5.5 ) Hypoglycemia : May be life-threatening. Increase frequency of glucose monitoring with changes to insulin dosage, coadministered glucose lowering medications, meal pattern, physical activity; and in patients with renal or hepatic impairment and hypoglycemia unawareness. ( 5.6 ) Acute kidney injury Due to Volume Depletion : Monitor renal function in patients reporting adverse reactions that could lead to volume depletion. SOLIQUA 100/33 is not recommended in patients with end-stage renal disease. ( 5.7 ) Severe Gastrointestinal Adverse Reactions: Use has been associated with gastrointestinal adverse reactions, sometimes severe. SOLIQUA 100/33 is not recommended in patients with severe gastroparesis ( 5.8 ). Immunogenicity : Patients may develop antibodies to insulin glargine and lixisenatide. If there is worsening glycemic control or failure to achieve targeted glycemic control, significant injection-site reactions or allergic reactions, alternative antidiabetic therapy should be considered. ( 5.9 ) Hypokalemia : May be life-threatening. Monitor potassium levels in patients at risk of hypokalemia and treat if indicated. ( 5.10 ) Fluid Retention and Heart Failure with Use of PPAR-gamma agonists : Observe for signs and symptoms of heart failure; consider dosage reduction or discontinuation if heart failure occurs. ( 5.11 ) Acute Gallbladder Disease : If cholelithiasis or cholecystitis are suspected, gallbladder studies are indicated. ( 5.12 ) Pulmonary Aspiration During General Anesthesia or Deep Sedation: Has been reported in patients receiving GLP-1 receptor agonists undergoing elective surgeries or procedures. Instruct patients to inform healthcare providers of any planned surgeries or procedures . ( 5.13 ) In clinical trials of lixisenatide there have been cases of anaphylaxis (frequency of 0.1% or 10 cases per 10,000 patient-years) and other serious hypersensitivity reactions including angioedema. Severe, life-threatening, generalized allergic reactions, including anaphylaxis, generalized skin reactions, angioedema, bronchospasm, hypotension, and shock can occur with insulins, including insulin glargine. There have been postmarketing reports of serious hypersensitivity reactions, including anaphylactic reactions and angioedema, in patients treated with SOLIQUA 100/33 [see Adverse Reactions (6.1) ] . Inform and closely monitor patients with a history of anaphylaxis or angioedema with another GLP-1 receptor agonist for allergic reactions, because it is unknown whether such patients will be predisposed to anaphylaxis with SOLIQUA 100/33. SOLIQUA 100/33 is contraindicated in patients with known serious hypersensitivity to lixisenatide or insulin glargine [see Contraindications (4) ] . If a hypersensitivity reaction occurs, the patient should discontinue SOLIQUA 100/33 and promptly seek medical attention. Acute pancreatitis, including fatal and non-fatal hemorrhagic or necrotizing pancreatitis, has been observed in patients treated with GLP-1 receptor agonists [see Adverse Reactions (6) ] . After initiation of SOLIQUA 100/33, observe patients carefully for signs and symptoms of acute pancreatitis which may include persistent or severe abdominal pain (sometimes radiating to the back) and which may or may not be accompanied by nausea or vomiting. If pancreatitis is suspected, discontinue SOLIQUA 100/33 and initiate appropriate management. SOLIQUA 100/33 prefilled pens must never be shared between patients, even if the needle is changed. Sharing of the pen poses a risk for transmission of blood-borne pathogens. Changes in insulin regimen (e.g., insulin strength, manufacturer, type, injection site or method of administration) may affect glycemic control and predispose to hypoglycemia [see Warnings and Precautions (5.6) ] or hyperglycemia. Repeated insulin injections into areas of lipodystrophy or localized cutaneous amyloidosis have been reported to result in hyperglycemia; "
+  }
+}

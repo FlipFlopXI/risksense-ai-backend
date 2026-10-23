@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "amitriptyline-mothertobaby-acdc8bba60eb-005",
+      "drug_id": "amitriptyline",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if amitriptyline can increase the chance of other pregnancy-related problems such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). One report found a small increase in the chance of preeclampsia (high blood pressure and problems with organs, such as the kidneys) when amitriptyline was used in the second and third trimester of pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Amitriptyline",
+      "source_url": "https://mothertobaby.org/fact-sheets/amitriptyline/",
+      "source_identifier": "fact-sheets:amitriptyline",
+      "source_section": "Does taking amitriptyline in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Wed, 22 Jul 2026 12:55:03 GMT",
+      "retrieved_at": "2026-09-18T08:23:08.174061+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 22 Jul 2026 12:55:03 GMT",
+      "content_hash": "59887dbe3318ca541a5cca30f1f7ccf2c9a24cad5d5bc566ab2e69519773456d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "amitriptyline",
+      "canonical_name": "amitriptyline",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:amitriptyline",
+      "source_url": "https://mothertobaby.org/fact-sheets/amitriptyline/",
+      "retrieved_at": "2026-09-18T08:23:08.174061+00:00",
+      "source_revision_date": "Wed, 22 Jul 2026 12:55:03 GMT",
+      "source_content_hash": "acdc8bba60eb82cfa893a48ae836778d5fda191f2814c038c4352705fa2fc353",
+      "error_code": null
+    },
+    "source_content_hash": "acdc8bba60eb82cfa893a48ae836778d5fda191f2814c038c4352705fa2fc353",
+    "source_product_identifier": "fact-sheets:amitriptyline",
+    "source_version": "Wed, 22 Jul 2026 12:55:03 GMT",
+    "canonical_name": "amitriptyline",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "It is not known if amitriptyline can increase the chance of other pregnancy-related problems such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). One report found a small increase in the chance of preeclampsia (high blood pressure and problems with organs, such as the kidneys) when amitriptyline was used in the second and third trimester of pregnancy."
+  }
+}

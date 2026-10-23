@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "naproxen-mothertobaby-3e4077d084a0-004",
+      "drug_id": "naproxen",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like naproxen, might increase the chance of birth defects in a pregnancy. Most studies on NSAIDs, including naproxen, have not shown an increased chance of birth defects.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Naproxen",
+      "source_url": "https://mothertobaby.org/fact-sheets/naproxen/",
+      "source_identifier": "fact-sheets:naproxen",
+      "source_section": "Does taking naproxen increase the chance of birth defects?",
+      "source_revision_date": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "retrieved_at": "2026-09-18T08:23:40.838808+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "content_hash": "d406eb8e2fdeb15ed1b2844dbcb20fc8ae536eba8a90289a17080f7c81ae66d5",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "naproxen",
+      "canonical_name": "naproxen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:naproxen",
+      "source_url": "https://mothertobaby.org/fact-sheets/naproxen/",
+      "retrieved_at": "2026-09-18T08:23:40.838808+00:00",
+      "source_revision_date": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "source_content_hash": "3e4077d084a0ac9b0d5feb8d3bbf7a2b6cb2fd9f64664ce60ba9e8b79e808afa",
+      "error_code": null
+    },
+    "source_content_hash": "3e4077d084a0ac9b0d5feb8d3bbf7a2b6cb2fd9f64664ce60ba9e8b79e808afa",
+    "source_product_identifier": "fact-sheets:naproxen",
+    "source_version": "Fri, 26 Jun 2026 12:15:04 GMT",
+    "canonical_name": "naproxen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like naproxen, might increase the chance of birth defects in a pregnancy. Most studies on NSAIDs, including naproxen, have not shown an increased chance of birth defects."
+  }
+}

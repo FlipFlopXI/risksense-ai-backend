@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "metoclopramide-mothertobaby-c44acfc146c0-008",
+      "drug_id": "metoclopramide",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Metoclopramide is sometimes used to try and increase milk supply (called a galactagogue). Studies looking at whether metoclopramide increases milk production are limited, and results of these studies have been mixed. Overall, it is not known if taking metoclopramide will help to increase your milk supply. If you are having trouble with milk production, talk with your healthcare provider or a lactation consultant. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Metoclopramide",
+      "source_url": "https://mothertobaby.org/fact-sheets/metoclopramide/",
+      "source_identifier": "fact-sheets:metoclopramide",
+      "source_section": "Breastfeeding while taking metoclopramide:",
+      "source_revision_date": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "retrieved_at": "2026-09-18T08:23:34.770169+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "content_hash": "8ffb3b89c3308c8adbeef298ab0ef8cd5c146a786d2f462f5520f5bc52f18d93",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "metoclopramide",
+      "canonical_name": "metoclopramide",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:metoclopramide",
+      "source_url": "https://mothertobaby.org/fact-sheets/metoclopramide/",
+      "retrieved_at": "2026-09-18T08:23:34.770169+00:00",
+      "source_revision_date": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "source_content_hash": "c44acfc146c087c13cbb99bc27d8fabe86028c9d13c8be986c5bb56c498df239",
+      "error_code": null
+    },
+    "source_content_hash": "c44acfc146c087c13cbb99bc27d8fabe86028c9d13c8be986c5bb56c498df239",
+    "source_product_identifier": "fact-sheets:metoclopramide",
+    "source_version": "Wed, 01 Apr 2026 11:11:05 GMT",
+    "canonical_name": "metoclopramide",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Metoclopramide is sometimes used to try and increase milk supply (called a galactagogue). Studies looking at whether metoclopramide increases milk production are limited, and results of these studies have been mixed. Overall, it is not known if taking metoclopramide will help to increase your milk supply. If you are having trouble with milk production, talk with your healthcare provider or a lactation consultant. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

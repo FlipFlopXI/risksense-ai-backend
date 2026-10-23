@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "nitrofurantoin-mothertobaby-881d1b578482-011",
+      "drug_id": "nitrofurantoin",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Nitrofurantoin gets into breast milk in small amounts. In a report on 6 women taking nitrofurantoin while breastfeeding, 2 noted that their children had diarrhea. When any antibiotic is taken during breastfeeding, babies can be watched for diarrhea, vomiting, or rash.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Nitrofurantoin",
+      "source_url": "https://mothertobaby.org/fact-sheets/nitrofurantoin/",
+      "source_identifier": "fact-sheets:nitrofurantoin",
+      "source_section": "Breastfeeding while taking nitrofurantoin:",
+      "source_revision_date": "Wed, 12 Aug 2026 11:01:06 GMT",
+      "retrieved_at": "2026-09-18T08:23:43.269108+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 12 Aug 2026 11:01:06 GMT",
+      "content_hash": "e8fa815ad84ca276ae421f8a10c6e1d24dc9e3052834bc9f0d307d4f7f4517e3",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "nitrofurantoin",
+      "canonical_name": "nitrofurantoin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:nitrofurantoin",
+      "source_url": "https://mothertobaby.org/fact-sheets/nitrofurantoin/",
+      "retrieved_at": "2026-09-18T08:23:43.269108+00:00",
+      "source_revision_date": "Wed, 12 Aug 2026 11:01:06 GMT",
+      "source_content_hash": "881d1b578482cd36485c255fcda2897478408398403cb5afb421288ab2c865fc",
+      "error_code": null
+    },
+    "source_content_hash": "881d1b578482cd36485c255fcda2897478408398403cb5afb421288ab2c865fc",
+    "source_product_identifier": "fact-sheets:nitrofurantoin",
+    "source_version": "Wed, 12 Aug 2026 11:01:06 GMT",
+    "canonical_name": "nitrofurantoin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Nitrofurantoin gets into breast milk in small amounts. In a report on 6 women taking nitrofurantoin while breastfeeding, 2 noted that their children had diarrhea. When any antibiotic is taken during breastfeeding, babies can be watched for diarrhea, vomiting, or rash."
+  }
+}

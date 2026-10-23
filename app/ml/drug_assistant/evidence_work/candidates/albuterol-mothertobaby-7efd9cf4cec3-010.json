@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "albuterol-mothertobaby-7efd9cf4cec3-010",
+      "drug_id": "albuterol",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if albuterol could affect male fertility (ability to get a woman pregnant) or increase the chance of birth defects above the background risk. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Albuterol",
+      "source_url": "https://mothertobaby.org/fact-sheets/albuterol-pregnancy/",
+      "source_identifier": "fact-sheets:albuterol-pregnancy",
+      "source_section": "If a man takes albuterol, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "retrieved_at": "2026-09-18T08:23:04.964673+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "content_hash": "6b1fd29f870a3917b485b310a1bb8f16d97342f8406c3515decfa073d85df9dc",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "albuterol",
+      "canonical_name": "albuterol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:albuterol-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/albuterol-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:04.964673+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "source_content_hash": "7efd9cf4cec3a2ee90ebabb056672d60f1383fa855f4a687545f324949814da2",
+      "error_code": null
+    },
+    "source_content_hash": "7efd9cf4cec3a2ee90ebabb056672d60f1383fa855f4a687545f324949814da2",
+    "source_product_identifier": "fact-sheets:albuterol-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:09 GMT",
+    "canonical_name": "albuterol",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Studies have not been done to see if albuterol could affect male fertility (ability to get a woman pregnant) or increase the chance of birth defects above the background risk. In general, exposures that fathers or sperm donors have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

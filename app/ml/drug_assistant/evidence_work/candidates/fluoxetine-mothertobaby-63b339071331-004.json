@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fluoxetine-mothertobaby-63b339071331-004",
+      "drug_id": "fluoxetine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like fluoxetine, might increase the chance of birth defects in a pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Fluoxetine (Prozac®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluoxetine-prozac-pregnancy/",
+      "source_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+      "source_section": "Does taking fluoxetine increase the chance of birth defects?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "retrieved_at": "2026-09-18T08:23:22.026163+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "content_hash": "ffbba940131801bf8902eb36a32d8d09ddcc148f3d10b4d09b4e1351f659c8ad",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fluoxetine",
+      "canonical_name": "fluoxetine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluoxetine-prozac-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:22.026163+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "source_content_hash": "63b339071331460672c24657a3cfd3da112ebfabf8ae8301e54486570e990fc2",
+      "error_code": null
+    },
+    "source_content_hash": "63b339071331460672c24657a3cfd3da112ebfabf8ae8301e54486570e990fc2",
+    "source_product_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+    "source_version": "Mon, 24 Aug 2026 10:28:09 GMT",
+    "canonical_name": "fluoxetine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like fluoxetine, might increase the chance of birth defects in a pregnancy."
+  }
+}

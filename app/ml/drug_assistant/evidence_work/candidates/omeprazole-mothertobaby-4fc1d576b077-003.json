@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "omeprazole-mothertobaby-4fc1d576b077-003",
+      "drug_id": "omeprazole",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like omeprazole and esomeprazole, might increase the chance of birth defects in a pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Omeprazole | Esomeprazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/omeprazole-esomeprazole/",
+      "source_identifier": "fact-sheets:omeprazole-esomeprazole",
+      "source_section": "Does taking omeprazole or esomeprazole increase the chance of birth defects?",
+      "source_revision_date": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "retrieved_at": "2026-09-18T08:29:25.689006+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "content_hash": "494f077512f7d6feb92382a09512e51a4e063fd834d2068365478704696186ab",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "omeprazole",
+      "canonical_name": "omeprazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:omeprazole-esomeprazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/omeprazole-esomeprazole/",
+      "retrieved_at": "2026-09-18T08:29:25.689006+00:00",
+      "source_revision_date": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "source_content_hash": "4fc1d576b077d4ae1dd55a8da28a99b9e3ada2a2bf37a781b31f221c9917e1bf",
+      "error_code": null
+    },
+    "source_content_hash": "4fc1d576b077d4ae1dd55a8da28a99b9e3ada2a2bf37a781b31f221c9917e1bf",
+    "source_product_identifier": "fact-sheets:omeprazole-esomeprazole",
+    "source_version": "Sat, 25 Jul 2026 17:42:14 GMT",
+    "canonical_name": "omeprazole",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like omeprazole and esomeprazole, might increase the chance of birth defects in a pregnancy."
+  }
+}

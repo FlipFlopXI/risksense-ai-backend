@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "mycophenolate-mothertobaby-60a6594c07d8-008",
+      "drug_id": "mycophenolate",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if mycophenolate increases the chance for behavior or learning issues.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Mycophenolate (Cellcept®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/mycophenolate/",
+      "source_identifier": "fact-sheets:mycophenolate",
+      "source_section": "Does taking mycophenolate in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:43 GMT",
+      "retrieved_at": "2026-09-18T08:23:40.417131+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:51:43 GMT",
+      "content_hash": "46cb3f8e9a58a0ded648757fc014fa08f7a959d73c10be93e508db24c1ee261f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "mycophenolate",
+      "canonical_name": "mycophenolate",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:mycophenolate",
+      "source_url": "https://mothertobaby.org/fact-sheets/mycophenolate/",
+      "retrieved_at": "2026-09-18T08:23:40.417131+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:43 GMT",
+      "source_content_hash": "60a6594c07d86a8ed4da5ecfe5ed5556f825b19a5eef2cbc5eb553d3ca16e6ac",
+      "error_code": null
+    },
+    "source_content_hash": "60a6594c07d86a8ed4da5ecfe5ed5556f825b19a5eef2cbc5eb553d3ca16e6ac",
+    "source_product_identifier": "fact-sheets:mycophenolate",
+    "source_version": "Tue, 02 Dec 2025 11:51:43 GMT",
+    "canonical_name": "mycophenolate",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "It is not known if mycophenolate increases the chance for behavior or learning issues."
+  }
+}

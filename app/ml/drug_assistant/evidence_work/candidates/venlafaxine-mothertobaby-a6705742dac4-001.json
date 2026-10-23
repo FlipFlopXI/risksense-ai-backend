@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "venlafaxine-mothertobaby-a6705742dac4-001",
+      "drug_id": "venlafaxine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Venlafaxine is a medication that has been used to treat depression, panic disorder, social phobia, and anxiety. It has also been used to treat attention deficit hyperactivity disorder (ADHD), binge eating disorder, bipolar disorder, diabetic neuropathy, obsessive-compulsive disorder (OCD), posttraumatic stress disorder (PTSD), premenstrual dysphoric disorder, and tension-type headaches. Venlafaxine is sold under the brand name Effexor XR®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Venlafaxine (Effexor®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/venlafaxine-effexor-pregnancy/",
+      "source_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+      "source_section": "What is venlafaxine?",
+      "source_revision_date": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "retrieved_at": "2026-09-18T08:29:36.622299+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "content_hash": "f1e30102ee527909eea1408632a8c76efc903fa09aeb7ea24a962f7dccea6e16",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "venlafaxine",
+      "canonical_name": "venlafaxine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/venlafaxine-effexor-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:36.622299+00:00",
+      "source_revision_date": "Thu, 09 Apr 2026 07:26:32 GMT",
+      "source_content_hash": "a6705742dac44a79e960f1be443c30d74dd66f5c7808c163df9340ca1a1d3bc9",
+      "error_code": null
+    },
+    "source_content_hash": "a6705742dac44a79e960f1be443c30d74dd66f5c7808c163df9340ca1a1d3bc9",
+    "source_product_identifier": "fact-sheets:venlafaxine-effexor-pregnancy",
+    "source_version": "Thu, 09 Apr 2026 07:26:32 GMT",
+    "canonical_name": "venlafaxine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Venlafaxine is a medication that has been used to treat depression, panic disorder, social phobia, and anxiety. It has also been used to treat attention deficit hyperactivity disorder (ADHD), binge eating disorder, bipolar disorder, diabetic neuropathy, obsessive-compulsive disorder (OCD), posttraumatic stress disorder (PTSD), premenstrual dysphoric disorder, and tension-type headaches. Venlafaxine is sold under the brand name Effexor XR®."
+  }
+}

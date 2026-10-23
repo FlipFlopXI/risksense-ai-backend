@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "methotrexate-mothertobaby-002b8d6ac816-005",
+      "drug_id": "methotrexate",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Some healthcare providers have suggested waiting 1 to 3 months after stopping methotrexate to make sure the medication has been cleared from the body. The drug label recommends waiting 3 to 6 months after stopping the medication. However, there are no reports of methotrexate-related birth defects in babies born to women who stopped taking methotrexate any time before conception (when the egg is fertilized by the sperm).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Methotrexate",
+      "source_url": "https://mothertobaby.org/fact-sheets/methotrexate-pregnancy/",
+      "source_identifier": "fact-sheets:methotrexate-pregnancy",
+      "source_section": "How long do I need to wait to get pregnant after I stop taking methotrexate?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:34.275180+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "content_hash": "5e25b1508fb1f17b49a1e91cd9e9538a53092dba16229d2275a799221cb80127",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "methotrexate",
+      "canonical_name": "methotrexate",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:methotrexate-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/methotrexate-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:34.275180+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "source_content_hash": "002b8d6ac816b7cff051c87c1aca342a94e83cadfdc2c68adae9513075c8d99d",
+      "error_code": null
+    },
+    "source_content_hash": "002b8d6ac816b7cff051c87c1aca342a94e83cadfdc2c68adae9513075c8d99d",
+    "source_product_identifier": "fact-sheets:methotrexate-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:01 GMT",
+    "canonical_name": "methotrexate",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Some healthcare providers have suggested waiting 1 to 3 months after stopping methotrexate to make sure the medication has been cleared from the body. The drug label recommends waiting 3 to 6 months after stopping the medication. However, there are no reports of methotrexate-related birth defects in babies born to women who stopped taking methotrexate any time before conception (when the egg is fertilized by the sperm)."
+  }
+}

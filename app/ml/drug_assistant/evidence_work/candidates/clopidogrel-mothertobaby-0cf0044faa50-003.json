@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "clopidogrel-mothertobaby-0cf0044faa50-003",
+      "drug_id": "clopidogrel",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies have not been done to see if clopidogrel can increase the chance of miscarriage. Studies conducted on animals did not report an increase in miscarriages.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Clopidogrel (Plavix®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/clopidogrel-plavix/",
+      "source_identifier": "fact-sheets:clopidogrel-plavix",
+      "source_section": "Does taking clopidogrel increase the chance of miscarriage?",
+      "source_revision_date": "Thu, 23 Apr 2026 12:33:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:16.255727+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Apr 2026 12:33:28 GMT",
+      "content_hash": "bbba03091b866dd5f6d741e78424a0823e8ec1b420a28874f4d5bd6264d100a9",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "clopidogrel",
+      "canonical_name": "clopidogrel",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:clopidogrel-plavix",
+      "source_url": "https://mothertobaby.org/fact-sheets/clopidogrel-plavix/",
+      "retrieved_at": "2026-09-18T08:23:16.255727+00:00",
+      "source_revision_date": "Thu, 23 Apr 2026 12:33:28 GMT",
+      "source_content_hash": "0cf0044faa507cde73cb2aaa6d5cd85e730164e4cb93e914665e568d3eb292bd",
+      "error_code": null
+    },
+    "source_content_hash": "0cf0044faa507cde73cb2aaa6d5cd85e730164e4cb93e914665e568d3eb292bd",
+    "source_product_identifier": "fact-sheets:clopidogrel-plavix",
+    "source_version": "Thu, 23 Apr 2026 12:33:28 GMT",
+    "canonical_name": "clopidogrel",
+    "therapeutic_group": "antiplatelets_anticoagulants",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies have not been done to see if clopidogrel can increase the chance of miscarriage. Studies conducted on animals did not report an increase in miscarriages."
+  }
+}

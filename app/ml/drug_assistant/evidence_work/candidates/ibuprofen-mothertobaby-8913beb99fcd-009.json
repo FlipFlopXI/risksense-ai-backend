@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "ibuprofen-mothertobaby-8913beb99fcd-009",
+      "drug_id": "ibuprofen",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Ibuprofen should only be used under a healthcare provider’s supervision, particularly in the 2nd and 3rd trimesters. Your healthcare providers can closely monitor your pregnancy if you need to use ibuprofen after week 20 of pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Ibuprofen",
+      "source_url": "https://mothertobaby.org/fact-sheets/ibuprofen-pregnancy/",
+      "source_identifier": "fact-sheets:ibuprofen-pregnancy",
+      "source_section": "Does taking ibuprofen in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "retrieved_at": "2026-09-18T08:23:27.669861+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "content_hash": "db4cbd92f70bb1dbfc667c908453a0f62cd71e888fa68e3fe193df7404bd7515",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "ibuprofen",
+      "canonical_name": "ibuprofen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:ibuprofen-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/ibuprofen-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:27.669861+00:00",
+      "source_revision_date": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "source_content_hash": "8913beb99fcd256bf1c394df727437c7ea71f8d04747be73c77bbd8469c8f8d2",
+      "error_code": null
+    },
+    "source_content_hash": "8913beb99fcd256bf1c394df727437c7ea71f8d04747be73c77bbd8469c8f8d2",
+    "source_product_identifier": "fact-sheets:ibuprofen-pregnancy",
+    "source_version": "Mon, 12 Jan 2026 13:06:08 GMT",
+    "canonical_name": "ibuprofen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Ibuprofen should only be used under a healthcare provider’s supervision, particularly in the 2nd and 3rd trimesters. Your healthcare providers can closely monitor your pregnancy if you need to use ibuprofen after week 20 of pregnancy."
+  }
+}

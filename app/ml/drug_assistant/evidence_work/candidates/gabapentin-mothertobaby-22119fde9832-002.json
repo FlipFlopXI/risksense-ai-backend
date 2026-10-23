@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "gabapentin-mothertobaby-22119fde9832-002",
+      "drug_id": "gabapentin",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "It is not known if gabapentin can make it harder to get pregnant. Some people who take gabapentin have reported sexual side effects, including lower sex drive.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Gabapentin",
+      "source_url": "https://mothertobaby.org/fact-sheets/gabapentin/",
+      "source_identifier": "fact-sheets:gabapentin",
+      "source_section": "I take gabapentin. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:42:45 GMT",
+      "retrieved_at": "2026-09-18T08:23:25.080320+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:42:45 GMT",
+      "content_hash": "b7e1ed68b2bc8b8fb048a9719757a52ac313fe9f911b66ed3983fc246dfed8fc",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "gabapentin",
+      "canonical_name": "gabapentin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:gabapentin",
+      "source_url": "https://mothertobaby.org/fact-sheets/gabapentin/",
+      "retrieved_at": "2026-09-18T08:23:25.080320+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:42:45 GMT",
+      "source_content_hash": "22119fde9832d92d91b2ac5ebaefbe5a9a13c567680a319c4f868e5735a77e10",
+      "error_code": null
+    },
+    "source_content_hash": "22119fde9832d92d91b2ac5ebaefbe5a9a13c567680a319c4f868e5735a77e10",
+    "source_product_identifier": "fact-sheets:gabapentin",
+    "source_version": "Mon, 24 Aug 2026 10:42:45 GMT",
+    "canonical_name": "gabapentin",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "It is not known if gabapentin can make it harder to get pregnant. Some people who take gabapentin have reported sexual side effects, including lower sex drive."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "ibuprofen-mothertobaby-8913beb99fcd-001",
+      "drug_id": "ibuprofen",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Ibuprofen is a medication that has been used to treat pain and fever. Some brand names for ibuprofen include Motrin®, Advil®, and Nuprin®. Ibuprofen belongs to the class of medications called non-steroidal anti-inflammatory drugs (NSAIDs).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Ibuprofen",
+      "source_url": "https://mothertobaby.org/fact-sheets/ibuprofen-pregnancy/",
+      "source_identifier": "fact-sheets:ibuprofen-pregnancy",
+      "source_section": "What is ibuprofen?",
+      "source_revision_date": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "retrieved_at": "2026-09-18T08:23:27.669861+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "content_hash": "0709dea798ddbd615aad97995d00e1b0df84dcbb5e44c43316d90df0bdfa1f15",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "ibuprofen",
+      "canonical_name": "ibuprofen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:ibuprofen-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/ibuprofen-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:27.669861+00:00",
+      "source_revision_date": "Mon, 12 Jan 2026 13:06:08 GMT",
+      "source_content_hash": "8913beb99fcd256bf1c394df727437c7ea71f8d04747be73c77bbd8469c8f8d2",
+      "error_code": null
+    },
+    "source_content_hash": "8913beb99fcd256bf1c394df727437c7ea71f8d04747be73c77bbd8469c8f8d2",
+    "source_product_identifier": "fact-sheets:ibuprofen-pregnancy",
+    "source_version": "Mon, 12 Jan 2026 13:06:08 GMT",
+    "canonical_name": "ibuprofen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Ibuprofen is a medication that has been used to treat pain and fever. Some brand names for ibuprofen include Motrin®, Advil®, and Nuprin®. Ibuprofen belongs to the class of medications called non-steroidal anti-inflammatory drugs (NSAIDs)."
+  }
+}

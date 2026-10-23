@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "verapamil-mothertobaby-d825594eaa6a-001",
+      "drug_id": "verapamil",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Verapamil is a medication that has been used to treat high blood pressure (hypertension), abnormal heart rhythm (arrythmia), and chest pain (angina). It has also been used to treat headaches and migraines, coronary arteriosclerosis (thick and stiff blood vessels near the heart), and kidney disease. Verapamil is in a class of medications called calcium channel blockers. Some brand names for verapamil include Calan®, Covera®, Isoptin®, and Verelan®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Verapamil",
+      "source_url": "https://mothertobaby.org/fact-sheets/verapamil/",
+      "source_identifier": "fact-sheets:verapamil",
+      "source_section": "What is verapamil?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:57:18 GMT",
+      "retrieved_at": "2026-09-18T08:29:37.346589+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:57:18 GMT",
+      "content_hash": "5b13f38621b38a7679f7c2caaee4dce0c3f70120039689d80207427c3902940b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "verapamil",
+      "canonical_name": "verapamil",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:verapamil",
+      "source_url": "https://mothertobaby.org/fact-sheets/verapamil/",
+      "retrieved_at": "2026-09-18T08:29:37.346589+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:57:18 GMT",
+      "source_content_hash": "d825594eaa6a9aa18dec1b0a2f8df53555d03bf978b7dc062cad245015246711",
+      "error_code": null
+    },
+    "source_content_hash": "d825594eaa6a9aa18dec1b0a2f8df53555d03bf978b7dc062cad245015246711",
+    "source_product_identifier": "fact-sheets:verapamil",
+    "source_version": "Tue, 02 Dec 2025 11:57:18 GMT",
+    "canonical_name": "verapamil",
+    "therapeutic_group": "calcium_channel_blockers",
+    "source_excerpt": "Verapamil is a medication that has been used to treat high blood pressure (hypertension), abnormal heart rhythm (arrythmia), and chest pain (angina). It has also been used to treat headaches and migraines, coronary arteriosclerosis (thick and stiff blood vessels near the heart), and kidney disease. Verapamil is in a class of medications called calcium channel blockers. Some brand names for verapamil include Calan®, Covera®, Isoptin®, and Verelan®."
+  }
+}

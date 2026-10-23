@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "carbamazepine-mothertobaby-351d019c7c7c-012",
+      "drug_id": "carbamazepine",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Carbamazepine passes into breast milk in small amounts. Most breastfeeding children have not had reported side effects. Breastfeeding while taking just carbamazepine (no additional medications) has not been shown to affect child growth or development. If you suspect the baby has any symptoms of jaundice (yellowing skin and eyes), drowsiness, or poor weight gain, contact the child’s healthcare provider. If needed, healthcare providers can measure the levels of carbamazepine in a child’s blood. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Carbamazepine (Tegretol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/carbamazepine-pregnancy/",
+      "source_identifier": "fact-sheets:carbamazepine-pregnancy",
+      "source_section": "Breastfeeding while taking carbamazepine:",
+      "source_revision_date": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "retrieved_at": "2026-09-18T08:23:12.709997+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "content_hash": "f202a89757ea8072992a509a7719de138685a0b7ac6ee21296d97b84b5435386",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "carbamazepine",
+      "canonical_name": "carbamazepine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:carbamazepine-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/carbamazepine-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:12.709997+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "source_content_hash": "351d019c7c7c1627a268a601df7d9808a05eb21af2cc3fc6cb6f069255c4a9ff",
+      "error_code": null
+    },
+    "source_content_hash": "351d019c7c7c1627a268a601df7d9808a05eb21af2cc3fc6cb6f069255c4a9ff",
+    "source_product_identifier": "fact-sheets:carbamazepine-pregnancy",
+    "source_version": "Thu, 20 Aug 2026 07:11:59 GMT",
+    "canonical_name": "carbamazepine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Carbamazepine passes into breast milk in small amounts. Most breastfeeding children have not had reported side effects. Breastfeeding while taking just carbamazepine (no additional medications) has not been shown to affect child growth or development. If you suspect the baby has any symptoms of jaundice (yellowing skin and eyes), drowsiness, or poor weight gain, contact the child’s healthcare provider. If needed, healthcare providers can measure the levels of carbamazepine in a child’s blood. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "inclisiran-dailymed-d1454a0e4aff-002-administration",
+      "drug_id": "inclisiran",
+      "related_drug_ids": [],
+      "topic": "administration",
+      "subtopic": "dosage_and_administration",
+      "claim": "The recommended dosage of LEQVIO for adults and pediatric patients aged 12 years and older is 284 mg administered as a single subcutaneous injection initially, again at 3 months, and then every 6 months. ( 2.1 ) LEQVIO should be administered by a healthcare professional. ( 2.2 ) Inject LEQVIO subcutaneously into the abdomen, upper arm, or thigh. ( 2.2 ) The recommended dosage of LEQVIO for adults and pediatric patients aged 12 years and older is 284 mg administered as a single subcutaneous injection initially, again at 3 months, and then every 6 months. If a planned dose is missed by less than 3 months, administer LEQVIO and maintain dosing according to the patient’s original schedule. If a planned dose is missed by more than 3 months, restart with a new dosing schedule - administer LEQVIO initially, again at 3 months, and then every 6 months. Assess LDL-C when clinically indicated. The LDL-lowering effect of LEQVIO may be measured as early as 30 days after initiation and anytime thereafter without regard to timing of the dose. LEQVIO should be administered by a healthcare professional. Inject LEQVIO subcutaneously into the abdomen, upper arm, or thigh. Do not inject in areas of active skin disease or injury, such as sunburns, skin rashes, inflammation, or skin infections. Inspect LEQVIO visually before use. It should appear clear and colorless to pale yellow. Do not use if particulate matter or discoloration is seen. For more detailed instruction on administration of the prefilled syringe, see Instructions for Use.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use LEQVIO safely and effectively. See full prescribing information for LEQVIO. LEQVIO ® (inclisiran) injection, for subcutaneous use Initial U.S. Approval: 2021",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_section": "2 DOSAGE AND ADMINISTRATION",
+      "source_revision_date": "13",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "13",
+      "content_hash": "951b19087874d81e5524c936cd0e6758bd12915c58c81cef946d1b05982c2b6f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "inclisiran",
+      "canonical_name": "inclisiran",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/6fc0afca-4513-4c35-b594-6544aee29a44.xml",
+      "retrieved_at": "2026-09-18T08:16:52.006630+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+      "error_code": null
+    },
+    "source_content_hash": "d1454a0e4aff884b4d6789dc1b958f2d950f6f6ac81da46a5961e1de5512159d",
+    "source_product_identifier": "6fc0afca-4513-4c35-b594-6544aee29a44",
+    "source_version": "13",
+    "canonical_name": "inclisiran",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "The recommended dosage of LEQVIO for adults and pediatric patients aged 12 years and older is 284 mg administered as a single subcutaneous injection initially, again at 3 months, and then every 6 months. ( 2.1 ) LEQVIO should be administered by a healthcare professional. ( 2.2 ) Inject LEQVIO subcutaneously into the abdomen, upper arm, or thigh. ( 2.2 ) The recommended dosage of LEQVIO for adults and pediatric patients aged 12 years and older is 284 mg administered as a single subcutaneous injection initially, again at 3 months, and then every 6 months. If a planned dose is missed by less than 3 months, administer LEQVIO and maintain dosing according to the patient’s original schedule. If a planned dose is missed by more than 3 months, restart with a new dosing schedule - administer LEQVIO initially, again at 3 months, and then every 6 months. Assess LDL-C when clinically indicated. The LDL-lowering effect of LEQVIO may be measured as early as 30 days after initiation and anytime thereafter without regard to timing of the dose. LEQVIO should be administered by a healthcare professional. Inject LEQVIO subcutaneously into the abdomen, upper arm, or thigh. Do not inject in areas of active skin disease or injury, such as sunburns, skin rashes, inflammation, or skin infections. Inspect LEQVIO visually before use. It should appear clear and colorless to pale yellow. Do not use if particulate matter or discoloration is seen. For more detailed instruction on administration of the prefilled syringe, see Instructions for Use."
+  }
+}

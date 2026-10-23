@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "tirzepatide-mothertobaby-42dd7e1a9d5c-003",
+      "drug_id": "tirzepatide",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "The product label for tirzepatide states the use of this medication might change the way oral contraceptives (birth control pills used to prevent pregnancy) are absorbed by the body. This might increase the chance of pregnancy, even if the oral birth control is taken correctly. The product label suggests women using oral contraceptives switch to a non-oral birth control or add a barrier method of contraception (like condoms) for 4 weeks after starting the medication and for 4 weeks after each increase in dose. If you are taking this medication, talk with your healthcare provider about non-oral birth control and all your options for preventing a pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Tirzepatide (Mounjaro®, Zepbound®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/tirzepatide/",
+      "source_identifier": "fact-sheets:tirzepatide",
+      "source_section": "What is tirzepatide?",
+      "source_revision_date": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "retrieved_at": "2026-09-18T08:29:34.671940+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "content_hash": "30d519d16175488fb08973c5468c844358799e4e08c453f276423876fd0e5873",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "tirzepatide",
+      "canonical_name": "tirzepatide",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:tirzepatide",
+      "source_url": "https://mothertobaby.org/fact-sheets/tirzepatide/",
+      "retrieved_at": "2026-09-18T08:29:34.671940+00:00",
+      "source_revision_date": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "source_content_hash": "42dd7e1a9d5c3d3089e85558cf53e49125e98309a4c803e9ff3c469936fd5e4c",
+      "error_code": null
+    },
+    "source_content_hash": "42dd7e1a9d5c3d3089e85558cf53e49125e98309a4c803e9ff3c469936fd5e4c",
+    "source_product_identifier": "fact-sheets:tirzepatide",
+    "source_version": "Mon, 27 Jul 2026 12:23:15 GMT",
+    "canonical_name": "tirzepatide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "The product label for tirzepatide states the use of this medication might change the way oral contraceptives (birth control pills used to prevent pregnancy) are absorbed by the body. This might increase the chance of pregnancy, even if the oral birth control is taken correctly. The product label suggests women using oral contraceptives switch to a non-oral birth control or add a barrier method of contraception (like condoms) for 4 weeks after starting the medication and for 4 weeks after each increase in dose. If you are taking this medication, talk with your healthcare provider about non-oral birth control and all your options for preventing a pregnancy."
+  }
+}

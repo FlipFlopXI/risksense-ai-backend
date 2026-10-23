@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "bupropion-mothertobaby-3c913c13bef2-010",
+      "drug_id": "bupropion",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Bupropion passes into breast milk in small amounts. Most babies exposed to bupropion through breast milk are not expected to have side effects. There are two reports of seizures in 6-month-old babies exposed to bupropion through breast milk. In both cases, the seizures stopped after bupropion was no longer used. If you are taking bupropion while breastfeeding, watch your baby for unusual movements, seizures, or increased sleepiness, and contact your child’s healthcare provider if you notice these symptoms. Be sure to talk with your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Bupropion (Wellbutrin®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/bupropion-wellbutrin-pregnancy/",
+      "source_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+      "source_section": "Breastfeeding while taking bupropion:",
+      "source_revision_date": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:12.156990+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "content_hash": "37c9ecc0bb9369998fa3fb5447fe6d5930833282c8cbce7847ad135ae82adc60",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "bupropion",
+      "canonical_name": "bupropion",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/bupropion-wellbutrin-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:12.156990+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 16:43:28 GMT",
+      "source_content_hash": "3c913c13bef24d3e7228cd9d22bcedbdce46f267a9bd67e2c3e3338809a13def",
+      "error_code": null
+    },
+    "source_content_hash": "3c913c13bef24d3e7228cd9d22bcedbdce46f267a9bd67e2c3e3338809a13def",
+    "source_product_identifier": "fact-sheets:bupropion-wellbutrin-pregnancy",
+    "source_version": "Wed, 19 Aug 2026 16:43:28 GMT",
+    "canonical_name": "bupropion",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Bupropion passes into breast milk in small amounts. Most babies exposed to bupropion through breast milk are not expected to have side effects. There are two reports of seizures in 6-month-old babies exposed to bupropion through breast milk. In both cases, the seizures stopped after bupropion was no longer used. If you are taking bupropion while breastfeeding, watch your baby for unusual movements, seizures, or increased sleepiness, and contact your child’s healthcare provider if you notice these symptoms. Be sure to talk with your healthcare provider about all your breastfeeding questions."
+  }
+}

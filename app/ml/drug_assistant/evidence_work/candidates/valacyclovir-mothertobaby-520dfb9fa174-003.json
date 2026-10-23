@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "valacyclovir-mothertobaby-520dfb9fa174-003",
+      "drug_id": "valacyclovir",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "It is not known if acyclovir/valacyclovir can make it harder to get pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Acyclovir (Zovirax®) | Valacyclovir (Valtrex®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/acyclovir-zoviraxvalacyclovir-valtrex-pregnancy/",
+      "source_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+      "source_section": "I take acyclovir/valacyclovir. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "retrieved_at": "2026-09-18T08:29:34.820274+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "content_hash": "88a0014f6f07d21d57479fd2de8de2641732f3f86946a1357c96f1866bfda6c4",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "valacyclovir",
+      "canonical_name": "valacyclovir",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/acyclovir-zoviraxvalacyclovir-valtrex-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:34.820274+00:00",
+      "source_revision_date": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "source_content_hash": "520dfb9fa174771115306579c9d34363d4da98f2cb94e09d174226c5f4c4b8ef",
+      "error_code": null
+    },
+    "source_content_hash": "520dfb9fa174771115306579c9d34363d4da98f2cb94e09d174226c5f4c4b8ef",
+    "source_product_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+    "source_version": "Wed, 22 Jul 2026 08:22:57 GMT",
+    "canonical_name": "valacyclovir",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "It is not known if acyclovir/valacyclovir can make it harder to get pregnant."
+  }
+}

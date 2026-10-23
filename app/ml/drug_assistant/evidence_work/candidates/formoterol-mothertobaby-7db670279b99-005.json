@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "formoterol-mothertobaby-7db670279b99-005",
+      "drug_id": "formoterol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like formoterol, might increase the chance of birth defects in a pregnancy. Animal studies and limited human studies do not suggest an increased chance of birth defects with the use of formoterol during pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Formoterol (Foradil®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/formoterol-pregnancy/",
+      "source_identifier": "fact-sheets:formoterol-pregnancy",
+      "source_section": "Does taking formoterol increase the chance of birth defects?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "retrieved_at": "2026-09-18T08:23:23.735627+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "content_hash": "d56a7a02de027047f3f42bb32969e218b43a522ff586e8584097d49205a49ea2",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "formoterol",
+      "canonical_name": "formoterol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:formoterol-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/formoterol-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:23.735627+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "source_content_hash": "7db670279b99b06343b95570d7d5b13d8d4f04be1a7d928820cb27c8c23e826e",
+      "error_code": null
+    },
+    "source_content_hash": "7db670279b99b06343b95570d7d5b13d8d4f04be1a7d928820cb27c8c23e826e",
+    "source_product_identifier": "fact-sheets:formoterol-pregnancy",
+    "source_version": "Mon, 24 Aug 2026 10:37:48 GMT",
+    "canonical_name": "formoterol",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like formoterol, might increase the chance of birth defects in a pregnancy. Animal studies and limited human studies do not suggest an increased chance of birth defects with the use of formoterol during pregnancy."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "evolocumab-dailymed-d9842fe36428-001",
+      "drug_id": "evolocumab",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "indications",
+      "claim": "REPATHA is indicated: To reduce the risk of major adverse cardiovascular (CV) events (CV death, myocardial infarction, stroke, unstable angina requiring hospitalization, or coronary revascularization) in adults at increased risk for these events. As an adjunct to diet and exercise to reduce low-density lipoprotein cholesterol (LDL-C) in: adults with hypercholesterolemia. adults and pediatric patients aged 10 years and older with heterozygous familial hypercholesterolemia (HeFH). adults and pediatric patients aged 10 years and older with homozygous familial hypercholesterolemia (HoFH). REPATHA is a PCSK9 (proprotein convertase subtilisin kexin type 9) inhibitor indicated: To reduce the risk of major adverse cardiovascular (CV) events (CV death, myocardial infarction, stroke, unstable angina requiring hospitalization, or coronary revascularization) in adults at increased risk for these events. ( 1 ) As an adjunct to diet and exercise to reduce low-density lipoprotein cholesterol (LDL-C) in ( 1 ): adults with hypercholesterolemia. adults and pediatric patients aged 10 years and older with heterozygous familial hypercholesterolemia (HeFH). adults and pediatric patients aged 10 years and older with homozygous familial hypercholesterolemia (HoFH).",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use REPATHA ® safely and effectively. See full prescribing information for REPATHA. REPATHA (evolocumab) injection, for subcutaneous use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cd61e902-166d-4aa6-9f3c-a18c1008d07e.xml",
+      "source_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+      "source_section": "1 INDICATIONS AND USAGE",
+      "source_revision_date": "32",
+      "retrieved_at": "2026-09-18T08:16:17.213762+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "32",
+      "content_hash": "87f61740d1662e9a8a3b9c4767ff40557af0afac4840b381e899c895ac6159ec",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "evolocumab",
+      "canonical_name": "evolocumab",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cd61e902-166d-4aa6-9f3c-a18c1008d07e.xml",
+      "retrieved_at": "2026-09-18T08:16:17.213762+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d9842fe364280107ed506d3adb39a602519d43dbb80c68a2e80aa48113e935b5",
+      "error_code": null
+    },
+    "source_content_hash": "d9842fe364280107ed506d3adb39a602519d43dbb80c68a2e80aa48113e935b5",
+    "source_product_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+    "source_version": "32",
+    "canonical_name": "evolocumab",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "REPATHA is indicated: To reduce the risk of major adverse cardiovascular (CV) events (CV death, myocardial infarction, stroke, unstable angina requiring hospitalization, or coronary revascularization) in adults at increased risk for these events. As an adjunct to diet and exercise to reduce low-density lipoprotein cholesterol (LDL-C) in: adults with hypercholesterolemia. adults and pediatric patients aged 10 years and older with heterozygous familial hypercholesterolemia (HeFH). adults and pediatric patients aged 10 years and older with homozygous familial hypercholesterolemia (HoFH). REPATHA is a PCSK9 (proprotein convertase subtilisin kexin type 9) inhibitor indicated: To reduce the risk of major adverse cardiovascular (CV) events (CV death, myocardial infarction, stroke, unstable angina requiring hospitalization, or coronary revascularization) in adults at increased risk for these events. ( 1 ) As an adjunct to diet and exercise to reduce low-density lipoprotein cholesterol (LDL-C) in ( 1 ): adults with hypercholesterolemia. adults and pediatric patients aged 10 years and older with heterozygous familial hypercholesterolemia (HeFH). adults and pediatric patients aged 10 years and older with homozygous familial hypercholesterolemia (HoFH)."
+  }
+}

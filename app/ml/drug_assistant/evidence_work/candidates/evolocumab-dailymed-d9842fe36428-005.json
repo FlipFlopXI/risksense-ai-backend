@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "evolocumab-dailymed-d9842fe36428-005",
+      "drug_id": "evolocumab",
+      "related_drug_ids": [],
+      "topic": "adverse_effects",
+      "subtopic": "adverse_reactions",
+      "claim": "The following adverse reactions are also discussed in other sections of the label: Hypersensitivity Reactions [see Warnings and Precautions (5.1) ] Common (> 5% of patients treated with REPATHA and more frequently than placebo) adverse reactions in adults with: Primary hypercholesterolemia: nasopharyngitis, upper respiratory tract infection, influenza, back pain, and injection site reactions. ( 6 ) Established CV Disease: diabetes mellitus, nasopharyngitis and upper respiratory tract infection. ( 6 ) To report SUSPECTED ADVERSE REACTIONS, contact Amgen Medical Information at 1-800-77-AMGEN (1-800-772-6436) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch . Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice. Adverse Reactions in Adults with Primary Hypercholesterolemia The data described below reflect exposure to REPATHA in 8 placebo-controlled trials that included 2651 patients treated with REPATHA, including 557 exposed for 6 months and 515 exposed for 1 year (median treatment duration of 12 weeks). The mean age of the population was 57 years, 49% of the population were women, 85% White, 6% Black, 8% Asian, and 2% other races. Adverse Reactions in a 52 - Week Controlled Trial In a 52-week, double-blind, randomized, placebo-controlled trial, 599 patients received 420 mg of REPATHA subcutaneously once monthly [see Clinical Studies (14) ] . The mean age was 5",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use REPATHA ® safely and effectively. See full prescribing information for REPATHA. REPATHA (evolocumab) injection, for subcutaneous use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cd61e902-166d-4aa6-9f3c-a18c1008d07e.xml",
+      "source_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+      "source_section": "6 ADVERSE REACTIONS",
+      "source_revision_date": "32",
+      "retrieved_at": "2026-09-18T08:16:17.213762+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "32",
+      "content_hash": "2ecb95f273b917e7df46b413427f290c182c9023d7d75687ef7cbdd3431d123d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "evolocumab",
+      "canonical_name": "evolocumab",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/cd61e902-166d-4aa6-9f3c-a18c1008d07e.xml",
+      "retrieved_at": "2026-09-18T08:16:17.213762+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "d9842fe364280107ed506d3adb39a602519d43dbb80c68a2e80aa48113e935b5",
+      "error_code": null
+    },
+    "source_content_hash": "d9842fe364280107ed506d3adb39a602519d43dbb80c68a2e80aa48113e935b5",
+    "source_product_identifier": "cd61e902-166d-4aa6-9f3c-a18c1008d07e",
+    "source_version": "32",
+    "canonical_name": "evolocumab",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "The following adverse reactions are also discussed in other sections of the label: Hypersensitivity Reactions [see Warnings and Precautions (5.1) ] Common (> 5% of patients treated with REPATHA and more frequently than placebo) adverse reactions in adults with: Primary hypercholesterolemia: nasopharyngitis, upper respiratory tract infection, influenza, back pain, and injection site reactions. ( 6 ) Established CV Disease: diabetes mellitus, nasopharyngitis and upper respiratory tract infection. ( 6 ) To report SUSPECTED ADVERSE REACTIONS, contact Amgen Medical Information at 1-800-77-AMGEN (1-800-772-6436) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch . Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in clinical practice. Adverse Reactions in Adults with Primary Hypercholesterolemia The data described below reflect exposure to REPATHA in 8 placebo-controlled trials that included 2651 patients treated with REPATHA, including 557 exposed for 6 months and 515 exposed for 1 year (median treatment duration of 12 weeks). The mean age of the population was 57 years, 49% of the population were women, 85% White, 6% Black, 8% Asian, and 2% other races. Adverse Reactions in a 52 - Week Controlled Trial In a 52-week, double-blind, randomized, placebo-controlled trial, 599 patients received 420 mg of REPATHA subcutaneously once monthly [see Clinical Studies (14) ] . The mean age was 56 years (range: 22 to 75 years), 23% were older than 65 years, 52% women, 80% White, 8% Black, 6% Asian; 6% identified as Hispanic ethnicity. Adverse reactions reported in at least 3% of REPATHA-treated patients, and more frequently than in placebo-treated patients are shown in Table 1. Adverse reactions led to discontinuation of treatment in 2.2% of REPATHA-treated patients and 1% of placebo-treated patients. The most common adverse reaction that led to REPATHA treatment discontinuation and occurred at a rate greater than placebo was myalgia (0.3% versus 0% for REPATHA and placebo, respectively). Table 1. Adverse Reactions Occurring in ≥ 3% of REPATHA-treated Patients and More Frequently than with Placebo in a 52-Week Trial Placebo (N = 302) % REPATHA (N = 599) % Nasopharyngitis 9.6 10.5 Upper respiratory tract infection 6.3 9.3 Influenza 6.3 7.5 Back pain 5.6 6.2 Injection site reactions includes erythema, pain, bruising 5.0 5.7 Cough 3.6 4.5 Urinary tract infection 3.6 4.5 Sinusitis 3.0 4.2 Headache 3.6 4.0 Myalgia 3.0 4.0 Dizziness 2.6 3.7 Musculoskeletal pain 3.0 3.3 Hypertension 2.3 3.2 Diarrhea 2.6 3.0 Gastroenteritis 2.0 3.0 Adverse Reactions in Seven Pooled 12 - Week Controlled Trials In seven pooled 12-week, double-blind, randomized, placebo-controlled trials, 993 patients received 140 mg of REPATHA subcutaneously every 2 weeks and 1059 patients received 420 mg of REPATHA subcutaneously monthly. The mean age was 57 years (range: 18 to 80 years), 29% were older than 65 years, 49% women, 85% White, 5% Black, 9% Asian; 5% identified as Hispanic ethnicity. Adverse reactions reported in at least 1% of REPATHA-treated patients, and more frequently than in placebo-treated patients, are shown in Table 2. Table 2. Adverse Reactions Occurring in ≥ 1% of REPATHA-treated Patients and More Frequently than with Placebo in Pooled 12-Week Trials Placebo (N = 1224) % REPATHA 140 mg every 2 weeks and 420 mg once monthly combined (N = 2052) % Nasopharyngitis 3.9 4.0 Back pain 2.2 2.3 Upper respiratory tract infection 2.0 2.1 Arthralgia 1.6 1.8 Nausea 1.2 1.8 Fatigue 1.0 1.6 Muscle spasms 1.2 1.3 Urinary tract infection 1.2 1.3 Cough 0.7 1.2 Influenza 1.1 1.2 Contusion 0.5 1.0 Adverse Reactions in Eight Pooled Controlled Trials (Seven 12 - Week Trials and One 52 - Week Trial) The adverse reactions described below are from a pool of the 52-week trial and seven 12-week trials. The mean and median exposure durations of REPATHA in this pool of eight trials were 20 weeks and 12 weeks, respectively. Local Injection Site Reactions Injection site reactions occurred in 3.2% and 3.0% of REPATHA-treated and placebo-treated patients, respectively. The most common injection site reactions were erythema, pain, and bruising. The proportions of patients who discontinued treatment due to local injection site reactions in REPATHA-treated patients and placebo-treated patients were 0.1% and 0%, respectively. Hypersensitivity Reactions Hypersensitivity reactions occurred in 5.1% and 4.7% of REPATHA-treated and placebo-treated patients, respectively. The most common hypersensitivity reactions were rash (1.0% versus 0.5% for REPATHA and placebo, respectively), eczema (0.4% versus 0.2%), erythema (0.4% versus 0.2%), and urticaria (0.4% versus 0.1%). Adverse Reactions in the CV Outcomes Trial In a double-blind, randomized, placebo-controlled CV outcomes trial, 27,525 patie"
+  }
+}

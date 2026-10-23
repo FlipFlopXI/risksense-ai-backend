@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lisinopril-mothertobaby-5ff8df6f98c8-001",
+      "drug_id": "lisinopril",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Lisinopril is part of a class of medications called angiotensin-converting enzyme (ACE) inhibitors. ACE inhibitors help relax blood vessels and lower blood pressure. Lisinopril has been used to treat high blood pressure, protect the kidneys in people with diabetes, and lower the chance of death during a heart attack. Some brand names for lisinopril are Prinivil®, Qbrelis®, and Zestril®. Lisinopril is also available in combination with a medication called hydrochlorothiazide (Zestoretic®).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lisinopril",
+      "source_url": "https://mothertobaby.org/fact-sheets/lisinopril/",
+      "source_identifier": "fact-sheets:lisinopril",
+      "source_section": "What is lisinopril?",
+      "source_revision_date": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "retrieved_at": "2026-09-18T08:23:30.559426+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "content_hash": "7f9bc81a5f0ddb95bf1f0150c3929041681f9a0ce6c98493d3f4c6c85bdcfb5a",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lisinopril",
+      "canonical_name": "lisinopril",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lisinopril",
+      "source_url": "https://mothertobaby.org/fact-sheets/lisinopril/",
+      "retrieved_at": "2026-09-18T08:23:30.559426+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 08:56:19 GMT",
+      "source_content_hash": "5ff8df6f98c8ba6323195b1ed35858a400f5fcba16f03895256e38f25a5005fe",
+      "error_code": null
+    },
+    "source_content_hash": "5ff8df6f98c8ba6323195b1ed35858a400f5fcba16f03895256e38f25a5005fe",
+    "source_product_identifier": "fact-sheets:lisinopril",
+    "source_version": "Thu, 23 Jul 2026 08:56:19 GMT",
+    "canonical_name": "lisinopril",
+    "therapeutic_group": "ace_inhibitors",
+    "source_excerpt": "Lisinopril is part of a class of medications called angiotensin-converting enzyme (ACE) inhibitors. ACE inhibitors help relax blood vessels and lower blood pressure. Lisinopril has been used to treat high blood pressure, protect the kidneys in people with diabetes, and lower the chance of death during a heart attack. Some brand names for lisinopril are Prinivil®, Qbrelis®, and Zestril®. Lisinopril is also available in combination with a medication called hydrochlorothiazide (Zestoretic®)."
+  }
+}

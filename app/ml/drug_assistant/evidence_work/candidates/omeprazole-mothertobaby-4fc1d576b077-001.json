@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "omeprazole-mothertobaby-4fc1d576b077-001",
+      "drug_id": "omeprazole",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "It is not known if taking omeprazole or esomeprazole can make it harder to get pregnant. Information from animal studies does not suggest that omeprazole or esomeprazole affects female fertility (ability to get pregnant).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Omeprazole | Esomeprazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/omeprazole-esomeprazole/",
+      "source_identifier": "fact-sheets:omeprazole-esomeprazole",
+      "source_section": "I take omeprazole or esomeprazole. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "retrieved_at": "2026-09-18T08:29:25.689006+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "content_hash": "8890411f2173d785e58035d0d625acb254d8db9f12a91c8dbe46e92f032a83f8",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "omeprazole",
+      "canonical_name": "omeprazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:omeprazole-esomeprazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/omeprazole-esomeprazole/",
+      "retrieved_at": "2026-09-18T08:29:25.689006+00:00",
+      "source_revision_date": "Sat, 25 Jul 2026 17:42:14 GMT",
+      "source_content_hash": "4fc1d576b077d4ae1dd55a8da28a99b9e3ada2a2bf37a781b31f221c9917e1bf",
+      "error_code": null
+    },
+    "source_content_hash": "4fc1d576b077d4ae1dd55a8da28a99b9e3ada2a2bf37a781b31f221c9917e1bf",
+    "source_product_identifier": "fact-sheets:omeprazole-esomeprazole",
+    "source_version": "Sat, 25 Jul 2026 17:42:14 GMT",
+    "canonical_name": "omeprazole",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "It is not known if taking omeprazole or esomeprazole can make it harder to get pregnant. Information from animal studies does not suggest that omeprazole or esomeprazole affects female fertility (ability to get pregnant)."
+  }
+}

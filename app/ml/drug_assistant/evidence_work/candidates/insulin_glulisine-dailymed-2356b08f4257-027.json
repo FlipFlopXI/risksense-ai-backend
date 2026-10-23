@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "insulin_glulisine-dailymed-2356b08f4257-027",
+      "drug_id": "insulin_glulisine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "description",
+      "claim": "Insulin glulisine is a rapid-acting human insulin analog used to lower blood glucose. Insulin glulisine is produced by recombinant DNA technology utilizing a non-pathogenic laboratory strain of Escherichia coli (K12). Insulin glulisine differs from human insulin in that the amino acid asparagine at position B3 is replaced by lysine and the lysine in position B29 is replaced by glutamic acid. Insulin glulisine has a molecular weight of 5.823 kDa. APIDRA (insulin glulisine) injection is a sterile, aqueous, clear, and colorless solution for subcutaneous or intravenous use. Each milliliter of APIDRA contains 100 units insulin glulisine, metacresol (3.15 mg), polysorbate 20 (0.01 mg), sodium chloride (5 mg), tromethamine (6 mg), and water for injection. APIDRA has a pH of approximately 7.3. The pH is adjusted by addition of aqueous solutions of hydrochloric acid and/or sodium hydroxide.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use APIDRA safely and effectively. See full prescribing information for APIDRA. APIDRA ® (insulin glulisine) injection, for subcutaneous or intravenous use Initial U.S. Approval: 2004",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_section": "11 DESCRIPTION",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "049306ce8b46286c4e4b104084d692c95523b5db7192a730eda542307c0bb8d7",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "insulin_glulisine",
+      "canonical_name": "insulin glulisine",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e7af6a7a-8046-4fb4-9979-4ec4230b23aa.xml",
+      "retrieved_at": "2026-09-18T08:17:03.610460+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+      "error_code": null
+    },
+    "source_content_hash": "2356b08f4257f0320593f6a17a623b68742c5e9b429eca2788f7b7fc0779fa36",
+    "source_product_identifier": "e7af6a7a-8046-4fb4-9979-4ec4230b23aa",
+    "source_version": "28",
+    "canonical_name": "insulin glulisine",
+    "therapeutic_group": "insulins",
+    "source_excerpt": "Insulin glulisine is a rapid-acting human insulin analog used to lower blood glucose. Insulin glulisine is produced by recombinant DNA technology utilizing a non-pathogenic laboratory strain of Escherichia coli (K12). Insulin glulisine differs from human insulin in that the amino acid asparagine at position B3 is replaced by lysine and the lysine in position B29 is replaced by glutamic acid. Insulin glulisine has a molecular weight of 5.823 kDa. APIDRA (insulin glulisine) injection is a sterile, aqueous, clear, and colorless solution for subcutaneous or intravenous use. Each milliliter of APIDRA contains 100 units insulin glulisine, metacresol (3.15 mg), polysorbate 20 (0.01 mg), sodium chloride (5 mg), tromethamine (6 mg), and water for injection. APIDRA has a pH of approximately 7.3. The pH is adjusted by addition of aqueous solutions of hydrochloric acid and/or sodium hydroxide."
+  }
+}

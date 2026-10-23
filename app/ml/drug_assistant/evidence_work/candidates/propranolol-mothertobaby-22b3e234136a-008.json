@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "propranolol-mothertobaby-22b3e234136a-008",
+      "drug_id": "propranolol",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Propranolol passes into breastmilk in small amounts and is not expected to cause problems in full-term breastfed infants. If you suspect that the baby has symptoms such as being too sleepy or having trouble with feeding, contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Propranolol",
+      "source_url": "https://mothertobaby.org/fact-sheets/propranolol/",
+      "source_identifier": "fact-sheets:propranolol",
+      "source_section": "Breastfeeding while taking propranolol:",
+      "source_revision_date": "Mon, 14 Sep 2026 09:59:16 GMT",
+      "retrieved_at": "2026-09-18T08:29:29.905811+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 14 Sep 2026 09:59:16 GMT",
+      "content_hash": "ef569a7885fc489d88ddcd24d29f2ceb4fbd930b1ed45446ec39d8273e7a64e0",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "propranolol",
+      "canonical_name": "propranolol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:propranolol",
+      "source_url": "https://mothertobaby.org/fact-sheets/propranolol/",
+      "retrieved_at": "2026-09-18T08:29:29.905811+00:00",
+      "source_revision_date": "Mon, 14 Sep 2026 09:59:16 GMT",
+      "source_content_hash": "22b3e234136a1f51541724b922b4eac96172b2a61338a6c85f74925a7b88b5ed",
+      "error_code": null
+    },
+    "source_content_hash": "22b3e234136a1f51541724b922b4eac96172b2a61338a6c85f74925a7b88b5ed",
+    "source_product_identifier": "fact-sheets:propranolol",
+    "source_version": "Mon, 14 Sep 2026 09:59:16 GMT",
+    "canonical_name": "propranolol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "Propranolol passes into breastmilk in small amounts and is not expected to cause problems in full-term breastfed infants. If you suspect that the baby has symptoms such as being too sleepy or having trouble with feeding, contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

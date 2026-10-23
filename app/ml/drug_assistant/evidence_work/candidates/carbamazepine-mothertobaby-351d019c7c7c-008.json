@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "carbamazepine-mothertobaby-351d019c7c7c-008",
+      "drug_id": "carbamazepine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Other studies on carbamazepine have reported a higher chance of other major birth defects, such as heart or kidney defects, hypospadias (opening of the penis is on the underside instead of at the tip), and cleft lip and/or palate (opening in the upper lip or the roof of the mouth). Some studies have also suggested an increased chance of minor birth defects, such as a small nose, greater distance between the nose and upper lip, small fingernails and toenails, and smaller head size. The chance of birth defects might be higher with higher doses of carbamazepine or when carbamazepine is taken along with other medications also used to treat seizures. Since some of the conditions that carbamazepine is used to treat (like epilepsy) can also increase the chance of birth defects, it is hard to know if the medication, the condition being treated, or other factors are the cause of a birth defect.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Carbamazepine (Tegretol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/carbamazepine-pregnancy/",
+      "source_identifier": "fact-sheets:carbamazepine-pregnancy",
+      "source_section": "Does taking carbamazepine increase the chance of birth defects?",
+      "source_revision_date": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "retrieved_at": "2026-09-18T08:23:12.709997+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "content_hash": "c399f440049e6318dc8cbe8bef3bfb52cfbc4f3d445daef64882ae5a157d3611",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "carbamazepine",
+      "canonical_name": "carbamazepine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:carbamazepine-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/carbamazepine-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:12.709997+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 07:11:59 GMT",
+      "source_content_hash": "351d019c7c7c1627a268a601df7d9808a05eb21af2cc3fc6cb6f069255c4a9ff",
+      "error_code": null
+    },
+    "source_content_hash": "351d019c7c7c1627a268a601df7d9808a05eb21af2cc3fc6cb6f069255c4a9ff",
+    "source_product_identifier": "fact-sheets:carbamazepine-pregnancy",
+    "source_version": "Thu, 20 Aug 2026 07:11:59 GMT",
+    "canonical_name": "carbamazepine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Other studies on carbamazepine have reported a higher chance of other major birth defects, such as heart or kidney defects, hypospadias (opening of the penis is on the underside instead of at the tip), and cleft lip and/or palate (opening in the upper lip or the roof of the mouth). Some studies have also suggested an increased chance of minor birth defects, such as a small nose, greater distance between the nose and upper lip, small fingernails and toenails, and smaller head size. The chance of birth defects might be higher with higher doses of carbamazepine or when carbamazepine is taken along with other medications also used to treat seizures. Since some of the conditions that carbamazepine is used to treat (like epilepsy) can also increase the chance of birth defects, it is hard to know if the medication, the condition being treated, or other factors are the cause of a birth defect."
+  }
+}

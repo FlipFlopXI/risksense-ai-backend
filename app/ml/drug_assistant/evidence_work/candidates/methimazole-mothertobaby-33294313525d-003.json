@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "methimazole-mothertobaby-33294313525d-003",
+      "drug_id": "methimazole",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. One study did not find an increased chance of miscarriage in 241 women who were pregnant and used methimazole in early pregnancy. Hyperthyroidism has been associated with an increase in the chance for miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Methimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/methimazole/",
+      "source_identifier": "fact-sheets:methimazole",
+      "source_section": "Does taking methimazole increase the chance for miscarriage?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:49 GMT",
+      "retrieved_at": "2026-09-18T08:23:33.881998+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:58:49 GMT",
+      "content_hash": "3861bdace8de3155faf22612f99f416995289cd001a9b4808db751d3f296831e",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "methimazole",
+      "canonical_name": "methimazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:methimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/methimazole/",
+      "retrieved_at": "2026-09-18T08:23:33.881998+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:49 GMT",
+      "source_content_hash": "33294313525d1c567c6128b3eff065e9a062fd9c2e095ddb58828f23e9d4bb9f",
+      "error_code": null
+    },
+    "source_content_hash": "33294313525d1c567c6128b3eff065e9a062fd9c2e095ddb58828f23e9d4bb9f",
+    "source_product_identifier": "fact-sheets:methimazole",
+    "source_version": "Tue, 02 Dec 2025 11:58:49 GMT",
+    "canonical_name": "methimazole",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. One study did not find an increased chance of miscarriage in 241 women who were pregnant and used methimazole in early pregnancy. Hyperthyroidism has been associated with an increase in the chance for miscarriage."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "methimazole-mothertobaby-33294313525d-004",
+      "drug_id": "methimazole",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like methimazole, might increase the chance of birth defects in a pregnancy. Some studies and case reports suggest there could be an increased chance of birth defects when taking methimazole. There has been a suggested pattern of birth defects linked to methimazole exposure. The most commonly reported findings include aplasia cutis (ulcers on the scalp), choanal atresia (narrowing in the opening to the nasal passages), and esophageal atresia (tube connecting mouth to stomach is not formed properly). There are also studies and case reports that did not find an increase in the chance of birth defects when methimazole is taken in pregnancy. Some studies suggest that the underlying medical condition (hyperthyroidism), may play a role in the chance for birth defects. In summary, there is not enough evidence to suggest that taking methimazole clearly increases the chance of birth defects above the background chance.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Methimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/methimazole/",
+      "source_identifier": "fact-sheets:methimazole",
+      "source_section": "Does taking methimazole increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:49 GMT",
+      "retrieved_at": "2026-09-18T08:23:33.881998+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:58:49 GMT",
+      "content_hash": "29971fd3572fe337558ba12ea9946b8e5100ccc472f85a2f57a06b70214b1159",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "methimazole",
+      "canonical_name": "methimazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:methimazole",
+      "source_url": "https://mothertobaby.org/fact-sheets/methimazole/",
+      "retrieved_at": "2026-09-18T08:23:33.881998+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:49 GMT",
+      "source_content_hash": "33294313525d1c567c6128b3eff065e9a062fd9c2e095ddb58828f23e9d4bb9f",
+      "error_code": null
+    },
+    "source_content_hash": "33294313525d1c567c6128b3eff065e9a062fd9c2e095ddb58828f23e9d4bb9f",
+    "source_product_identifier": "fact-sheets:methimazole",
+    "source_version": "Tue, 02 Dec 2025 11:58:49 GMT",
+    "canonical_name": "methimazole",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like methimazole, might increase the chance of birth defects in a pregnancy. Some studies and case reports suggest there could be an increased chance of birth defects when taking methimazole. There has been a suggested pattern of birth defects linked to methimazole exposure. The most commonly reported findings include aplasia cutis (ulcers on the scalp), choanal atresia (narrowing in the opening to the nasal passages), and esophageal atresia (tube connecting mouth to stomach is not formed properly). There are also studies and case reports that did not find an increase in the chance of birth defects when methimazole is taken in pregnancy. Some studies suggest that the underlying medical condition (hyperthyroidism), may play a role in the chance for birth defects. In summary, there is not enough evidence to suggest that taking methimazole clearly increases the chance of birth defects above the background chance."
+  }
+}

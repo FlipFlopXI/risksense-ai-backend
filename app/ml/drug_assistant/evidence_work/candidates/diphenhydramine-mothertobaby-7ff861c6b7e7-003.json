@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "diphenhydramine-mothertobaby-7ff861c6b7e7-003",
+      "drug_id": "diphenhydramine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Results from one study did not show an increased chance of miscarriage with the use of antihistamines, including diphenhydramine, in early pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Diphenhydramine",
+      "source_url": "https://mothertobaby.org/fact-sheets/diphenhydramine-pregnancy/",
+      "source_identifier": "fact-sheets:diphenhydramine-pregnancy",
+      "source_section": "Does taking diphenhydramine increase the chance of miscarriage?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:27 GMT",
+      "retrieved_at": "2026-09-18T08:23:17.526566+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:27 GMT",
+      "content_hash": "a6f47982577543597a766d6cf1364989828c84f581f0ad9e8bff55c5e4fb2744",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "diphenhydramine",
+      "canonical_name": "diphenhydramine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:diphenhydramine-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/diphenhydramine-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:17.526566+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:27 GMT",
+      "source_content_hash": "7ff861c6b7e7b30740fd8bde2c39c93760fc1f26c2d8a4e6bd798d7298311184",
+      "error_code": null
+    },
+    "source_content_hash": "7ff861c6b7e7b30740fd8bde2c39c93760fc1f26c2d8a4e6bd798d7298311184",
+    "source_product_identifier": "fact-sheets:diphenhydramine-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:27 GMT",
+    "canonical_name": "diphenhydramine",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Results from one study did not show an increased chance of miscarriage with the use of antihistamines, including diphenhydramine, in early pregnancy."
+  }
+}

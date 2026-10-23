@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "cephalexin-mothertobaby-e1f14f1f2ef9-007",
+      "drug_id": "cephalexin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Studies have not been done to see if cephalexin can increase the chance of behavior or learning issues for the child.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Cephalexin (Keflex®, Keftab®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/cephalexin-keflex-keftab/",
+      "source_identifier": "fact-sheets:cephalexin-keflex-keftab",
+      "source_section": "Does taking cephalexin in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:14.344620+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "content_hash": "8ae40842b52b4a2b7d6e44eae5fec909b4ff32fbd1cdc9d4fa1ff6671faff06b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "cephalexin",
+      "canonical_name": "cephalexin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:cephalexin-keflex-keftab",
+      "source_url": "https://mothertobaby.org/fact-sheets/cephalexin-keflex-keftab/",
+      "retrieved_at": "2026-09-18T08:23:14.344620+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "source_content_hash": "e1f14f1f2ef965736fe0d40138394b805e20da55505c7ef9813e9140d684d5b9",
+      "error_code": null
+    },
+    "source_content_hash": "e1f14f1f2ef965736fe0d40138394b805e20da55505c7ef9813e9140d684d5b9",
+    "source_product_identifier": "fact-sheets:cephalexin-keflex-keftab",
+    "source_version": "Thu, 20 Aug 2026 07:41:01 GMT",
+    "canonical_name": "cephalexin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Studies have not been done to see if cephalexin can increase the chance of behavior or learning issues for the child."
+  }
+}

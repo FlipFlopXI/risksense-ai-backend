@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "semaglutide-mothertobaby-837f4f040690-005",
+      "drug_id": "semaglutide",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like semaglutide, might increase the chance of birth defects in a pregnancy. There are limited studies on semaglutide use in pregnancy. One case report involved a woman who took semaglutide for the first 3-4 weeks of pregnancy and gave birth to a child without any reported birth defects. In a study of 168 pregnant women using GLP-1s, including 51 who took semaglutide, no increased chance of birth defects was reported.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Semaglutide",
+      "source_url": "https://mothertobaby.org/fact-sheets/semaglutide/",
+      "source_identifier": "fact-sheets:semaglutide",
+      "source_section": "Does taking semaglutide increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:57:39 GMT",
+      "retrieved_at": "2026-09-18T08:29:32.670597+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:57:39 GMT",
+      "content_hash": "8029146f8d2856d878083a23099dd230dd5a0f99446e25a88baeb2f1ea526c9c",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "semaglutide",
+      "canonical_name": "semaglutide",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:semaglutide",
+      "source_url": "https://mothertobaby.org/fact-sheets/semaglutide/",
+      "retrieved_at": "2026-09-18T08:29:32.670597+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:57:39 GMT",
+      "source_content_hash": "837f4f0406909f008f69da17da77e88bafbca4ea5547efddc765c8dedf63795c",
+      "error_code": null
+    },
+    "source_content_hash": "837f4f0406909f008f69da17da77e88bafbca4ea5547efddc765c8dedf63795c",
+    "source_product_identifier": "fact-sheets:semaglutide",
+    "source_version": "Tue, 02 Dec 2025 11:57:39 GMT",
+    "canonical_name": "semaglutide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like semaglutide, might increase the chance of birth defects in a pregnancy. There are limited studies on semaglutide use in pregnancy. One case report involved a woman who took semaglutide for the first 3-4 weeks of pregnancy and gave birth to a child without any reported birth defects. In a study of 168 pregnant women using GLP-1s, including 51 who took semaglutide, no increased chance of birth defects was reported."
+  }
+}

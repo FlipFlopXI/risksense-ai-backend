@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "ondansetron-mothertobaby-aeeedbc4e397-010",
+      "drug_id": "ondansetron",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if ondansetron could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects. Animal studies have not shown any effect on male fertility. In general, exposures in men are less likely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Ondansetron (Zofran®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/ondansetron-zofran-pregnancy/",
+      "source_identifier": "fact-sheets:ondansetron-zofran-pregnancy",
+      "source_section": "If a man takes ondansetron, could it affect his fertility or increase the chance of birth defects?",
+      "source_revision_date": "Tue, 25 Aug 2026 17:23:06 GMT",
+      "retrieved_at": "2026-09-18T08:29:26.751991+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 25 Aug 2026 17:23:06 GMT",
+      "content_hash": "5518e383144e2deacf7c409f4258bd406b2619d378efc1542763933896a87273",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "ondansetron",
+      "canonical_name": "ondansetron",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:ondansetron-zofran-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/ondansetron-zofran-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:26.751991+00:00",
+      "source_revision_date": "Tue, 25 Aug 2026 17:23:06 GMT",
+      "source_content_hash": "aeeedbc4e3971d813af43569e0a4d75402ce82bd4b411a65fb3eb1295aee27a7",
+      "error_code": null
+    },
+    "source_content_hash": "aeeedbc4e3971d813af43569e0a4d75402ce82bd4b411a65fb3eb1295aee27a7",
+    "source_product_identifier": "fact-sheets:ondansetron-zofran-pregnancy",
+    "source_version": "Tue, 25 Aug 2026 17:23:06 GMT",
+    "canonical_name": "ondansetron",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Studies have not been done to see if ondansetron could affect male fertility (ability to make healthy sperm) or increase the chance of birth defects. Animal studies have not shown any effect on male fertility. In general, exposures in men are less likely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

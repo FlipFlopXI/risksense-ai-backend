@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "albuterol-mothertobaby-7efd9cf4cec3-002",
+      "drug_id": "albuterol",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "When albuterol is inhaled, it is absorbed into the body in lower amounts compared to pill / tablet forms of the medication. It is unknown how much, if any, of the medication reaches the fetus when used as an inhaler. Research suggests that the amount is likely small. Use of a fast-acting albuterol inhaler more than two days per week can be a sign that asthma symptoms may not be well controlled. If so, talk with your healthcare provider about the best way to treat your asthma.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Albuterol",
+      "source_url": "https://mothertobaby.org/fact-sheets/albuterol-pregnancy/",
+      "source_identifier": "fact-sheets:albuterol-pregnancy",
+      "source_section": "What is albuterol?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "retrieved_at": "2026-09-18T08:23:04.964673+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "content_hash": "3ec3de1dee11aedee9443d349c1823f97c31d000603b258540f0d3fcc852836d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "albuterol",
+      "canonical_name": "albuterol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:albuterol-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/albuterol-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:04.964673+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:09 GMT",
+      "source_content_hash": "7efd9cf4cec3a2ee90ebabb056672d60f1383fa855f4a687545f324949814da2",
+      "error_code": null
+    },
+    "source_content_hash": "7efd9cf4cec3a2ee90ebabb056672d60f1383fa855f4a687545f324949814da2",
+    "source_product_identifier": "fact-sheets:albuterol-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:09 GMT",
+    "canonical_name": "albuterol",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "When albuterol is inhaled, it is absorbed into the body in lower amounts compared to pill / tablet forms of the medication. It is unknown how much, if any, of the medication reaches the fetus when used as an inhaler. Research suggests that the amount is likely small. Use of a fast-acting albuterol inhaler more than two days per week can be a sign that asthma symptoms may not be well controlled. If so, talk with your healthcare provider about the best way to treat your asthma."
+  }
+}

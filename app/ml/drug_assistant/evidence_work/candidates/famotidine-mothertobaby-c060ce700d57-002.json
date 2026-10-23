@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "famotidine-mothertobaby-c060ce700d57-002",
+      "drug_id": "famotidine",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "It is not known if famotidine can make it harder to get pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Famotidine",
+      "source_url": "https://mothertobaby.org/fact-sheets/famotidine/",
+      "source_identifier": "fact-sheets:famotidine",
+      "source_section": "I take famotidine. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Mon, 14 Sep 2026 05:38:15 GMT",
+      "retrieved_at": "2026-09-18T08:23:20.795218+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 14 Sep 2026 05:38:15 GMT",
+      "content_hash": "40258daf09d7203c3e5b31c8bba6ee5f72f83516fd3e0de14b286615a52432b7",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "famotidine",
+      "canonical_name": "famotidine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:famotidine",
+      "source_url": "https://mothertobaby.org/fact-sheets/famotidine/",
+      "retrieved_at": "2026-09-18T08:23:20.795218+00:00",
+      "source_revision_date": "Mon, 14 Sep 2026 05:38:15 GMT",
+      "source_content_hash": "c060ce700d57dff4a4cb361218c8c3ea9d54c45a9ec1509cac66bd632c8d8556",
+      "error_code": null
+    },
+    "source_content_hash": "c060ce700d57dff4a4cb361218c8c3ea9d54c45a9ec1509cac66bd632c8d8556",
+    "source_product_identifier": "fact-sheets:famotidine",
+    "source_version": "Mon, 14 Sep 2026 05:38:15 GMT",
+    "canonical_name": "famotidine",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "It is not known if famotidine can make it harder to get pregnant."
+  }
+}

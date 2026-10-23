@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "gabapentin-mothertobaby-22119fde9832-009",
+      "drug_id": "gabapentin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Gabapentin use during pregnancy may cause temporary symptoms in newborns soon after birth. These symptoms are sometimes called withdrawal. Reported symptoms include fast breathing, vomiting, diarrhea, stiff muscles, irritability, sneezing, poor feeding, trouble sleeping, tremors, and increased activity. Other reported symptoms include tongue thrusting, unusual eye movements, back arching, and ongoing arm and leg movements. There has been at least one report of withdrawal symptoms in a baby exposed to gabapentin alone, but it is not known how often this happens. Not all babies exposed to gabapentin will have withdrawal symptoms.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Gabapentin",
+      "source_url": "https://mothertobaby.org/fact-sheets/gabapentin/",
+      "source_identifier": "fact-sheets:gabapentin",
+      "source_section": "I need to take gabapentin throughout my entire pregnancy. Will it cause withdrawal symptoms in my baby after birth?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:42:45 GMT",
+      "retrieved_at": "2026-09-18T08:23:25.080320+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:42:45 GMT",
+      "content_hash": "3820a2a5ab0d1057d24d4f1c63deee16e76ef8e96b925961c58743e6c66725ef",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "gabapentin",
+      "canonical_name": "gabapentin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:gabapentin",
+      "source_url": "https://mothertobaby.org/fact-sheets/gabapentin/",
+      "retrieved_at": "2026-09-18T08:23:25.080320+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:42:45 GMT",
+      "source_content_hash": "22119fde9832d92d91b2ac5ebaefbe5a9a13c567680a319c4f868e5735a77e10",
+      "error_code": null
+    },
+    "source_content_hash": "22119fde9832d92d91b2ac5ebaefbe5a9a13c567680a319c4f868e5735a77e10",
+    "source_product_identifier": "fact-sheets:gabapentin",
+    "source_version": "Mon, 24 Aug 2026 10:42:45 GMT",
+    "canonical_name": "gabapentin",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Gabapentin use during pregnancy may cause temporary symptoms in newborns soon after birth. These symptoms are sometimes called withdrawal. Reported symptoms include fast breathing, vomiting, diarrhea, stiff muscles, irritability, sneezing, poor feeding, trouble sleeping, tremors, and increased activity. Other reported symptoms include tongue thrusting, unusual eye movements, back arching, and ongoing arm and leg movements. There has been at least one report of withdrawal symptoms in a baby exposed to gabapentin alone, but it is not known how often this happens. Not all babies exposed to gabapentin will have withdrawal symptoms."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "verapamil-mothertobaby-d825594eaa6a-002",
+      "drug_id": "verapamil",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if verapamil can make it harder to get pregnant. In some people, verapamil might raise the levels of a hormone called prolactin. When prolactin levels are too high, it can cause the body to make milk even if the woman is not breastfeeding (galactorrhea). Those who have this side effect might have a harder time becoming pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Verapamil",
+      "source_url": "https://mothertobaby.org/fact-sheets/verapamil/",
+      "source_identifier": "fact-sheets:verapamil",
+      "source_section": "I take verapamil. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:57:18 GMT",
+      "retrieved_at": "2026-09-18T08:29:37.346589+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:57:18 GMT",
+      "content_hash": "d4f2aaf79be7cef29e03da4e728717bec03750da256e3dacdd0c0bee3d9f271f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "verapamil",
+      "canonical_name": "verapamil",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:verapamil",
+      "source_url": "https://mothertobaby.org/fact-sheets/verapamil/",
+      "retrieved_at": "2026-09-18T08:29:37.346589+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:57:18 GMT",
+      "source_content_hash": "d825594eaa6a9aa18dec1b0a2f8df53555d03bf978b7dc062cad245015246711",
+      "error_code": null
+    },
+    "source_content_hash": "d825594eaa6a9aa18dec1b0a2f8df53555d03bf978b7dc062cad245015246711",
+    "source_product_identifier": "fact-sheets:verapamil",
+    "source_version": "Tue, 02 Dec 2025 11:57:18 GMT",
+    "canonical_name": "verapamil",
+    "therapeutic_group": "calcium_channel_blockers",
+    "source_excerpt": "Studies have not been done to see if verapamil can make it harder to get pregnant. In some people, verapamil might raise the levels of a hormone called prolactin. When prolactin levels are too high, it can cause the body to make milk even if the woman is not breastfeeding (galactorrhea). Those who have this side effect might have a harder time becoming pregnant."
+  }
+}

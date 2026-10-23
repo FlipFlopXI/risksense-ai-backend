@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "duloxetine-mothertobaby-4fb00c5647f5-003",
+      "drug_id": "duloxetine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Two studies reported that taking duloxetine could slightly increase the chance of miscarriage, while other studies have not reported an increased risk. Research also shows that depression on its own might increase the chance of miscarriage. This makes it hard to know if the medication, the underlying condition, or other factors are increasing the chance of miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Duloxetine (Cymbalta®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/duloxetine/",
+      "source_identifier": "fact-sheets:duloxetine",
+      "source_section": "Does taking duloxetine increase the chance of miscarriage?",
+      "source_revision_date": "Thu, 18 Jun 2026 11:30:36 GMT",
+      "retrieved_at": "2026-09-18T08:23:18.861809+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 18 Jun 2026 11:30:36 GMT",
+      "content_hash": "0d006662446db65afab9b6e9d59ae12e6ae6063dee5c250c00776a8cff23f058",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "duloxetine",
+      "canonical_name": "duloxetine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:duloxetine",
+      "source_url": "https://mothertobaby.org/fact-sheets/duloxetine/",
+      "retrieved_at": "2026-09-18T08:23:18.861809+00:00",
+      "source_revision_date": "Thu, 18 Jun 2026 11:30:36 GMT",
+      "source_content_hash": "4fb00c5647f5079c3d6e570b6ad5665099b21275acd86d371eb07484e3e6471a",
+      "error_code": null
+    },
+    "source_content_hash": "4fb00c5647f5079c3d6e570b6ad5665099b21275acd86d371eb07484e3e6471a",
+    "source_product_identifier": "fact-sheets:duloxetine",
+    "source_version": "Thu, 18 Jun 2026 11:30:36 GMT",
+    "canonical_name": "duloxetine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Two studies reported that taking duloxetine could slightly increase the chance of miscarriage, while other studies have not reported an increased risk. Research also shows that depression on its own might increase the chance of miscarriage. This makes it hard to know if the medication, the underlying condition, or other factors are increasing the chance of miscarriage."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "alirocumab-mothertobaby-773c89a83f9f-010",
+      "drug_id": "alirocumab",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Studies have not been done on the use of alirocumab while breastfeeding. Because alirocumab is a large protein, only a small amount is expected to pass into breast milk. Any medication that does get into breast milk is also unlikely to be absorbed by the baby’s body because it is broken down in the baby’s digestive system. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Alirocumab (Praluent®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/alirocumab/",
+      "source_identifier": "fact-sheets:alirocumab",
+      "source_section": "Breastfeeding while taking alirocumab:",
+      "source_revision_date": "Wed, 19 Aug 2026 07:46:26 GMT",
+      "retrieved_at": "2026-09-18T08:23:05.609691+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 07:46:26 GMT",
+      "content_hash": "9870160248b0b62d5b2625a19041f75a57a17e907b276b2c57abeea715fa4092",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "alirocumab",
+      "canonical_name": "alirocumab",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:alirocumab",
+      "source_url": "https://mothertobaby.org/fact-sheets/alirocumab/",
+      "retrieved_at": "2026-09-18T08:23:05.609691+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 07:46:26 GMT",
+      "source_content_hash": "773c89a83f9f0855b9836ab499dcf1e03f47a08a3cd293df36c5e654f2e350f6",
+      "error_code": null
+    },
+    "source_content_hash": "773c89a83f9f0855b9836ab499dcf1e03f47a08a3cd293df36c5e654f2e350f6",
+    "source_product_identifier": "fact-sheets:alirocumab",
+    "source_version": "Wed, 19 Aug 2026 07:46:26 GMT",
+    "canonical_name": "alirocumab",
+    "therapeutic_group": "lipid_lowering",
+    "source_excerpt": "Studies have not been done on the use of alirocumab while breastfeeding. Because alirocumab is a large protein, only a small amount is expected to pass into breast milk. Any medication that does get into breast milk is also unlikely to be absorbed by the baby’s body because it is broken down in the baby’s digestive system. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

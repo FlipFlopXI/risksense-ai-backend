@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "eprosartan-dailymed-00aa7d282abb-006",
+      "drug_id": "eprosartan",
+      "related_drug_ids": [],
+      "topic": "adverse_effects",
+      "subtopic": "adverse_reactions",
+      "claim": "TEVETEN ® HCT 600/12.5 mg has been evaluated for safety in 268 patients in double-blind, controlled clinical trials. Most of these patients were treated with TEVETEN ® HCT 600/12.5 mg for 29 to 60 days. Eprosartan/hydrochlorothiazide combination therapy has been evaluated for safety in 890 patients in open-label, long-term clinical trials. Approximately 50% of these patients were treated with eprosartan/hydrochlorothiazide for over 2 years. Eprosartan/hydrochlorothiazide combination therapy was well tolerated. Most adverse events were of mild or moderate severity and did not require discontinuation of therapy. Adverse experiences were similar in patients regardless of age, gender, or race. In the controlled clinical trials, about 3% of the 268 patients treated with TEVETEN ® HCT 600/12.5 mg discontinued therapy due to clinical adverse experiences. The following table lists adverse events that occurred at an incidence of >3% among TEVETEN ® HCT 600/12.5 mg- or monotherapy-treated patients who participated in the controlled clinical trials. Of the 268 patients who received TEVETEN ® HCT 600/12.5 mg during the double-blind treatment period in the controlled trials, 110 patients were reported to have adverse events. Table 1 Incidence of Adverse Events >3% During the Double-Blind Treatment Period by Preferred Term and Treatment Grouping: Controlled Studies Placebo (N=246) Eprosartan 600 mg (N=275) HCTZ 12.5 mg (N=117) HCTZ 25 mg (N=52) Eprosartan 600 mg/HCTZ 12.5 mg (N=268) Preferred Term n (%) n (%) n (%) n (%) n (%) Dizziness 4 (1.6) 5 (1.8) 2 (1.7) 2 (3.8) 11 (4.1) Headache 2",
+      "source_organisation": "DailyMed",
+      "source_title": "TEVETEN ® HCT (eprosartan mesylate/hydrochlorothiazide)600/12.5mg 600/25mg",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b1dfcac3-ef66-4d3e-9d58-37d3f516eb31.xml",
+      "source_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+      "source_section": "ADVERSE REACTIONS",
+      "source_revision_date": "2",
+      "retrieved_at": "2026-09-18T08:16:03.771762+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "2",
+      "content_hash": "d3a0ae230a26445d04e0349b555e69c3b2ea875b228150a0c14bc3126b45bb10",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "eprosartan",
+      "canonical_name": "eprosartan",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/b1dfcac3-ef66-4d3e-9d58-37d3f516eb31.xml",
+      "retrieved_at": "2026-09-18T08:16:03.771762+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "00aa7d282abb3353c77049f2662f53d7a250446faca5775ef26e3e2945d6e198",
+      "error_code": null
+    },
+    "source_content_hash": "00aa7d282abb3353c77049f2662f53d7a250446faca5775ef26e3e2945d6e198",
+    "source_product_identifier": "b1dfcac3-ef66-4d3e-9d58-37d3f516eb31",
+    "source_version": "2",
+    "canonical_name": "eprosartan",
+    "therapeutic_group": "arbs",
+    "source_excerpt": "TEVETEN ® HCT 600/12.5 mg has been evaluated for safety in 268 patients in double-blind, controlled clinical trials. Most of these patients were treated with TEVETEN ® HCT 600/12.5 mg for 29 to 60 days. Eprosartan/hydrochlorothiazide combination therapy has been evaluated for safety in 890 patients in open-label, long-term clinical trials. Approximately 50% of these patients were treated with eprosartan/hydrochlorothiazide for over 2 years. Eprosartan/hydrochlorothiazide combination therapy was well tolerated. Most adverse events were of mild or moderate severity and did not require discontinuation of therapy. Adverse experiences were similar in patients regardless of age, gender, or race. In the controlled clinical trials, about 3% of the 268 patients treated with TEVETEN ® HCT 600/12.5 mg discontinued therapy due to clinical adverse experiences. The following table lists adverse events that occurred at an incidence of >3% among TEVETEN ® HCT 600/12.5 mg- or monotherapy-treated patients who participated in the controlled clinical trials. Of the 268 patients who received TEVETEN ® HCT 600/12.5 mg during the double-blind treatment period in the controlled trials, 110 patients were reported to have adverse events. Table 1 Incidence of Adverse Events >3% During the Double-Blind Treatment Period by Preferred Term and Treatment Grouping: Controlled Studies Placebo (N=246) Eprosartan 600 mg (N=275) HCTZ 12.5 mg (N=117) HCTZ 25 mg (N=52) Eprosartan 600 mg/HCTZ 12.5 mg (N=268) Preferred Term n (%) n (%) n (%) n (%) n (%) Dizziness 4 (1.6) 5 (1.8) 2 (1.7) 2 (3.8) 11 (4.1) Headache 22 (8.9) 10 (3.6) 4 (3.4) 3 (5.8) 9 (3.4) Back pain 6 (2.4) 7 (2.5) 2 (1.7) 2 (3.8) 7 (2.6) Fatigue 6 (2.4) 5 (1.8) 1 (0.9) 2 (3.8) 5 (1.9) Myalgia 8 (3.3) 2 (0.7) 3 (2.6) 0 (0.0) 1 (0.4) Upper Respiratory Tract Infection 8 (3.3) 2 (0.7) 0 (0.0) 2 (3.8) 1 (0.4) Sinusitis 4 (1.6) 1 (0.4) 0 (0.0) 2 (3.8) 0 (0.0) Viral Infection 4 (1.6) 0 (0.0) 2 (1.7) 2 (3.8) 0 (0.0) The adverse events reported in over 600 patients that received TEVETEN ® /hydrochlorothiazide combination therapy for at least 1 year in the open-label, long-term clinical trials were comparable to those reported in the controlled trials. Eprosartan Mesylate: In addition to the adverse events above, potentially important adverse events that are included in the current labeling for TEVETEN ® monotherapy are listed below. Most of these adverse events occurred in <1% of patients, or were as frequent or more frequent in the placebo group. It is not known if these events were related to eprosartan usage: Body as a Whole: alcohol intolerance, asthenia, substernal chest pain, dependent edema, peripheral edema, facial edema, fatigue, fever, hot flushes, influenza-like symptoms, injury, malaise, pain, rigors, viral infection; Cardiovascular: angina pectoris, bradycardia, abnormal ECG, specific abnormal ECG, extrasystoles, atrial fibrillation, hypotension (including orthostatic hypotension), tachycardia, palpitations; Gastrointestinal: abdominal pain, anorexia, constipation, diarrhea, dry mouth, dyspepsia, esophagitis, flatulence, gastritis, gastroenteritis, gingivitis, nausea, periodontitis, toothache, vomiting; Hematologic: anemia, purpura; Liver and Biliary: increased SGOT, increased SGPT; Metabolic and Nutritional: increased creatine phosphokinase, diabetes mellitus, glycosuria, gout, hypercholesterolemia, hyperglycemia, hyperkalemia, hypokalemia, hyponatremia, hypertriglyceridemia; Musculoskeletal: arthralgia, arthritis, aggravated arthritis, arthrosis, skeletal pain, tendinitis; Nervous System/Psychiatric : anxiety, ataxia, depression, dizziness, insomnia, migraine, neuritis, nervousness, paresthesia, somnolence, tremor, vertigo; Resistance Mechanism: herpes simplex, otitis externa, otitis media, upper respiratory tract infection; Respiratory: asthma, bronchitis, coughing, epistaxis, pharyngitis, rhinitis; Skin and Appendages: eczema, furunculosis, pruritus, rash, maculopapular rash, increased sweating; Special Senses: conjunctivitis, abnormal vision, xerophthalmia, tinnitus; Urinary: albuminuria, cystitis, hematuria, micturition frequency, polyuria, renal calculus, urinary incontinence, urinary tract infection; Vascular: leg cramps, peripheral ischemia. Hydrochlorothiazide: Other adverse events that have been reported for hydrochlorothiazide, without regard to causality, are listed below: Body as a Whole: weakness; Cardiovascular: hypotension (including orthostatic hypotension); Digestive: pancreatitis, jaundice (intrahepatic cholestatic jaundice), diarrhea, vomiting, sialadenitis, cramping, constipation, gastric irritation, nausea, anorexia; Hematologic: aplastic anemia, agranulocytosis, leukopenia, hemolytic anemia, thrombocytopenia; Hypersensitivity: anaphylactic reactions, necrotizing angiitis (vasculitis and cutaneous vasculitis), respiratory distress including pneumonitis, and pulmonary edema, photosensitivity, fever, urticaria, rash, purpura; Metabolic: electrolyte imbalance"
+  }
+}

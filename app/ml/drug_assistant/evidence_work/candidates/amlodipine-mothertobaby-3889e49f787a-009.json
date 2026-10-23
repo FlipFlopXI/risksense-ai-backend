@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "amlodipine-mothertobaby-3889e49f787a-009",
+      "drug_id": "amlodipine",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done to see if amlodipine could affect a man’s fertility (ability to get a woman pregnant) or increase the chance of birth defects above the background risk. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Amlodipine (Norvasc®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/amlodipine-norvasc/",
+      "source_identifier": "fact-sheets:amlodipine-norvasc",
+      "source_section": "If a man takes amlodipine, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "retrieved_at": "2026-09-18T08:23:09.174791+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "content_hash": "55520b849fcf467fac4ccb96a168cbcadc0595e892f0304038e00fcda172a4ea",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "amlodipine",
+      "canonical_name": "amlodipine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:amlodipine-norvasc",
+      "source_url": "https://mothertobaby.org/fact-sheets/amlodipine-norvasc/",
+      "retrieved_at": "2026-09-18T08:23:09.174791+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "source_content_hash": "3889e49f787a2c53d726b6b94666094027393c0ab22b3f66849df9668f86be72",
+      "error_code": null
+    },
+    "source_content_hash": "3889e49f787a2c53d726b6b94666094027393c0ab22b3f66849df9668f86be72",
+    "source_product_identifier": "fact-sheets:amlodipine-norvasc",
+    "source_version": "Tue, 02 Dec 2025 11:58:16 GMT",
+    "canonical_name": "amlodipine",
+    "therapeutic_group": "calcium_channel_blockers",
+    "source_excerpt": "Studies have not been done to see if amlodipine could affect a man’s fertility (ability to get a woman pregnant) or increase the chance of birth defects above the background risk. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

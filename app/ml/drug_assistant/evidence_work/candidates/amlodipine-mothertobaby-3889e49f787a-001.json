@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "amlodipine-mothertobaby-3889e49f787a-001",
+      "drug_id": "amlodipine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Amlodipine is a medication that has been used to treat high blood pressure (hypertension). It is in a class of medications called calcium channel blockers. A brand name for amlodipine is Norvasc®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Amlodipine (Norvasc®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/amlodipine-norvasc/",
+      "source_identifier": "fact-sheets:amlodipine-norvasc",
+      "source_section": "What is amlodipine?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "retrieved_at": "2026-09-18T08:23:09.174791+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "content_hash": "cf1d4a9e75543df16fc75c81cbcfeb39f9e45aca6c9b45eb8219512fb311e0ec",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "amlodipine",
+      "canonical_name": "amlodipine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:amlodipine-norvasc",
+      "source_url": "https://mothertobaby.org/fact-sheets/amlodipine-norvasc/",
+      "retrieved_at": "2026-09-18T08:23:09.174791+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:58:16 GMT",
+      "source_content_hash": "3889e49f787a2c53d726b6b94666094027393c0ab22b3f66849df9668f86be72",
+      "error_code": null
+    },
+    "source_content_hash": "3889e49f787a2c53d726b6b94666094027393c0ab22b3f66849df9668f86be72",
+    "source_product_identifier": "fact-sheets:amlodipine-norvasc",
+    "source_version": "Tue, 02 Dec 2025 11:58:16 GMT",
+    "canonical_name": "amlodipine",
+    "therapeutic_group": "calcium_channel_blockers",
+    "source_excerpt": "Amlodipine is a medication that has been used to treat high blood pressure (hypertension). It is in a class of medications called calcium channel blockers. A brand name for amlodipine is Norvasc®."
+  }
+}

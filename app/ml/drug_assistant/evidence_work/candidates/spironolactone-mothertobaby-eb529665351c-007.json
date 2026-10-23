@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "spironolactone-mothertobaby-eb529665351c-007",
+      "drug_id": "spironolactone",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "It is not known if taking spironolactone can increase the chance of birth defects. Information from animal studies suggests that taking spironolactone early in pregnancy might increase the chance of feminization (when a male develops female sex characteristics) in the offspring. However, it is not known if this will happen in human pregnancy. There are case reports of women taking spironolactone during pregnancy who gave birth to children without birth defects or decreased virilization (less male sex characteristics) noted.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Spironolactone (Aldactone®, Carospir®, Qaialdo®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/spironolactone-aldactone-carospir-qaialdo/",
+      "source_identifier": "fact-sheets:spironolactone-aldactone-carospir-qaialdo",
+      "source_section": "Does taking spironolactone increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "retrieved_at": "2026-09-18T08:29:33.571578+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "content_hash": "a92ced51eb4280ef89eab2e90516ae1c6572c998b8945b6d51131be6f729dcf1",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "spironolactone",
+      "canonical_name": "spironolactone",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:spironolactone-aldactone-carospir-qaialdo",
+      "source_url": "https://mothertobaby.org/fact-sheets/spironolactone-aldactone-carospir-qaialdo/",
+      "retrieved_at": "2026-09-18T08:29:33.571578+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "source_content_hash": "eb529665351c79e2cd41070206bfbb96914d5ba7ea546d9a0ca1bdd58ea21f80",
+      "error_code": null
+    },
+    "source_content_hash": "eb529665351c79e2cd41070206bfbb96914d5ba7ea546d9a0ca1bdd58ea21f80",
+    "source_product_identifier": "fact-sheets:spironolactone-aldactone-carospir-qaialdo",
+    "source_version": "Tue, 02 Dec 2025 11:59:12 GMT",
+    "canonical_name": "spironolactone",
+    "therapeutic_group": "diuretics",
+    "source_excerpt": "It is not known if taking spironolactone can increase the chance of birth defects. Information from animal studies suggests that taking spironolactone early in pregnancy might increase the chance of feminization (when a male develops female sex characteristics) in the offspring. However, it is not known if this will happen in human pregnancy. There are case reports of women taking spironolactone during pregnancy who gave birth to children without birth defects or decreased virilization (less male sex characteristics) noted."
+  }
+}

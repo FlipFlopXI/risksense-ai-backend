@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "prednisone-mothertobaby-5c96ba73d4ba-002",
+      "drug_id": "prednisone",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Taking prednisone or prednisolone is not expected to increase the chance of miscarriage. One study found that oral immunosuppressant medications, including prednisolone, might improve pregnancy outcomes in women with unexplained recurrent miscarriage (2 or more pregnancies that end in miscarriage) by lowering the chance of miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Prednisone/Prednisolone",
+      "source_url": "https://mothertobaby.org/fact-sheets/prednisoneprednisolone-pregnancy/",
+      "source_identifier": "fact-sheets:prednisoneprednisolone-pregnancy",
+      "source_section": "Does prednisone or prednisolone increase the chance of miscarriage?",
+      "source_revision_date": "Sat, 25 Jul 2026 20:50:32 GMT",
+      "retrieved_at": "2026-09-18T08:29:29.495529+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Sat, 25 Jul 2026 20:50:32 GMT",
+      "content_hash": "8333d6c136291860eca36ebbe4e8c0a1235616b2fce14fc6316ce213d9edd2b5",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "prednisone",
+      "canonical_name": "prednisone",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:prednisoneprednisolone-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/prednisoneprednisolone-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:29.495529+00:00",
+      "source_revision_date": "Sat, 25 Jul 2026 20:50:32 GMT",
+      "source_content_hash": "5c96ba73d4ba1553909a3b2b00b6fdff0605ed82bcc3d37e564a30f9fc415484",
+      "error_code": null
+    },
+    "source_content_hash": "5c96ba73d4ba1553909a3b2b00b6fdff0605ed82bcc3d37e564a30f9fc415484",
+    "source_product_identifier": "fact-sheets:prednisoneprednisolone-pregnancy",
+    "source_version": "Sat, 25 Jul 2026 20:50:32 GMT",
+    "canonical_name": "prednisone",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Taking prednisone or prednisolone is not expected to increase the chance of miscarriage. One study found that oral immunosuppressant medications, including prednisolone, might improve pregnancy outcomes in women with unexplained recurrent miscarriage (2 or more pregnancies that end in miscarriage) by lowering the chance of miscarriage."
+  }
+}

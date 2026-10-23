@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "azathioprine-mothertobaby-866f1386e4ea-001",
+      "drug_id": "azathioprine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Azathioprine (Imuran®) and 6-mercaptopurine (6-MP, Purinethol®) are medications that lower the body’s immune system (immunosuppressants). Azathioprine is changed into 6-MP after it is absorbed by the body. These medications have been used to treat autoimmune conditions such as lupus, rheumatoid arthritis, Crohn’s disease, and ulcerative colitis. Azathioprine is also used to help prevent the body from rejecting a transplanted organ. 6-MP is also used to treat some types of cancer.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Azathioprine | 6-mercaptopurine (Imuran® | Purinethol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/azathioprine-6mp/",
+      "source_identifier": "fact-sheets:azathioprine-6mp",
+      "source_section": "What is azathioprine and 6-mercaptopurine (6-MP)?",
+      "source_revision_date": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "retrieved_at": "2026-09-18T08:23:11.161131+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "content_hash": "2711e59d9ec2374ea5952c1017674c23d054637f638f00a07a6c346e5101529c",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "azathioprine",
+      "canonical_name": "azathioprine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:azathioprine-6mp",
+      "source_url": "https://mothertobaby.org/fact-sheets/azathioprine-6mp/",
+      "retrieved_at": "2026-09-18T08:23:11.161131+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "source_content_hash": "866f1386e4eab39228d1f8ded7a25f3ae2a435dadf814e6a748b0d6bc9514539",
+      "error_code": null
+    },
+    "source_content_hash": "866f1386e4eab39228d1f8ded7a25f3ae2a435dadf814e6a748b0d6bc9514539",
+    "source_product_identifier": "fact-sheets:azathioprine-6mp",
+    "source_version": "Wed, 19 Aug 2026 09:56:03 GMT",
+    "canonical_name": "azathioprine",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Azathioprine (Imuran®) and 6-mercaptopurine (6-MP, Purinethol®) are medications that lower the body’s immune system (immunosuppressants). Azathioprine is changed into 6-MP after it is absorbed by the body. These medications have been used to treat autoimmune conditions such as lupus, rheumatoid arthritis, Crohn’s disease, and ulcerative colitis. Azathioprine is also used to help prevent the body from rejecting a transplanted organ. 6-MP is also used to treat some types of cancer."
+  }
+}

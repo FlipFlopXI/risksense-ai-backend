@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fluoxetine-mothertobaby-63b339071331-007",
+      "drug_id": "fluoxetine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Some studies suggest a higher chance of preterm delivery (birth before week 37 of pregnancy) or low birth weight (weighing less than 5 pounds, 8 ounces [2,500 grams] at birth) with the use of fluoxetine in pregnancy. However, research has also shown that when conditions such as depression or anxiety are untreated or undertreated during pregnancy, there could be an increased chance of pregnancy complications. This makes it hard to know if it is the medication, underlying conditions, or other factors that might increase the chance of these problems.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Fluoxetine (Prozac®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluoxetine-prozac-pregnancy/",
+      "source_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+      "source_section": "Does taking fluoxetine in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "retrieved_at": "2026-09-18T08:23:22.026163+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "content_hash": "499eef49db899967202129aea0230a05644af27174f54f5f0fc8a13c14899cd8",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fluoxetine",
+      "canonical_name": "fluoxetine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluoxetine-prozac-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:22.026163+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:28:09 GMT",
+      "source_content_hash": "63b339071331460672c24657a3cfd3da112ebfabf8ae8301e54486570e990fc2",
+      "error_code": null
+    },
+    "source_content_hash": "63b339071331460672c24657a3cfd3da112ebfabf8ae8301e54486570e990fc2",
+    "source_product_identifier": "fact-sheets:fluoxetine-prozac-pregnancy",
+    "source_version": "Mon, 24 Aug 2026 10:28:09 GMT",
+    "canonical_name": "fluoxetine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Some studies suggest a higher chance of preterm delivery (birth before week 37 of pregnancy) or low birth weight (weighing less than 5 pounds, 8 ounces [2,500 grams] at birth) with the use of fluoxetine in pregnancy. However, research has also shown that when conditions such as depression or anxiety are untreated or undertreated during pregnancy, there could be an increased chance of pregnancy complications. This makes it hard to know if it is the medication, underlying conditions, or other factors that might increase the chance of these problems."
+  }
+}

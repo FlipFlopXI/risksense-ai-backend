@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "paroxetine-mothertobaby-1f36d96715bd-008",
+      "drug_id": "paroxetine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "One study looking at pregnancies exposed at least during the third trimester to SSRIs including paroxetine reported no differences in developmental outcomes between the exposed 46 infants or the unexposed 23 infants at 2 and 8 months of age. A follow-up study on some of these children found no difference in behaviors such as emotional reactivity, withdrawal, irritability, depression, or anxiety in the exposed group (22 children) when compared to the group that was not exposed to paroxetine (14 children).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Paroxetine",
+      "source_url": "https://mothertobaby.org/fact-sheets/paroxetine-paxil-pregnancy/",
+      "source_identifier": "fact-sheets:paroxetine-paxil-pregnancy",
+      "source_section": "Does taking paroxetine in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:09 GMT",
+      "retrieved_at": "2026-09-18T08:29:28.345592+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:09 GMT",
+      "content_hash": "64c3112769a72a2287881c773c433ece4fd10e9adc8f327cdf1810334c98a643",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "paroxetine",
+      "canonical_name": "paroxetine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:paroxetine-paxil-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/paroxetine-paxil-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:28.345592+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:09 GMT",
+      "source_content_hash": "1f36d96715bd4e82680f3ccf329fd23f04848d3ef0247582c1604d8e224e18f2",
+      "error_code": null
+    },
+    "source_content_hash": "1f36d96715bd4e82680f3ccf329fd23f04848d3ef0247582c1604d8e224e18f2",
+    "source_product_identifier": "fact-sheets:paroxetine-paxil-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:09 GMT",
+    "canonical_name": "paroxetine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "One study looking at pregnancies exposed at least during the third trimester to SSRIs including paroxetine reported no differences in developmental outcomes between the exposed 46 infants or the unexposed 23 infants at 2 and 8 months of age. A follow-up study on some of these children found no difference in behaviors such as emotional reactivity, withdrawal, irritability, depression, or anxiety in the exposed group (22 children) when compared to the group that was not exposed to paroxetine (14 children)."
+  }
+}

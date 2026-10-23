@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "propranolol-mothertobaby-22b3e234136a-004",
+      "drug_id": "propranolol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like propranolol, might increase the chance of birth defects in a pregnancy. It is not known if propranolol can increase the chance for birth defects. Studies on the use of beta-blockers in general during pregnancy have not reported an increased chance of birth defects.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Propranolol",
+      "source_url": "https://mothertobaby.org/fact-sheets/propranolol/",
+      "source_identifier": "fact-sheets:propranolol",
+      "source_section": "Does taking propranolol increase the chance of birth defects?",
+      "source_revision_date": "Mon, 14 Sep 2026 09:59:16 GMT",
+      "retrieved_at": "2026-09-18T08:29:29.905811+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 14 Sep 2026 09:59:16 GMT",
+      "content_hash": "e991395b6e26660297ac9a751e600d01576912cac81f0513d21a18488ecf6043",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "propranolol",
+      "canonical_name": "propranolol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:propranolol",
+      "source_url": "https://mothertobaby.org/fact-sheets/propranolol/",
+      "retrieved_at": "2026-09-18T08:29:29.905811+00:00",
+      "source_revision_date": "Mon, 14 Sep 2026 09:59:16 GMT",
+      "source_content_hash": "22b3e234136a1f51541724b922b4eac96172b2a61338a6c85f74925a7b88b5ed",
+      "error_code": null
+    },
+    "source_content_hash": "22b3e234136a1f51541724b922b4eac96172b2a61338a6c85f74925a7b88b5ed",
+    "source_product_identifier": "fact-sheets:propranolol",
+    "source_version": "Mon, 14 Sep 2026 09:59:16 GMT",
+    "canonical_name": "propranolol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "Birth defects can happen in any pregnancy for different reasons. Out of all babies born each year, about 3 out of 100 (3%) will have a birth defect. We look at research studies to try to understand if an exposure, like propranolol, might increase the chance of birth defects in a pregnancy. It is not known if propranolol can increase the chance for birth defects. Studies on the use of beta-blockers in general during pregnancy have not reported an increased chance of birth defects."
+  }
+}

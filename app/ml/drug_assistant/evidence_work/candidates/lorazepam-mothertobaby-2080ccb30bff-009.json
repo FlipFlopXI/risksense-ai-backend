@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lorazepam-mothertobaby-2080ccb30bff-009",
+      "drug_id": "lorazepam",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Studies have not been done to see if lorazepam can increase the chance of behavior or learning issues for the child.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lorazepam",
+      "source_url": "https://mothertobaby.org/fact-sheets/lorazepam/",
+      "source_identifier": "fact-sheets:lorazepam",
+      "source_section": "Does taking lorazepam in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:32.128416+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "content_hash": "83e1628380087398efe226d6e9d211a458fb61c525d752ef043c988b067123c2",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lorazepam",
+      "canonical_name": "lorazepam",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lorazepam",
+      "source_url": "https://mothertobaby.org/fact-sheets/lorazepam/",
+      "retrieved_at": "2026-09-18T08:23:32.128416+00:00",
+      "source_revision_date": "Fri, 26 Jun 2026 15:57:01 GMT",
+      "source_content_hash": "2080ccb30bff2e5aac614e9e8e7e3a4edd81f3502252abe8d66724327a12ab94",
+      "error_code": null
+    },
+    "source_content_hash": "2080ccb30bff2e5aac614e9e8e7e3a4edd81f3502252abe8d66724327a12ab94",
+    "source_product_identifier": "fact-sheets:lorazepam",
+    "source_version": "Fri, 26 Jun 2026 15:57:01 GMT",
+    "canonical_name": "lorazepam",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Studies have not been done to see if lorazepam can increase the chance of behavior or learning issues for the child."
+  }
+}

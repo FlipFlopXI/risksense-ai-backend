@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "methotrexate-mothertobaby-002b8d6ac816-006",
+      "drug_id": "methotrexate",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "One study on women undergoing fertility treatment found that those who had been treated with methotrexate for ectopic pregnancy (when a fertilized egg implants and grows outside the uterus) within the last 6 months had a lower number of eggs. Those who were treated with methotrexate longer than 6 months ago did not have a lower number of eggs. This suggests that any effect of methotrexate on the number of eggs might be temporary. Other studies have not shown a higher chance of problems with fertility (ability to get pregnant) with the use of methotrexate.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Methotrexate",
+      "source_url": "https://mothertobaby.org/fact-sheets/methotrexate-pregnancy/",
+      "source_identifier": "fact-sheets:methotrexate-pregnancy",
+      "source_section": "I take methotrexate. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:34.275180+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "content_hash": "6cb0f7515b9f639ccb42c378e2aad7ce609a1f2ba86403198766c39a0d90ae4a",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "methotrexate",
+      "canonical_name": "methotrexate",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:methotrexate-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/methotrexate-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:34.275180+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "source_content_hash": "002b8d6ac816b7cff051c87c1aca342a94e83cadfdc2c68adae9513075c8d99d",
+      "error_code": null
+    },
+    "source_content_hash": "002b8d6ac816b7cff051c87c1aca342a94e83cadfdc2c68adae9513075c8d99d",
+    "source_product_identifier": "fact-sheets:methotrexate-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:01 GMT",
+    "canonical_name": "methotrexate",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "One study on women undergoing fertility treatment found that those who had been treated with methotrexate for ectopic pregnancy (when a fertilized egg implants and grows outside the uterus) within the last 6 months had a lower number of eggs. Those who were treated with methotrexate longer than 6 months ago did not have a lower number of eggs. This suggests that any effect of methotrexate on the number of eggs might be temporary. Other studies have not shown a higher chance of problems with fertility (ability to get pregnant) with the use of methotrexate."
+  }
+}

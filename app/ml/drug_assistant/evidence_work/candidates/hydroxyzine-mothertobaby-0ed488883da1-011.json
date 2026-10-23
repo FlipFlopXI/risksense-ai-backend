@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "hydroxyzine-mothertobaby-0ed488883da1-011",
+      "drug_id": "hydroxyzine",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "It is not known if hydroxyzine passes into breast milk. Taking occasional doses of hydroxyzine is not expected to cause side effects in a breastfed infant. Larger doses or taking hydroxyzine for a long period of time might increase the chance for side effects such as drowsiness, irritability, or lower milk supply. There are reports of irritability and drowsiness in infants exposed to hydroxyzine through breast milk. If you suspect the baby has any symptoms, contact the child’s healthcare provider.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Hydroxyzine (Vistaril®, Atarax®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/hydroxyzine-vistaril-atarax/",
+      "source_identifier": "fact-sheets:hydroxyzine-vistaril-atarax",
+      "source_section": "Breastfeeding while taking hydroxyzine:",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "retrieved_at": "2026-09-18T08:23:27.227022+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "content_hash": "641e1e53f994762372c749294640aba8513318e9421ee0c7b090a7b09f769d08",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "hydroxyzine",
+      "canonical_name": "hydroxyzine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:hydroxyzine-vistaril-atarax",
+      "source_url": "https://mothertobaby.org/fact-sheets/hydroxyzine-vistaril-atarax/",
+      "retrieved_at": "2026-09-18T08:23:27.227022+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:59:12 GMT",
+      "source_content_hash": "0ed488883da12ed11b19092a691be7bf5f794a1072a555d59fccbb4b8571a93d",
+      "error_code": null
+    },
+    "source_content_hash": "0ed488883da12ed11b19092a691be7bf5f794a1072a555d59fccbb4b8571a93d",
+    "source_product_identifier": "fact-sheets:hydroxyzine-vistaril-atarax",
+    "source_version": "Tue, 02 Dec 2025 11:59:12 GMT",
+    "canonical_name": "hydroxyzine",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "It is not known if hydroxyzine passes into breast milk. Taking occasional doses of hydroxyzine is not expected to cause side effects in a breastfed infant. Larger doses or taking hydroxyzine for a long period of time might increase the chance for side effects such as drowsiness, irritability, or lower milk supply. There are reports of irritability and drowsiness in infants exposed to hydroxyzine through breast milk. If you suspect the baby has any symptoms, contact the child’s healthcare provider."
+  }
+}

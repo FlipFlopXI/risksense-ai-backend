@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "valacyclovir-mothertobaby-520dfb9fa174-004",
+      "drug_id": "valacyclovir",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies have not found an increased chance of miscarriage with acyclovir/valacyclovir use.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Acyclovir (Zovirax®) | Valacyclovir (Valtrex®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/acyclovir-zoviraxvalacyclovir-valtrex-pregnancy/",
+      "source_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+      "source_section": "Does taking acyclovir/valacyclovir increase the chance of miscarriage?",
+      "source_revision_date": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "retrieved_at": "2026-09-18T08:29:34.820274+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "content_hash": "08e0913be5555bfc914335e1bc77fe2183933cb34e39d8725a96c7cf77fc2940",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "valacyclovir",
+      "canonical_name": "valacyclovir",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/acyclovir-zoviraxvalacyclovir-valtrex-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:34.820274+00:00",
+      "source_revision_date": "Wed, 22 Jul 2026 08:22:57 GMT",
+      "source_content_hash": "520dfb9fa174771115306579c9d34363d4da98f2cb94e09d174226c5f4c4b8ef",
+      "error_code": null
+    },
+    "source_content_hash": "520dfb9fa174771115306579c9d34363d4da98f2cb94e09d174226c5f4c4b8ef",
+    "source_product_identifier": "fact-sheets:acyclovir-zoviraxvalacyclovir-valtrex-pregnancy",
+    "source_version": "Wed, 22 Jul 2026 08:22:57 GMT",
+    "canonical_name": "valacyclovir",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies have not found an increased chance of miscarriage with acyclovir/valacyclovir use."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "metoclopramide-mothertobaby-c44acfc146c0-007",
+      "drug_id": "metoclopramide",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Metoclopramide passes into breast milk in varied amounts, but the amount ingested by a breastfed child is expected to be low. Most reports have not reported side effects in nursing infants. In rare cases, gastrointestinal issues such as stomach discomfort or gas have been reported. If you suspect the baby has any symptoms, contact the child’s healthcare provider.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Metoclopramide",
+      "source_url": "https://mothertobaby.org/fact-sheets/metoclopramide/",
+      "source_identifier": "fact-sheets:metoclopramide",
+      "source_section": "Breastfeeding while taking metoclopramide:",
+      "source_revision_date": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "retrieved_at": "2026-09-18T08:23:34.770169+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "content_hash": "4da0251518ed02cecbf9a32e0a2e6923c563f8414cdddbb054c24e619c59d7b4",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "metoclopramide",
+      "canonical_name": "metoclopramide",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:metoclopramide",
+      "source_url": "https://mothertobaby.org/fact-sheets/metoclopramide/",
+      "retrieved_at": "2026-09-18T08:23:34.770169+00:00",
+      "source_revision_date": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "source_content_hash": "c44acfc146c087c13cbb99bc27d8fabe86028c9d13c8be986c5bb56c498df239",
+      "error_code": null
+    },
+    "source_content_hash": "c44acfc146c087c13cbb99bc27d8fabe86028c9d13c8be986c5bb56c498df239",
+    "source_product_identifier": "fact-sheets:metoclopramide",
+    "source_version": "Wed, 01 Apr 2026 11:11:05 GMT",
+    "canonical_name": "metoclopramide",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Metoclopramide passes into breast milk in varied amounts, but the amount ingested by a breastfed child is expected to be low. Most reports have not reported side effects in nursing infants. In rare cases, gastrointestinal issues such as stomach discomfort or gas have been reported. If you suspect the baby has any symptoms, contact the child’s healthcare provider."
+  }
+}

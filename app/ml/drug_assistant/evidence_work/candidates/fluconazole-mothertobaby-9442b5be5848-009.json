@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fluconazole-mothertobaby-9442b5be5848-009",
+      "drug_id": "fluconazole",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "The use of high-dose fluconazole for many weeks might be associated with a higher chance of birth defects. A pattern of birth defects of the head, face, bones, and heart has been reported in five children born to four women who took high doses (400 to 1200 mg per day) of fluconazole for many weeks during pregnancy to treat severe fungal infections. These cases alone cannot prove that fluconazole caused these problems, but the similar pattern of birth defects in these children has raised concern that the high doses of fluconazole might have been the cause.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Fluconazole (Diflucan®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluconazole-pregnancy/",
+      "source_identifier": "fact-sheets:fluconazole-pregnancy",
+      "source_section": "Does taking fluconazole increase the chance of birth defects?",
+      "source_revision_date": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:21.631403+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "content_hash": "df131479dab908ceb91875ab8432aa5a7d15b522a967a9cb3b039d997129765b",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fluconazole",
+      "canonical_name": "fluconazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fluconazole-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluconazole-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:21.631403+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "source_content_hash": "9442b5be5848b5b43bd1168c0ca54eb33287a2007a27ad4afe4708586ed34e36",
+      "error_code": null
+    },
+    "source_content_hash": "9442b5be5848b5b43bd1168c0ca54eb33287a2007a27ad4afe4708586ed34e36",
+    "source_product_identifier": "fact-sheets:fluconazole-pregnancy",
+    "source_version": "Thu, 20 Aug 2026 08:40:28 GMT",
+    "canonical_name": "fluconazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "The use of high-dose fluconazole for many weeks might be associated with a higher chance of birth defects. A pattern of birth defects of the head, face, bones, and heart has been reported in five children born to four women who took high doses (400 to 1200 mg per day) of fluconazole for many weeks during pregnancy to treat severe fungal infections. These cases alone cannot prove that fluconazole caused these problems, but the similar pattern of birth defects in these children has raised concern that the high doses of fluconazole might have been the cause."
+  }
+}

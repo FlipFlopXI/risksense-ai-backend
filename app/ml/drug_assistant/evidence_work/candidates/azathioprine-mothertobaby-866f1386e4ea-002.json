@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "azathioprine-mothertobaby-866f1386e4ea-002",
+      "drug_id": "azathioprine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "The product label for azathioprine states that azathioprine may increase the chance of a liver condition called intrahepatic cholestasis of pregnancy, which usually causes severe itching later in pregnancy. If this condition develops, the medication may need to be stopped. Several medical organizations consider azathioprine and 6-MP acceptable to use during pregnancy when they are needed to treat the underlying condition. For many women, the benefits of staying on treatment outweigh the possible risks. Talk with your healthcare providers about your treatment options and what is best for you and your pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Azathioprine | 6-mercaptopurine (Imuran® | Purinethol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/azathioprine-6mp/",
+      "source_identifier": "fact-sheets:azathioprine-6mp",
+      "source_section": "What is azathioprine and 6-mercaptopurine (6-MP)?",
+      "source_revision_date": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "retrieved_at": "2026-09-18T08:23:11.161131+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "content_hash": "576a37fc96b42ea94086d4b31a6aa5ec9d4dd891e73b264271c11d35bdd2655d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "azathioprine",
+      "canonical_name": "azathioprine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:azathioprine-6mp",
+      "source_url": "https://mothertobaby.org/fact-sheets/azathioprine-6mp/",
+      "retrieved_at": "2026-09-18T08:23:11.161131+00:00",
+      "source_revision_date": "Wed, 19 Aug 2026 09:56:03 GMT",
+      "source_content_hash": "866f1386e4eab39228d1f8ded7a25f3ae2a435dadf814e6a748b0d6bc9514539",
+      "error_code": null
+    },
+    "source_content_hash": "866f1386e4eab39228d1f8ded7a25f3ae2a435dadf814e6a748b0d6bc9514539",
+    "source_product_identifier": "fact-sheets:azathioprine-6mp",
+    "source_version": "Wed, 19 Aug 2026 09:56:03 GMT",
+    "canonical_name": "azathioprine",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "The product label for azathioprine states that azathioprine may increase the chance of a liver condition called intrahepatic cholestasis of pregnancy, which usually causes severe itching later in pregnancy. If this condition develops, the medication may need to be stopped. Several medical organizations consider azathioprine and 6-MP acceptable to use during pregnancy when they are needed to treat the underlying condition. For many women, the benefits of staying on treatment outweigh the possible risks. Talk with your healthcare providers about your treatment options and what is best for you and your pregnancy."
+  }
+}

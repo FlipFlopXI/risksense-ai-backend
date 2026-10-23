@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "methotrexate-mothertobaby-002b8d6ac816-011",
+      "drug_id": "methotrexate",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Although birth defects could occur with exposure to methotrexate any time in the first trimester, limited evidence suggests that methotrexate-related birth defects are more likely to occur if a pregnancy is exposed to 10 mg or more of methotrexate per week between 6 and 8 weeks after conception (8 to 10 weeks after the first day of the last menstrual period).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Methotrexate",
+      "source_url": "https://mothertobaby.org/fact-sheets/methotrexate-pregnancy/",
+      "source_identifier": "fact-sheets:methotrexate-pregnancy",
+      "source_section": "Does taking methotrexate increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:34.275180+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "content_hash": "f8642852f26fb2b0e17371af5eb7844d6ced66fdb8d5764ed161f91ef5230b6e",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "methotrexate",
+      "canonical_name": "methotrexate",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:methotrexate-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/methotrexate-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:34.275180+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:01 GMT",
+      "source_content_hash": "002b8d6ac816b7cff051c87c1aca342a94e83cadfdc2c68adae9513075c8d99d",
+      "error_code": null
+    },
+    "source_content_hash": "002b8d6ac816b7cff051c87c1aca342a94e83cadfdc2c68adae9513075c8d99d",
+    "source_product_identifier": "fact-sheets:methotrexate-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:01 GMT",
+    "canonical_name": "methotrexate",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Although birth defects could occur with exposure to methotrexate any time in the first trimester, limited evidence suggests that methotrexate-related birth defects are more likely to occur if a pregnancy is exposed to 10 mg or more of methotrexate per week between 6 and 8 weeks after conception (8 to 10 weeks after the first day of the last menstrual period)."
+  }
+}

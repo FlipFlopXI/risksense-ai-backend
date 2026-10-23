@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "cephalexin-mothertobaby-e1f14f1f2ef9-006",
+      "drug_id": "cephalexin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Studies have not been done to see if cephalexin can increase the chance for pregnancy-related problems such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth).",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Cephalexin (Keflex®, Keftab®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/cephalexin-keflex-keftab/",
+      "source_identifier": "fact-sheets:cephalexin-keflex-keftab",
+      "source_section": "Does taking cephalexin in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:14.344620+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "content_hash": "cd5fd6129f8e9f88dc52b895c4e17e522c7dd4032df5a02de334ed25552340c2",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "cephalexin",
+      "canonical_name": "cephalexin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:cephalexin-keflex-keftab",
+      "source_url": "https://mothertobaby.org/fact-sheets/cephalexin-keflex-keftab/",
+      "retrieved_at": "2026-09-18T08:23:14.344620+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "source_content_hash": "e1f14f1f2ef965736fe0d40138394b805e20da55505c7ef9813e9140d684d5b9",
+      "error_code": null
+    },
+    "source_content_hash": "e1f14f1f2ef965736fe0d40138394b805e20da55505c7ef9813e9140d684d5b9",
+    "source_product_identifier": "fact-sheets:cephalexin-keflex-keftab",
+    "source_version": "Thu, 20 Aug 2026 07:41:01 GMT",
+    "canonical_name": "cephalexin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Studies have not been done to see if cephalexin can increase the chance for pregnancy-related problems such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth)."
+  }
+}

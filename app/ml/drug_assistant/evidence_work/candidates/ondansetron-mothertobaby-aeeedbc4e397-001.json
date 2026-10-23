@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "ondansetron-mothertobaby-aeeedbc4e397-001",
+      "drug_id": "ondansetron",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Ondansetron is a medication that has been used to treat nausea and vomiting caused by surgery, chemotherapy, or radiation therapy. It is also sometimes prescribed during pregnancy to treat nausea and vomiting of pregnancy (NVP), also known as “morning sickness.” MotherToBaby has a fact sheet on nausea and vomiting of pregnancy at: https://mothertobaby.org/fact-sheets/nausea-vomiting-pregnancy-nvp/. One brand name for ondansetron is Zofran®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Ondansetron (Zofran®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/ondansetron-zofran-pregnancy/",
+      "source_identifier": "fact-sheets:ondansetron-zofran-pregnancy",
+      "source_section": "What is ondansetron?",
+      "source_revision_date": "Tue, 25 Aug 2026 17:23:06 GMT",
+      "retrieved_at": "2026-09-18T08:29:26.751991+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 25 Aug 2026 17:23:06 GMT",
+      "content_hash": "23dfdc397f7537bf6e1ce126d2f23d06f3dc93d9c3e8e03efce78ccded408205",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "ondansetron",
+      "canonical_name": "ondansetron",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:ondansetron-zofran-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/ondansetron-zofran-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:26.751991+00:00",
+      "source_revision_date": "Tue, 25 Aug 2026 17:23:06 GMT",
+      "source_content_hash": "aeeedbc4e3971d813af43569e0a4d75402ce82bd4b411a65fb3eb1295aee27a7",
+      "error_code": null
+    },
+    "source_content_hash": "aeeedbc4e3971d813af43569e0a4d75402ce82bd4b411a65fb3eb1295aee27a7",
+    "source_product_identifier": "fact-sheets:ondansetron-zofran-pregnancy",
+    "source_version": "Tue, 25 Aug 2026 17:23:06 GMT",
+    "canonical_name": "ondansetron",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Ondansetron is a medication that has been used to treat nausea and vomiting caused by surgery, chemotherapy, or radiation therapy. It is also sometimes prescribed during pregnancy to treat nausea and vomiting of pregnancy (NVP), also known as “morning sickness.” MotherToBaby has a fact sheet on nausea and vomiting of pregnancy at: https://mothertobaby.org/fact-sheets/nausea-vomiting-pregnancy-nvp/. One brand name for ondansetron is Zofran®."
+  }
+}

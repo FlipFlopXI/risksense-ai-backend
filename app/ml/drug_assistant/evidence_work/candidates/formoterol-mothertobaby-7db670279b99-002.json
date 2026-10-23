@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "formoterol-mothertobaby-7db670279b99-002",
+      "drug_id": "formoterol",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Formoterol combined with corticosteroids are sold under the brand names Symbicort® and Dulera®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Formoterol (Foradil®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/formoterol-pregnancy/",
+      "source_identifier": "fact-sheets:formoterol-pregnancy",
+      "source_section": "What is formoterol?",
+      "source_revision_date": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "retrieved_at": "2026-09-18T08:23:23.735627+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "content_hash": "91c5830562c3cd5d63afaee034d0cab845d667c9dd95334a0165c9f9a37cca2e",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "formoterol",
+      "canonical_name": "formoterol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:formoterol-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/formoterol-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:23.735627+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 10:37:48 GMT",
+      "source_content_hash": "7db670279b99b06343b95570d7d5b13d8d4f04be1a7d928820cb27c8c23e826e",
+      "error_code": null
+    },
+    "source_content_hash": "7db670279b99b06343b95570d7d5b13d8d4f04be1a7d928820cb27c8c23e826e",
+    "source_product_identifier": "fact-sheets:formoterol-pregnancy",
+    "source_version": "Mon, 24 Aug 2026 10:37:48 GMT",
+    "canonical_name": "formoterol",
+    "therapeutic_group": "allergy_respiratory",
+    "source_excerpt": "Formoterol combined with corticosteroids are sold under the brand names Symbicort® and Dulera®."
+  }
+}

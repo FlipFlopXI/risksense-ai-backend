@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "doxylamine-mothertobaby-5183422b8058-006",
+      "drug_id": "doxylamine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Studies of hundreds of thousands of women have shown that taking doxylamine succinate-pyridoxine hydrochloride during pregnancy does not increase the chance of birth defects. Doxylamine succinate-pyridoxine hydrochloride has been recommended as a first-line treatment for NVP by the American College of Obstetricians and Gynecologists (ACOG) and by several medical organizations in Canada.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Doxylamine succinate-pyridoxine hydrochloride (Diclegis®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy/",
+      "source_identifier": "fact-sheets:doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy",
+      "source_section": "Does taking doxylamine succinate-pyridoxine hydrochloride increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:39 GMT",
+      "retrieved_at": "2026-09-18T08:23:18.382343+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:50:39 GMT",
+      "content_hash": "51a88699a86220cc796eee487796a90a715bb74775c9c4f9675d4091e379f799",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "doxylamine",
+      "canonical_name": "doxylamine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:18.382343+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:50:39 GMT",
+      "source_content_hash": "5183422b8058c8fb01299b83564a4efd7996cf2f018d843bf1707e9f8185e4a0",
+      "error_code": null
+    },
+    "source_content_hash": "5183422b8058c8fb01299b83564a4efd7996cf2f018d843bf1707e9f8185e4a0",
+    "source_product_identifier": "fact-sheets:doxylamine-succinate-pyridoxine-hydrochloride-diclegisdiclectin-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:50:39 GMT",
+    "canonical_name": "doxylamine",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Studies of hundreds of thousands of women have shown that taking doxylamine succinate-pyridoxine hydrochloride during pregnancy does not increase the chance of birth defects. Doxylamine succinate-pyridoxine hydrochloride has been recommended as a first-line treatment for NVP by the American College of Obstetricians and Gynecologists (ACOG) and by several medical organizations in Canada."
+  }
+}

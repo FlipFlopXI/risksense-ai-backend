@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "fluconazole-mothertobaby-9442b5be5848-008",
+      "drug_id": "fluconazole",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Studies on the use of fluconazole and birth defects have mixed results. It is unlikely that the use of a single 150 mg dose of oral fluconazole during pregnancy would increase the chance of birth defects. Some studies suggest a small increase in the chance of heart defects or other birth defects with doses above 150 mg up to 300 mg during the first trimester. It is not always clear in these studies if the medication was given in a single dose or in multiple doses at different times. Other studies do not report an increased chance of birth defects with any dose up to 300 mg.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Fluconazole (Diflucan®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluconazole-pregnancy/",
+      "source_identifier": "fact-sheets:fluconazole-pregnancy",
+      "source_section": "Does taking fluconazole increase the chance of birth defects?",
+      "source_revision_date": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "retrieved_at": "2026-09-18T08:23:21.631403+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "content_hash": "3d4a1838dc8858af04bd8b66fe8f266254f2e0bd6c77783a60b0fd083f345bc1",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "fluconazole",
+      "canonical_name": "fluconazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:fluconazole-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/fluconazole-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:21.631403+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 08:40:28 GMT",
+      "source_content_hash": "9442b5be5848b5b43bd1168c0ca54eb33287a2007a27ad4afe4708586ed34e36",
+      "error_code": null
+    },
+    "source_content_hash": "9442b5be5848b5b43bd1168c0ca54eb33287a2007a27ad4afe4708586ed34e36",
+    "source_product_identifier": "fact-sheets:fluconazole-pregnancy",
+    "source_version": "Thu, 20 Aug 2026 08:40:28 GMT",
+    "canonical_name": "fluconazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Studies on the use of fluconazole and birth defects have mixed results. It is unlikely that the use of a single 150 mg dose of oral fluconazole during pregnancy would increase the chance of birth defects. Some studies suggest a small increase in the chance of heart defects or other birth defects with doses above 150 mg up to 300 mg during the first trimester. It is not always clear in these studies if the medication was given in a single dose or in multiple doses at different times. Other studies do not report an increased chance of birth defects with any dose up to 300 mg."
+  }
+}

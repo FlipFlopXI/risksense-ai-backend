@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "edoxaban-dailymed-f15492d2a274-008-adverse_effects",
+      "drug_id": "edoxaban",
+      "related_drug_ids": [],
+      "topic": "adverse_effects",
+      "subtopic": "adverse_reactions",
+      "claim": "The following clinically significant adverse reactions are discussed in greater detail in other sections of the prescribing information. Increased Risk of Stroke with Discontinuation of SAVAYSA in Patients with Nonvalvular Atrial Fibrillation [see Warnings and Precautions (5.2) ] Risk of Bleeding [see Warnings and Precautions (5.3) ] Spinal/Epidural Anesthesia or Puncture [see Warnings and Precautions (5.4) ] Treatment of NVAF : The most common adverse reactions (≥ 5%) are bleeding and anemia ( 6.1 ) Treatment of DVT and PE : The most common adverse reactions (≥ 1%) are bleeding, rash, abnormal liver function tests and anemia ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact Daiichi Sankyo, Inc. at 1-877-437-7763 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. The safety of SAVAYSA was evaluated in the ENGAGE AF-TIMI 48, Hokusai VTE, and Hokusai VTE Cancer studies including 11,530 patients exposed to SAVAYSA 60 mg and 7124 patients exposed to SAVAYSA 30 mg once daily [see Clinical Studies (14) ] . The ENGAGE AF-TIMI 48 Study In the ENGAGE AF-TIMI 48 study, the median study drug exposure for the SAVAYSA and warfarin treatment groups was 2.5 years. Bleeding was the most common reason for treatment discontinuation. Bleeding led to treatment discontinuation in 3.9% and 4.1% of patients in the SAVAYSA 60 mg and w",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SAVAYSA safely and effectively. See full prescribing information for SAVAYSA. SAVAYSA ® (edoxaban) tablets, for oral use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_section": "6 ADVERSE REACTIONS",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "9563e647388edcdc1094fec6b5ddfdde87961e6fc2bb9c3a94239d1910c0324a",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "edoxaban",
+      "canonical_name": "edoxaban",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+      "error_code": null
+    },
+    "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+    "source_product_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+    "source_version": "28",
+    "canonical_name": "edoxaban",
+    "therapeutic_group": "antiplatelets_anticoagulants",
+    "source_excerpt": "The following clinically significant adverse reactions are discussed in greater detail in other sections of the prescribing information. Increased Risk of Stroke with Discontinuation of SAVAYSA in Patients with Nonvalvular Atrial Fibrillation [see Warnings and Precautions (5.2) ] Risk of Bleeding [see Warnings and Precautions (5.3) ] Spinal/Epidural Anesthesia or Puncture [see Warnings and Precautions (5.4) ] Treatment of NVAF : The most common adverse reactions (≥ 5%) are bleeding and anemia ( 6.1 ) Treatment of DVT and PE : The most common adverse reactions (≥ 1%) are bleeding, rash, abnormal liver function tests and anemia ( 6.1 ) To report SUSPECTED ADVERSE REACTIONS, contact Daiichi Sankyo, Inc. at 1-877-437-7763 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch. Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice. The safety of SAVAYSA was evaluated in the ENGAGE AF-TIMI 48, Hokusai VTE, and Hokusai VTE Cancer studies including 11,530 patients exposed to SAVAYSA 60 mg and 7124 patients exposed to SAVAYSA 30 mg once daily [see Clinical Studies (14) ] . The ENGAGE AF-TIMI 48 Study In the ENGAGE AF-TIMI 48 study, the median study drug exposure for the SAVAYSA and warfarin treatment groups was 2.5 years. Bleeding was the most common reason for treatment discontinuation. Bleeding led to treatment discontinuation in 3.9% and 4.1% of patients in the SAVAYSA 60 mg and warfarin treatment groups, respectively. In the overall population, major bleeding was lower in the SAVAYSA group compared to the warfarin group [HR 0.80 (0.70, 0.91), p < 0.001]. Table 6.1 shows major bleeding events (percentage of patients with at least one bleeding event, per year) for the indicated population (CrCL ≤ 95 mL/min). Table 6.1: Adjudicated Bleeding Events for NVAF Patients with CrCL ≤ 95 mL/min The on-treatment period is during treatment or within 2 days of stopping study treatment. The difference in hemorrhagic stroke rate from Table 14.1 is because Table 14.1 includes events occurring during treatment or within 3 days of stopping study treatment and this table only includes patients with CrCL ≤ 95 mL/min. Event A subject can be included in multiple sub-categories if he/she had an event for those categories. SAVAYSA 60 mg Includes all patients with CrCL ≤ 95 mL/min randomized to receive 60 mg once daily, including those who were dose-reduced to 30 mg once daily because of prespecified baseline conditions. N = 5417 n (%/year) Warfarin N = 5485 n (%/year) SAVAYSA 60 mg vs. Warfarin HR (95% CI) Abbreviations: HR = Hazard Ratio versus Warfarin, CI = Confidence Interval, n = number of patients with events, N = number of patients in Safety population, Major Bleeding A major bleeding event (the study primary safety endpoint) was defined as clinically overt bleeding that met one of the following criteria: fatal bleeding; symptomatic bleeding in a critical site such as retroperitoneal, intracranial, intraocular, intraspinal, intra-articular, pericardial, or intramuscular with compartment syndrome; a clinically overt bleeding event that caused a fall in hemoglobin of at least 2.0 g/dL (or a fall in hematocrit of at least 6.0% in the absence of hemoglobin data), when adjusted for transfusions (1 unit of transfusion = 1.0 g/dL drop in hemoglobin). 357 (3.1) 431 (3.7) 0.84 (0.73, 0.97) Intracranial Hemorrhage (ICH) ICH includes primary hemorrhagic stroke, subarachnoid hemorrhage, epidural/subdural hemorrhage, and ischemic stroke with major hemorrhagic conversion. 53 (0.5) 122 (1.0) 0.44 (0.32, 0.61) Hemorrhagic Stroke 33 (0.3) 69 (0.6) 0.49 (0.32, 0.74) Other ICH 20 (0.2) 55 (0.5) 0.37 (0.22, 0.62) Gastrointestinal Gastrointestinal (GI) bleeds include bleeding from upper and lower GI tract. Lower GI tract bleeding includes rectal bleeds. 205 (1.8) 150 (1.3) 1.40 (1.13, 1.73) Fatal Bleeding Fatal bleed is a bleeding event during the on-treatment period and adjudicated as leading directly to death within 7 days. 21 (0.2) 42 (0.4) 0.51 (0.30, 0.86) ICH 19 (0.2) 36 (0.3) 0.54 (0.31, 0.94) Non-intracranial 2 (< 0.1) 6 (< 0.1) ---- The most common site of a major bleeding event was the gastrointestinal (GI) tract. Table 6.2 shows the number of and the rate at which patients experienced GI bleeding in the SAVAYSA 60 mg and warfarin treatment groups. Table 6.2: Gastrointestinal Bleeding Events for NVAF Patients with CrCL ≤ 95 mL/min During or within 2 days of stopping study treatment SAVAYSA N = 5417 n (%/year) Warfarin N = 5485 n (%/year) Major Gastrointestinal (GI) Bleeding GI bleeding was defined by location as upper or lower GI 205 (1.78) 150 (1.27) Upper GI 123 (1.06) 88 (0.74) Lower GI Lower GI bleeding included anorectal bleeding 85 (0.73) 64 (0.54) GUSTO GUSTO – Severe or life-threatening bleeding that caused hemodynamic compromise and"
+  }
+}

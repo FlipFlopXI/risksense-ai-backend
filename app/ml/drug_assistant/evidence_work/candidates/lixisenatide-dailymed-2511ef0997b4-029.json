@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lixisenatide-dailymed-2511ef0997b4-029",
+      "drug_id": "lixisenatide",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "description",
+      "claim": "SOLIQUA 100/33 is a combination of insulin glargine, an insulin analog, and lixisenatide, a GLP-1 receptor agonist. Insulin glargine is a human insulin analog produced by recombinant DNA technology utilizing a nonpathogenic laboratory strain of Escherichia coli (K12) as the production organism. The minimum potency of insulin glargine is NLT 15 units/mg. Insulin glargine differs from human insulin in that the amino acid asparagine at position A21 is replaced by glycine and two arginines are added at the C-terminus of the B-chain. Insulin glargine has low aqueous solubility at neutral pH. At pH 4 insulin glargine is completely soluble. It has a molecular weight of 6.063 kDa. Lixisenatide is a synthetic analogue of human GLP-1, which acts as a GLP-1 receptor agonist. Lixisenatide is a protein containing 44 amino acids, which is amidated at the C-terminal amino acid (position 44) and has a molecular weight of 4.8585 kDa. SOLIQUA 100/33 (insulin glargine and lixisenatide) injection is a sterile, colorless to almost colorless solution for subcutaneous use. SOLIQUA 100/33 is supplied as a prefilled single-patient-use disposable pen contain 300 units of insulin glargine and 100 mcg of lixisenatide in 3 mL of a clear, colorless to almost colorless, sterile, and aqueous solution. Each mL contains 100 units of insulin glargine and 33 mcg of lixisenatide and the inactive ingredients: glycerol (20 mg), metacresol (2.7 mg), methionine (3 mg), zinc (30 mcg), and Water for Injection, USP. Hydrochloric acid and/or sodium hydroxide may be added to adjust the pH. The approximate pH is 4.5.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SOLIQUA 100/33 safely and effectively . See full prescribing information for SOLIQUA 100/33. SOLIQUA ® 100/33 (insulin glargine and lixisenatide) injection, for subcutaneous use Initial U.S. Approval: 2016",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4bba538b-cf7c-4310-ae8f-cb711ed21bcc.xml",
+      "source_identifier": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+      "source_section": "11 DESCRIPTION",
+      "source_revision_date": "25",
+      "retrieved_at": "2026-09-18T08:17:26.677988+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "25",
+      "content_hash": "ff07e9ec3efabee6dce94a97e4de7f45ec2b400a157bc7fe96f15f5a4d262fb9",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lixisenatide",
+      "canonical_name": "lixisenatide",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4bba538b-cf7c-4310-ae8f-cb711ed21bcc.xml",
+      "retrieved_at": "2026-09-18T08:17:26.677988+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "2511ef0997b45689233cf8cba2b27ede88281df2a07bf4a4ec376c4136c5d612",
+      "error_code": null
+    },
+    "source_content_hash": "2511ef0997b45689233cf8cba2b27ede88281df2a07bf4a4ec376c4136c5d612",
+    "source_product_identifier": "4bba538b-cf7c-4310-ae8f-cb711ed21bcc",
+    "source_version": "25",
+    "canonical_name": "lixisenatide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "SOLIQUA 100/33 is a combination of insulin glargine, an insulin analog, and lixisenatide, a GLP-1 receptor agonist. Insulin glargine is a human insulin analog produced by recombinant DNA technology utilizing a nonpathogenic laboratory strain of Escherichia coli (K12) as the production organism. The minimum potency of insulin glargine is NLT 15 units/mg. Insulin glargine differs from human insulin in that the amino acid asparagine at position A21 is replaced by glycine and two arginines are added at the C-terminus of the B-chain. Insulin glargine has low aqueous solubility at neutral pH. At pH 4 insulin glargine is completely soluble. It has a molecular weight of 6.063 kDa. Lixisenatide is a synthetic analogue of human GLP-1, which acts as a GLP-1 receptor agonist. Lixisenatide is a protein containing 44 amino acids, which is amidated at the C-terminal amino acid (position 44) and has a molecular weight of 4.8585 kDa. SOLIQUA 100/33 (insulin glargine and lixisenatide) injection is a sterile, colorless to almost colorless solution for subcutaneous use. SOLIQUA 100/33 is supplied as a prefilled single-patient-use disposable pen contain 300 units of insulin glargine and 100 mcg of lixisenatide in 3 mL of a clear, colorless to almost colorless, sterile, and aqueous solution. Each mL contains 100 units of insulin glargine and 33 mcg of lixisenatide and the inactive ingredients: glycerol (20 mg), metacresol (2.7 mg), methionine (3 mg), zinc (30 mcg), and Water for Injection, USP. Hydrochloric acid and/or sodium hydroxide may be added to adjust the pH. The approximate pH is 4.5."
+  }
+}

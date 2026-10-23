@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "cephalexin-mothertobaby-e1f14f1f2ef9-005",
+      "drug_id": "cephalexin",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Information on the use of cephalexin in pregnancy is limited. In a study of 262 women who took cephalexin during pregnancy, there was no increased chance for birth defects. In another study that looked at pregnancies exposed to cephalexin and medications similar to cephalexin as one group, no increased chance of birth defects was reported.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Cephalexin (Keflex®, Keftab®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/cephalexin-keflex-keftab/",
+      "source_identifier": "fact-sheets:cephalexin-keflex-keftab",
+      "source_section": "Does taking cephalexin increase the chance of birth defects?",
+      "source_revision_date": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "retrieved_at": "2026-09-18T08:23:14.344620+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "content_hash": "6d9ef102773f38105a9d39390a28d44d5c46c9c38352e732f55a78acffda678d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "cephalexin",
+      "canonical_name": "cephalexin",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:cephalexin-keflex-keftab",
+      "source_url": "https://mothertobaby.org/fact-sheets/cephalexin-keflex-keftab/",
+      "retrieved_at": "2026-09-18T08:23:14.344620+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 07:41:01 GMT",
+      "source_content_hash": "e1f14f1f2ef965736fe0d40138394b805e20da55505c7ef9813e9140d684d5b9",
+      "error_code": null
+    },
+    "source_content_hash": "e1f14f1f2ef965736fe0d40138394b805e20da55505c7ef9813e9140d684d5b9",
+    "source_product_identifier": "fact-sheets:cephalexin-keflex-keftab",
+    "source_version": "Thu, 20 Aug 2026 07:41:01 GMT",
+    "canonical_name": "cephalexin",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Information on the use of cephalexin in pregnancy is limited. In a study of 262 women who took cephalexin during pregnancy, there was no increased chance for birth defects. In another study that looked at pregnancies exposed to cephalexin and medications similar to cephalexin as one group, no increased chance of birth defects was reported."
+  }
+}

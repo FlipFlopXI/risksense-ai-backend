@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "lithium-mothertobaby-a86ff404d220-009",
+      "drug_id": "lithium",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "Using lithium during pregnancy might cause goiter (when the thyroid gland grows larger than usual) and hypothyroidism (very low activity of the thyroid gland) in people who are pregnant. There are also case reports of these symptoms in babies exposed to lithium during pregnancy. If you are pregnant and taking lithium, talk with your healthcare provider about having your thyroid function monitored throughout pregnancy so you can be treated, if needed.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Lithium",
+      "source_url": "https://mothertobaby.org/fact-sheets/lithium-pregnancy/",
+      "source_identifier": "fact-sheets:lithium-pregnancy",
+      "source_section": "Does taking lithium in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "retrieved_at": "2026-09-18T08:23:31.106545+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "content_hash": "71b633f76a53a4b10024ec68a22f45411ff2e5f7329c25a7d91a3cf04d518094",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "lithium",
+      "canonical_name": "lithium",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:lithium-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/lithium-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:31.106545+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:49:53 GMT",
+      "source_content_hash": "a86ff404d220a4f3bd3456b13ee73fb314961964ca02ca829c7521da1c174f93",
+      "error_code": null
+    },
+    "source_content_hash": "a86ff404d220a4f3bd3456b13ee73fb314961964ca02ca829c7521da1c174f93",
+    "source_product_identifier": "fact-sheets:lithium-pregnancy",
+    "source_version": "Tue, 02 Dec 2025 11:49:53 GMT",
+    "canonical_name": "lithium",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Using lithium during pregnancy might cause goiter (when the thyroid gland grows larger than usual) and hypothyroidism (very low activity of the thyroid gland) in people who are pregnant. There are also case reports of these symptoms in babies exposed to lithium during pregnancy. If you are pregnant and taking lithium, talk with your healthcare provider about having your thyroid function monitored throughout pregnancy so you can be treated, if needed."
+  }
+}

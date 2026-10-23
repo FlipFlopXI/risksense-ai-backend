@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "tirzepatide-mothertobaby-42dd7e1a9d5c-008",
+      "drug_id": "tirzepatide",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Research studies have not been done to see if tirzepatide increases the chance of birth defects in humans. In animal studies, an increased chance for some birth defects was seen. However, it is unclear if these birth defects were due to the medication or other factors in the study (such as weight loss, or poorly controlled diabetes). Diabetes with unmet glucose goals in pregnancy can increase the chance of birth defects. It is important that diabetes is managed during pregnancy and glucose levels stay in your goal/target range throughout pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Tirzepatide (Mounjaro®, Zepbound®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/tirzepatide/",
+      "source_identifier": "fact-sheets:tirzepatide",
+      "source_section": "Does taking tirzepatide increase the chance of birth defects?",
+      "source_revision_date": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "retrieved_at": "2026-09-18T08:29:34.671940+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "content_hash": "c16c4a369a6154370d023b346cd0a2217fda0705067039c73484cd201f6c740c",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "tirzepatide",
+      "canonical_name": "tirzepatide",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:tirzepatide",
+      "source_url": "https://mothertobaby.org/fact-sheets/tirzepatide/",
+      "retrieved_at": "2026-09-18T08:29:34.671940+00:00",
+      "source_revision_date": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "source_content_hash": "42dd7e1a9d5c3d3089e85558cf53e49125e98309a4c803e9ff3c469936fd5e4c",
+      "error_code": null
+    },
+    "source_content_hash": "42dd7e1a9d5c3d3089e85558cf53e49125e98309a4c803e9ff3c469936fd5e4c",
+    "source_product_identifier": "fact-sheets:tirzepatide",
+    "source_version": "Mon, 27 Jul 2026 12:23:15 GMT",
+    "canonical_name": "tirzepatide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "Research studies have not been done to see if tirzepatide increases the chance of birth defects in humans. In animal studies, an increased chance for some birth defects was seen. However, it is unclear if these birth defects were due to the medication or other factors in the study (such as weight loss, or poorly controlled diabetes). Diabetes with unmet glucose goals in pregnancy can increase the chance of birth defects. It is important that diabetes is managed during pregnancy and glucose levels stay in your goal/target range throughout pregnancy."
+  }
+}

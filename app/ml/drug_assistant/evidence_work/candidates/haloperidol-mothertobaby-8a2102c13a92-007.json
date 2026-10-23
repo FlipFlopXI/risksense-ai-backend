@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "haloperidol-mothertobaby-8a2102c13a92-007",
+      "drug_id": "haloperidol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "The use of haloperidol during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. Symptoms might include low muscle tone (floppy), restlessness, unusual sleep patterns, trouble eating, involuntary shaking movements (tremors), and dehydration. Not all babies exposed to haloperidol will have these symptoms. It is important that your healthcare providers know you are taking haloperidol so that if symptoms occur, your baby can get the care that is best for them.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Haloperidol (Haldol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/haloperidol-haldol/",
+      "source_identifier": "fact-sheets:haloperidol-haldol",
+      "source_section": "I need to take haloperidol throughout my entire pregnancy. Will it cause withdrawal symptoms in my baby after birth?",
+      "source_revision_date": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "retrieved_at": "2026-09-18T08:23:26.269952+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "content_hash": "6c02cff536414b9684a565ecb8229d1f0bbd63b54c6d925e958c192d552cbcf7",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "haloperidol",
+      "canonical_name": "haloperidol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:haloperidol-haldol",
+      "source_url": "https://mothertobaby.org/fact-sheets/haloperidol-haldol/",
+      "retrieved_at": "2026-09-18T08:23:26.269952+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "source_content_hash": "8a2102c13a92aa2ca71d8932208c641bf3a76e3a4cfc4e542ac33c9a6f972979",
+      "error_code": null
+    },
+    "source_content_hash": "8a2102c13a92aa2ca71d8932208c641bf3a76e3a4cfc4e542ac33c9a6f972979",
+    "source_product_identifier": "fact-sheets:haloperidol-haldol",
+    "source_version": "Mon, 24 Aug 2026 12:42:22 GMT",
+    "canonical_name": "haloperidol",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "The use of haloperidol during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. Symptoms might include low muscle tone (floppy), restlessness, unusual sleep patterns, trouble eating, involuntary shaking movements (tremors), and dehydration. Not all babies exposed to haloperidol will have these symptoms. It is important that your healthcare providers know you are taking haloperidol so that if symptoms occur, your baby can get the care that is best for them."
+  }
+}

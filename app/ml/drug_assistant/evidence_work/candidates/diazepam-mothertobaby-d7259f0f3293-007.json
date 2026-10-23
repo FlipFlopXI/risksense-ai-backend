@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "diazepam-mothertobaby-d7259f0f3293-007",
+      "drug_id": "diazepam",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "The use of diazepam during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. Symptoms might include breathing problems, jitteriness, excessive crying, and trouble keeping their body temperature. Some newborns may have loose muscle tone, sluggishness, and trouble latching on to feed (called “floppy infant syndrome”). Some babies might need to spend more time in the hospital to help manage these symptoms. The symptoms are expected to go away within a few weeks. Not all babies exposed to diazepam will have these symptoms. It is important that your healthcare providers know you are taking diazepam so that if symptoms occur, your baby can get the care that is best for them.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Diazepam (Valium®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/diazepam-valium/",
+      "source_identifier": "fact-sheets:diazepam-valium",
+      "source_section": "I need to take diazepam during my pregnancy. Will it cause withdrawal symptoms in my baby after birth?",
+      "source_revision_date": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "retrieved_at": "2026-09-18T08:23:17.101051+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "content_hash": "f0bf1042114dcee3cc308f06b1deec4aa5a9799c1088e30dde8a82afa803e4b3",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "diazepam",
+      "canonical_name": "diazepam",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:diazepam-valium",
+      "source_url": "https://mothertobaby.org/fact-sheets/diazepam-valium/",
+      "retrieved_at": "2026-09-18T08:23:17.101051+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "source_content_hash": "d7259f0f3293dceffde78286c32af9b372c05e627ed0186aa9bfcfdbd1e0a7e8",
+      "error_code": null
+    },
+    "source_content_hash": "d7259f0f3293dceffde78286c32af9b372c05e627ed0186aa9bfcfdbd1e0a7e8",
+    "source_product_identifier": "fact-sheets:diazepam-valium",
+    "source_version": "Thu, 20 Aug 2026 11:24:19 GMT",
+    "canonical_name": "diazepam",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "The use of diazepam during pregnancy can cause temporary symptoms in newborns soon after birth. These symptoms are sometimes referred to as withdrawal. Symptoms might include breathing problems, jitteriness, excessive crying, and trouble keeping their body temperature. Some newborns may have loose muscle tone, sluggishness, and trouble latching on to feed (called “floppy infant syndrome”). Some babies might need to spend more time in the hospital to help manage these symptoms. The symptoms are expected to go away within a few weeks. Not all babies exposed to diazepam will have these symptoms. It is important that your healthcare providers know you are taking diazepam so that if symptoms occur, your baby can get the care that is best for them."
+  }
+}

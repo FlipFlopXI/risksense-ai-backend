@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "amitriptyline-mothertobaby-acdc8bba60eb-009",
+      "drug_id": "amitriptyline",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "There was one report of a woman who was taking 10 mg of amitriptyline per day while breastfeeding. The breastfeeding baby (15 days old) was reported to be very sleepy. When the medication was stopped, the infant’s sleepiness resolved.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Amitriptyline",
+      "source_url": "https://mothertobaby.org/fact-sheets/amitriptyline/",
+      "source_identifier": "fact-sheets:amitriptyline",
+      "source_section": "Breastfeeding while taking amitriptyline:",
+      "source_revision_date": "Wed, 22 Jul 2026 12:55:03 GMT",
+      "retrieved_at": "2026-09-18T08:23:08.174061+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 22 Jul 2026 12:55:03 GMT",
+      "content_hash": "fde5db83ba55e87d3a1caa045822997c5e1183e61479688ad943096742ce8ac9",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "amitriptyline",
+      "canonical_name": "amitriptyline",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:amitriptyline",
+      "source_url": "https://mothertobaby.org/fact-sheets/amitriptyline/",
+      "retrieved_at": "2026-09-18T08:23:08.174061+00:00",
+      "source_revision_date": "Wed, 22 Jul 2026 12:55:03 GMT",
+      "source_content_hash": "acdc8bba60eb82cfa893a48ae836778d5fda191f2814c038c4352705fa2fc353",
+      "error_code": null
+    },
+    "source_content_hash": "acdc8bba60eb82cfa893a48ae836778d5fda191f2814c038c4352705fa2fc353",
+    "source_product_identifier": "fact-sheets:amitriptyline",
+    "source_version": "Wed, 22 Jul 2026 12:55:03 GMT",
+    "canonical_name": "amitriptyline",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "There was one report of a woman who was taking 10 mg of amitriptyline per day while breastfeeding. The breastfeeding baby (15 days old) was reported to be very sleepy. When the medication was stopped, the infant’s sleepiness resolved."
+  }
+}

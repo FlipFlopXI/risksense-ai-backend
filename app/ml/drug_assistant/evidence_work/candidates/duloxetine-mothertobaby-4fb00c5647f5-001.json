@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "duloxetine-mothertobaby-4fb00c5647f5-001",
+      "drug_id": "duloxetine",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Duloxetine is a medication that has been used to treat depression, anxiety, and chronic pain. Duloxetine belongs to a group of medications known as serotonin-norepinephrine reuptake inhibitors (SNRIs). It is sold under brand names such as Cymbalta® and Irenka®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Duloxetine (Cymbalta®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/duloxetine/",
+      "source_identifier": "fact-sheets:duloxetine",
+      "source_section": "What is duloxetine?",
+      "source_revision_date": "Thu, 18 Jun 2026 11:30:36 GMT",
+      "retrieved_at": "2026-09-18T08:23:18.861809+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 18 Jun 2026 11:30:36 GMT",
+      "content_hash": "f88460de0f89fbd0d0a183d9c66980f58b59e1ed81ec6cf0a001e5d5122c2efe",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "duloxetine",
+      "canonical_name": "duloxetine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:duloxetine",
+      "source_url": "https://mothertobaby.org/fact-sheets/duloxetine/",
+      "retrieved_at": "2026-09-18T08:23:18.861809+00:00",
+      "source_revision_date": "Thu, 18 Jun 2026 11:30:36 GMT",
+      "source_content_hash": "4fb00c5647f5079c3d6e570b6ad5665099b21275acd86d371eb07484e3e6471a",
+      "error_code": null
+    },
+    "source_content_hash": "4fb00c5647f5079c3d6e570b6ad5665099b21275acd86d371eb07484e3e6471a",
+    "source_product_identifier": "fact-sheets:duloxetine",
+    "source_version": "Thu, 18 Jun 2026 11:30:36 GMT",
+    "canonical_name": "duloxetine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Duloxetine is a medication that has been used to treat depression, anxiety, and chronic pain. Duloxetine belongs to a group of medications known as serotonin-norepinephrine reuptake inhibitors (SNRIs). It is sold under brand names such as Cymbalta® and Irenka®."
+  }
+}

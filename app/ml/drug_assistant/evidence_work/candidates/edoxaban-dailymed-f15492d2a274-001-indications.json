@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "edoxaban-dailymed-f15492d2a274-001-indications",
+      "drug_id": "edoxaban",
+      "related_drug_ids": [],
+      "topic": "indications",
+      "subtopic": "indications_and_usage",
+      "claim": "SAVAYSA is a factor Xa inhibitor indicated: To reduce the risk of stroke and systemic embolism (SE) in patients with nonvalvular atrial fibrillation (NVAF) ( 1.1 ) Limitation of Use for NVAF SAVAYSA should not be used in patients with creatinine clearance (CrCL) > 95 mL/min because of increased risk of ischemic stroke compared to warfarin at the highest dose studied (60 mg) ( 1.1 ) SAVAYSA is indicated for the treatment of deep vein thrombosis (DVT) and pulmonary embolism (PE) following 5 to 10 days of initial therapy with a parenteral anticoagulant ( 1.2 ) SAVAYSA is indicated to reduce the risk of stroke and systemic embolism (SE) in patients with nonvalvular atrial fibrillation (NVAF). Limitation of Use for NVAF SAVAYSA should not be used in patients with CrCL > 95 mL/min because of an increased risk of ischemic stroke compared to warfarin [see Dosage and Administration (2.1) , Warnings and Precautions (5.1) and Clinical Studies (14.1) ] . SAVAYSA is indicated for the treatment of deep vein thrombosis (DVT) and pulmonary embolism (PE) following 5 to 10 days of initial therapy with a parenteral anticoagulant.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SAVAYSA safely and effectively. See full prescribing information for SAVAYSA. SAVAYSA ® (edoxaban) tablets, for oral use Initial U.S. Approval: 2015",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_section": "1 INDICATIONS AND USAGE",
+      "source_revision_date": "28",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "28",
+      "content_hash": "6bc0344e14b2262ff8589cf5972eba63fb5bcd4bad59b1302f989d46ded7c933",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "edoxaban",
+      "canonical_name": "edoxaban",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/e77d3400-56ad-11e3-949a-0800200c9a66.xml",
+      "retrieved_at": "2026-09-18T08:15:54.339995+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+      "error_code": null
+    },
+    "source_content_hash": "f15492d2a274f40865ac376080f9385181dabed0280450b3e6f07d3a2a78010e",
+    "source_product_identifier": "e77d3400-56ad-11e3-949a-0800200c9a66",
+    "source_version": "28",
+    "canonical_name": "edoxaban",
+    "therapeutic_group": "antiplatelets_anticoagulants",
+    "source_excerpt": "SAVAYSA is a factor Xa inhibitor indicated: To reduce the risk of stroke and systemic embolism (SE) in patients with nonvalvular atrial fibrillation (NVAF) ( 1.1 ) Limitation of Use for NVAF SAVAYSA should not be used in patients with creatinine clearance (CrCL) > 95 mL/min because of increased risk of ischemic stroke compared to warfarin at the highest dose studied (60 mg) ( 1.1 ) SAVAYSA is indicated for the treatment of deep vein thrombosis (DVT) and pulmonary embolism (PE) following 5 to 10 days of initial therapy with a parenteral anticoagulant ( 1.2 ) SAVAYSA is indicated to reduce the risk of stroke and systemic embolism (SE) in patients with nonvalvular atrial fibrillation (NVAF). Limitation of Use for NVAF SAVAYSA should not be used in patients with CrCL > 95 mL/min because of an increased risk of ischemic stroke compared to warfarin [see Dosage and Administration (2.1) , Warnings and Precautions (5.1) and Clinical Studies (14.1) ] . SAVAYSA is indicated for the treatment of deep vein thrombosis (DVT) and pulmonary embolism (PE) following 5 to 10 days of initial therapy with a parenteral anticoagulant."
+  }
+}

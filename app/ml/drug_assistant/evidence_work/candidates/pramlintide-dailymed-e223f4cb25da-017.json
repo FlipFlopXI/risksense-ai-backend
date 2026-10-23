@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "pramlintide-dailymed-e223f4cb25da-017",
+      "drug_id": "pramlintide",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pllr_8_1",
+      "claim": "Risk Summary Available data from a small number of reports in the manufacturer’s safety database on SYMLIN use in pregnant women are not sufficient to determine a drug-associated risk for major birth defects, miscarriage, or other adverse maternal or fetal outcomes. There are risks to the mother and fetus associated with poorly controlled diabetes in pregnancy ( see Clinical Considerations ). Ex-vivo studies using term perfused human, rabbit, and rat placentas indicate that SYMLIN has low potential to cross the maternal/fetal placental barrier. In animal reproduction studies, congenital abnormalities were observed in fetuses of pregnant rats but not in fetuses of pregnant rabbits exposed during organogenesis to pramlintide at 10 times the clinical dose of 360 mcg/day, based on exposure (see Data ). The estimated background risk of major birth defects is 6-10% in women with pre-gestational diabetes with an HbA1c >7 and has been reported to be as high as 20-25% in women with HbA1c >10. The estimated background risk of miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively. Clinical Considerations Disease-associated maternal and/or embryo/fetal risk Poorly controlled diabetes in pregnancy increases the maternal risk for diabetic ketoacidosis, preeclampsia, spontaneous abortions, preterm delivery, and delivery complications. Poorly controlled diabetes increases the fetal risk for major birth defects, stillbirth,",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SYMLIN safely and effectively. See full prescribing information for SYMLIN. SYMLIN ® (pramlintide acetate) injection for subcutaneous use Initial U.S. Approval: 2005",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4aea30ff-eb0d-45c1-b114-3127966328ff.xml",
+      "source_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "source_section": "8.1 Pregnancy",
+      "source_revision_date": "18",
+      "retrieved_at": "2026-09-18T08:21:23.487818+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "18",
+      "content_hash": "8bc3eea4835cfda8407bc1c25b83c12acb6db6445c1eda0223be01acd451f405",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "pramlintide",
+      "canonical_name": "pramlintide",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4aea30ff-eb0d-45c1-b114-3127966328ff.xml",
+      "retrieved_at": "2026-09-18T08:21:23.487818+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "e223f4cb25daee6d6785fc4e0d427c65dbbe94d27da19f34b5fafb7ba6a1842a",
+      "error_code": null
+    },
+    "source_content_hash": "e223f4cb25daee6d6785fc4e0d427c65dbbe94d27da19f34b5fafb7ba6a1842a",
+    "source_product_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+    "source_version": "18",
+    "canonical_name": "pramlintide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "Risk Summary Available data from a small number of reports in the manufacturer’s safety database on SYMLIN use in pregnant women are not sufficient to determine a drug-associated risk for major birth defects, miscarriage, or other adverse maternal or fetal outcomes. There are risks to the mother and fetus associated with poorly controlled diabetes in pregnancy ( see Clinical Considerations ). Ex-vivo studies using term perfused human, rabbit, and rat placentas indicate that SYMLIN has low potential to cross the maternal/fetal placental barrier. In animal reproduction studies, congenital abnormalities were observed in fetuses of pregnant rats but not in fetuses of pregnant rabbits exposed during organogenesis to pramlintide at 10 times the clinical dose of 360 mcg/day, based on exposure (see Data ). The estimated background risk of major birth defects is 6-10% in women with pre-gestational diabetes with an HbA1c >7 and has been reported to be as high as 20-25% in women with HbA1c >10. The estimated background risk of miscarriage for the indicated population is unknown. In the U.S. general population, the estimated background risk of major birth defects and miscarriage in clinically recognized pregnancies is 2-4% and 15-20%, respectively. Clinical Considerations Disease-associated maternal and/or embryo/fetal risk Poorly controlled diabetes in pregnancy increases the maternal risk for diabetic ketoacidosis, preeclampsia, spontaneous abortions, preterm delivery, and delivery complications. Poorly controlled diabetes increases the fetal risk for major birth defects, stillbirth, and macrosomia related morbidity. Data Animal Data Developmental and reproductive toxicity studies with SYMLIN were performed in pregnant rats and rabbits. Increases in congenital abnormalities (neural tube defect, cleft palate, exencephaly) were observed in fetuses of pregnant rats administered pramlintide subcutaneously during organogenesis at 0.3 and 1 mg/kg/day (10 and 47 times the human dose of 360 mcg/day based on AUC, respectively), but not at 3mg/kg/day. Administration of pramlintide to pregnant rabbits during organogenesis resulted in maternal toxicity but did not increase fetal malformations at doses up to 0.3 mg/kg/day (9 times the human dose of 360 mcg/day based on AUC)."
+  }
+}

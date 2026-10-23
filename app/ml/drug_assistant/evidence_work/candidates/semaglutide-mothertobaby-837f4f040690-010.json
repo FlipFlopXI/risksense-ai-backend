@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "semaglutide-mothertobaby-837f4f040690-010",
+      "drug_id": "semaglutide",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "Studies have not been done in men to see if semaglutide could affect a man’s fertility (ability to get a woman pregnant) or increase the chance of birth defects. There were no changes in male fertility reported in one animal study using the dose of semaglutide that would be used in humans. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Semaglutide",
+      "source_url": "https://mothertobaby.org/fact-sheets/semaglutide/",
+      "source_identifier": "fact-sheets:semaglutide",
+      "source_section": "If a male takes semaglutide, could it affect fertility or increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:57:39 GMT",
+      "retrieved_at": "2026-09-18T08:29:32.670597+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:57:39 GMT",
+      "content_hash": "249be22bfd2957bb4fb29d4408b4c481d8d02b47da31c7a13df12873f00b91c2",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "semaglutide",
+      "canonical_name": "semaglutide",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:semaglutide",
+      "source_url": "https://mothertobaby.org/fact-sheets/semaglutide/",
+      "retrieved_at": "2026-09-18T08:29:32.670597+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:57:39 GMT",
+      "source_content_hash": "837f4f0406909f008f69da17da77e88bafbca4ea5547efddc765c8dedf63795c",
+      "error_code": null
+    },
+    "source_content_hash": "837f4f0406909f008f69da17da77e88bafbca4ea5547efddc765c8dedf63795c",
+    "source_product_identifier": "fact-sheets:semaglutide",
+    "source_version": "Tue, 02 Dec 2025 11:57:39 GMT",
+    "canonical_name": "semaglutide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "Studies have not been done in men to see if semaglutide could affect a man’s fertility (ability to get a woman pregnant) or increase the chance of birth defects. There were no changes in male fertility reported in one animal study using the dose of semaglutide that would be used in humans. In general, exposures that men have are unlikely to increase risks to a pregnancy. For more information, please see the MotherToBaby fact sheet Paternal Exposures at https://mothertobaby.org/fact-sheets/paternal-exposures-pregnancy/."
+  }
+}

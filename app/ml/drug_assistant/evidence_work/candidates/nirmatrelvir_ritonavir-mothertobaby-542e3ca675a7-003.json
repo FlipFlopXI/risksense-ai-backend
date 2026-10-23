@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "nirmatrelvir_ritonavir-mothertobaby-542e3ca675a7-003",
+      "drug_id": "nirmatrelvir_ritonavir",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies have not been done in humans to see if nirmatrelvir/ritonavir can increase the chance of miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Nirmatrelvir/Ritonavir (Paxlovid®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/nirmatrelvir-ritonavir-paxlovid/",
+      "source_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+      "source_section": "Does taking nirmatrelvir/ritonavir increase the chance of miscarriage?",
+      "source_revision_date": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "retrieved_at": "2026-09-18T08:23:42.872342+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "content_hash": "d805596a6eebf6a01e136af389c60d911a30f2c0f9a044e7b43f17c3339f4ee9",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "nirmatrelvir_ritonavir",
+      "canonical_name": "nirmatrelvir/ritonavir",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+      "source_url": "https://mothertobaby.org/fact-sheets/nirmatrelvir-ritonavir-paxlovid/",
+      "retrieved_at": "2026-09-18T08:23:42.872342+00:00",
+      "source_revision_date": "Fri, 24 Jul 2026 11:27:13 GMT",
+      "source_content_hash": "542e3ca675a7d933e7bb755a35d8d77a0fa741d7b7beceaab05fd8d0151c4ed7",
+      "error_code": null
+    },
+    "source_content_hash": "542e3ca675a7d933e7bb755a35d8d77a0fa741d7b7beceaab05fd8d0151c4ed7",
+    "source_product_identifier": "fact-sheets:nirmatrelvir-ritonavir-paxlovid",
+    "source_version": "Fri, 24 Jul 2026 11:27:13 GMT",
+    "canonical_name": "nirmatrelvir/ritonavir",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies have not been done in humans to see if nirmatrelvir/ritonavir can increase the chance of miscarriage."
+  }
+}

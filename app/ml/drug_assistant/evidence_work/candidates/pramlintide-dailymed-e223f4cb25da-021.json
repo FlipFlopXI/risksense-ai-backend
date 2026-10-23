@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "pramlintide-dailymed-e223f4cb25da-021",
+      "drug_id": "pramlintide",
+      "related_drug_ids": [],
+      "topic": "clinician_discussion",
+      "subtopic": "patient_counseling_information",
+      "claim": "Advise the patient to read the FDA-approved patient labeling (Medication Guide). Risk of Hypoglycemia Discuss the risk and consequences of hypoglycemia and approaches to minimize its occurrence. Inform patients about the importance of self-management practices including glucose monitoring and timing of dosing. In addition, reinforce the importance of adherence to meal planning, physical activity, recognition and management of hypoglycemia and hyperglycemia, and assessment of diabetes complications. Never Share a SymlinPen Between Patients Advise patients that they must never share a SymlinPen with another person, even if the needle is changed, because doing so carries a risk for transmission of blood-borne pathogens. Never Mix SYMLIN and Insulin Inform patients that SYMLIN and insulin should always be administered as separate injections and never be mixed. Show patients how to administer SYMLIN using the pen-injector. Advise patients to use a new needle for each injection. Instructions Instruct patients on the proper injection technique and proper storage of SYMLIN. Refer patients to the SYMLIN Medication Guide and Patient Instructions for Use for additional information. Distributed by: AstraZeneca Pharmaceuticals LP Wilmington, DE 19850 SYMLIN and SymlinPen are registered trademarks of the AstraZeneca group of companies.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SYMLIN safely and effectively. See full prescribing information for SYMLIN. SYMLIN ® (pramlintide acetate) injection for subcutaneous use Initial U.S. Approval: 2005",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4aea30ff-eb0d-45c1-b114-3127966328ff.xml",
+      "source_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "source_section": "17 PATIENT COUNSELING INFORMATION",
+      "source_revision_date": "18",
+      "retrieved_at": "2026-09-18T08:21:23.487818+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "18",
+      "content_hash": "4af17afb4bc3d58052bfa6de7dc43bdd80306f17b2f54cd25e88bbde084597e8",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "pramlintide",
+      "canonical_name": "pramlintide",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4aea30ff-eb0d-45c1-b114-3127966328ff.xml",
+      "retrieved_at": "2026-09-18T08:21:23.487818+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "e223f4cb25daee6d6785fc4e0d427c65dbbe94d27da19f34b5fafb7ba6a1842a",
+      "error_code": null
+    },
+    "source_content_hash": "e223f4cb25daee6d6785fc4e0d427c65dbbe94d27da19f34b5fafb7ba6a1842a",
+    "source_product_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+    "source_version": "18",
+    "canonical_name": "pramlintide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "Advise the patient to read the FDA-approved patient labeling (Medication Guide). Risk of Hypoglycemia Discuss the risk and consequences of hypoglycemia and approaches to minimize its occurrence. Inform patients about the importance of self-management practices including glucose monitoring and timing of dosing. In addition, reinforce the importance of adherence to meal planning, physical activity, recognition and management of hypoglycemia and hyperglycemia, and assessment of diabetes complications. Never Share a SymlinPen Between Patients Advise patients that they must never share a SymlinPen with another person, even if the needle is changed, because doing so carries a risk for transmission of blood-borne pathogens. Never Mix SYMLIN and Insulin Inform patients that SYMLIN and insulin should always be administered as separate injections and never be mixed. Show patients how to administer SYMLIN using the pen-injector. Advise patients to use a new needle for each injection. Instructions Instruct patients on the proper injection technique and proper storage of SYMLIN. Refer patients to the SYMLIN Medication Guide and Patient Instructions for Use for additional information. Distributed by: AstraZeneca Pharmaceuticals LP Wilmington, DE 19850 SYMLIN and SymlinPen are registered trademarks of the AstraZeneca group of companies."
+  }
+}

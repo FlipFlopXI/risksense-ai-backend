@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "metoclopramide-mothertobaby-c44acfc146c0-003",
+      "drug_id": "metoclopramide",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. A small number of studies did not find an increased chance of miscarriage with metoclopramide use in pregnancy.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Metoclopramide",
+      "source_url": "https://mothertobaby.org/fact-sheets/metoclopramide/",
+      "source_identifier": "fact-sheets:metoclopramide",
+      "source_section": "Does taking metoclopramide increase the chance of miscarriage?",
+      "source_revision_date": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "retrieved_at": "2026-09-18T08:23:34.770169+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "content_hash": "1e6139f869ab8ec21a71a6ed5d05f84c6f3ff215ce15d91e8908e84d4f774378",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "metoclopramide",
+      "canonical_name": "metoclopramide",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:metoclopramide",
+      "source_url": "https://mothertobaby.org/fact-sheets/metoclopramide/",
+      "retrieved_at": "2026-09-18T08:23:34.770169+00:00",
+      "source_revision_date": "Wed, 01 Apr 2026 11:11:05 GMT",
+      "source_content_hash": "c44acfc146c087c13cbb99bc27d8fabe86028c9d13c8be986c5bb56c498df239",
+      "error_code": null
+    },
+    "source_content_hash": "c44acfc146c087c13cbb99bc27d8fabe86028c9d13c8be986c5bb56c498df239",
+    "source_product_identifier": "fact-sheets:metoclopramide",
+    "source_version": "Wed, 01 Apr 2026 11:11:05 GMT",
+    "canonical_name": "metoclopramide",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. A small number of studies did not find an increased chance of miscarriage with metoclopramide use in pregnancy."
+  }
+}

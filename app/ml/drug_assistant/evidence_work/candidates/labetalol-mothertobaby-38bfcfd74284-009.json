@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "labetalol-mothertobaby-38bfcfd74284-009",
+      "drug_id": "labetalol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if labetalol can increase the chance of behavior or learning issues for the child. One study of 32 children between the ages of 3 and 7 years old who were exposed to labetalol during pregnancy found no differences in formal testing of learning and behavior compared to children who were not exposed to labetalol. Another study suggested a higher chance of attention deficit hyperactivity disorder (ADHD) in children who were exposed to labetalol during pregnancy compared to children exposed to a different type of high blood pressure medication or no high blood pressure medication. However, the study had limitations that made it hard to know if labetalol played any role in the cases of ADHD.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Labetalol",
+      "source_url": "https://mothertobaby.org/fact-sheets/labetalol/",
+      "source_identifier": "fact-sheets:labetalol",
+      "source_section": "Does taking labetalol in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Thu, 07 May 2026 15:52:54 GMT",
+      "retrieved_at": "2026-09-18T08:23:29.595331+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 07 May 2026 15:52:54 GMT",
+      "content_hash": "5074bf1a6f62f32e5031c6d60d40ac87d709eca6f3c5240e67c83e2912c235ae",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "labetalol",
+      "canonical_name": "labetalol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:labetalol",
+      "source_url": "https://mothertobaby.org/fact-sheets/labetalol/",
+      "retrieved_at": "2026-09-18T08:23:29.595331+00:00",
+      "source_revision_date": "Thu, 07 May 2026 15:52:54 GMT",
+      "source_content_hash": "38bfcfd742841a479ab9ca4bc53ffeca35c5369ca607f690236586eb45a35dc2",
+      "error_code": null
+    },
+    "source_content_hash": "38bfcfd742841a479ab9ca4bc53ffeca35c5369ca607f690236586eb45a35dc2",
+    "source_product_identifier": "fact-sheets:labetalol",
+    "source_version": "Thu, 07 May 2026 15:52:54 GMT",
+    "canonical_name": "labetalol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "It is not known if labetalol can increase the chance of behavior or learning issues for the child. One study of 32 children between the ages of 3 and 7 years old who were exposed to labetalol during pregnancy found no differences in formal testing of learning and behavior compared to children who were not exposed to labetalol. Another study suggested a higher chance of attention deficit hyperactivity disorder (ADHD) in children who were exposed to labetalol during pregnancy compared to children exposed to a different type of high blood pressure medication or no high blood pressure medication. However, the study had limitations that made it hard to know if labetalol played any role in the cases of ADHD."
+  }
+}

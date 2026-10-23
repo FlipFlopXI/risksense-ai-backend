@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "tirzepatide-mothertobaby-42dd7e1a9d5c-004",
+      "drug_id": "tirzepatide",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "The time it takes to metabolize (break down) medication is not the same for everyone. In healthy adults, it can take up to 30 days, on average, for most of the tirzepatide to be gone from the body.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Tirzepatide (Mounjaro®, Zepbound®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/tirzepatide/",
+      "source_identifier": "fact-sheets:tirzepatide",
+      "source_section": "I am taking tirzepatide, but I would like to stop taking it before getting pregnant. How long does the drug stay in my body?",
+      "source_revision_date": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "retrieved_at": "2026-09-18T08:29:34.671940+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "content_hash": "771631d6908bbdf69661108779bd37b989dd0a8307a237147b4b893727344dec",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "tirzepatide",
+      "canonical_name": "tirzepatide",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:tirzepatide",
+      "source_url": "https://mothertobaby.org/fact-sheets/tirzepatide/",
+      "retrieved_at": "2026-09-18T08:29:34.671940+00:00",
+      "source_revision_date": "Mon, 27 Jul 2026 12:23:15 GMT",
+      "source_content_hash": "42dd7e1a9d5c3d3089e85558cf53e49125e98309a4c803e9ff3c469936fd5e4c",
+      "error_code": null
+    },
+    "source_content_hash": "42dd7e1a9d5c3d3089e85558cf53e49125e98309a4c803e9ff3c469936fd5e4c",
+    "source_product_identifier": "fact-sheets:tirzepatide",
+    "source_version": "Mon, 27 Jul 2026 12:23:15 GMT",
+    "canonical_name": "tirzepatide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "The time it takes to metabolize (break down) medication is not the same for everyone. In healthy adults, it can take up to 30 days, on average, for most of the tirzepatide to be gone from the body."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "pramlintide-dailymed-e223f4cb25da-002-administration",
+      "drug_id": "pramlintide",
+      "related_drug_ids": [],
+      "topic": "administration",
+      "subtopic": "dosage_and_administration",
+      "claim": "• Upon initiation of SYMLIN, reduce mealtime insulin dose by 50%. Monitor glucoses frequently and individualize subsequent insulin dose adjustments (2.1) . • Type 1 Diabetes: Start at 15 mcg subcutaneously before major meals. Increase in 15 mcg increments to a maximum premeal dose of 30 or 60 mcg; if not tolerated, reduce to 30 mcg, as tolerated (2.2) . • Type 2 Diabetes: Start at 60 mcg subcutaneously before major meals then increase to 120 mcg before meals, as tolerated (2.2) . • Wait at least 3 days between dose titrations to minimize nausea (2.1) . SYMLIN dosage differs depending on whether the patient has type 1 or type 2 diabetes [see Dosage and Administration (2.2 , 2.3) ]. SYMLIN should be used only in patients who can fully understand and adhere to proper insulin adjustments and glucose monitoring. Insulin and SYMLIN dose adjustments should be made only as directed by a healthcare professional skilled in the use of insulin. When initiating SYMLIN, reduce mealtime insulin doses, including premixed insulins, by 50% to reduce the risk of hypoglycemia. To reduce the risk of nausea, wait at least 3 days before titrating SYMLIN to the next dose increment. Monitor blood glucoses frequently, including pre- and post-meals and at bedtime, particularly when initiating SYMLIN or increasing the SYMLIN dose. After the initial 50% reduction in mealtime insulin dose, individualize insulin dose adjustments based on glycemic control and tolerability (e.g., if nausea occurs it may affect the dose of insulin required). An increased frequency of mild-to-moderate hypoglycemia should be",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SYMLIN safely and effectively. See full prescribing information for SYMLIN. SYMLIN ® (pramlintide acetate) injection for subcutaneous use Initial U.S. Approval: 2005",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4aea30ff-eb0d-45c1-b114-3127966328ff.xml",
+      "source_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "source_section": "2 DOSAGE AND ADMINISTRATION",
+      "source_revision_date": "18",
+      "retrieved_at": "2026-09-18T08:21:23.487818+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "18",
+      "content_hash": "b767cf4cd2398ee8f7223cc212f3ec87f2c1b294f5c8277e0643efb97931e348",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "pramlintide",
+      "canonical_name": "pramlintide",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4aea30ff-eb0d-45c1-b114-3127966328ff.xml",
+      "retrieved_at": "2026-09-18T08:21:23.487818+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "e223f4cb25daee6d6785fc4e0d427c65dbbe94d27da19f34b5fafb7ba6a1842a",
+      "error_code": null
+    },
+    "source_content_hash": "e223f4cb25daee6d6785fc4e0d427c65dbbe94d27da19f34b5fafb7ba6a1842a",
+    "source_product_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+    "source_version": "18",
+    "canonical_name": "pramlintide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "• Upon initiation of SYMLIN, reduce mealtime insulin dose by 50%. Monitor glucoses frequently and individualize subsequent insulin dose adjustments (2.1) . • Type 1 Diabetes: Start at 15 mcg subcutaneously before major meals. Increase in 15 mcg increments to a maximum premeal dose of 30 or 60 mcg; if not tolerated, reduce to 30 mcg, as tolerated (2.2) . • Type 2 Diabetes: Start at 60 mcg subcutaneously before major meals then increase to 120 mcg before meals, as tolerated (2.2) . • Wait at least 3 days between dose titrations to minimize nausea (2.1) . SYMLIN dosage differs depending on whether the patient has type 1 or type 2 diabetes [see Dosage and Administration (2.2 , 2.3) ]. SYMLIN should be used only in patients who can fully understand and adhere to proper insulin adjustments and glucose monitoring. Insulin and SYMLIN dose adjustments should be made only as directed by a healthcare professional skilled in the use of insulin. When initiating SYMLIN, reduce mealtime insulin doses, including premixed insulins, by 50% to reduce the risk of hypoglycemia. To reduce the risk of nausea, wait at least 3 days before titrating SYMLIN to the next dose increment. Monitor blood glucoses frequently, including pre- and post-meals and at bedtime, particularly when initiating SYMLIN or increasing the SYMLIN dose. After the initial 50% reduction in mealtime insulin dose, individualize insulin dose adjustments based on glycemic control and tolerability (e.g., if nausea occurs it may affect the dose of insulin required). An increased frequency of mild-to-moderate hypoglycemia should be viewed as a warning sign of increased risk for severe hypoglycemia. If SYMLIN therapy is discontinued for any reason (e.g., surgery or illnesses), the same initiation protocol should be followed when SYMLIN therapy is reinstituted [see Dosage and Administration (2.2) ]. Reduce mealtime insulin doses (including premixed insulins) by 50%, then initiate SYMLIN at 60 mcg subcutaneously, injecting immediately prior to each major meal. Increase the SYMLIN dose from 60 to 120 mcg prior to each major meal when no clinically significant nausea has occurred for at least 3 days. If significant nausea persists at the 120 mcg dose, the SYMLIN dose should be decreased to 60 mcg. Reduce mealtime insulin doses by 50%, then initiate SYMLIN at 15 mcg subcutaneously, injecting immediately prior to each major meal. Increase the SYMLIN dose to the next increment (30, 45, or 60 mcg) when no clinically significant nausea has occurred for at least 3 days. If significant nausea persists at the 45 or 60 mcg dose level, the SYMLIN dose should be decreased to 30 mcg. If the 30 mcg dose is not tolerated, discontinuation of SYMLIN therapy should be considered. SYMLIN should be administered subcutaneously immediately prior to each major meal (≥250 kcal or containing ≥30 grams of carbohydrate). SYMLIN should be at room temperature before injecting to reduce potential injection site reactions. Each SYMLIN dose should be administered subcutaneously into the abdomen or thigh. Administration into the arm is not recommended because of variable absorption. Injection sites should be rotated so that the same site is not used repeatedly. The injection site selected should also be distinct from the site chosen for any concomitant insulin injection. SYMLIN and insulin should always be administered as separate injections. SYMLIN should not be mixed with any type of insulin. If a SYMLIN dose is missed, wait until the next scheduled dose and administer the usual amount. SYMLIN therapy should be discontinued if there is: • recurrent unexplained hypoglycemia that requires medical assistance. • persistent clinically significant nausea. • noncompliance with self-monitoring of blood glucose concentrations. • noncompliance with insulin dose adjustments. • noncompliance with scheduled healthcare provider contacts or recommended clinic visits. SYMLIN should be inspected visually for particulate matter or discoloration prior to administration whenever the solution and the container permit."
+  }
+}

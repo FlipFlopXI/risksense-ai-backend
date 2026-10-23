@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "haloperidol-mothertobaby-8a2102c13a92-001",
+      "drug_id": "haloperidol",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Haloperidol is a medication that has been used to treat schizophrenia and other mental health conditions. It has also been used to treat a severe type of nausea and vomiting during pregnancy (hyperemesis gravidarum). More information on nausea and vomiting in pregnancy can be found here: https://mothertobaby.org/fact-sheets/nausea-vomiting-pregnancy-nvp/. A brand name for haloperidol is Haldol®.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Haloperidol (Haldol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/haloperidol-haldol/",
+      "source_identifier": "fact-sheets:haloperidol-haldol",
+      "source_section": "What is haloperidol?",
+      "source_revision_date": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "retrieved_at": "2026-09-18T08:23:26.269952+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "content_hash": "f426d9446edba9fada35c15a9f1fa9525ae4f43fb48be8074a4b52a09dc77cbd",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "haloperidol",
+      "canonical_name": "haloperidol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:haloperidol-haldol",
+      "source_url": "https://mothertobaby.org/fact-sheets/haloperidol-haldol/",
+      "retrieved_at": "2026-09-18T08:23:26.269952+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "source_content_hash": "8a2102c13a92aa2ca71d8932208c641bf3a76e3a4cfc4e542ac33c9a6f972979",
+      "error_code": null
+    },
+    "source_content_hash": "8a2102c13a92aa2ca71d8932208c641bf3a76e3a4cfc4e542ac33c9a6f972979",
+    "source_product_identifier": "fact-sheets:haloperidol-haldol",
+    "source_version": "Mon, 24 Aug 2026 12:42:22 GMT",
+    "canonical_name": "haloperidol",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Haloperidol is a medication that has been used to treat schizophrenia and other mental health conditions. It has also been used to treat a severe type of nausea and vomiting during pregnancy (hyperemesis gravidarum). More information on nausea and vomiting in pregnancy can be found here: https://mothertobaby.org/fact-sheets/nausea-vomiting-pregnancy-nvp/. A brand name for haloperidol is Haldol®."
+  }
+}

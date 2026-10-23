@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "pramlintide-dailymed-e223f4cb25da-004-monitoring",
+      "drug_id": "pramlintide",
+      "related_drug_ids": [],
+      "topic": "monitoring",
+      "subtopic": "explicit_monitoring",
+      "claim": "SYMLIN should be used only in patients who can fully understand and adhere to proper insulin adjustments and glucose monitoring.",
+      "source_organisation": "DailyMed",
+      "source_title": "These highlights do not include all the information needed to use SYMLIN safely and effectively. See full prescribing information for SYMLIN. SYMLIN ® (pramlintide acetate) injection for subcutaneous use Initial U.S. Approval: 2005",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4aea30ff-eb0d-45c1-b114-3127966328ff.xml",
+      "source_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "source_section": "2 DOSAGE AND ADMINISTRATION",
+      "source_revision_date": "18",
+      "retrieved_at": "2026-09-18T08:21:23.487818+00:00",
+      "reviewed_at": "2026-09-23T10:25:10.734768+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "18",
+      "content_hash": "a98910a2c08251b7728d52ee2ff98c0f5df8c6a4e1660a44dc54fc091b6ac7fa",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "pramlintide",
+      "canonical_name": "pramlintide",
+      "source_family": "DAILYMED",
+      "status": "SUCCESS",
+      "source_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/4aea30ff-eb0d-45c1-b114-3127966328ff.xml",
+      "retrieved_at": "2026-09-18T08:21:23.487818+00:00",
+      "source_revision_date": null,
+      "source_content_hash": "e223f4cb25daee6d6785fc4e0d427c65dbbe94d27da19f34b5fafb7ba6a1842a",
+      "error_code": null
+    },
+    "source_content_hash": "e223f4cb25daee6d6785fc4e0d427c65dbbe94d27da19f34b5fafb7ba6a1842a",
+    "source_product_identifier": "4aea30ff-eb0d-45c1-b114-3127966328ff",
+    "source_version": "18",
+    "canonical_name": "pramlintide",
+    "therapeutic_group": "diabetes_non_insulin",
+    "source_excerpt": "SYMLIN should be used only in patients who can fully understand and adhere to proper insulin adjustments and glucose monitoring."
+  }
+}

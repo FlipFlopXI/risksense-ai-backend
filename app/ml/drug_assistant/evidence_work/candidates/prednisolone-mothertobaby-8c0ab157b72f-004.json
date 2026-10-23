@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "prednisolone-mothertobaby-8c0ab157b72f-004",
+      "drug_id": "prednisolone",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Taking prednisone or prednisolone is not expected to greatly increase the chance of birth defects. Older studies suggested a very small possible increase in cleft lip and/or cleft palate (an opening in the upper lip or the roof of the mouth), when used in the first trimester. But newer studies and further review of the older studies have not confirmed this finding. If there is an increased risk, it appears to be very small, and most pregnancies would not be affected.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Prednisone/Prednisolone",
+      "source_url": "https://mothertobaby.org/fact-sheets/prednisoneprednisolone-pregnancy/",
+      "source_identifier": "fact-sheets:prednisoneprednisolone-pregnancy",
+      "source_section": "Does prednisone or prednisolone increase the chance of birth defects?",
+      "source_revision_date": "Sat, 25 Jul 2026 20:50:32 GMT",
+      "retrieved_at": "2026-09-18T08:29:29.083939+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Sat, 25 Jul 2026 20:50:32 GMT",
+      "content_hash": "8aa8741dc5c741abcf2567660210eede541fdfcd9c0736b8f35b08cb441e3e35",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "prednisolone",
+      "canonical_name": "prednisolone",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:prednisoneprednisolone-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/prednisoneprednisolone-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:29.083939+00:00",
+      "source_revision_date": "Sat, 25 Jul 2026 20:50:32 GMT",
+      "source_content_hash": "8c0ab157b72f8d23164b6961e2dff7855379bd87d80d917e5a6ae4594aa3a73b",
+      "error_code": null
+    },
+    "source_content_hash": "8c0ab157b72f8d23164b6961e2dff7855379bd87d80d917e5a6ae4594aa3a73b",
+    "source_product_identifier": "fact-sheets:prednisoneprednisolone-pregnancy",
+    "source_version": "Sat, 25 Jul 2026 20:50:32 GMT",
+    "canonical_name": "prednisolone",
+    "therapeutic_group": "high_attention_pregnancy",
+    "source_excerpt": "Taking prednisone or prednisolone is not expected to greatly increase the chance of birth defects. Older studies suggested a very small possible increase in cleft lip and/or cleft palate (an opening in the upper lip or the roof of the mouth), when used in the first trimester. But newer studies and further review of the older studies have not confirmed this finding. If there is an increased risk, it appears to be very small, and most pregnancies would not be affected."
+  }
+}

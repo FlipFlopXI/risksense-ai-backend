@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "naproxen-mothertobaby-3e4077d084a0-003",
+      "drug_id": "naproxen",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Some studies have suggested that taking naproxen may increase the chance of miscarriage, while others have not. As there can be many causes of miscarriage, it is hard to know if a medication, the medical condition, or other factors are the cause of a miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Naproxen",
+      "source_url": "https://mothertobaby.org/fact-sheets/naproxen/",
+      "source_identifier": "fact-sheets:naproxen",
+      "source_section": "Does taking naproxen increase the chance of miscarriage?",
+      "source_revision_date": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "retrieved_at": "2026-09-18T08:23:40.838808+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "content_hash": "ff189d7ce367b0881501821d08525033536898a2d6921a3a87aa3077e0fdd8e7",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "naproxen",
+      "canonical_name": "naproxen",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:naproxen",
+      "source_url": "https://mothertobaby.org/fact-sheets/naproxen/",
+      "retrieved_at": "2026-09-18T08:23:40.838808+00:00",
+      "source_revision_date": "Fri, 26 Jun 2026 12:15:04 GMT",
+      "source_content_hash": "3e4077d084a0ac9b0d5feb8d3bbf7a2b6cb2fd9f64664ce60ba9e8b79e808afa",
+      "error_code": null
+    },
+    "source_content_hash": "3e4077d084a0ac9b0d5feb8d3bbf7a2b6cb2fd9f64664ce60ba9e8b79e808afa",
+    "source_product_identifier": "fact-sheets:naproxen",
+    "source_version": "Fri, 26 Jun 2026 12:15:04 GMT",
+    "canonical_name": "naproxen",
+    "therapeutic_group": "pregnancy_pain_gi",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Some studies have suggested that taking naproxen may increase the chance of miscarriage, while others have not. As there can be many causes of miscarriage, it is hard to know if a medication, the medical condition, or other factors are the cause of a miscarriage."
+  }
+}

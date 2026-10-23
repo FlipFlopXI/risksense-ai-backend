@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "metronidazole-mothertobaby-260f831e6758-002",
+      "drug_id": "metronidazole",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "It is not known if metronidazole can make it harder to get pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Metronidazole (Flagyl®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/metronidazole-flagyl-pregnancy/",
+      "source_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+      "source_section": "I take metronidazole. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "retrieved_at": "2026-09-18T08:23:36.304648+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "content_hash": "efc1edac43731924a46eed7889563d1a0d04515236e19ec7f0f66caffd31622d",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "metronidazole",
+      "canonical_name": "metronidazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/metronidazole-flagyl-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:36.304648+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "source_content_hash": "260f831e6758714cf0d85ef3029aca0c8864184c2f8dd4e8d660b6615020f033",
+      "error_code": null
+    },
+    "source_content_hash": "260f831e6758714cf0d85ef3029aca0c8864184c2f8dd4e8d660b6615020f033",
+    "source_product_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+    "source_version": "Thu, 23 Jul 2026 17:20:32 GMT",
+    "canonical_name": "metronidazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "It is not known if metronidazole can make it harder to get pregnant."
+  }
+}

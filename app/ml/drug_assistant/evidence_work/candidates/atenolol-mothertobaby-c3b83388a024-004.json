@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "atenolol-mothertobaby-c3b83388a024-004",
+      "drug_id": "atenolol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "birth_defects",
+      "claim": "Every pregnancy starts out with a 3-5% chance of having a birth defect. This is called the background risk. Studies have not been done to see if atenolol increases the chance of birth defects. Studies on the use of beta-blockers in general during pregnancy have not reported an increased chance of birth defects.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Atenolol (Tenormin®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/atenolol-tenormin/",
+      "source_identifier": "fact-sheets:atenolol-tenormin",
+      "source_section": "Does taking atenolol increase the chance of birth defects?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:54 GMT",
+      "retrieved_at": "2026-09-18T08:23:10.750512+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:51:54 GMT",
+      "content_hash": "e4ba7189d8d265726ed43d3fd30777092c55d59b59cce15c5344b9dbce91e355",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "atenolol",
+      "canonical_name": "atenolol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:atenolol-tenormin",
+      "source_url": "https://mothertobaby.org/fact-sheets/atenolol-tenormin/",
+      "retrieved_at": "2026-09-18T08:23:10.750512+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:54 GMT",
+      "source_content_hash": "c3b83388a024534ce2372160b1d908b9ad486d566a4a2fa678961f23d1b6567e",
+      "error_code": null
+    },
+    "source_content_hash": "c3b83388a024534ce2372160b1d908b9ad486d566a4a2fa678961f23d1b6567e",
+    "source_product_identifier": "fact-sheets:atenolol-tenormin",
+    "source_version": "Tue, 02 Dec 2025 11:51:54 GMT",
+    "canonical_name": "atenolol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "Every pregnancy starts out with a 3-5% chance of having a birth defect. This is called the background risk. Studies have not been done to see if atenolol increases the chance of birth defects. Studies on the use of beta-blockers in general during pregnancy have not reported an increased chance of birth defects."
+  }
+}

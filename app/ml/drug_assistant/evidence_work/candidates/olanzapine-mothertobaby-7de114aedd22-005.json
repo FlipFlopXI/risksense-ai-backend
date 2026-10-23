@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "olanzapine-mothertobaby-7de114aedd22-005",
+      "drug_id": "olanzapine",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if olanzapine can increase the chance of other pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). A study from 2000 suggested that olanzapine therapy was associated with low birth weight and infants needing care in the neonatal intensive care unit (NICU). However, more recent studies have not reported an increased chance of these outcomes. One small study did not find an increased chance of preterm delivery.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Olanzapine (Zyprexa®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/olanzapine/",
+      "source_identifier": "fact-sheets:olanzapine",
+      "source_section": "Does taking olanzapine in pregnancy increase the chance of other pregnancy-related problems?",
+      "source_revision_date": "Wed, 12 Aug 2026 06:11:57 GMT",
+      "retrieved_at": "2026-09-18T08:29:24.954992+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 12 Aug 2026 06:11:57 GMT",
+      "content_hash": "d5758a5889560d19d75540415f9fbcb3f1b6333ec16153d4983ee888d108f71f",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "olanzapine",
+      "canonical_name": "olanzapine",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:olanzapine",
+      "source_url": "https://mothertobaby.org/fact-sheets/olanzapine/",
+      "retrieved_at": "2026-09-18T08:29:24.954992+00:00",
+      "source_revision_date": "Wed, 12 Aug 2026 06:11:57 GMT",
+      "source_content_hash": "7de114aedd22d828d5a20acc90e945956c28106c0a58a57a0661ad41b8bc1401",
+      "error_code": null
+    },
+    "source_content_hash": "7de114aedd22d828d5a20acc90e945956c28106c0a58a57a0661ad41b8bc1401",
+    "source_product_identifier": "fact-sheets:olanzapine",
+    "source_version": "Wed, 12 Aug 2026 06:11:57 GMT",
+    "canonical_name": "olanzapine",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "It is not known if olanzapine can increase the chance of other pregnancy-related problems, such as preterm delivery (birth before week 37) or low birth weight (weighing less than 5 pounds, 8 ounces [2500 grams] at birth). A study from 2000 suggested that olanzapine therapy was associated with low birth weight and infants needing care in the neonatal intensive care unit (NICU). However, more recent studies have not reported an increased chance of these outcomes. One small study did not find an increased chance of preterm delivery."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "haloperidol-mothertobaby-8a2102c13a92-002",
+      "drug_id": "haloperidol",
+      "related_drug_ids": [],
+      "topic": "fertility",
+      "subtopic": "fertility",
+      "claim": "In some people, haloperidol might raise the levels of a hormone called prolactin. High levels of prolactin can stop ovulation (part of the menstrual cycle when an ovary releases an egg). This might make it harder to get pregnant.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Haloperidol (Haldol®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/haloperidol-haldol/",
+      "source_identifier": "fact-sheets:haloperidol-haldol",
+      "source_section": "I take haloperidol. Can it make it harder for me to get pregnant?",
+      "source_revision_date": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "retrieved_at": "2026-09-18T08:23:26.269952+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "content_hash": "30e528a07fba4852ee05b2df8df87b15f23e21535fb763220eee8d7ca3dae4ea",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "haloperidol",
+      "canonical_name": "haloperidol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:haloperidol-haldol",
+      "source_url": "https://mothertobaby.org/fact-sheets/haloperidol-haldol/",
+      "retrieved_at": "2026-09-18T08:23:26.269952+00:00",
+      "source_revision_date": "Mon, 24 Aug 2026 12:42:22 GMT",
+      "source_content_hash": "8a2102c13a92aa2ca71d8932208c641bf3a76e3a4cfc4e542ac33c9a6f972979",
+      "error_code": null
+    },
+    "source_content_hash": "8a2102c13a92aa2ca71d8932208c641bf3a76e3a4cfc4e542ac33c9a6f972979",
+    "source_product_identifier": "fact-sheets:haloperidol-haldol",
+    "source_version": "Mon, 24 Aug 2026 12:42:22 GMT",
+    "canonical_name": "haloperidol",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "In some people, haloperidol might raise the levels of a hormone called prolactin. High levels of prolactin can stop ovulation (part of the menstrual cycle when an ovary releases an egg). This might make it harder to get pregnant."
+  }
+}

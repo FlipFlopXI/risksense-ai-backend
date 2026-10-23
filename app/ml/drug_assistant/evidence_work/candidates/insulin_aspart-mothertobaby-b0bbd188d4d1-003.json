@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "insulin_aspart-mothertobaby-b0bbd188d4d1-003",
+      "drug_id": "insulin_aspart",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Taking insulin aspart before or during pregnancy is not expected to increase the chance of miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Insulin Aspart (NovoLog®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/insulin-aspart-novolog/",
+      "source_identifier": "fact-sheets:insulin-aspart-novolog",
+      "source_section": "Does taking insulin aspart increase the chance of miscarriage?",
+      "source_revision_date": "Wed, 01 Apr 2026 09:04:48 GMT",
+      "retrieved_at": "2026-09-18T08:23:28.087215+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Wed, 01 Apr 2026 09:04:48 GMT",
+      "content_hash": "f85e5bd64f4cb0357e6babd196e9e786501ad5d3e765a8d58651942e129a7a6a",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "insulin_aspart",
+      "canonical_name": "insulin aspart",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:insulin-aspart-novolog",
+      "source_url": "https://mothertobaby.org/fact-sheets/insulin-aspart-novolog/",
+      "retrieved_at": "2026-09-18T08:23:28.087215+00:00",
+      "source_revision_date": "Wed, 01 Apr 2026 09:04:48 GMT",
+      "source_content_hash": "b0bbd188d4d11d20939bdb895b90abf28fa5fac365cc0c89e492597a6afb0f1f",
+      "error_code": null
+    },
+    "source_content_hash": "b0bbd188d4d11d20939bdb895b90abf28fa5fac365cc0c89e492597a6afb0f1f",
+    "source_product_identifier": "fact-sheets:insulin-aspart-novolog",
+    "source_version": "Wed, 01 Apr 2026 09:04:48 GMT",
+    "canonical_name": "insulin aspart",
+    "therapeutic_group": "insulins",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Taking insulin aspart before or during pregnancy is not expected to increase the chance of miscarriage."
+  }
+}

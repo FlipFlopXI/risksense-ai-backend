@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "valproic_acid-mothertobaby-bce693a53a4c-012",
+      "drug_id": "valproic_acid",
+      "related_drug_ids": [],
+      "topic": "lactation",
+      "subtopic": "breastfeeding",
+      "claim": "Valproic acid passes into breast milk in small amounts. The blood levels of infants exposed to valproic acid through breast milk are usually undetectable. There is a theoretical (not proven) concern that infants exposed to valproic acid through breast milk could develop liver toxicity, so infants should be monitored for any changes or problems. If you suspect the baby has symptoms such as jaundice (yellowing of the skin or eyes), unusual bruising, bleeding, rash, or fever, contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Valproic Acid",
+      "source_url": "https://mothertobaby.org/fact-sheets/valproic-acid-pregnancy/",
+      "source_identifier": "fact-sheets:valproic-acid-pregnancy",
+      "source_section": "Breastfeeding while taking valproic acid:",
+      "source_revision_date": "Thu, 02 Apr 2026 07:46:26 GMT",
+      "retrieved_at": "2026-09-18T08:29:35.219441+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 02 Apr 2026 07:46:26 GMT",
+      "content_hash": "a88d57fb8e84aba441df4f9c596926ea7ad29fc965a642c06307f0a1f31e36d7",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "valproic_acid",
+      "canonical_name": "valproic acid",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:valproic-acid-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/valproic-acid-pregnancy/",
+      "retrieved_at": "2026-09-18T08:29:35.219441+00:00",
+      "source_revision_date": "Thu, 02 Apr 2026 07:46:26 GMT",
+      "source_content_hash": "bce693a53a4c6976f4243e1f7f81a614d4f9407ee67308648d4e25cea314dd20",
+      "error_code": null
+    },
+    "source_content_hash": "bce693a53a4c6976f4243e1f7f81a614d4f9407ee67308648d4e25cea314dd20",
+    "source_product_identifier": "fact-sheets:valproic-acid-pregnancy",
+    "source_version": "Thu, 02 Apr 2026 07:46:26 GMT",
+    "canonical_name": "valproic acid",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "Valproic acid passes into breast milk in small amounts. The blood levels of infants exposed to valproic acid through breast milk are usually undetectable. There is a theoretical (not proven) concern that infants exposed to valproic acid through breast milk could develop liver toxicity, so infants should be monitored for any changes or problems. If you suspect the baby has symptoms such as jaundice (yellowing of the skin or eyes), unusual bruising, bleeding, rash, or fever, contact the child’s healthcare provider. Be sure to talk to your healthcare provider about all your breastfeeding questions."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "metronidazole-mothertobaby-260f831e6758-001",
+      "drug_id": "metronidazole",
+      "related_drug_ids": [],
+      "topic": "general_information",
+      "subtopic": "identity_and_uses",
+      "claim": "Metronidazole is an antimicrobial medication that has been used to treat infections, including vaginal infections. Metronidazole is available in oral, rectal, topical, vaginal, and intravenous (IV) forms. Flagyl®, Metrogel®, Metrolotion®, and Noritate® are some brand names for metronidazole.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Metronidazole (Flagyl®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/metronidazole-flagyl-pregnancy/",
+      "source_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+      "source_section": "What is metronidazole?",
+      "source_revision_date": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "retrieved_at": "2026-09-18T08:23:36.304648+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "content_hash": "5725451771bc91fa232303a98082f21316330b6192acb52ca9cb53bd9c100fb4",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "metronidazole",
+      "canonical_name": "metronidazole",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+      "source_url": "https://mothertobaby.org/fact-sheets/metronidazole-flagyl-pregnancy/",
+      "retrieved_at": "2026-09-18T08:23:36.304648+00:00",
+      "source_revision_date": "Thu, 23 Jul 2026 17:20:32 GMT",
+      "source_content_hash": "260f831e6758714cf0d85ef3029aca0c8864184c2f8dd4e8d660b6615020f033",
+      "error_code": null
+    },
+    "source_content_hash": "260f831e6758714cf0d85ef3029aca0c8864184c2f8dd4e8d660b6615020f033",
+    "source_product_identifier": "fact-sheets:metronidazole-flagyl-pregnancy",
+    "source_version": "Thu, 23 Jul 2026 17:20:32 GMT",
+    "canonical_name": "metronidazole",
+    "therapeutic_group": "antimicrobials",
+    "source_excerpt": "Metronidazole is an antimicrobial medication that has been used to treat infections, including vaginal infections. Metronidazole is available in oral, rectal, topical, vaginal, and intravenous (IV) forms. Flagyl®, Metrogel®, Metrolotion®, and Noritate® are some brand names for metronidazole."
+  }
+}

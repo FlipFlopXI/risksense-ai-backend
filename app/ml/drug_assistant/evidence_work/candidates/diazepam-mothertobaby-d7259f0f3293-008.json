@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "diazepam-mothertobaby-d7259f0f3293-008",
+      "drug_id": "diazepam",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "pregnancy_outcomes",
+      "claim": "It is not known if diazepam can increase the chance for behavior or learning issues. Two studies have followed children who were exposed to diazepam during pregnancy until the children were up to 18 months or 3 years of age. These studies reported that the children were more likely to show certain behaviors, such as anxiety, sadness, and fearfulness. One study, on benzodiazepines in general, found that using a benzodiazepine medication, including diazepam, in pregnancy might make it slightly more likely for someone to have autism or Attention-Deficit/Hyperactivity Disorder (ADHD). However, when the study compared siblings who were exposed to a benzodiazepine with siblings who were not exposed, they no longer found an increased chance for ADHD or autism. This study suggests that the chance for ADHD or autism is more likely associated with genetic factors. In addition, another study on benzodiazepines, including diazepam, did not report a higher chance for ADHD and autism.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Diazepam (Valium®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/diazepam-valium/",
+      "source_identifier": "fact-sheets:diazepam-valium",
+      "source_section": "Does taking diazepam in pregnancy affect future behavior or learning for the child?",
+      "source_revision_date": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "retrieved_at": "2026-09-18T08:23:17.101051+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "content_hash": "7a63e2cf597cfa32ad8428a977091afae711dc4174eaabd1b9b304b819dec39a",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "diazepam",
+      "canonical_name": "diazepam",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:diazepam-valium",
+      "source_url": "https://mothertobaby.org/fact-sheets/diazepam-valium/",
+      "retrieved_at": "2026-09-18T08:23:17.101051+00:00",
+      "source_revision_date": "Thu, 20 Aug 2026 11:24:19 GMT",
+      "source_content_hash": "d7259f0f3293dceffde78286c32af9b372c05e627ed0186aa9bfcfdbd1e0a7e8",
+      "error_code": null
+    },
+    "source_content_hash": "d7259f0f3293dceffde78286c32af9b372c05e627ed0186aa9bfcfdbd1e0a7e8",
+    "source_product_identifier": "fact-sheets:diazepam-valium",
+    "source_version": "Thu, 20 Aug 2026 11:24:19 GMT",
+    "canonical_name": "diazepam",
+    "therapeutic_group": "thyroid_mental_health_neurology",
+    "source_excerpt": "It is not known if diazepam can increase the chance for behavior or learning issues. Two studies have followed children who were exposed to diazepam during pregnancy until the children were up to 18 months or 3 years of age. These studies reported that the children were more likely to show certain behaviors, such as anxiety, sadness, and fearfulness. One study, on benzodiazepines in general, found that using a benzodiazepine medication, including diazepam, in pregnancy might make it slightly more likely for someone to have autism or Attention-Deficit/Hyperactivity Disorder (ADHD). However, when the study compared siblings who were exposed to a benzodiazepine with siblings who were not exposed, they no longer found an increased chance for ADHD or autism. This study suggests that the chance for ADHD or autism is more likely associated with genetic factors. In addition, another study on benzodiazepines, including diazepam, did not report a higher chance for ADHD and autism."
+  }
+}

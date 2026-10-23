@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "evidence_id": "atenolol-mothertobaby-c3b83388a024-003",
+      "drug_id": "atenolol",
+      "related_drug_ids": [],
+      "topic": "pregnancy",
+      "subtopic": "miscarriage",
+      "claim": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies have not been done to see if atenolol increases the chance of miscarriage.",
+      "source_organisation": "MotherToBaby",
+      "source_title": "Atenolol (Tenormin®)",
+      "source_url": "https://mothertobaby.org/fact-sheets/atenolol-tenormin/",
+      "source_identifier": "fact-sheets:atenolol-tenormin",
+      "source_section": "Does taking atenolol increase the chance of miscarriage?",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:54 GMT",
+      "retrieved_at": "2026-09-18T08:23:10.750512+00:00",
+      "reviewed_at": "2026-09-22T20:42:11.364161+00:00",
+      "review_state": "REVIEWED",
+      "reviewer": "Shiven Reddy",
+      "review_mechanism": "EXTERNAL_HUMAN_REVIEW_BATCH",
+      "revision": "Tue, 02 Dec 2025 11:51:54 GMT",
+      "content_hash": "d663a09c1bcd29e4885e317771652e551f56b0b191a77271aca03c7abb602bef",
+      "evidence_status": "LIMITED_EVIDENCE",
+      "applicable_population": null,
+      "pregnancy_timing": null,
+      "lactation_relevance": null,
+      "notes": null
+    }
+  ],
+  "provenance": {
+    "operation": {
+      "drug_id": "atenolol",
+      "canonical_name": "atenolol",
+      "source_family": "MOTHERTOBABY",
+      "status": "SUCCESS",
+      "source_identifier": "fact-sheets:atenolol-tenormin",
+      "source_url": "https://mothertobaby.org/fact-sheets/atenolol-tenormin/",
+      "retrieved_at": "2026-09-18T08:23:10.750512+00:00",
+      "source_revision_date": "Tue, 02 Dec 2025 11:51:54 GMT",
+      "source_content_hash": "c3b83388a024534ce2372160b1d908b9ad486d566a4a2fa678961f23d1b6567e",
+      "error_code": null
+    },
+    "source_content_hash": "c3b83388a024534ce2372160b1d908b9ad486d566a4a2fa678961f23d1b6567e",
+    "source_product_identifier": "fact-sheets:atenolol-tenormin",
+    "source_version": "Tue, 02 Dec 2025 11:51:54 GMT",
+    "canonical_name": "atenolol",
+    "therapeutic_group": "beta_blockers",
+    "source_excerpt": "Miscarriage is common and can occur in any pregnancy for many different reasons. Studies have not been done to see if atenolol increases the chance of miscarriage."
+  }
+}
