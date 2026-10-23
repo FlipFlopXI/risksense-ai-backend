@@ -1,4 +1,7 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
+from fastapi.exceptions import RequestValidationError
+from fastapi.exception_handlers import request_validation_exception_handler
+from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.v1.health import router as health_router
@@ -13,6 +16,9 @@ from app.api.v1.patients import router as patients_router
 from app.api.v1.intelligence import router as intelligence_router
 from app.api.v1.access import router as access_router
 from app.core.config import settings
+from app.api.v1.drug_assistant import router as drug_assistant_router
+from app.api.v1.patient_medications import router as patient_medications_router
+from app.api.v1.activation import router as activation_router
 
 
 app = FastAPI(
@@ -23,6 +29,18 @@ app = FastAPI(
     ),
     version="0.1.0",
 )
+
+
+def registration_error_details(exc: RequestValidationError) -> list[dict]:
+    return [{"loc": list(error["loc"]), "msg": error["msg"], "type": error["type"]}
+            for error in exc.errors()]
+
+
+@app.exception_handler(RequestValidationError)
+async def sanitize_registration_errors(request: Request, exc: RequestValidationError):
+    if request.scope["path"] in ("/auth/register", "/api/v1/auth/register"):
+        return JSONResponse(status_code=422, content={"detail": registration_error_details(exc)})
+    return await request_validation_exception_handler(request, exc)
 
 if settings.CORS_ORIGINS:
     app.add_middleware(
@@ -55,6 +73,9 @@ app.include_router(admin_router)
 app.include_router(patients_router)
 app.include_router(intelligence_router)
 app.include_router(access_router)
+app.include_router(drug_assistant_router)
+app.include_router(patient_medications_router)
+app.include_router(activation_router)
 
 # Versioned compatibility aliases. Existing unversioned clients continue to work.
 for versioned_router in (
@@ -69,5 +90,8 @@ for versioned_router in (
     patients_router,
     intelligence_router,
     access_router,
+    drug_assistant_router,
+    patient_medications_router,
+    activation_router,
 ):
     app.include_router(versioned_router, prefix="/api/v1", include_in_schema=False)

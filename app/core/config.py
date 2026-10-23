@@ -18,11 +18,14 @@ class Settings:
     ACCESS_TOKEN_EXPIRE_MINUTES: int = int(
         os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "30")
     )
+    REFRESH_TOKEN_EXPIRE_DAYS: int = int(os.getenv("REFRESH_TOKEN_EXPIRE_DAYS", "30"))
     CORS_ORIGINS: list[str] = [
         value.strip()
         for value in os.getenv("CORS_ORIGINS", "").split(",")
         if value.strip()
     ]
+    WEBAPP_BASE_URL: str = os.getenv("WEBAPP_BASE_URL", "http://localhost:3000").rstrip("/")
+    DEMO_ACTIVATION_ENABLED: bool = os.getenv("DEMO_ACTIVATION_ENABLED", "false").lower() == "true"
 
 
 settings = Settings()

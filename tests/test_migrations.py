@@ -29,7 +29,9 @@ def test_fresh_database_upgrades_to_head_with_expected_schema():
                 "access_entitlements", "alembic_version", "audit_logs", "clinicians",
                 "health_profiles", "insurance", "lab_results", "ml_models",
                 "patient_clinicians", "patients", "predictions", "reports",
-                "subscriptions", "users", "vitals",
+                "subscriptions", "users", "vitals", "patient_medications",
+                "drug_chat_sessions", "drug_chat_messages",
+                "auth_sessions", "body_measurements",
             }
             entitlement_fks = {
                 tuple(fk["constrained_columns"]): (fk["referred_table"], fk["options"].get("ondelete"))

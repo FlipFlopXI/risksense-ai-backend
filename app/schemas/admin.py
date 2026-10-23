@@ -2,6 +2,7 @@ from datetime import datetime
 from uuid import UUID
 
 from pydantic import BaseModel, ConfigDict, EmailStr, Field
+from typing import Literal
 
 from app.models.clinician import ClinicianApprovalStatus
 from app.models.user import UserRole
@@ -21,6 +22,20 @@ class AdminUserResponse(BaseModel):
     role: UserRole
     is_active: bool
     created_at: datetime
+    display_name: str | None = None
+
+
+class AdminActionSummary(BaseModel):
+    action: str
+    resource_type: str | None = None
+    resource_id: str | None = None
+    performed_at: datetime
+
+
+class AdminProfileResponse(AdminUserResponse):
+    admin_id: UUID
+    last_login_at: datetime | None = None
+    last_action: AdminActionSummary | None = None
 
 
 class ClinicianApprovalRequest(BaseModel):
@@ -37,3 +52,4 @@ class ClinicianProvisionRequest(BaseModel):
     license_number: str | None = Field(default=None, max_length=100)
     specialization: str | None = Field(default=None, max_length=150)
     institution: str | None = Field(default=None, max_length=200)
+    gender: Literal["female", "male", "unspecified"] | None = None
