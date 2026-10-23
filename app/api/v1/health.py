@@ -8,10 +8,14 @@ from app.core.dependencies import (
 )
 from app.models.user import User, UserRole
 from app.schemas.health import (
+    BodyMeasurementResponse,
     HealthProfileCreateRequest,
     HealthProfileResponse,
     HealthProfileUpdateRequest,
 )
+from app.models.body_measurement import BodyMeasurement
+from sqlalchemy import select
+from fastapi import Query
 from app.services.health_service import (
     create_health_profile,
     get_health_profile,
@@ -135,3 +139,13 @@ def update_profile(
         profile,
         request,
     )
+
+
+@router.get("/body-measurements", response_model=list[BodyMeasurementResponse])
+def body_measurements(limit: int = Query(100, ge=1, le=500), current_user: User = Depends(require_role(UserRole.PATIENT)),
+                      db: Session = Depends(get_database)):
+    patient = get_patient_by_user_id(db, current_user.id)
+    if patient is None:
+        raise HTTPException(status_code=404, detail="Patient profile not found.")
+    return list(db.scalars(select(BodyMeasurement).where(BodyMeasurement.patient_id == patient.id)
+                           .order_by(BodyMeasurement.measured_at.desc(), BodyMeasurement.id.desc()).limit(limit)).all())
