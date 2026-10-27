@@ -19,6 +19,9 @@ from app.core.config import settings
 from app.api.v1.drug_assistant import router as drug_assistant_router
 from app.api.v1.patient_medications import router as patient_medications_router
 from app.api.v1.activation import router as activation_router
+from app.api.v1.nutrition import router as nutrition_router
+from app.api.v1.fitness import router as fitness_router
+from app.api.v1.mindfulness import router as mindfulness_router
 
 
 app = FastAPI(
@@ -38,7 +41,7 @@ def registration_error_details(exc: RequestValidationError) -> list[dict]:
 
 @app.exception_handler(RequestValidationError)
 async def sanitize_registration_errors(request: Request, exc: RequestValidationError):
-    if request.scope["path"] in ("/auth/register", "/api/v1/auth/register"):
+    if request.scope["path"].startswith(("/auth/register", "/api/v1/auth/register")):
         return JSONResponse(status_code=422, content={"detail": registration_error_details(exc)})
     return await request_validation_exception_handler(request, exc)
 
@@ -76,6 +79,9 @@ app.include_router(access_router)
 app.include_router(drug_assistant_router)
 app.include_router(patient_medications_router)
 app.include_router(activation_router)
+app.include_router(nutrition_router)
+app.include_router(fitness_router)
+app.include_router(mindfulness_router)
 
 # Versioned compatibility aliases. Existing unversioned clients continue to work.
 for versioned_router in (
@@ -93,5 +99,8 @@ for versioned_router in (
     drug_assistant_router,
     patient_medications_router,
     activation_router,
+    nutrition_router,
+    fitness_router,
+    mindfulness_router,
 ):
     app.include_router(versioned_router, prefix="/api/v1", include_in_schema=False)

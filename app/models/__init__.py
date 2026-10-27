@@ -12,8 +12,13 @@ from app.models.report import Report
 from app.models.patient_clinician import PatientClinician
 from app.models.auth_session import AuthSession
 from app.models.body_measurement import BodyMeasurement
+from app.models.pending_registration import PendingRegistration
+from app.models.password_reset_challenge import PasswordResetChallenge
 from app.models.access_entitlement import AccessEntitlement
 from app.models.lab_result import LabResult
+from app.models.nutrition import FoodLogEntry, NutritionGoal, WaterGoal, WaterLogEntry, MetabolicLogEntry
+from app.models.fitness import ActivityEntry, BodyCompositionEntry
+from app.models.mindfulness import BreathingSession, MeditationSession, MoodEntry
 
 __all__ = [
     "User",
@@ -32,4 +37,8 @@ __all__ = [
     "BodyMeasurement",
     "AccessEntitlement",
     "LabResult",
+    "FoodLogEntry",
+    "NutritionGoal",
+    "PendingRegistration",
+    "PasswordResetChallenge",
 ]

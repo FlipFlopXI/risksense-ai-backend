@@ -17,6 +17,11 @@ from app.models.drug_chat import DrugChatSession, DrugChatMessage
 from app.models.auth_session import AuthSession
 from app.models.body_measurement import BodyMeasurement
 from app.models.activation_session import ActivationSession
+from app.models.pending_registration import PendingRegistration
+from app.models.password_reset_challenge import PasswordResetChallenge
+from app.models.nutrition import FoodLogEntry, NutritionGoal, WaterGoal, WaterLogEntry, MetabolicLogEntry
+from app.models.fitness import ActivityEntry, BodyCompositionEntry
+from app.models.mindfulness import BreathingSession, MeditationSession, MoodEntry
 
 __all__ = [
     "User",
@@ -39,4 +44,6 @@ __all__ = [
     "AuthSession",
     "BodyMeasurement",
     "ActivationSession",
+    "FoodLogEntry",
+    "NutritionGoal",
 ]
