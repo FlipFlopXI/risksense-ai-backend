@@ -1,5 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordRequestForm
+from uuid import UUID
+from jwt import InvalidTokenError
 from sqlalchemy.orm import Session
 
 from app.core.dependencies import (
@@ -12,13 +14,23 @@ from app.schemas.auth import (
     TokenResponse,
     UserRegisterRequest,
     UserResponse,
+    PasswordChangeRequest,
+    AuthSessionResponse,
+    RegistrationEmailRequest,
+    RegistrationVerifyRequest,
+    RegistrationPendingResponse,
+    PasswordRecoveryRequest,
+    PasswordRecoveryCompleteRequest,
+    PasswordRecoveryResponse,
 )
-from app.services.auth_service import (
-    authenticate_user,
-    register_patient,
-)
+from app.services.auth_service import authenticate_user
+from app.services.registration_verification import RegistrationRejected, begin, resend, verify
+from app.services.password_recovery_service import RecoveryRejected, start as start_recovery, complete as complete_recovery
 from app.services.audit_service import record_auth_event_best_effort
 from app.services.session_service import RefreshRejected, issue_session, refresh_session, revoke_session
+from app.services.session_service import PasswordRejected, change_password, list_active_sessions, revoke_session_by_id
+from app.core.dependencies import oauth2_scheme
+from app.core.security import decode_access_token
 
 
 router = APIRouter(
@@ -29,21 +41,60 @@ router = APIRouter(
 
 @router.post(
     "/register",
-    response_model=UserResponse,
-    status_code=status.HTTP_201_CREATED,
+    response_model=RegistrationPendingResponse,
+    status_code=status.HTTP_202_ACCEPTED,
 )
 def register(
     request: UserRegisterRequest,
     db: Session = Depends(get_database),
 ):
     try:
-        user = register_patient(db, request)
-        return user
-    except ValueError as exc:
+        pending = begin(db, request)
+        return RegistrationPendingResponse(email=pending.email)
+    except RegistrationRejected as exc:
+        db.rollback()
         raise HTTPException(
-            status_code=status.HTTP_409_CONFLICT,
-            detail=str(exc),
+            status_code=exc.status_code,
+            detail=exc.message,
         ) from exc
+
+
+@router.post("/register/resend", response_model=RegistrationPendingResponse)
+def resend_registration(request: RegistrationEmailRequest, db: Session = Depends(get_database)):
+    try:
+        pending = resend(db, str(request.email))
+        return RegistrationPendingResponse(email=pending.email)
+    except RegistrationRejected as exc:
+        db.rollback()
+        raise HTTPException(status_code=exc.status_code, detail=exc.message) from exc
+
+
+@router.post("/register/verify", response_model=UserResponse, status_code=201)
+def verify_registration(request: RegistrationVerifyRequest, db: Session = Depends(get_database)):
+    try:
+        return verify(db, str(request.email), request.code)
+    except RegistrationRejected as exc:
+        db.rollback()
+        raise HTTPException(status_code=exc.status_code, detail=exc.message) from exc
+
+
+@router.post("/password-recovery/start", response_model=PasswordRecoveryResponse, status_code=202)
+def request_password_recovery(request: PasswordRecoveryRequest, db: Session = Depends(get_database)):
+    try:
+        start_recovery(db, str(request.email))
+        return PasswordRecoveryResponse(message="If this account can be recovered, a code has been sent to its email address.")
+    except RecoveryRejected as exc:
+        db.rollback()
+        raise HTTPException(status_code=exc.status_code, detail=exc.message) from exc
+
+
+@router.post("/password-recovery/complete", status_code=204)
+def finish_password_recovery(request: PasswordRecoveryCompleteRequest, db: Session = Depends(get_database)):
+    try:
+        complete_recovery(db, str(request.email), request.code)
+    except RecoveryRejected as exc:
+        db.rollback()
+        raise HTTPException(status_code=exc.status_code, detail=exc.message) from exc
 
 
 @router.post(
@@ -98,3 +149,43 @@ def get_me(
     current_user=Depends(get_current_user),
 ):
     return current_user
+
+
+def _current_session_id(token: str) -> UUID | None:
+    try:
+        raw = decode_access_token(token).get("sid")
+        return UUID(raw) if raw else None
+    except (InvalidTokenError, ValueError, TypeError):
+        return None
+
+
+@router.patch("/password", status_code=status.HTTP_204_NO_CONTENT)
+def update_password(request: PasswordChangeRequest,
+                    current_user=Depends(get_current_user),
+                    token: str = Depends(oauth2_scheme),
+                    db: Session = Depends(get_database)):
+    try:
+        change_password(db, current_user, request.current_password,
+                        request.new_password, _current_session_id(token))
+    except PasswordRejected:
+        raise HTTPException(status_code=400,
+                            detail="Current password is incorrect or the new password is unchanged.") from None
+
+
+@router.get("/sessions", response_model=list[AuthSessionResponse])
+def sessions(current_user=Depends(get_current_user),
+             token: str = Depends(oauth2_scheme),
+             db: Session = Depends(get_database)):
+    current_id = _current_session_id(token)
+    return [AuthSessionResponse(id=row.id, created_at=row.created_at,
+                                last_used_at=row.last_used_at,
+                                expires_at=row.expires_at,
+                                is_current=row.id == current_id)
+            for row in list_active_sessions(db, current_user)]
+
+
+@router.delete("/sessions/{session_id}", status_code=status.HTTP_204_NO_CONTENT)
+def delete_session(session_id: UUID, current_user=Depends(get_current_user),
+                   db: Session = Depends(get_database)):
+    if not revoke_session_by_id(db, current_user, session_id):
+        raise HTTPException(status_code=404, detail="Session not found.")

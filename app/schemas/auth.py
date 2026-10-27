@@ -1,4 +1,4 @@
-from datetime import date
+from datetime import date, datetime
 from uuid import UUID
 
 import re
@@ -23,6 +23,34 @@ class UserRegisterRequest(BaseModel):
                 and re.search(r"[^A-Za-z0-9\s]", value)):
             raise ValueError("Password must include an uppercase letter, a number, and a special character.")
         return value
+
+
+class RegistrationEmailRequest(BaseModel):
+    email: EmailStr
+
+
+class RegistrationVerifyRequest(RegistrationEmailRequest):
+    code: str = Field(pattern=r"^\d{6}$")
+
+
+class RegistrationPendingResponse(BaseModel):
+    email: EmailStr
+    code_length: int = 6
+    resend_after_seconds: int = 60
+
+
+class PasswordRecoveryRequest(BaseModel):
+    email: EmailStr
+
+
+class PasswordRecoveryCompleteRequest(PasswordRecoveryRequest):
+    code: str = Field(pattern=r"^\d{6}$")
+
+
+class PasswordRecoveryResponse(BaseModel):
+    message: str
+    code_length: int = 6
+    resend_after_seconds: int = 60
 
 
 class UserLoginRequest(BaseModel):
@@ -53,6 +81,28 @@ class RefreshTokenRequest(BaseModel):
 
 class LogoutRequest(RefreshTokenRequest):
     pass
+
+
+class PasswordChangeRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    current_password: str = Field(min_length=1, max_length=128)
+    new_password: str = Field(min_length=6, max_length=128)
+
+    @field_validator("new_password")
+    @classmethod
+    def password_requirements(cls, value: str) -> str:
+        return UserRegisterRequest.password_requirements(value)
+
+
+class AuthSessionResponse(BaseModel):
+    model_config = ConfigDict(from_attributes=True)
+
+    id: UUID
+    created_at: datetime
+    last_used_at: datetime | None
+    expires_at: datetime
+    is_current: bool
 
 
 class CurrentUserResponse(BaseModel):

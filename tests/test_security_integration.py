@@ -67,15 +67,22 @@ def _clinician(
     return user, clinician
 
 
-def test_patient_registration_login_and_jwt_failures_are_database_backed(client, db):
+def test_patient_registration_login_and_jwt_failures_are_database_backed(client, db, monkeypatch):
+    from app.services import registration_verification
+    sent = []
+    monkeypatch.setattr(registration_verification, "_send_code", lambda email, code: sent.append(code))
     response = client.post("/auth/register", json={
         "email": "registered.patient@example.com",
         "password": "SafeTestPassword123!",
         "first_name": "Registered",
         "last_name": "Patient",
     })
-    assert response.status_code == 201
-    user_id = response.json()["id"]
+    assert response.status_code == 202
+    assert db.scalar(select(Patient).where(Patient.first_name == "Registered")) is None
+    verified = client.post("/auth/register/verify", json={
+        "email": "registered.patient@example.com", "code": sent[-1]})
+    assert verified.status_code == 201
+    user_id = verified.json()["id"]
     patient = db.scalar(select(Patient).where(Patient.user_id == UUID(user_id)))
     assert patient is not None
 

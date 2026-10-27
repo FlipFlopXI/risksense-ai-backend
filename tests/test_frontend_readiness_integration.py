@@ -13,18 +13,22 @@ def auth(token):
     return {"Authorization": f"Bearer {token}"}
 
 
-def register_and_login(client, suffix="frontend"):
-    email = f"{suffix}-{uuid4()}@example.test"
+def register_and_login(client, monkeypatch, suffix="frontend"):
+    from app.services import registration_verification
+    sent = []
+    monkeypatch.setattr(registration_verification, "_send_code", lambda email, code: sent.append((email, code)))
+    email = f"{suffix}-{uuid4()}@example.com"
     payload = {"email": email, "password": "SyntheticPass123!", "first_name": "Synthetic",
                "last_name": "Patient", "date_of_birth": "1980-01-01", "gender": "female"}
-    assert client.post("/auth/register", json=payload).status_code == 201
+    assert client.post("/auth/register", json=payload).status_code == 202
+    assert client.post("/auth/register/verify", json={"email": email, "code": sent[-1][1]}).status_code == 201
     login = client.post("/auth/login", data={"username": email, "password": payload["password"]})
     assert login.status_code == 200
     return login.json()
 
 
-def test_refresh_rotation_logout_and_revocation(client):
-    tokens = register_and_login(client, "auth")
+def test_refresh_rotation_logout_and_revocation(client, monkeypatch):
+    tokens = register_and_login(client, monkeypatch, "auth")
     refreshed = client.post("/auth/refresh", json={"refresh_token": tokens["refresh_token"]})
     assert refreshed.status_code == 200
     assert client.post("/auth/refresh", json={"refresh_token": tokens["refresh_token"]}).status_code == 401
@@ -36,8 +40,8 @@ def test_refresh_rotation_logout_and_revocation(client):
     assert client.post("/auth/refresh", json={"refresh_token": current["refresh_token"]}).status_code == 401
 
 
-def test_historical_body_measurements_and_trends(client):
-    tokens = register_and_login(client, "trends")
+def test_historical_body_measurements_and_trends(client, monkeypatch):
+    tokens = register_and_login(client, monkeypatch, "trends")
     headers = auth(tokens["access_token"])
     first = (datetime.now(timezone.utc) - timedelta(days=2)).isoformat()
     second = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat()
@@ -55,8 +59,8 @@ def test_historical_body_measurements_and_trends(client):
     assert points[0]["bmi"] == 27.78 and points[1]["bmi"] == 27.16
 
 
-def test_report_generation_pdf_and_linked_clinician_access(client, db):
-    tokens = register_and_login(client, "report")
+def test_report_generation_pdf_and_linked_clinician_access(client, db, monkeypatch):
+    tokens = register_and_login(client, monkeypatch, "report")
     headers = auth(tokens["access_token"])
     patient = db.query(User).filter(User.email.like("report-%@example.test")).order_by(User.created_at.desc()).first().patient
     model = Model(name="Synthetic report model", version="test", prediction_target="diabetes",
@@ -89,8 +93,8 @@ def test_report_generation_pdf_and_linked_clinician_access(client, db):
     assert client.get(f"/reports/{report_id}", headers=clinician_headers).status_code == 404
 
 
-def test_patient_clinician_endpoint_and_admin_status(client, db):
-    tokens = register_and_login(client, "relationship")
+def test_patient_clinician_endpoint_and_admin_status(client, db, monkeypatch):
+    tokens = register_and_login(client, monkeypatch, "relationship")
     headers = auth(tokens["access_token"])
     patient = db.query(User).filter(User.email.like("relationship-%@example.test")).order_by(User.created_at.desc()).first().patient
     assert client.get("/patients/me/clinician", headers=headers).status_code == 404

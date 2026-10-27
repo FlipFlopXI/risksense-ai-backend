@@ -26,6 +26,24 @@ class ActivationExchangeResponse(BaseModel):
 class ActivationContextResponse(BaseModel):
     email: str
     active: bool
+    existing_access: bool = False
+    expires_at: datetime
+
+
+class ActivationProfileResponse(BaseModel):
+    first_name: str
+    last_name: str
+    email: str
+    active: bool
+    access_method: Literal["subscription", "insurance"] | None
+    expires_at: datetime
+    subscription_plan: SubscriptionPlan | None = None
+    subscription_expires_at: datetime | None = None
+    can_renew: bool = False
+
+
+class SubscriptionRenewalResponse(BaseModel):
+    status: Literal["active"]
     expires_at: datetime
 
 
@@ -43,6 +61,8 @@ class ActivationCompleteRequest(BaseModel):
         if self.method == "subscription":
             if self.plan is None or any((self.provider_name, self.policy_number, self.membership_number)):
                 raise ValueError("A subscription plan and no insurance details are required.")
+            if self.plan == SubscriptionPlan.FREE:
+                raise ValueError("Choose a Standard or Premium subscription plan.")
         elif self.provider_name is None or not self.provider_name.strip() or self.plan is not None:
             raise ValueError("An insurance provider and no subscription plan are required.")
         return self

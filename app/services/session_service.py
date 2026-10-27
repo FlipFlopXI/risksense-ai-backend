@@ -3,7 +3,7 @@ from hashlib import sha256
 from uuid import UUID, uuid4
 
 from jwt import InvalidTokenError
-from sqlalchemy import select
+from sqlalchemy import select, update
 from sqlalchemy.orm import Session
 
 from app.core.config import settings
@@ -11,10 +11,58 @@ from app.core.security import create_access_token, create_refresh_token, decode_
 from app.models.auth_session import AuthSession
 from app.models.user import User
 from app.services.audit_service import add_audit_event
+from app.core.security import hash_password, verify_password
 
 
 class RefreshRejected(Exception):
     pass
+
+
+class PasswordRejected(Exception):
+    pass
+
+
+def change_password(db: Session, user: User, current_password: str,
+                    new_password: str, current_session_id: UUID | None) -> None:
+    if not verify_password(current_password, user.password_hash):
+        raise PasswordRejected
+    if verify_password(new_password, user.password_hash):
+        raise PasswordRejected
+    now = datetime.now(timezone.utc)
+    user.password_hash = hash_password(new_password)
+    sessions = (update(AuthSession).where(
+        AuthSession.user_id == user.id,
+        AuthSession.revoked_at.is_(None),
+    ))
+    if current_session_id is not None:
+        sessions = sessions.where(AuthSession.id != current_session_id)
+    db.execute(sessions.values(revoked_at=now))
+    add_audit_event(db, "PASSWORD_CHANGED", user_id=user.id,
+                    resource_type="user", resource_id=str(user.id))
+    db.commit()
+
+
+def list_active_sessions(db: Session, user: User) -> list[AuthSession]:
+    return list(db.scalars(select(AuthSession).where(
+        AuthSession.user_id == user.id,
+        AuthSession.revoked_at.is_(None),
+        AuthSession.expires_at > datetime.now(timezone.utc),
+    ).order_by(AuthSession.created_at.desc())).all())
+
+
+def revoke_session_by_id(db: Session, user: User, session_id: UUID) -> bool:
+    row = db.scalar(select(AuthSession).where(
+        AuthSession.id == session_id,
+        AuthSession.user_id == user.id,
+        AuthSession.revoked_at.is_(None),
+    ).with_for_update())
+    if row is None:
+        return False
+    row.revoked_at = datetime.now(timezone.utc)
+    add_audit_event(db, "AUTH_SESSION_REVOKED", user_id=user.id,
+                    resource_type="auth_session", resource_id=str(row.id))
+    db.commit()
+    return True
 
 
 def _digest(jti: str) -> str:

@@ -45,7 +45,7 @@ def web_origin() -> str:
     raise ValueError("WEBAPP_BASE_URL must use HTTPS outside local development.")
 
 
-def issue(db: Session, patient: Patient) -> tuple[str, datetime]:
+def issue(db: Session, patient: Patient, *, destination: str = "/register/complete") -> tuple[str, datetime]:
     # Invalidate earlier unused handoff links for the same patient.
     for old in db.scalars(select(ActivationSession).where(ActivationSession.patient_id == patient.id, ActivationSession.consumed_at.is_(None), ActivationSession.revoked_at.is_(None)).with_for_update()):
         old.revoked_at = now_utc()
@@ -56,7 +56,30 @@ def issue(db: Session, patient: Patient) -> tuple[str, datetime]:
     db.flush()
     add_audit_event(db, "ACTIVATION_SESSION_ISSUED", user_id=patient.user_id, resource_type="activation_session", resource_id=str(row.id))
     db.commit()
-    return f"{web_origin()}/register/complete#token={quote(raw, safe='')}", expires
+    return f"{web_origin()}{destination}#token={quote(raw, safe='')}", expires
+
+
+def renew_subscription(db: Session, row: ActivationSession) -> Subscription:
+    if row.consumed_at:
+        raise ActivationRejected("This website session has already been used. Open a new renewal link.", 409)
+    subscription = db.scalar(select(Subscription).where(Subscription.patient_id == row.patient_id).with_for_update())
+    if subscription is None or subscription.status not in (SubscriptionStatus.ACTIVE, SubscriptionStatus.EXPIRED):
+        raise ActivationRejected("An existing subscription is required for renewal.", 409)
+    clinician_id = subscription.requested_clinician_risk_sense_id
+    if not clinician_id or get_approved_clinician(db, clinician_id) is None:
+        raise ActivationRejected("The subscription's approved clinician is unavailable.", 409)
+    effective = get_effective_entitlement(db, row.patient_id)
+    if effective and effective.source != EntitlementSource.SUBSCRIPTION:
+        raise ActivationRejected("This account currently uses insurance access.", 409)
+    entitlement = staged_activate_subscription(db, row.patient, subscription, clinician_id, row.patient.user_id, commit=False)
+    row.consumed_at = now_utc()
+    row.entitlement_id = entitlement.id
+    add_audit_event(db, "SUBSCRIPTION_RENEWAL", user_id=row.patient.user_id,
+                    resource_type="subscription", resource_id=str(subscription.id),
+                    details={"mode": "demo", "extension_days": 30})
+    db.commit()
+    db.refresh(subscription)
+    return subscription
 
 
 def exchange(db: Session, raw: str) -> tuple[str, ActivationSession]:

@@ -58,13 +58,55 @@ def test_patient_demo_activation_is_scoped_atomic_and_idempotent(client, db, mon
     assert client.post("/api/v1/access/activation-session/exchange", json={"token": raw}).status_code == 401
     assert client.get("/health/profile", headers=auth(credential)).status_code == 401
     assert client.get(f"/api/v1/access/activation/clinicians/lookup/{doctor.risk_sense_id}", headers=auth(credential)).status_code == 200
-    payload = {"method": "subscription", "plan": "free", "clinician_risk_sense_id": doctor.risk_sense_id}
+    assert client.post("/api/v1/access/activation/complete", headers=auth(credential), json={
+        "method": "subscription", "plan": "free", "clinician_risk_sense_id": doctor.risk_sense_id,
+    }).status_code == 422
+    payload = {"method": "subscription", "plan": "standard", "clinician_risk_sense_id": doctor.risk_sense_id}
     first = client.post("/api/v1/access/activation/complete", headers=auth(credential), json=payload)
     assert first.status_code == 200, first.text
     assert first.json() == {"active": True, "status": "active", "access_method": "subscription", "clinician_linked": True}
     assert client.post("/api/v1/access/activation/complete", headers=auth(credential), json=payload).status_code == 200
     assert client.get("/api/v1/access/status", headers=auth(token)).json()["active"] is True
     assert client.post("/api/v1/access/mock/subscription/complete", headers=auth(token), json={"patient_id": str(patient.patient.id)}).status_code == 403
+    profile = client.get("/api/v1/access/activation/profile", headers=auth(credential))
+    assert profile.status_code == 200
+    assert profile.json()["first_name"] == "Test"
+    assert profile.json()["active"] is True
+    assert profile.json()["access_method"] == "subscription"
+    assert client.post("/api/v1/access/activation/sign-out", headers=auth(credential)).status_code == 204
+    assert client.get("/api/v1/access/activation/profile", headers=auth(credential)).status_code == 401
+    assert client.get("/api/v1/access/status", headers=auth(token)).json()["active"] is True
+
+
+def test_mobile_patient_onboarding_requires_activation_and_owns_profile(client, db, monkeypatch):
+    from app.models.health_profile import HealthProfile
+
+    monkeypatch.setattr(settings, "DEMO_ACTIVATION_ENABLED", True)
+    patient, token = user(db, UserRole.PATIENT, "mobile-onboarding")
+    other, _ = user(db, UserRole.PATIENT, "other-patient")
+    doctor = clinician(db)
+    path = "/api/v1/patients/onboarding"
+    payload = {
+        "ethnicity": None, "height_cm": 178, "weight_kg": 80, "waist_circumference_cm": 82,
+        "smoking_status": "Never", "activity_level": "Moderate", "alcohol_status": "None",
+        "family_history_diabetes": None, "family_history_heart_disease": False,
+        "family_history_hypertension": True, "has_chronic_condition": True,
+        "chronic_conditions": "Patient-reported condition", "chronic_medications": None,
+    }
+    assert client.get(path, headers=auth(token)).json()["completed"] is False
+    assert client.post(path, headers=auth(token), json=payload).status_code == 403
+    credential = exchange(client, handoff(client, token))
+    assert client.post("/api/v1/access/activation/complete", headers=auth(credential), json={
+        "method": "subscription", "plan": "standard", "clinician_risk_sense_id": doctor.risk_sense_id,
+    }).status_code == 200
+    assert client.post(path, headers=auth(credential), json=payload).status_code == 401
+    assert client.post(path, headers=auth(token), json={**payload, "height_cm": 0}).status_code == 422
+    response = client.post(path, headers=auth(token), json=payload)
+    assert response.status_code == 200, response.text
+    assert client.get(path, headers=auth(token)).json()["completed"] is True
+    db.expire_all()
+    assert db.scalar(select(HealthProfile).where(HealthProfile.patient_id == patient.patient.id)) is not None
+    assert db.scalar(select(HealthProfile).where(HealthProfile.patient_id == other.patient.id)) is None
 
 
 def test_activation_rejects_invalid_expired_revoked_and_missing_clinician(client, db, monkeypatch):
@@ -85,7 +127,7 @@ def test_activation_rejects_invalid_expired_revoked_and_missing_clinician(client
     db.commit()
     assert client.post("/api/v1/access/activation-session/exchange", json={"token": raw}).status_code == 401
     credential = exchange(client, handoff(client, token))
-    assert client.post("/api/v1/access/activation/complete", headers=auth(credential), json={"method": "subscription", "plan": "free", "clinician_risk_sense_id": "RS-CLN-99999"}).status_code == 404
+    assert client.post("/api/v1/access/activation/complete", headers=auth(credential), json={"method": "subscription", "plan": "standard", "clinician_risk_sense_id": "RS-CLN-99999"}).status_code == 404
     assert client.post("/api/v1/access/activation/complete", headers=auth(credential), json={"method": "subscription", "clinician_risk_sense_id": "RS-CLN-99999"}).status_code == 422
 
 

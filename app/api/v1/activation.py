@@ -8,16 +8,18 @@ from sqlalchemy.orm import Session
 from app.core.dependencies import get_database, require_role
 from app.core.config import settings
 from app.models.patient import Patient
+from app.models.subscription import Subscription, SubscriptionStatus
+from app.models.insurance import Insurance, InsuranceVerificationStatus
 from app.models.access_entitlement import EntitlementSource
 from app.models.patient_clinician import PatientClinicianStatus
 from app.models.user import User, UserRole
 from app.schemas.access import ClinicianLookupResponse
-from app.schemas.activation import ActivationCompleteRequest, ActivationContextResponse, ActivationExchangeRequest, ActivationExchangeResponse, ActivationIssueResponse, ActivationResult, AccessStatus
-from app.services.activation_service import ActivationRejected, complete, exchange, issue, scoped_session, web_origin
+from app.schemas.activation import ActivationCompleteRequest, ActivationContextResponse, ActivationExchangeRequest, ActivationExchangeResponse, ActivationIssueResponse, ActivationProfileResponse, ActivationResult, AccessStatus, SubscriptionRenewalResponse
+from app.services.activation_service import ActivationRejected, complete, exchange, issue, renew_subscription, scoped_session, web_origin
 from app.services.clinician_service import get_approved_clinician
 from app.services.entitlement_service import get_effective_entitlement
 from app.services.patient_clinician_service import get_patient_clinician
-from app.services.audit_service import record_auth_event_best_effort
+from app.services.audit_service import add_audit_event, record_auth_event_best_effort
 
 router = APIRouter(prefix="/access", tags=["Patient Activation"])
 bearer = HTTPBearer()
@@ -39,6 +41,23 @@ def issue_activation_session(user: User = Depends(require_role(UserRole.PATIENT)
     if patient is None:
         raise HTTPException(status_code=404, detail="Patient profile not found.")
     url, expires = issue(db, patient)
+    return ActivationIssueResponse(activation_url=url, expires_at=expires, expires_in=max(0, int((expires - datetime.now(timezone.utc)).total_seconds())))
+
+
+@router.post("/subscription-renewal-session", response_model=ActivationIssueResponse)
+def issue_subscription_renewal_session(user: User = Depends(require_role(UserRole.PATIENT)), db: Session = Depends(get_database)):
+    if not settings.DEMO_ACTIVATION_ENABLED:
+        raise HTTPException(status_code=503, detail="Demonstration renewal is disabled.")
+    patient = db.scalar(select(Patient).where(Patient.user_id == user.id).with_for_update())
+    if patient is None:
+        raise HTTPException(status_code=404, detail="Patient profile not found.")
+    subscription = db.scalar(select(Subscription).where(Subscription.patient_id == patient.id))
+    if subscription is None:
+        raise HTTPException(status_code=409, detail="An existing subscription is required for renewal.")
+    try:
+        url, expires = issue(db, patient, destination="/profile")
+    except ValueError as exc:
+        raise HTTPException(status_code=503, detail="Activation website is not configured.") from exc
     return ActivationIssueResponse(activation_url=url, expires_at=expires, expires_in=max(0, int((expires - datetime.now(timezone.utc)).total_seconds())))
 
 
@@ -69,10 +88,71 @@ def lookup_activation_clinician(risk_sense_id: str, raw: str = Depends(credentia
 def activation_context(raw: str = Depends(credential), db: Session = Depends(get_database)):
     try:
         row = scoped_session(db, raw)
-        effective = get_effective_entitlement(db, row.patient_id) if row.consumed_at else None
-        active = bool(effective and effective.id == row.entitlement_id)
-        return ActivationContextResponse(email=row.patient.user.email, active=active, expires_at=row.expires_at)
+        effective = get_effective_entitlement(db, row.patient_id)
+        active = effective is not None
+        subscription = db.scalar(select(Subscription).where(Subscription.patient_id == row.patient_id))
+        insurance = db.scalar(select(Insurance).where(Insurance.patient_id == row.patient_id))
+        existing_access = active or bool(
+            (subscription and subscription.status in (SubscriptionStatus.ACTIVE, SubscriptionStatus.EXPIRED))
+            or (insurance and insurance.verification_status == InsuranceVerificationStatus.VERIFIED)
+        )
+        return ActivationContextResponse(email=row.patient.user.email, active=active,
+                                         existing_access=existing_access, expires_at=row.expires_at)
     except ActivationRejected as exc:
+        raise HTTPException(status_code=exc.status, detail=exc.message) from None
+
+
+@router.get("/activation/profile", response_model=ActivationProfileResponse)
+def activation_profile(raw: str = Depends(credential), db: Session = Depends(get_database)):
+    try:
+        row = scoped_session(db, raw)
+        effective = get_effective_entitlement(db, row.patient_id)
+        active = effective is not None
+        source = effective.source.value if active and isinstance(effective.source, EntitlementSource) else effective.source if active else None
+        subscription = db.scalar(select(Subscription).where(Subscription.patient_id == row.patient_id))
+        insurance = db.scalar(select(Insurance).where(Insurance.patient_id == row.patient_id))
+        if source is None:
+            if insurance and insurance.verification_status == InsuranceVerificationStatus.VERIFIED:
+                source = "insurance"
+            elif subscription and subscription.status in (SubscriptionStatus.ACTIVE, SubscriptionStatus.EXPIRED):
+                source = "subscription"
+        return ActivationProfileResponse(
+            first_name=row.patient.first_name, last_name=row.patient.last_name,
+            email=row.patient.user.email, active=active, access_method=source,
+            expires_at=row.expires_at,
+            subscription_plan=subscription.plan if subscription else None,
+            subscription_expires_at=subscription.expires_at if subscription else None,
+            can_renew=bool(subscription and source == "subscription" and not row.consumed_at
+                           and subscription.status in (SubscriptionStatus.ACTIVE, SubscriptionStatus.EXPIRED)),
+        )
+    except ActivationRejected as exc:
+        raise HTTPException(status_code=exc.status, detail=exc.message) from None
+
+
+@router.post("/activation/renew-subscription", response_model=SubscriptionRenewalResponse)
+def renew_activation_subscription(raw: str = Depends(credential), db: Session = Depends(get_database)):
+    if not settings.DEMO_ACTIVATION_ENABLED:
+        raise HTTPException(status_code=503, detail="Demonstration renewal is disabled.")
+    try:
+        row = scoped_session(db, raw, lock=True)
+        subscription = renew_subscription(db, row)
+        return SubscriptionRenewalResponse(status="active", expires_at=subscription.expires_at)
+    except (ActivationRejected, ValueError) as exc:
+        db.rollback()
+        raise HTTPException(status_code=exc.status if isinstance(exc, ActivationRejected) else 409,
+                            detail=exc.message if isinstance(exc, ActivationRejected) else str(exc)) from None
+
+
+@router.post("/activation/sign-out", status_code=204)
+def sign_out_activation(raw: str = Depends(credential), db: Session = Depends(get_database)):
+    try:
+        row = scoped_session(db, raw, lock=True)
+        row.revoked_at = datetime.now(timezone.utc)
+        add_audit_event(db, "ACTIVATION_SESSION_SIGNED_OUT", user_id=row.patient.user_id,
+                        resource_type="activation_session", resource_id=str(row.id))
+        db.commit()
+    except ActivationRejected as exc:
+        db.rollback()
         raise HTTPException(status_code=exc.status, detail=exc.message) from None
 
 

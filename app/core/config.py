@@ -26,6 +26,9 @@ class Settings:
     ]
     WEBAPP_BASE_URL: str = os.getenv("WEBAPP_BASE_URL", "http://localhost:3000").rstrip("/")
     DEMO_ACTIVATION_ENABLED: bool = os.getenv("DEMO_ACTIVATION_ENABLED", "false").lower() == "true"
+    BREVO_API_KEY: str = os.getenv("BREVO_API_KEY", "")
+    BREVO_SENDER_EMAIL: str = os.getenv("BREVO_SENDER_EMAIL", "")
+    BREVO_SENDER_NAME: str = os.getenv("BREVO_SENDER_NAME", "RiskSense AI")
 
 
 settings = Settings()
