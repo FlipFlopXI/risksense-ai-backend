@@ -24,7 +24,11 @@ def create_report(db: Session, patient: Patient, prediction_id: UUID, actor_id: 
         patient_id=patient.id, prediction_id=prediction.id, report_type="risk_analysis",
         title=f"RiskSense AI {label} Risk Analysis Report",
         summary=(f"Estimated {label} risk classification: {prediction.risk_classification}. "
-                 "This result is decision support and is not a diagnosis."),
+                 "This result is decision support and is not a diagnosis."
+                 + (" Missing laboratory readings add uncertainty to this estimate."
+                    if prediction.input_data and any(
+                        (prediction.input_data.get("sources") or {}).get(field, {}).get("source") == "missing; training_median_imputed"
+                        for field in ("fasting_glucose", "total_cholesterol")) else "")),
         recommendations=None,
         report_data={
             "patient_reference": str(patient.id), "analysis_type": prediction.prediction_target,

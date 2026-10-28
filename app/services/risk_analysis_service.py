@@ -7,7 +7,6 @@ from sqlalchemy.orm import Session
 
 from app.ml.heart_disease import runtime
 from app.ml.common import explain_logistic_features
-from app.models.lab_result import LabResult, LabTestType
 from app.models.model import Model
 from app.models.patient import Patient
 from app.models.prediction import Prediction
@@ -82,20 +81,9 @@ def require_active_model(db: Session, model_runtime, model_id: UUID, model_path:
     return records[0], loaded
 
 
-def _latest_lab(db: Session, patient_id: UUID, test_type: LabTestType, now: datetime):
-    return db.scalar(select(LabResult).where(
-        LabResult.patient_id == patient_id, LabResult.test_type == test_type,
-        LabResult.measured_at <= now,
-    ).order_by(LabResult.measured_at.desc(), LabResult.created_at.desc(), LabResult.id.desc()).limit(1))
-
-
-def _lab_snapshot(lab: LabResult) -> dict:
-    return {"id": str(lab.id), "value": lab.value, "unit": lab.unit,
-            "source": lab.source, "verification_status": lab.verification_status,
-            "measured_at": lab.measured_at.isoformat()}
-
-
-def run_heart_analysis(db: Session, patient: Patient, actor_id: UUID) -> Prediction:
+def run_heart_analysis(db: Session, patient: Patient, actor_id: UUID, *,
+                       fasting_glucose: float | None = None,
+                       total_cholesterol: float | None = None) -> Prediction:
     record, loaded = require_active_model(db, runtime, MODEL_ID, MODEL_PATH)
     now = datetime.now(timezone.utc)
     age = None
@@ -109,15 +97,15 @@ def run_heart_analysis(db: Session, patient: Patient, actor_id: UUID) -> Predict
         Vital.patient_id == patient.id, Vital.blood_pressure_systolic.is_not(None),
         Vital.recorded_at <= now,
     ).order_by(Vital.recorded_at.desc(), Vital.created_at.desc(), Vital.id.desc()).limit(1))
-    cholesterol = _latest_lab(db, patient.id, LabTestType.TOTAL_CHOLESTEROL, now)
-    glucose = _latest_lab(db, patient.id, LabTestType.FASTING_GLUCOSE, now)
+    # Laboratory values are scoped to this request. Historical lab rows are
+    # never silently substituted into a new risk analysis.
     features = runtime.build_features(
         age=age, sex=patient.gender,
         systolic_bp=vital.blood_pressure_systolic if vital else None,
-        total_cholesterol=cholesterol.value if cholesterol else None,
-        cholesterol_unit=cholesterol.unit if cholesterol else None,
-        fasting_glucose=glucose.value if glucose else None,
-        glucose_unit=glucose.unit if glucose else None,
+        total_cholesterol=total_cholesterol,
+        cholesterol_unit="mg/dL" if total_cholesterol is not None else None,
+        fasting_glucose=fasting_glucose,
+        glucose_unit="mg/dL" if fasting_glucose is not None else None,
     )
     probability, elevated = runtime.predict(features, loaded)
     factors = explain_logistic_features(features, loaded, "Heart Disease")
@@ -126,7 +114,8 @@ def run_heart_analysis(db: Session, patient: Patient, actor_id: UUID) -> Predict
         risk_score=probability, risk_classification="elevated" if elevated else "not_elevated",
         prediction_result=("Elevated predicted heart-disease risk" if elevated
                            else "Predicted heart-disease risk below the model threshold"),
-        explanation=runtime.DISCLAIMER, predicted_at=now,
+        explanation=(runtime.DISCLAIMER + (" Missing laboratory readings were imputed from training data; this estimate has additional uncertainty."
+                     if fasting_glucose is None or total_cholesterol is None else "")), predicted_at=now,
         input_data={
             "features": features.model_dump(), "feature_order": list(loaded.feature_order),
             "model_version": loaded.version, "decision_threshold": loaded.threshold,
@@ -136,8 +125,10 @@ def run_heart_analysis(db: Session, patient: Patient, actor_id: UUID) -> Predict
                 "age": {"source": "patient.date_of_birth", "as_of": now.date().isoformat()},
                 "sex": {"source": "patient.gender", "value": patient.gender},
                 "systolic_bp": {"id": str(vital.id), "recorded_at": vital.recorded_at.isoformat(), "unit": "mmHg"},
-                "total_cholesterol": _lab_snapshot(cholesterol),
-                "fasting_glucose": _lab_snapshot(glucose),
+                "total_cholesterol": {"source": "analysis_request", "unit": "mg/dL", "value": total_cholesterol,
+                                      "entered_at": now.isoformat()} if total_cholesterol is not None else {"source": "missing; training_median_imputed"},
+                "fasting_glucose": {"source": "analysis_request", "unit": "mg/dL", "value": fasting_glucose,
+                                    "entered_at": now.isoformat()} if fasting_glucose is not None else {"source": "missing; training_median_imputed"},
             },
         },
     )

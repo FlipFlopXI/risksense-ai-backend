@@ -58,6 +58,10 @@ def risk_analysis(request: RiskAnalysisRequest,
     label = "Heart Disease" if request.model == "heart_disease" else "Diabetes"
     try:
         runner = run_heart_analysis if request.model == "heart_disease" else run_diabetes_analysis
+        if request.model == "heart_disease":
+            return runner(db, patient, user.id,
+                          fasting_glucose=request.fasting_glucose,
+                          total_cholesterol=request.total_cholesterol)
         return runner(db, patient, user.id)
     except ModelInputError as exc:
         db.rollback()

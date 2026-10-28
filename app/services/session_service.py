@@ -69,11 +69,14 @@ def _digest(jti: str) -> str:
     return sha256(jti.encode("utf-8")).hexdigest()
 
 
-def issue_session(db: Session, user: User) -> dict:
+def issue_session(db: Session, user: User, *, wearable: bool = False) -> dict:
     session_id = uuid4()
     refresh, jti, expires = create_refresh_token(str(user.id), user.role.value, session_id)
     db.add(AuthSession(id=session_id, user_id=user.id, refresh_jti_hash=_digest(jti), expires_at=expires))
     add_audit_event(db, "AUTH_SESSION_CREATED", user_id=user.id, resource_type="auth_session", resource_id=str(session_id))
+    if wearable:
+        add_audit_event(db, "WEARABLE_SESSION_STARTED", user_id=user.id,
+                        resource_type="auth_session", resource_id=str(session_id))
     db.commit()
     return {"access_token": create_access_token(str(user.id), user.role.value, session_id),
             "refresh_token": refresh, "token_type": "bearer",

@@ -95,12 +95,26 @@ def test_invalid_model_probability_fails_safely(probability):
         runtime.predict(runtime.build_features(**inputs()), replace(runtime.load_model(), pipeline=pipeline))
 
 
-@pytest.mark.parametrize("field", ["age", "sex", "systolic_bp", "total_cholesterol", "fasting_glucose"])
+@pytest.mark.parametrize("field", ["age", "sex", "systolic_bp"])
 def test_missing_input_remains_missing(field):
     with pytest.raises(runtime.ModelInputError) as error:
         runtime.build_features(**inputs(**{field: None}))
     assert error.value.missing
     assert error.value.fields == [field]
+
+
+@pytest.mark.parametrize("glucose,cholesterol", [(None, None), (110.0, None), (None, 190.0)])
+def test_missing_labs_use_packaged_imputer_without_inventing_input_values(glucose, cholesterol):
+    features = runtime.build_features(**inputs(
+        fasting_glucose=glucose, glucose_unit="mg/dL" if glucose is not None else None,
+        total_cholesterol=cholesterol, cholesterol_unit="mg/dL" if cholesterol is not None else None))
+    assert features.total_cholesterol == cholesterol
+    if glucose is None:
+        assert features.fasting_blood_sugar_high is None
+    else:
+        assert features.fasting_blood_sugar_high in (0, 1)
+    score, _ = runtime.predict(features, runtime.load_model())
+    assert 0 <= score <= 1
 
 
 @pytest.mark.parametrize("field,value", [

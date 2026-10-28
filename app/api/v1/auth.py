@@ -1,4 +1,5 @@
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, Header, HTTPException, status
+from sqlalchemy import select
 from fastapi.security import OAuth2PasswordRequestForm
 from uuid import UUID
 from jwt import InvalidTokenError
@@ -27,6 +28,8 @@ from app.services.auth_service import authenticate_user
 from app.services.registration_verification import RegistrationRejected, begin, resend, verify
 from app.services.password_recovery_service import RecoveryRejected, start as start_recovery, complete as complete_recovery
 from app.services.audit_service import record_auth_event_best_effort
+from app.models.audit import AuditLog
+from app.models.user import UserRole
 from app.services.session_service import RefreshRejected, issue_session, refresh_session, revoke_session
 from app.services.session_service import PasswordRejected, change_password, list_active_sessions, revoke_session_by_id
 from app.core.dependencies import oauth2_scheme
@@ -103,6 +106,7 @@ def finish_password_recovery(request: PasswordRecoveryCompleteRequest, db: Sessi
 )
 def login(
     form_data: OAuth2PasswordRequestForm = Depends(),
+    risk_sense_client: str | None = Header(default=None, alias="X-RiskSense-Client"),
     db: Session = Depends(get_database),
 ):
     user = authenticate_user(
@@ -120,7 +124,30 @@ def login(
         )
 
     record_auth_event_best_effort(db, "LOGIN_SUCCESS", user.id, "success")
-    return TokenResponse.model_validate(issue_session(db, user))
+    issued = issue_session(db, user,
+                           wearable=risk_sense_client == "wearable" and user.role == UserRole.PATIENT)
+    return TokenResponse.model_validate(issued)
+
+
+@router.get("/wearable-presence")
+def wearable_presence(current_user=Depends(get_current_user),
+                      token: str = Depends(oauth2_scheme),
+                      db: Session = Depends(get_database)):
+    """Report whether another active session identified itself as the wearable."""
+    if current_user.role != UserRole.PATIENT:
+        raise HTTPException(status_code=403, detail="Patient account required.")
+    current_id = _current_session_id(token)
+    session_ids = [row.id for row in list_active_sessions(db, current_user)
+                   if row.id != current_id]
+    if not session_ids:
+        return {"connected": False}
+    marked = db.scalar(select(AuditLog.id).where(
+        AuditLog.user_id == current_user.id,
+        AuditLog.action == "WEARABLE_SESSION_STARTED",
+        AuditLog.resource_type == "auth_session",
+        AuditLog.resource_id.in_([str(value) for value in session_ids]),
+    ).limit(1))
+    return {"connected": marked is not None}
 
 
 @router.post("/refresh", response_model=TokenResponse)

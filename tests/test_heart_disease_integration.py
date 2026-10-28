@@ -59,7 +59,8 @@ def scenario(client, db):
 
 
 def test_real_end_to_end_patient_prediction_history_and_audit(client, db, scenario):
-    response = client.post(ROUTE, headers=scenario["headers"], json={"model": "heart_disease"})
+    response = client.post(ROUTE, headers=scenario["headers"], json={
+        "model": "heart_disease", "fasting_glucose": 120, "total_cholesterol": 200})
     assert response.status_code == 201, response.text
     body = response.json()
     assert body["prediction_target"] == "heart_disease"
@@ -77,8 +78,8 @@ def test_real_end_to_end_patient_prediction_history_and_audit(client, db, scenar
     assert prediction.input_data["feature_order"] == list(runtime.FEATURE_ORDER)
     assert prediction.input_data["artifact_sha256"] == runtime.ARTIFACT_SHA256
     sources = prediction.input_data["sources"]
-    assert sources["fasting_glucose"]["id"] == str(scenario["labs"]["fasting_glucose"].id)
-    assert sources["fasting_glucose"]["measured_at"]
+    assert sources["fasting_glucose"]["source"] == "analysis_request"
+    assert sources["fasting_glucose"]["value"] == 120
     assert sources["fasting_glucose"]["unit"] == "mg/dL"
     audit = db.scalar(select(AuditLog).where(AuditLog.action == "PREDICTION_CREATED"))
     assert audit.resource_id == body["id"]
@@ -130,7 +131,7 @@ def test_patient_needs_entitlement_and_active_account(client, db, scenario):
     assert client.post(ROUTE, headers=scenario["headers"], json={"model": "heart_disease"}).status_code == 401
 
 
-@pytest.mark.parametrize("field", ["total_cholesterol", "fasting_glucose", "systolic_bp", "age", "sex"])
+@pytest.mark.parametrize("field", ["systolic_bp", "age", "sex"])
 def test_missing_stored_fields_do_not_infer_or_persist(client, db, scenario, monkeypatch, field):
     if field in scenario["labs"]:
         db.delete(scenario["labs"][field])
@@ -151,16 +152,20 @@ def test_missing_stored_fields_do_not_infer_or_persist(client, db, scenario, mon
     assert db.scalar(select(func.count(Prediction.id))) == 0
 
 
-def test_random_glucose_and_ldl_are_not_substitutes(client, db, scenario):
+def test_historical_labs_are_never_substituted_for_omitted_request_values(client, db, scenario):
     scenario["labs"]["fasting_glucose"].test_type = LabTestType.GLUCOSE
     scenario["labs"]["total_cholesterol"].test_type = LabTestType.LDL
     db.commit()
     response = client.post(ROUTE, headers=scenario["headers"], json={"model": "heart_disease"})
-    assert response.status_code == 422
-    assert response.json()["detail"]["missing_fields"] == ["total_cholesterol", "fasting_glucose"]
+    assert response.status_code == 201
+    prediction = db.get(Prediction, UUID(response.json()["id"]))
+    assert prediction.input_data["features"]["total_cholesterol"] is None
+    assert prediction.input_data["features"]["fasting_blood_sugar_high"] is None
+    assert prediction.input_data["sources"]["total_cholesterol"]["source"] == "missing; training_median_imputed"
+    assert "additional uncertainty" in response.json()["explanation"]
 
 
-def test_latest_measurements_units_and_unrelated_vitals(client, db, scenario):
+def test_only_values_in_this_request_are_used_despite_newer_stored_labs(client, db, scenario):
     now = datetime.now(timezone.utc)
     newer = LabResult(patient_id=scenario["patient"].id, test_type="total_cholesterol", value=5,
                      unit="mmol/L", source="synthetic newer test", measured_at=now - timedelta(minutes=1))
@@ -168,21 +173,20 @@ def test_latest_measurements_units_and_unrelated_vitals(client, db, scenario):
     scenario["labs"]["fasting_glucose"].unit = "mmol/L"
     db.add_all([newer, Vital(patient_id=scenario["patient"].id, heart_rate=70, recorded_at=now)])
     db.commit()
-    response = client.post(ROUTE, headers=scenario["headers"], json={"model": "heart_disease"})
+    response = client.post(ROUTE, headers=scenario["headers"], json={
+        "model": "heart_disease", "fasting_glucose": 130, "total_cholesterol": 190})
     assert response.status_code == 201
     record = db.get(Prediction, UUID(response.json()["id"]))
-    assert record.input_data["features"]["total_cholesterol"] == pytest.approx(193.35)
+    assert record.input_data["features"]["total_cholesterol"] == 190
     assert record.input_data["features"]["fasting_blood_sugar_high"] == 1
     assert record.input_data["features"]["systolic_bp"] == 130
-    assert record.input_data["sources"]["total_cholesterol"]["id"] == str(newer.id)
+    assert record.input_data["sources"]["total_cholesterol"]["source"] == "analysis_request"
 
 
-@pytest.mark.parametrize("invalid", ["sex", "unit", "future_birth"])
+@pytest.mark.parametrize("invalid", ["sex", "future_birth"])
 def test_invalid_stored_values_rejected(client, db, scenario, invalid):
     if invalid == "sex":
         scenario["patient"].gender = "unknown"
-    elif invalid == "unit":
-        scenario["labs"]["total_cholesterol"].unit = "unspecified"
     else:
         scenario["patient"].date_of_birth = date.today() + timedelta(days=1)
     db.commit()
@@ -207,6 +211,16 @@ def test_arbitrary_model_paths_and_features_rejected(client, scenario):
     for extra in ({"model_path": "untrusted.pkl"}, {"fasting_blood_sugar_high": 0}, {"bmi": 25}):
         response = client.post(ROUTE, headers=scenario["headers"], json={"model": "heart_disease", **extra})
         assert response.status_code == 422
+
+
+@pytest.mark.parametrize("field,value", [
+    ("fasting_glucose", 0), ("fasting_glucose", 900),
+    ("total_cholesterol", 0), ("total_cholesterol", 900),
+])
+def test_out_of_range_run_specific_labs_rejected(client, scenario, field, value):
+    response = client.post(ROUTE, headers=scenario["headers"], json={
+        "model": "heart_disease", field: value})
+    assert response.status_code == 422
 
 
 def test_inference_failure_is_sanitized_and_nothing_persisted(client, db, scenario, monkeypatch):

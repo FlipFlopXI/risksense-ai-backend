@@ -33,6 +33,8 @@ class RiskAnalysisRequest(BaseModel):
     model_config = ConfigDict(extra="forbid")
     model: Literal["heart_disease", "diabetes"]
     patient_id: UUID | None = None
+    fasting_glucose: float | None = Field(default=None, ge=20, le=600)
+    total_cholesterol: float | None = Field(default=None, ge=50, le=600)
 
 
 class ReportGenerateRequest(BaseModel):

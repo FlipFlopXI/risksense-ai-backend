@@ -27,7 +27,10 @@ def assess(request: ClinicalAssessmentRequest, loaded) -> ClinicalAssessmentResp
         )
         score, elevated = heart.predict(features, loaded)
         factors = explain_logistic_features(features, loaded, "Heart Disease")
-        disclaimer = heart.DISCLAIMER
+        disclaimer = heart.DISCLAIMER + (
+            " Missing laboratory readings were imputed from training data; this estimate has additional uncertainty."
+            if request.fasting_glucose is None or request.total_cholesterol is None else ""
+        )
     raised = [item["feature"].replace("_", " ") for item in factors
               if item["direction"] == "raises"][:2]
     interpretation = f"The model estimated a {score * 100:.1f}% score."

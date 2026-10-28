@@ -90,8 +90,8 @@ class HeartFeatures(BaseModel):
     age: int = Field(ge=0)
     sex: int = Field(ge=0, le=1)
     systolic_bp: float = Field(gt=0, le=300)  # Existing Vital schema bound.
-    total_cholesterol: float = Field(gt=0)
-    fasting_blood_sugar_high: int = Field(ge=0, le=1)
+    total_cholesterol: float | None = Field(default=None, gt=0)
+    fasting_blood_sugar_high: int | None = Field(default=None, ge=0, le=1)
 
 
 def lab_mg_dl(value: float, unit: str, field: str) -> float:
@@ -112,19 +112,20 @@ def lab_mg_dl(value: float, unit: str, field: str) -> float:
 
 def build_features(*, age, sex, systolic_bp, total_cholesterol, cholesterol_unit,
                    fasting_glucose, glucose_unit) -> HeartFeatures:
-    supplied = {"age": age, "sex": sex, "systolic_bp": systolic_bp,
-                "total_cholesterol": total_cholesterol, "fasting_glucose": fasting_glucose}
+    supplied = {"age": age, "sex": sex, "systolic_bp": systolic_bp}
     missing = [key for key, value in supplied.items() if value is None]
     if missing:
         raise ModelInputError(missing, missing=True)
     if not isinstance(sex, str) or sex.strip().lower() not in ("female", "male"):
         raise ModelInputError(["sex"])
-    cholesterol = lab_mg_dl(total_cholesterol, cholesterol_unit, "total_cholesterol")
-    glucose = lab_mg_dl(fasting_glucose, glucose_unit, "fasting_glucose")
+    cholesterol = (lab_mg_dl(total_cholesterol, cholesterol_unit, "total_cholesterol")
+                   if total_cholesterol is not None else None)
+    glucose = (lab_mg_dl(fasting_glucose, glucose_unit, "fasting_glucose")
+               if fasting_glucose is not None else None)
     try:
         return HeartFeatures(age=age, sex={"female": 0, "male": 1}[sex.strip().lower()],
                              systolic_bp=systolic_bp, total_cholesterol=cholesterol,
-                             fasting_blood_sugar_high=int(glucose > 120))
+                             fasting_blood_sugar_high=int(glucose > 120) if glucose is not None else None)
     except ValidationError as exc:
         raise ModelInputError([str(error["loc"][0]) for error in exc.errors()]) from None
 

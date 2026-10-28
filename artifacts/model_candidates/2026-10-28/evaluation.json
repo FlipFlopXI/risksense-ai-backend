@@ -1,0 +1,348 @@
+[
+  {
+    "name": "heart",
+    "rows": 303,
+    "train_rows": 242,
+    "holdout_rows": 61,
+    "mask_patterns": [
+      [],
+      [
+        "total_cholesterol"
+      ],
+      [
+        "fasting_blood_sugar_high"
+      ],
+      [
+        "total_cholesterol",
+        "fasting_blood_sugar_high"
+      ]
+    ],
+    "baseline_holdout": {
+      "complete": {
+        "accuracy": 0.541,
+        "sensitivity": 0.9286,
+        "specificity": 0.2121,
+        "auc": 0.7251,
+        "confusion_matrix": [
+          [
+            7,
+            26
+          ],
+          [
+            2,
+            26
+          ]
+        ]
+      },
+      "total_cholesterol": {
+        "accuracy": 0.5574,
+        "sensitivity": 0.9643,
+        "specificity": 0.2121,
+        "auc": 0.711,
+        "confusion_matrix": [
+          [
+            7,
+            26
+          ],
+          [
+            1,
+            27
+          ]
+        ]
+      },
+      "fasting_blood_sugar_high": {
+        "accuracy": 0.541,
+        "sensitivity": 0.9286,
+        "specificity": 0.2121,
+        "auc": 0.7262,
+        "confusion_matrix": [
+          [
+            7,
+            26
+          ],
+          [
+            2,
+            26
+          ]
+        ]
+      },
+      "total_cholesterol+fasting_blood_sugar_high": {
+        "accuracy": 0.541,
+        "sensitivity": 0.9643,
+        "specificity": 0.1818,
+        "auc": 0.7089,
+        "confusion_matrix": [
+          [
+            6,
+            27
+          ],
+          [
+            1,
+            27
+          ]
+        ]
+      }
+    },
+    "selected": {
+      "weight": null,
+      "c": 0.1,
+      "threshold": 0.1766323692750732,
+      "cv": {
+        "complete": {
+          "accuracy": 0.5496,
+          "sensitivity": 1.0,
+          "specificity": 0.1679,
+          "auc": 0.694,
+          "confusion_matrix": [
+            [
+              22,
+              109
+            ],
+            [
+              0,
+              111
+            ]
+          ]
+        },
+        "total_cholesterol": {
+          "accuracy": 0.5331,
+          "sensitivity": 0.991,
+          "specificity": 0.145,
+          "auc": 0.6942,
+          "confusion_matrix": [
+            [
+              19,
+              112
+            ],
+            [
+              1,
+              110
+            ]
+          ]
+        },
+        "fasting_blood_sugar_high": {
+          "accuracy": 0.5496,
+          "sensitivity": 1.0,
+          "specificity": 0.1679,
+          "auc": 0.7154,
+          "confusion_matrix": [
+            [
+              22,
+              109
+            ],
+            [
+              0,
+              111
+            ]
+          ]
+        },
+        "total_cholesterol+fasting_blood_sugar_high": {
+          "accuracy": 0.5372,
+          "sensitivity": 0.991,
+          "specificity": 0.1527,
+          "auc": 0.7176,
+          "confusion_matrix": [
+            [
+              20,
+              111
+            ],
+            [
+              1,
+              110
+            ]
+          ]
+        }
+      }
+    },
+    "candidate_holdout": {
+      "complete": {
+        "accuracy": 0.541,
+        "sensitivity": 0.9643,
+        "specificity": 0.1818,
+        "auc": 0.7089,
+        "confusion_matrix": [
+          [
+            6,
+            27
+          ],
+          [
+            1,
+            27
+          ]
+        ]
+      },
+      "total_cholesterol": {
+        "accuracy": 0.5082,
+        "sensitivity": 0.9643,
+        "specificity": 0.1212,
+        "auc": 0.697,
+        "confusion_matrix": [
+          [
+            4,
+            29
+          ],
+          [
+            1,
+            27
+          ]
+        ]
+      },
+      "fasting_blood_sugar_high": {
+        "accuracy": 0.5246,
+        "sensitivity": 0.9643,
+        "specificity": 0.1515,
+        "auc": 0.7089,
+        "confusion_matrix": [
+          [
+            5,
+            28
+          ],
+          [
+            1,
+            27
+          ]
+        ]
+      },
+      "total_cholesterol+fasting_blood_sugar_high": {
+        "accuracy": 0.5246,
+        "sensitivity": 0.9643,
+        "specificity": 0.1515,
+        "auc": 0.7013,
+        "confusion_matrix": [
+          [
+            5,
+            28
+          ],
+          [
+            1,
+            27
+          ]
+        ]
+      }
+    },
+    "candidate_artifact": "heart_missing_input_candidate.pkl",
+    "candidate_sha256": "48ad82034d179731c2fcc2db7504dbd51e34713c133414d239401ff810b203b6"
+  },
+  {
+    "name": "diabetes",
+    "rows": 4717,
+    "train_rows": 3773,
+    "holdout_rows": 944,
+    "mask_patterns": [
+      [],
+      [
+        "systolic_bp",
+        "diastolic_bp"
+      ]
+    ],
+    "baseline_holdout": {
+      "complete": {
+        "accuracy": 0.6769,
+        "sensitivity": 0.8029,
+        "specificity": 0.6555,
+        "auc": 0.8032,
+        "confusion_matrix": [
+          [
+            529,
+            278
+          ],
+          [
+            27,
+            110
+          ]
+        ]
+      },
+      "systolic_bp+diastolic_bp": {
+        "accuracy": 0.6758,
+        "sensitivity": 0.8175,
+        "specificity": 0.6518,
+        "auc": 0.7987,
+        "confusion_matrix": [
+          [
+            526,
+            281
+          ],
+          [
+            25,
+            112
+          ]
+        ]
+      }
+    },
+    "selected": {
+      "weight": "balanced",
+      "c": 10.0,
+      "threshold": 0.36327488769735516,
+      "cv": {
+        "complete": {
+          "accuracy": 0.6281,
+          "sensitivity": 0.9031,
+          "specificity": 0.5815,
+          "auc": 0.8105,
+          "confusion_matrix": [
+            [
+              1876,
+              1350
+            ],
+            [
+              53,
+              494
+            ]
+          ]
+        },
+        "systolic_bp+diastolic_bp": {
+          "accuracy": 0.6093,
+          "sensitivity": 0.9031,
+          "specificity": 0.5595,
+          "auc": 0.8062,
+          "confusion_matrix": [
+            [
+              1805,
+              1421
+            ],
+            [
+              53,
+              494
+            ]
+          ]
+        }
+      }
+    },
+    "candidate_holdout": {
+      "complete": {
+        "accuracy": 0.6282,
+        "sensitivity": 0.854,
+        "specificity": 0.5898,
+        "auc": 0.801,
+        "confusion_matrix": [
+          [
+            476,
+            331
+          ],
+          [
+            20,
+            117
+          ]
+        ]
+      },
+      "systolic_bp+diastolic_bp": {
+        "accuracy": 0.6144,
+        "sensitivity": 0.8686,
+        "specificity": 0.5713,
+        "auc": 0.797,
+        "confusion_matrix": [
+          [
+            461,
+            346
+          ],
+          [
+            18,
+            119
+          ]
+        ]
+      }
+    },
+    "candidate_artifact": "diabetes_missing_input_candidate.pkl",
+    "candidate_sha256": "952dd55b7831c567d029e88494880e2863acd855e145c0c4ca3f017c161d3132"
+  }
+]

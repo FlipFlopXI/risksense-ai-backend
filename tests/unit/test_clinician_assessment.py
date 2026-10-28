@@ -31,6 +31,16 @@ def test_heart_demonstration_returns_transient_result():
     assert result.model == "heart_disease" and result.contributing_factors
 
 
+def test_heart_demonstration_with_missing_labs_discloses_uncertainty():
+    request = ClinicalAssessmentRequest(
+        model="heart_disease", age=50, sex="male", systolic_bp=130,
+    )
+    result = assess(request, heart.load_model())
+    assert result.persisted is False
+    assert 0 <= result.risk_score <= 1
+    assert "additional uncertainty" in result.disclaimer
+
+
 def test_assessment_does_not_accept_patient_identity_or_missing_features():
     with pytest.raises(ValidationError):
         ClinicalAssessmentRequest(model="diabetes", age=45, sex="female", patient_id="other")
