@@ -13,6 +13,7 @@ from sqlalchemy.orm import Session
 
 from app.core.config import settings
 from app.core.security import hash_password
+from app.services.email_templates import EmailContent, registration_code_email
 from app.models.patient import Patient
 from app.models.pending_registration import PendingRegistration
 from app.models.user import User, UserRole
@@ -40,16 +41,19 @@ def send_transactional_email(email: str, subject: str, body: str) -> None:
     if not settings.BREVO_API_KEY or not settings.BREVO_SENDER_EMAIL:
         raise RegistrationRejected("Email verification is not configured.", 503)
     try:
+        payload = {
+            "sender": {"email": settings.BREVO_SENDER_EMAIL, "name": settings.BREVO_SENDER_NAME},
+            "to": [{"email": email}],
+            "subject": subject,
+            "textContent": str(body),
+        }
+        if isinstance(body, EmailContent):
+            payload["htmlContent"] = body.html
         with httpx.Client(timeout=10) as client:
             response = client.post(
                 "https://api.brevo.com/v3/smtp/email",
                 headers={"api-key": settings.BREVO_API_KEY, "accept": "application/json"},
-                json={
-                    "sender": {"email": settings.BREVO_SENDER_EMAIL, "name": settings.BREVO_SENDER_NAME},
-                    "to": [{"email": email}],
-                    "subject": subject,
-                    "textContent": body,
-                },
+                json=payload,
             )
         response.raise_for_status()
     except (httpx.HTTPError, ValueError) as exc:
@@ -60,7 +64,7 @@ def _send_code(email: str, code: str) -> None:
     send_transactional_email(
         email,
         "Your RiskSense AI verification code",
-        f"Your RiskSense AI verification code is {code}. It expires in 10 minutes. If you did not request this, ignore this email.",
+        registration_code_email(code),
     )
 
 

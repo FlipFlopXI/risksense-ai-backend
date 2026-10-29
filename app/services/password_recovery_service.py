@@ -13,6 +13,7 @@ from sqlalchemy.orm import Session
 
 from app.core.config import settings
 from app.core.security import hash_password
+from app.services.email_templates import recovery_code_email, replacement_password_email
 from app.models.auth_session import AuthSession
 from app.models.clinician import Clinician
 from app.models.password_reset_challenge import PasswordResetChallenge
@@ -85,7 +86,7 @@ def start(db: Session, email: str) -> None:
     challenge.resend_at = now + timedelta(minutes=1)
     db.flush()
     _send(user.email, "RiskSense AI password recovery code",
-          f"Your RiskSense AI password recovery code is {code}. It expires in 10 minutes. If you did not request this, ignore this email.")
+          recovery_code_email(code))
     add_audit_event(db, "PASSWORD_RECOVERY_CODE_SENT", user_id=user.id,
                     resource_type="user", resource_id=str(user.id))
     db.commit()
@@ -107,7 +108,7 @@ def complete(db: Session, email: str, code: str) -> None:
     password = generate_temporary_password(_first_name(db, user))
     password_hash = hash_password(password)
     _send(user.email, "Your RiskSense AI replacement password",
-          f"Your temporary RiskSense AI password is: {password}\n\nSign in with this password, then change it in Settings → Change Password. If you did not request this, contact RiskSense AI support immediately.")
+          replacement_password_email(password))
     user.password_hash = password_hash
     db.execute(update(AuthSession).where(AuthSession.user_id == user.id,
                                         AuthSession.revoked_at.is_(None)).values(revoked_at=now))
