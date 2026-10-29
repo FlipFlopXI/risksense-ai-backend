@@ -177,7 +177,9 @@ def clinical_assessment(request: ClinicalAssessmentRequest, user: User = Depends
         _, loaded = require_active_model(db, runtime, expected_id, expected_path)
         return assess(request, loaded)
     except ModelInactiveError:
-        raise HTTPException(status_code=503, detail="The selected model is not active.") from None
+        raise HTTPException(status_code=503, detail={
+            "code": "MODEL_INACTIVE", "message": "The selected model is not active.",
+        }) from None
     except ModelInputError as exc:
         raise HTTPException(status_code=422, detail={
             "code": "MODEL_INPUT_INCOMPLETE" if exc.missing else "VALIDATION_ERROR",

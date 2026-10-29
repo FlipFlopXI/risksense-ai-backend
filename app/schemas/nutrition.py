@@ -139,13 +139,24 @@ class WaterSummary(BaseModel):
 MetabolicCategory = Literal["fasting", "post_meal", "general", "insulin_dose"]
 
 
-class MetabolicLogCreate(BaseModel):
+class MetabolicLogBase(BaseModel):
     log_date: date
     category: MetabolicCategory
     value: Decimal = Field(gt=0, le=1000, max_digits=8, decimal_places=2)
 
 
-class MetabolicLogResponse(MetabolicLogCreate):
+class MetabolicLogCreate(MetabolicLogBase):
+    @model_validator(mode="after")
+    def validate_recorded_range(self):
+        if self.category == "insulin_dose":
+            if self.value > 500:
+                raise ValueError("Enter a recorded insulin dose greater than 0 and up to 500 U.")
+        elif not 20 <= self.value <= 600:
+            raise ValueError("Enter a meter glucose reading from 20 to 600 mg/dL.")
+        return self
+
+
+class MetabolicLogResponse(MetabolicLogBase):
     model_config = ConfigDict(from_attributes=True)
     id: UUID
     unit: str

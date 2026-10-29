@@ -15,7 +15,7 @@ class HealthProfileCreateRequest(ReproductiveFields):
     body_measurement_at: datetime | None = None
     waist_circumference_cm: float | None = Field(default=None, gt=0, le=300, strict=True, allow_inf_nan=False)
     height_cm: float | None = Field(default=None, gt=0, le=300)
-    weight_kg: float | None = Field(default=None, gt=0, le=500)
+    weight_kg: float | None = Field(default=None, ge=25, le=350)
     blood_type: str | None = Field(default=None, max_length=10)
     smoking_status: str | None = Field(default=None, max_length=50)
     activity_level: str | None = Field(default=None, max_length=50)
@@ -34,7 +34,7 @@ class HealthProfileUpdateRequest(ReproductiveFields):
     body_measurement_at: datetime | None = None
     waist_circumference_cm: float | None = Field(default=None, gt=0, le=300, strict=True, allow_inf_nan=False)
     height_cm: float | None = Field(default=None, gt=0, le=300)
-    weight_kg: float | None = Field(default=None, gt=0, le=500)
+    weight_kg: float | None = Field(default=None, ge=25, le=350)
     blood_type: str | None = Field(default=None, max_length=10)
     smoking_status: str | None = Field(default=None, max_length=50)
     activity_level: str | None = Field(default=None, max_length=50)

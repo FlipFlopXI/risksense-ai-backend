@@ -39,15 +39,19 @@ class ActivitySummary(BaseModel):
 
 
 class WeightUpdate(BaseModel):
-    weight_kg: float = Field(gt=0, le=500, allow_inf_nan=False)
+    weight_kg: float = Field(ge=25, le=350, allow_inf_nan=False)
 
 
-class BodyCompositionCreate(BaseModel):
+class BodyCompositionBase(BaseModel):
     skeletal_muscle_kg: float = Field(gt=0, le=250, allow_inf_nan=False)
     body_fat_percent: float = Field(ge=0, le=100, allow_inf_nan=False)
 
 
-class BodyCompositionResponse(BodyCompositionCreate):
+class BodyCompositionCreate(BodyCompositionBase):
+    body_fat_percent: float = Field(ge=1, le=80, allow_inf_nan=False)
+
+
+class BodyCompositionResponse(BodyCompositionBase):
     model_config = ConfigDict(from_attributes=True)
     id: UUID
     created_at: datetime

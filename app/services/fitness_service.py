@@ -77,6 +77,9 @@ def update_weight(db: Session, patient: Patient, user_id: UUID, weight_kg: float
 
 def create_composition(db: Session, patient: Patient, user_id: UUID,
                        request: BodyCompositionCreate) -> BodyCompositionEntry:
+    profile = db.scalar(select(HealthProfile).where(HealthProfile.patient_id == patient.id))
+    if profile is not None and profile.weight_kg is not None and request.skeletal_muscle_kg > profile.weight_kg:
+        raise HTTPException(422, "Skeletal muscle cannot exceed the recorded weight.")
     entry = BodyCompositionEntry(patient_id=patient.id, **request.model_dump())
     db.add(entry)
     db.flush()

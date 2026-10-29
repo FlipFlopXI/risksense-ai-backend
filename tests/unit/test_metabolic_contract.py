@@ -50,9 +50,11 @@ class _Session:
 def test_metabolic_categories_and_values_are_bounded():
     for category in ("fasting", "post_meal", "general", "insulin_dose"):
         assert MetabolicLogCreate(log_date=date.today(), category=category,
-                                  value="8.5").category == category
+                                  value="8.5" if category == "insulin_dose" else "85").category == category
     for category, value in (("unknown", "100"), ("fasting", "0"),
-                            ("insulin_dose", "1001"), ("general", "1.234")):
+                            ("fasting", "19.99"), ("post_meal", "600.01"),
+                            ("insulin_dose", "500.01"), ("insulin_dose", "1001"),
+                            ("general", "1.234")):
         with pytest.raises(ValidationError):
             MetabolicLogCreate(log_date=date.today(), category=category, value=value)
 
@@ -65,7 +67,7 @@ def test_glucose_and_insulin_units_cannot_be_interchanged():
         db = _Session()
         entry = create_metabolic_entry(db, patient, user_id,
             MetabolicLogCreate(log_date=date.today(), category=category,
-                               value=Decimal("8.50")))
+                               value=Decimal("8.50" if category == "insulin_dose" else "85.00")))
         assert isinstance(entry, MetabolicLogEntry)
         assert entry.unit == unit
         assert any(getattr(item, "action", None) == "METABOLIC_LOG_CREATED"

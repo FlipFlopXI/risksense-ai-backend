@@ -24,6 +24,7 @@ from app.services.entitlement_service import get_effective_entitlement
 from app.services.audit_service import add_audit_event, record_auth_event_best_effort
 from app.services.risk_analysis_service import ModelInactiveError, run_heart_analysis
 from app.services.diabetes_service import run_diabetes_analysis
+from app.services.risk_result_notification_service import send_elevated_result_if_enabled
 from app.services.clinical_access_service import authorize_patient
 from app.services.report_service import create_report, render_report_pdf
 
@@ -59,10 +60,13 @@ def risk_analysis(request: RiskAnalysisRequest,
     try:
         runner = run_heart_analysis if request.model == "heart_disease" else run_diabetes_analysis
         if request.model == "heart_disease":
-            return runner(db, patient, user.id,
-                          fasting_glucose=request.fasting_glucose,
-                          total_cholesterol=request.total_cholesterol)
-        return runner(db, patient, user.id)
+            result = runner(db, patient, user.id,
+                            fasting_glucose=request.fasting_glucose,
+                            total_cholesterol=request.total_cholesterol)
+        else:
+            result = runner(db, patient, user.id)
+        send_elevated_result_if_enabled(db, result)
+        return result
     except ModelInputError as exc:
         db.rollback()
         raise HTTPException(status_code=422, detail={
