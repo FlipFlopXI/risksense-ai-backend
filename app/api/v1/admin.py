@@ -15,6 +15,8 @@ from app.models.user import User, UserRole
 from app.models.patient import Patient
 from app.schemas.admin import AdminActionSummary, AdminMetricsResponse, AdminProfileResponse, AdminUserResponse, ClinicianApprovalRequest, ClinicianProvisionRequest
 from app.schemas.access import ClinicianLookupResponse
+from app.schemas.clinician_change import ClinicianChangeDecision, ClinicianChangeResponse
+from app.services import clinician_change_service
 from app.services.audit_service import add_audit_event
 from app.services.auth_service import get_user_by_email
 from app.services.clinician_service import generate_risk_sense_id
@@ -32,6 +34,21 @@ import json
 from collections import Counter
 
 router = APIRouter(prefix="/admin", tags=["Administration"])
+
+
+@router.get("/clinician-change-requests", response_model=list[ClinicianChangeResponse])
+def pending_clinician_changes(admin: User = Depends(require_role(UserRole.ADMIN)),
+                              db: Session = Depends(get_database)):
+    return [clinician_change_service.response(db, row)
+            for row in clinician_change_service.pending_requests(db)]
+
+
+@router.post("/clinician-change-requests/{request_id}/decision", response_model=ClinicianChangeResponse)
+def decide_clinician_change(request_id: UUID, request: ClinicianChangeDecision,
+                            admin: User = Depends(require_role(UserRole.ADMIN)),
+                            db: Session = Depends(get_database)):
+    row = clinician_change_service.decide(db, request_id, admin.id, request.decision)
+    return clinician_change_service.response(db, row)
 
 
 @router.get("/me", response_model=AdminProfileResponse)
@@ -79,7 +96,8 @@ def users(search: str | None = None, role: UserRole | None = None, is_active: bo
           oldest_first: bool = False, limit: int = Query(100, ge=1, le=200),
           offset: int = Query(0, ge=0), admin: User = Depends(require_role(UserRole.ADMIN)),
           db: Session = Depends(get_database)):
-    query = select(User)
+    # Exclude the signed-in administrator before filtering and pagination.
+    query = select(User).where(User.id != admin.id)
     if search:
         pattern = f"%{search.strip()}%"
         query = query.outerjoin(Patient, Patient.user_id == User.id).outerjoin(

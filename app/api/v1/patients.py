@@ -15,9 +15,70 @@ from app.models.body_measurement import BodyMeasurement
 from app.services.audit_service import add_audit_event
 from app.services.entitlement_service import get_effective_entitlement
 from app.services.patient_clinician_service import get_patient_clinician
+from app.services.clinician_service import get_approved_clinician
+from app.services import clinician_change_service
+from app.schemas.clinician_change import ClinicianChangeCreate, ClinicianChangeResponse, ClinicianIdentity
+from app.schemas.notification_preferences import NotificationPreferencesResponse, NotificationPreferencesUpdate
+from app.services.risk_result_notification_service import (
+    ResultEmailUnavailable, email_enabled, set_email_enabled,
+)
 from datetime import datetime, timezone
 
 router = APIRouter(prefix="/patients", tags=["Patients"])
+
+
+@router.get("/clinicians/lookup/{risk_sense_id}", response_model=ClinicianIdentity)
+def lookup_replacement_clinician(risk_sense_id: str,
+        user: User = Depends(require_role(UserRole.PATIENT)), db: Session = Depends(get_database)):
+    clinician = get_approved_clinician(db, risk_sense_id.strip())
+    if clinician is None:
+        raise HTTPException(status_code=404, detail="Approved clinician not found.")
+    return clinician_change_service.identity(clinician)
+
+
+@router.get("/me/clinician-change-request", response_model=ClinicianChangeResponse)
+def my_pending_clinician_change(user: User = Depends(require_role(UserRole.PATIENT)),
+                                db: Session = Depends(get_database)):
+    patient = get_patient_by_user_id(db, user.id)
+    if patient is None:
+        raise HTTPException(status_code=404, detail="Patient profile not found.")
+    row = clinician_change_service.pending_for_patient(db, patient.id)
+    if row is None:
+        raise HTTPException(status_code=404, detail="No pending clinician change request.")
+    return clinician_change_service.response(db, row)
+
+
+@router.post("/me/clinician-change-request", response_model=ClinicianChangeResponse, status_code=201)
+def request_clinician_change(request: ClinicianChangeCreate,
+        user: User = Depends(require_role(UserRole.PATIENT)), db: Session = Depends(get_database)):
+    patient = get_patient_by_user_id(db, user.id)
+    if patient is None:
+        raise HTTPException(status_code=404, detail="Patient profile not found.")
+    row = clinician_change_service.request_change(db, patient, user.id, request.risk_sense_id)
+    return clinician_change_service.response(db, row)
+
+
+@router.get("/notification-preferences", response_model=NotificationPreferencesResponse)
+def notification_preferences(user: User = Depends(require_role(UserRole.PATIENT)),
+                             db: Session = Depends(get_database)):
+    patient = get_patient_by_user_id(db, user.id)
+    if patient is None:
+        raise HTTPException(status_code=404, detail="Patient profile not found.")
+    return NotificationPreferencesResponse(email_elevated_results=email_enabled(db, patient.id))
+
+
+@router.patch("/notification-preferences", response_model=NotificationPreferencesResponse)
+def update_notification_preferences(request: NotificationPreferencesUpdate,
+                                    user: User = Depends(require_role(UserRole.PATIENT)),
+                                    db: Session = Depends(get_database)):
+    patient = get_patient_by_user_id(db, user.id)
+    if patient is None:
+        raise HTTPException(status_code=404, detail="Patient profile not found.")
+    try:
+        enabled = set_email_enabled(db, patient.id, user.id, request.email_elevated_results)
+    except ResultEmailUnavailable as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from None
+    return NotificationPreferencesResponse(email_elevated_results=enabled)
 
 
 def onboarding_complete(profile: HealthProfile | None) -> bool:

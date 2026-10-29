@@ -47,6 +47,31 @@ def test_admin_user_names_need_no_pending_clinician_gender_column():
     assert "clinicians.gender" not in str(query)
 
 
+def test_admin_user_list_excludes_current_admin_before_pagination():
+    from app.api.v1.admin import users
+
+    admin_id = uuid4()
+
+    class EmptyResult:
+        def all(self):
+            return []
+
+    class RecordingSession:
+        statement = None
+
+        def scalars(self, statement):
+            self.statement = statement
+            return EmptyResult()
+
+    db = RecordingSession()
+    result = users(search=None, role=None, is_active=None, oldest_first=False,
+                   limit=200, offset=0, admin=SimpleNamespace(id=admin_id), db=db)
+    assert result == []
+    compiled = db.statement.compile()
+    assert "users.id !=" in str(compiled)
+    assert admin_id in compiled.params.values()
+
+
 def test_verified_model_accuracies_are_scoped_to_artifact_versions():
     diabetes = SimpleNamespace(id=DIABETES_MODEL_ID, prediction_target="diabetes_risk", version="1.0.0")
     heart = SimpleNamespace(id=HEART_MODEL_ID, prediction_target="heart_disease", version="1.0.0")
